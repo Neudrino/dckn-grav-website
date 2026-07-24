@@ -9,7 +9,7 @@ access:
     super: true
 hashed_password: $2y$12$ymXsMyt6HqdT7VNkOM.jW.dn9GG2k3UlBPjKS972Mdae1PaFSoVG2
 created: 1784887017
-modified: 1784887017
+modified: 1784904163
 avatar: {  }
 twofa_enabled: false
 twofa_secret: ''
@@ -18,3 +18,7 @@ admin_next:
     accentHue: 25
     accentSaturation: 95
     fontSize: xlarge
+language: ''
+content_editor: ''
+groups:
+  - vorstand

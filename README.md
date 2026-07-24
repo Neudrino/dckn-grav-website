@@ -10,6 +10,7 @@ git clone <repo-url> grav-website
 cd grav-website
 docker compose up -d
 ./setup-plugins.sh
+npm install          # for Grav MCP server (see "Grav MCP Server" below)
 ```
 
 Then open `http://localhost:8080`.
@@ -44,6 +45,50 @@ The Brevo plugin config (`user/config/plugins/brevo.yaml`) ships with a
 placeholder API key. Replace `YOUR_BREVO_V3_API_KEY` with the real key
 before the newsletter form will work.
 
+## Grav MCP Server
+
+A local [grav-mcp](https://www.npmjs.com/package/grav-mcp) installation
+exposes the Grav REST API as MCP tools, letting AI assistants like opencode
+manage site content. Full tool reference: [grav-mcp README](node_modules/grav-mcp/README.md).
+
+### Fresh Setup
+
+1. **Install the dependency:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Generate an API key** (printed once — save it):
+
+   ```bash
+   docker exec -w /app/www/public grav bin/plugin api keys:generate \
+     --user=admin --name="MCP"
+   ```
+
+3. **Create `opencode.json`** (gitignored — contains the API key):
+
+   ```json
+   {
+     "$schema": "https://opencode.ai/config.json",
+     "mcp": {
+       "grav": {
+         "type": "local",
+         "command": ["./node_modules/.bin/grav-mcp"],
+         "enabled": true,
+         "timeout": 10000,
+         "env": {
+           "GRAV_API_URL": "http://localhost:8080/api/v1",
+           "GRAV_API_KEY": "grav_your_api_key_here"
+         }
+       }
+     }
+   }
+   ```
+
+   Requires the Grav container running and the API plugin installed (both
+   handled by `docker compose up -d` + `./setup-plugins.sh`).
+
 ## What's Tracked in Git
 
 - `docker-compose.yml` — container definition
@@ -52,6 +97,7 @@ before the newsletter form will work.
 - `user/accounts/` — admin user account
 - `user/themes/quark2/css/custom.css` — CSS overrides only
 - `setup-plugins.sh` — plugin installation script
+- `package.json` / `package-lock.json` — grav-mcp dependency manifest
 
 ## What's NOT Tracked
 
@@ -61,3 +107,5 @@ before the newsletter form will work.
 - `user/data/` — runtime caches, indexes, scheduler data
 - `user/config/plugins/api-private.php` — JWT signing secret (auto-generated)
 - `user/config/security-private.php` — CSRF nonce secret (auto-generated)
+- `node_modules/` — installed via `npm install` (grav-mcp and dependencies)
+- `opencode.json` — opencode MCP config (contains API key)

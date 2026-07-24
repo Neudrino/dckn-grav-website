@@ -19,7 +19,8 @@ user/config/versions.yaml
 user/config/media.yaml
 
 # === Plugins (installed via setup-plugins.sh, not content we author) ===
-user/plugins/
+user/plugins/*
+!user/plugins/signature-attachment/
 
 # === Theme (bundled with image; only our custom overrides are tracked) ===
 user/themes/*

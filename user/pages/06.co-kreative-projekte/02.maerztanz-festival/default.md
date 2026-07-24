@@ -1,6 +1,7 @@
 ---
 title: 'MärzTanz Festival 2027'
 body_classes: 'title-center'
+template: event
 event:
   startdatum: '2027-03-04'
   enddatum: '2027-03-07'

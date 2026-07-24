@@ -1,0 +1,31 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        event:
+          type: tab
+          title: Event
+
+          fields:
+
+            header.event.startdatum:
+              type: date
+              label: Startdatum
+              validate:
+                pattern: "Y-m-d"
+                required: true
+
+            header.event.enddatum:
+              type: date
+              label: Enddatum
+              validate:
+                pattern: "Y-m-d"
+
+            header.event.ort:
+              type: text
+              label: Ort

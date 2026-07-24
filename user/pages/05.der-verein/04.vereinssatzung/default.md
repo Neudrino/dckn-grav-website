@@ -5,8 +5,10 @@ body_classes: 'title-center'
 
 # Vereinssatzung
 
-Die Satzung des Co-Kreativen Netzwerks e.V. steht als PDF-Dokument zur Verfügung:
+Die Satzung des Co-Kreativen Netzwerks e.V.:
 
-**[2023-06-12 Das co-kreative Netzwerk – Satzung (PDF)](2023-06-12-Das-co-kreative-Netzwerk-Satzung.pdf)**
+<object data="/der-verein/vereinssatzung/2023-06-12-Das-co-kreative-Netzwerk-Satzung.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Dein Browser kann das PDF möglicherweise nicht inline anzeigen. <a href="/der-verein/vereinssatzung/2023-06-12-Das-co-kreative-Netzwerk-Satzung.pdf">Hier klicken zum Herunterladen</a>.</p>
+</object>
 
-[Herunterladen](2023-06-12-Das-co-kreative-Netzwerk-Satzung.pdf)
+[Als PDF herunterladen](2023-06-12-Das-co-kreative-Netzwerk-Satzung.pdf)

@@ -286,3 +286,12 @@
 .blog-listing .content-item {
   max-width: none;
 }
+
+/* ===== Inline PDF embed ===== */
+object[type="application/pdf"] {
+  width: 100%;
+  min-height: 800px;
+  border: 1px solid var(--q2-border-strong, #ccc);
+  border-radius: var(--q2-radius-sm, 4px);
+  margin-bottom: 1rem;
+}

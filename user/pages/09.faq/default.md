@@ -17,7 +17,7 @@ Unsere Webseite befindet sich noch im Aufbau. Das ist harte Arbeit und daher sin
 
 ### Ich würden gern auf einem eurer Festivals auftreten. Was muss ich tun?
 
-Wir freuen uns, dass du Interesse hast, bei, mit und für uns zu musizieren! Schreibe am Besten an [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=[DckN] Anfrage zum co-kreativen Netzwerk) und stelle dich kurz vor. Bitte sende uns auch ein Hörbeispiel deiner Musik (ggf. auch als Link zu einer online Plattform). Es ist außerdem günstig wenn du uns deine Vorstellung der Gage benennst. Bitte sei geduldig und nachsichtig mit uns, wenn wir nicht sofort antworten. Wir arbeiten projektbezogen und haben manchmal nur wenig Zeit außerhalb der geplanten Projekte.
+Wir freuen uns, dass du Interesse hast, bei, mit und für uns zu musizieren! Schreibe am Besten an [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20co-kreativen%20Netzwerk) und stelle dich kurz vor. Bitte sende uns auch ein Hörbeispiel deiner Musik (ggf. auch als Link zu einer online Plattform). Es ist außerdem günstig wenn du uns deine Vorstellung der Gage benennst. Bitte sei geduldig und nachsichtig mit uns, wenn wir nicht sofort antworten. Wir arbeiten projektbezogen und haben manchmal nur wenig Zeit außerhalb der geplanten Projekte.
 
 ### Kann ich einen Vertrag in meiner Sprache erhalten?
 
@@ -45,7 +45,7 @@ Auslagen werden ausschließlich per Überweisung erstatten, wenn eine [vollstän
 
 ## Für Mitglieder
 
-Konkrete Fragen von Mitgliedern beantworten wir gern unter [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=[DckN] Anfrage zum co-kreativen Netzwerk).
+Konkrete Fragen von Mitgliedern beantworten wir gern unter [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20co-kreativen%20Netzwerk).
 
 ## Für Vereine
 

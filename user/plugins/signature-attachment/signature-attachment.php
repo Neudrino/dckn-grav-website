@@ -2,6 +2,7 @@
 namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
+use Grav\Framework\Form\Interfaces\FormInterface;
 
 class SignatureAttachmentPlugin extends Plugin
 {
@@ -17,21 +18,28 @@ class SignatureAttachmentPlugin extends Plugin
         $message = $event['message'];
         $form = $event['form'];
 
-        $formFields = $form->value();
-        foreach ($formFields as $name => $value) {
-            if (!is_string($value)) {
-                continue;
-            }
+        require_once __DIR__ . '/vendor/autoload.php';
 
-            if (preg_match('/^data:image\/png;base64,/', $value)) {
-                $base64 = substr($value, strpos($value, ',') + 1);
-                $imageData = base64_decode($base64);
+        $twig = $this->grav['twig'];
+        $vars = ['form' => $form];
+        $html = $twig->processTemplate('pdf-template.html.twig', $vars);
 
-                if ($imageData !== false) {
-                    $symfonyEmail = $message->getEmail();
-                    $symfonyEmail->attach($imageData, 'unterschrift.png', 'image/png');
-                }
-            }
+        $options = new \Dompdf\Options();
+        $options->set('isRemoteEnabled', true);
+        $options->set('isHtml5ParserEnabled', true);
+        $options->set('defaultFont', 'DejaVu Sans');
+        $options->set('tempDir', sys_get_temp_dir());
+
+        $dompdf = new \Dompdf\Dompdf($options);
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+
+        $pdfData = $dompdf->output();
+
+        if ($pdfData) {
+            $symfonyEmail = $message->getEmail();
+            $symfonyEmail->attach($pdfData, 'auslagenerstattung.pdf', 'application/pdf');
         }
     }
 }

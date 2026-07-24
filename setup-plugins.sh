@@ -42,5 +42,12 @@ done
 echo "==> Clearing cache..."
 docker exec -w "$GRAV_ROOT" "$CONTAINER" bin/grav cache 2>&1 | tail -1
 
+echo "==> Installing composer dependencies for signature-attachment plugin..."
+if [ -f "$GRAV_ROOT/user/plugins/signature-attachment/composer.json" ]; then
+  docker exec -w "$GRAV_ROOT/user/plugins/signature-attachment" "$CONTAINER" composer install --no-dev 2>&1 | tail -3
+else
+  echo "    signature-attachment — composer.json not found, skipping"
+fi
+
 echo "==> Done. Plugins installed:"
 docker exec -w "$GRAV_ROOT" "$CONTAINER" ls user/plugins/

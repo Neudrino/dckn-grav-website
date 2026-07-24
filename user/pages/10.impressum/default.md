@@ -11,7 +11,7 @@ Das co-kreative Netzwerk e.V.
 Erhardstraße 3
 90482 Nürnberg
 
-Elektronische Nachrichten: [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=[DckN] Anfrage zum co-kreativen Netzwerk)
+Elektronische Nachrichten: [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20co-kreativen%20Netzwerk)
 
 ## Vereinsregister und Steuernummer
 

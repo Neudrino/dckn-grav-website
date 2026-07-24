@@ -11,7 +11,7 @@ body_classes: 'title-center'
 
 in der [Dorfgemeinschaft Lautenbach](https://osm.org/go/0DiB60sV-?m=)
 
-[Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz- und Begegnungstag)
+[Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz-%20und%20Begegnungstag)
 
 ## Kosten
 
@@ -21,4 +21,4 @@ in der [Dorfgemeinschaft Lautenbach](https://osm.org/go/0DiB60sV-?m=)
 | Workshop jeweils | 10 € | 5 € |
 | Ball jeweils | 20 € | 10 € |
 
-[Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz- und Begegnungstag)
+[Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz-%20und%20Begegnungstag)

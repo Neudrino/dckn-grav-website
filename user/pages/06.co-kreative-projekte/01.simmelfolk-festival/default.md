@@ -302,6 +302,6 @@ Es wird dieses Jahr keine Warteliste geben. Die Tickets sind nicht personengebun
 
 Bei Fragen und Ideen einfach melden!
 
-[Email](mailto:simmelfolk@dckn.de?subject=[DckN] Anfrage zum Simmelfolk Festival)
+[Email](mailto:simmelfolk@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20Simmelfolk%20Festival)
 
 [Anmeldung](https://eveeno.com/167891942)

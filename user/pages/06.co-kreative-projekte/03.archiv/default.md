@@ -1,6 +1,10 @@
 ---
 title: 'Archiv'
 body_classes: 'title-center'
+event:
+  startdatum: ''
+  enddatum: ''
+  ort: ''
 ---
 
 # Archiv

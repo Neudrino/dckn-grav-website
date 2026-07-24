@@ -1,6 +1,10 @@
 ---
 title: 'MärzTanz Festival 2027'
 body_classes: 'title-center'
+event:
+  startdatum: '2027-03-04'
+  enddatum: '2027-03-07'
+  ort: 'München'
 ---
 
 ![MärzTanz Festival](banner.png)

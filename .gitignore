@@ -15,10 +15,13 @@ user/config/media.yaml
 # === Plugins (installed via setup-plugins.sh, not content we author) ===
 user/plugins/
 
-# === Theme (bundled with image; only our custom.css override is tracked) ===
+# === Theme (bundled with image; only our custom overrides are tracked) ===
 user/themes/*
 !user/themes/quark2/
 user/themes/quark2/*
 !user/themes/quark2/css/
 user/themes/quark2/css/*
 !user/themes/quark2/css/custom.css
+!user/themes/quark2/templates/
+user/themes/quark2/templates/*
+!user/themes/quark2/templates/projekte.html.twig

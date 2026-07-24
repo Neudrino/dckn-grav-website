@@ -7,3 +7,4 @@ user/config/
 user/data/
 user/plugins/
 user/themes/
+!user/themes/quark2/css/custom.css

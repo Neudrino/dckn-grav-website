@@ -77,7 +77,7 @@ manage site content. Full tool reference: [grav-mcp README](node_modules/grav-mc
          "command": ["./node_modules/.bin/grav-mcp"],
          "enabled": true,
          "timeout": 10000,
-         "env": {
+         "environment": {
            "GRAV_API_URL": "http://localhost:8080/api/v1",
            "GRAV_API_KEY": "grav_your_api_key_here"
          }

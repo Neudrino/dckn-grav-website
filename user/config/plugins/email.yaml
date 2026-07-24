@@ -1,0 +1,12 @@
+enabled: true
+from: ''
+mailer:
+  engine: sendmail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: ''
+    password: ''
+content_type: text/html
+debug: false

@@ -1,0 +1,21 @@
+# Exclude files not needed in the Docker build context
+.git/
+.gitignore
+node_modules/
+config/
+opencode.json
+package.json
+package-lock.json
+README.md
+
+# Exclude Grav runtime data
+user/data/
+user/cache/
+user/tmp/
+user/logs/
+user/config/versions.yaml
+user/config/media.yaml
+
+# Exclude secrets (injected at runtime via entrypoint.sh)
+user/config/plugins/api-private.php
+user/config/security-private.php

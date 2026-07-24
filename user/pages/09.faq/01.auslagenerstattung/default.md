@@ -94,12 +94,10 @@ form:
       validate:
         required: true
 
-    - name: math_captcha
-      label: '17 + 4 ='
-      type: text
+    - name: hcaptcha
+      type: hcaptcha
       validate:
         required: true
-        pattern: '21'
 
   buttons:
     - type: submit

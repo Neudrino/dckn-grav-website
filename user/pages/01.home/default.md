@@ -1,7 +1,7 @@
 ---
-title: 'Das co-kreative Netzwerk'
-subtitle: 'co-kreative Projekte fördern'
-body_classes: 'title-center title-h1h2'
+title: 'Das co-kreative Netzwerk e.V.'
+menu: 🏠
+body_classes: 'title-center'
 template: home
 process:
   twig: true

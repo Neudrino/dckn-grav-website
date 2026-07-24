@@ -1,0 +1,6 @@
+enabled: true
+hcaptcha:
+  site_key: ''
+  secret_key: ''
+  theme: light
+  size: normal

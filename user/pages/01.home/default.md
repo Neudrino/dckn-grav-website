@@ -1,5 +1,6 @@
 ---
-title: Home
+title: 'Das co-kreative Netzwerk'
+subtitle: 'co-kreative Projekte fördern'
 body_classes: 'title-center title-h1h2'
 template: home
 process:

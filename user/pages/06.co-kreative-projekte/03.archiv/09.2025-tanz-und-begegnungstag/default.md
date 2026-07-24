@@ -5,6 +5,10 @@ body_classes: 'title-center'
 
 ## Tanz- und Begegnungstag am 15.11.2025
 
+![Flyer Vorderseite](begn-vorn.jpeg)
+
+![Flyer Rückseite](begn-ruck.jpeg)
+
 in der [Dorfgemeinschaft Lautenbach](https://osm.org/go/0DiB60sV-?m=)
 
 [Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz- und Begegnungstag)

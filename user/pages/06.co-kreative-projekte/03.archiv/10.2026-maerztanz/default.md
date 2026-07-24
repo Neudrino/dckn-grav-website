@@ -6,6 +6,8 @@ body_classes: 'title-center'
 ## 3. MärzTanz Festival
 ## 12.-15. März 2026
 
+![Banner](mt26-banner.png)
+
 Das Festival beginnt am Donnerstag, 12.3., ab 16 Uhr und endet Sonntag, 15.03., gegen 16 Uhr
 
 Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Workshops geben, abends spielen Bands zum Tanz.
@@ -14,7 +16,11 @@ Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Wor
 
 ## Bands
 
+![Zeitplan](mt26-zeitplan.jpg)
+
 **[Fyndus](https://www.hidrae.be/) (BE)**
+
+![Fyndus](mt26-fyndus.jpg)
 
 Willkommen in der wunderbaren Welt von Fyndus, einem neuen Folk-Duo mit Emma Coopman und Thomas Hoste.
 Gemeinsam bringen wir sehr tanzbare Musik zum Zuhören oder hörbare Tanzmusik.
@@ -24,6 +30,8 @@ Genießen Sie unsere musikalischen Geschichten und lassen Sie sich von der magis
 Thomas Hoste – elektroakustische Altschleifleier & Soundeffekte*
 
 [**Bargainatt**](https://bargainatt.wixsite.com/bargainatt) (F)
+
+![Bargainatt](mt26-bargainatt.jpg)
 
 Mit Eigenkompositionen und Neuinterpretationen traditioneller Melodien lädt Bargainatt euch ein, eine moderne und zugleich authentische Welt zu entdecken.
 Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspirieren, die ihnen am Herzen liegen, und versuchen dabei, die Feinheiten und Traditionen dieser Tänze so gut wie möglich zu respektieren. Von der Auvergne über Poitou und Gascogne bis hin zur Bretagne bietet Bargainatt Ihnen eine Reise voller Farben und Einflüsse, voller Energie und Frische.
@@ -35,6 +43,8 @@ Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspi
 
 [**Triaz**](https://triaz-balfolk.de/) (Leipzig)
 
+![Triaz](mt26-triaz.jpg)
+
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
 *David – Klarinette*
@@ -43,9 +53,13 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 
 **[Richard](http://www.sturmfalken.de/richard/)** (Chemnitz)
 
+![Richard](mt26-richard.jpg)
+
 Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
 
 **Selma und Anne** (D)
+
+![Selma und Anne](mt26-anne-selma.jpg)
 
 Mal ruhig & innig, mal lebhaft & verspielt. Sie spielen bezaubernde Musik – traditionelles aus Frankreich und Schweden, gemischt mit modernen Liedern und Eigenkompositionen.
 Ihre Tänze reichen von den üblichen Balfolktänzen über ein paar eingestreute Polskor/Slängpolskor. Wichtig ist ihnen dabei die Resonanz mit den Tänzer:innern. Daraus erschaffen sie bezaubernde Musik.
@@ -55,11 +69,15 @@ Ihre Tänze reichen von den üblichen Balfolktänzen über ein paar eingestreute
 
 **[Duo Nello](https://gabrielchiapello.fr/duo-nello)** (F)
 
+![Duo Nello](mt26-nello.jpg)
+
 Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarde…
 
 Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigenen Kompositionen ihre eigenen Noten erahnen. Sie nehmen uns mit auf eine Reise durch die Gefühle, die das Parkett zum Beben bringen, uns im Walzerschritt schwelgen und uns inmitten ihres bunten und berührenden Universums den Kopf verlieren lassen.
 
 **Duo Giusto** (Leipzig)
+
+![Duo Giusto](mt26-giusto.jpg)
 
 Ronja und Sofia haben sich im Februar 2025 durch eine Balfolk-Duo-Lotterie in Halle gefunden. Sie wurden durch einen sehr glücklichen Zufall einander zugewiesen und musizieren seitdem fröhlich zusammen in verschiedenen Projekten.
 In ihrem vielfältigen Repertoire vermischen sich Balfolk-Melodien mit weltmusikalischen Einflüssen, Gesängen in verschiedenen Sprachen und lustigen Arrangements!
@@ -68,6 +86,8 @@ Ronja Lutz – Geige, Ukulele, Gesang
 Sofia Paola Meleleo – Akkordeon, Gesang
 
 **[Lottes Flausen](https://www.youtube.com/@lottesflausen4406)** (D) – Nachmittagsball am Samstag
+
+![Lottes Flausen](mt26-flausen.jpg)
 
 Geboren in der heimischen Küche hat es unsere Familienband in die weite Welt hinausgezogen, wo wir Melodien finden und erfinden und sie am liebsten an tanzlustige Füße und offene Ohren weiterverschenken.
 Die Musik von Lottes Flausen lässt sich gern inspirieren von: Balfolk, Klezmer, Musik vom Balkan und aus Schweden. Traditionelle deutsche Musik und klassische Hintergründe geben sich die Klinke in die Hand, liebäugeln miteinander und verweben sich zu einem klangvoll beschwingten Tanzvergnügen. Zeit zum Träumen, Tollen, Schwelgen!
@@ -79,11 +99,15 @@ Die Musik von Lottes Flausen lässt sich gern inspirieren von: Balfolk, Klezmer,
 
 **[Xenia](https://www.instagram.com/p/CztdmP2o0M9/) (D) – Kokle und Stimme**
 
+![Xenia](mt26-xenia.jpg)
+
 In meinem Solo-Programm 'Baltics meet Balfolk' lade ich zu einem unikalen und träumerischen Balfolk-Erlebnis zum Tanzen und Zuhören ein.
 
 Mit der Stimme und dem einzigartigen Klang der Kokle (lettische, traditionelle Zither) trage ich Eigenkompositionen und neu arrangierte baltische Folklore vor, die Geschichten aus meiner musikalischen Biographie erzählen. Neben archaischem Folk, melancholischen Mazurkas und stürmischen Kreistänzen dürfen sich die Tanzenden auf den ein oder anderen Tanz aus Lettland freuen, die in der Balfolk-Szene noch unbekannt sind.
 
 **[Silja](https://www.silja-music.de/)** (D) Klezmer trifft Deutschfolk
+
+![Silja](mt26-silja.jpg)
 
 Silja ist die niederdeutsche Kurzform des Namens Cäcilia. Die Heilige Cäcilia gilt als Schutzpatronin der Musiker, Sänger und Dichter.
 Groovige Tanzstücke begegnen Balladen voller Sehnsucht, barocke Einflüsse auf bodenständige Melodien – eine einfühlsame und gleichzeitig zielsichere Gratwanderung zwischen Tradition und Moderne. Neukompositionen der einzelnen Musiker finden hier genauso ihren Platz wie Neuinterpretationen überlieferter Melodien. Dabei wird immer wieder auf die musikalische Verwandtschaft der unterschiedlichen Kulturen eingegangen. Die außergewöhnliche Besetzung mit verschiedenen Instrumenten und Gesangseinlagen lädt zu einem abwechslungsreichen stimmigen Klangerlebnis ein; voller Überraschungen, Virtuosität, Spielfreude und magischer Momente.

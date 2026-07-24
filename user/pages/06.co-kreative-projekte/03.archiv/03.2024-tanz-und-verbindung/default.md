@@ -7,6 +7,10 @@ body_classes: 'title-center'
 
 **17.-20.05.2024 in Waldheim in Sachsen**
 
+![Flyer](tuv24-flyer.png)
+
+![Zeitplan](tuv24-zeitplan.png)
+
 Zu Pingsten lassen wir im und um das Ballhaus Lindenhof ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Contactimpro, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.
 Willkommen sind dabei Menschen jeglichen Alters – sehr gern in der ganzen Familie, jeglicher Hautfarbe, Herkunft, Glaubensrichtung, Geschlechtsidentität oder sexueller Orientierung.
@@ -35,6 +39,8 @@ Der genaue Workshopplan wird vor Ort festgelegt.
 
 **Mantra-Mitsing-Konzert – 19:30 Uhr**
 
+![Mantra](tuv24-mantra.jpg)
+
 Gemeinsam mit euch wollen wir in die Welt der Mantren und Herzenslieder eintauchen.
 Dabei dürft ihr eure Stimmen ganz frei und ungezwungen erklingen lassen oder einfach nur den Klängen lauschen.
 Lasst euch von den Liedern, Klängen und Stimmen tief im Herzen berühren und verzaubern.
@@ -47,9 +53,13 @@ Silvia, Thomas und Ulrike
 
 **Duo Wolff/Moschcau – 20:00 Uhr**
 
+![Duo Wolff/Moschcau](tuv24-wolff.jpg)
+
 Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
 
 **Naragonia Quartett – 22:30 Uhr**
+
+![Naragonia](tuv24-naragonia.jpg)
 
 Die 4 Musiker verzaubern mit ihrer Musik zum Tanzen, Zuhören und Träumen.
 Sie spielen die klassischen Tänze des Balfolk und bringen uns damit in Paaren, Kreisen oder Ketten zum Tanzen.
@@ -60,6 +70,8 @@ Sie spielen die klassischen Tänze des Balfolk und bringen uns damit in Paaren, 
 
 **Wings & Tales – 19:00 Uhr**
 
+![Wings & Tales](tuv24-wings.jpg)
+
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 [https://www.wingsandtales.de/](https://www.wingsandtales.de/)
 
@@ -69,6 +81,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Flöte, Vocals – Helena*
 
 **Maracu – 21:30 Uhr**
+
+![Maracu](tuv24-maracu.jpg)
 
 Bal? Folk! aus Leipzig
 Inspiriert von den feinsten Tänzen, die wir vielerorts aufgabeln konnten, haben wir Grooves und Melodien zusammengeschnürt. Die lassen wir mal harmonisch davon fliegen und mal fangen wir sie sanft wieder ein. Wir lassen Klangkonfetti regnen und gehen mit euch in fetten Sounds baden! Und wenn sich die Tanzbeine dabei richtig ausgetobt haben, dürfen sie zu Ohren werden und den Geschichten lauschen, die von einer nächtlichen Begegnung mit Jazz und Klezmer erzählen…
@@ -82,6 +96,8 @@ Inspiriert von den feinsten Tänzen, die wir vielerorts aufgabeln konnten, haben
 
 ## Veranstaltungsort
 
+![Ballhaus Lindenhof](tuv24-ballhaus.jpg)
+
 Wir tanzen im imposanten Grünen Ballsaal im [Ballhaus Lindenhof](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) in Waldheim, mitten in Sachsen.
 Waldheim ist ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
@@ -94,6 +110,8 @@ Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind n
 
 ## Essen
 
+![Essen](tuv24-essen.jpg)
+
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden.
 Frühstück jeweils 9 – 12 Uhr
@@ -101,6 +119,8 @@ Frühstück jeweils 9 – 12 Uhr
 Mitternachtssnack Fr, Sa und So
 
 ## Schlafen
+
+![Schlafen](tuv24-schlafen.jpg)
 
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).

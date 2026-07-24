@@ -1,0 +1,51 @@
+{% extends 'partials/base.html.twig' %}
+
+{% macro format_date_range(start, end) %}
+    {% if start and end %}
+        {% set s = start|split('-') %}
+        {% set e = end|split('-') %}
+        {% if s.0 == e.0 and s.1 == e.1 %}
+            {{ s.2 }}.–{{ e.2 }}.{{ s.1 }}.{{ s.0 }}
+        {% elseif s.0 == e.0 %}
+            {{ s.2 }}.{{ s.1 }}.–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
+        {% else %}
+            {{ s.2 }}.{{ s.1 }}.{{ s.0 }}–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
+        {% endif %}
+    {% elseif start %}
+        {% set s = start|split('-') %}
+        {{ s.2 }}.{{ s.1 }}.{{ s.0 }}
+    {% endif %}
+{% endmacro %}
+
+{% block content %}
+    <article class="content-item projekte-listing">
+        {{ page.content|raw }}
+
+        <div class="projekte-grid">
+            {% for child in page.children.visible %}
+                {% set image = child.media.images|first %}
+                {% set event = child.header.event %}
+                <a class="projekt-card" href="{{ child.url }}">
+                    {% if image %}
+                        <div class="projekt-card-image">{{ image.cropZoom(600, 340).html|raw }}</div>
+                    {% endif %}
+                    <div class="projekt-card-body">
+                        <h3>{{ child.title }}</h3>
+                        {% if event.startdatum or event.enddatum %}
+                            <div class="projekt-card-datum">
+                                <span class="projekt-icon">📅</span>
+                                {{ _self.format_date_range(event.startdatum, event.enddatum) }}
+                            </div>
+                        {% endif %}
+                        {% if event.ort %}
+                            <div class="projekt-card-ort">
+                                <span class="projekt-icon">📍</span>
+                                {{ event.ort }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </article>
+{% endblock %}

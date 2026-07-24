@@ -201,3 +201,21 @@
   font-size: 1.25rem;
   text-align: center;
 }
+
+/* ===== Home: verein tile (1st column) ===== */
+.verein-tile {
+  align-items: stretch !important;
+  text-align: left;
+  gap: 0.75rem !important;
+}
+.verein-tile h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.verein-tile p {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--q2-text);
+  margin: 0;
+}

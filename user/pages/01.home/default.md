@@ -1,16 +1,16 @@
 ---
-title: 'Das co-kreative Netzwerk'
+title: Home
 body_classes: 'title-center title-h1h2'
 ---
 
 # Das co-kreative Netzwerk
 ## co-kreative Projekte fördern
 
-[![Mitglied werden](mitglied-werden.jpeg)](/der-verein/vereinsmitglied-werden)
-
-[![Co-kreative Projekte](co-kreative-projekte.jpg)](/co-kreative-projekte)
-
-[![Der Verein](der-verein.jpeg)](/der-verein)
+<div class="three-col">
+<div><a href="/der-verein/vereinsmitglied-werden"><img src="/user/pages/01.home/mitglied-werden.jpeg" alt="Mitglied werden" /></a></div>
+<div><a href="/co-kreative-projekte"><img src="/user/pages/01.home/co-kreative-projekte.jpg" alt="Co-kreative Projekte" /></a></div>
+<div><a href="/der-verein"><img src="/user/pages/01.home/der-verein.jpeg" alt="Der Verein" /></a></div>
+</div>
 
 Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern. Ein co-kreatives Projekt erfordert das Zusammenwirken mehrerer Personen über einen gewissen Zeitraum zur Förderung oder Verwirklichung eines gemeinsamen Zweckes.
 

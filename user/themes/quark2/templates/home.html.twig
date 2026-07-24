@@ -19,12 +19,16 @@
 
 {% block content %}
     <article class="content-item">
-        {# Render page content excluding the three-col div (handled below) #}
-        {{ page.content|raw }}
+        {% set intro_text = page.header.verein_intro %}
+        {% set blog_posts = page.header.blog_posts %}
 
-        {# Three-column layout: Mitglied werden | Co-Kreative Projekte | Newsletter #}
+        {# Three-column layout: Unser Verein | Co-Kreative Projekte | Newsletter #}
         <div class="three-col">
-            <div>
+            <div class="verein-tile">
+                <h3>Unser Verein</h3>
+                {% if intro_text %}
+                <p>{{ intro_text }}</p>
+                {% endif %}
                 <a href="/der-verein/vereinsmitglied-werden"><img src="/user/pages/01.home/mitglied-werden.jpeg" alt="Mitglied werden" /></a>
                 <a class="btn" href="/der-verein/vereinsmitglied-werden">Mitglied werden</a>
             </div>
@@ -58,5 +62,8 @@
                 {% include "forms/form.html.twig" %}
             </div>
         </div>
+
+        {# Blog section below the 3-column layout #}
+        {{ page.content|raw }}
     </article>
 {% endblock %}

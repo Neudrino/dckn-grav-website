@@ -1,6 +1,9 @@
 # === Container runtime (managed by linuxserver/grav image) ===
 /config/
 
+# === opencode config (contains API keys) ===
+opencode.json
+
 # === Grav runtime data (auto-generated: caches, indexes, feeds, scheduler) ===
 user/data/
 

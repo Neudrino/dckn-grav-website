@@ -90,7 +90,7 @@ form:
 
     - name: unterschrift
       label: 'Unterschrift'
-      type: text
+      type: signature
       validate:
         required: true
 

@@ -8,6 +8,7 @@ services:
       - TZ=Etc/UTC
     volumes:
       - ./config:/config
+      - ./user:/config/www/user
     ports:
       - "8080:80"
     restart: unless-stopped

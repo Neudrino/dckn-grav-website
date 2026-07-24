@@ -5,6 +5,8 @@ template: home
 process:
   twig: true
 
+verein_intro: 'Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern. Ein co-kreatives Projekt erfordert das Zusammenwirken mehrerer Personen über einen gewissen Zeitraum zur Förderung oder Verwirklichung eines gemeinsamen Zweckes.'
+
 form:
   name: newsletter
   fields:
@@ -41,11 +43,6 @@ form:
           LASTNAME: nachname
     - message: 'Danke! Du bist jetzt für den Newsletter angemeldet.'
 ---
-
-# Das co-kreative Netzwerk
-## co-kreative Projekte fördern
-
-Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern. Ein co-kreatives Projekt erfordert das Zusammenwirken mehrerer Personen über einen gewissen Zeitraum zur Förderung oder Verwirklichung eines gemeinsamen Zweckes.
 
 ### Neues aus unserem Blog
 

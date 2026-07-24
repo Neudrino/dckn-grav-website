@@ -1,1 +1,9 @@
 config/
+
+# Grav runtime artifacts under user/ — installable via GPM, not content we author.
+# Only user/pages/ is tracked (the editable example content).
+user/accounts/
+user/config/
+user/data/
+user/plugins/
+user/themes/

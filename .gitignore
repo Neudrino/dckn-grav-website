@@ -4,6 +4,9 @@
 # === opencode config (contains API keys) ===
 opencode.json
 
+# === Node dependencies (installed via npm install, not tracked) ===
+node_modules/
+
 # === Grav runtime data (auto-generated: caches, indexes, feeds, scheduler) ===
 user/data/
 

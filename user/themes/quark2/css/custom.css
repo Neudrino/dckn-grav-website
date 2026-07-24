@@ -232,3 +232,12 @@
 .home-blog-section {
   margin-top: 3rem;
 }
+
+/* ===== Mitgliedsantrag buttons ===== */
+.mitglied-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}

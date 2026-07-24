@@ -133,3 +133,71 @@
   font-size: 0.9375rem;
   line-height: 1;
 }
+
+/* ===== Projekte mini cards on homepage ===== */
+.projekte-tile {
+  align-items: stretch !important;
+  text-align: left;
+  gap: 0.625rem !important;
+}
+.projekte-tile h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.projekt-mini-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--q2-bg-elev);
+  border-radius: var(--q2-radius-sm);
+  overflow: hidden;
+  box-shadow: var(--q2-shadow-card);
+  text-decoration: none;
+  color: var(--q2-text);
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+.projekt-mini-card:hover {
+  box-shadow: var(--q2-shadow-raised);
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: var(--q2-text);
+}
+.projekt-mini-image img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+}
+.projekt-mini-body {
+  padding: 0.5rem 0.75rem 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+.projekt-mini-body strong {
+  font-size: 0.9375rem;
+  color: var(--q2-text-strong);
+}
+.projekt-mini-datum,
+.projekt-mini-ort {
+  font-size: 0.8125rem;
+  color: var(--q2-text-muted);
+}
+
+/* ===== Home: projekte tile (mini cards in 2nd column) ===== */
+.home-projekte-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 100%;
+}
+.projekte-tile {
+  align-items: stretch !important;
+  text-align: left;
+  gap: 0.625rem !important;
+}
+.projekte-tile h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  text-align: center;
+}

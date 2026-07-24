@@ -1,0 +1,62 @@
+{% extends 'partials/base.html.twig' %}
+
+{% macro format_date_range(start, end) %}
+    {% if start and end %}
+        {% set s = start|split('-') %}
+        {% set e = end|split('-') %}
+        {% if s.0 == e.0 and s.1 == e.1 %}
+            {{ s.2 }}.–{{ e.2 }}.{{ s.1 }}.{{ s.0 }}
+        {% elseif s.0 == e.0 %}
+            {{ s.2 }}.{{ s.1 }}.–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
+        {% else %}
+            {{ s.2 }}.{{ s.1 }}.{{ s.0 }}–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
+        {% endif %}
+    {% elseif start %}
+        {% set s = start|split('-') %}
+        {{ s.2 }}.{{ s.1 }}.{{ s.0 }}
+    {% endif %}
+{% endmacro %}
+
+{% block content %}
+    <article class="content-item">
+        {# Render page content excluding the three-col div (handled below) #}
+        {{ page.content|raw }}
+
+        {# Three-column layout: Mitglied werden | Co-Kreative Projekte | Newsletter #}
+        <div class="three-col">
+            <div>
+                <a href="/der-verein/vereinsmitglied-werden"><img src="/user/pages/01.home/mitglied-werden.jpeg" alt="Mitglied werden" /></a>
+                <a class="btn" href="/der-verein/vereinsmitglied-werden">Mitglied werden</a>
+            </div>
+            <div class="projekte-tile">
+                <h3>Co-Kreative Projekte</h3>
+                <div class="home-projekte-list">
+                    {% set projekte = page.find('/co-kreative-projekte') %}
+                    {% for child in projekte.children.visible %}
+                        {% set image = child.media.images|first %}
+                        {% set event = child.header.event %}
+                        <a class="projekt-mini-card" href="{{ child.url }}">
+                            {% if image %}
+                            <div class="projekt-mini-image">{{ image.cropZoom(300, 170).html|raw }}</div>
+                            {% endif %}
+                            <div class="projekt-mini-body">
+                                <strong>{{ child.title }}</strong>
+                                {% if event.startdatum %}
+                                <span class="projekt-mini-datum">{{ _self.format_date_range(event.startdatum, event.enddatum) }}</span>
+                                {% endif %}
+                                {% if event.ort %}
+                                <span class="projekt-mini-ort">📍 {{ event.ort }}</span>
+                                {% endif %}
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+                <a class="btn" href="/co-kreative-projekte">Alle Projekte</a>
+            </div>
+            <div class="newsletter-tile">
+                <h3>Newsletter</h3>
+                {% include "forms/form.html.twig" %}
+            </div>
+        </div>
+    </article>
+{% endblock %}

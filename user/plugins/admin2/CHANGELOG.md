@@ -1,0 +1,679 @@
+# v2.0.15
+## 07/20/2026
+
+1. [](#improved)
+    * Text a language has not translated yet now reads in English, instead of showing a mangled version of the key name such as "Label" where it should say "Cache" (requires API plugin 1.0.12) ([#129](https://github.com/getgrav/grav-plugin-admin2/issues/129)).
+1. [](#bugfix)
+    * Confirmation dialogs now translate their title and buttons instead of always showing them in English.
+    * The prompt shown when leaving a screen with unsaved changes is now translated instead of always appearing in English.
+    * Add buttons, list and picker placeholders, and the media drop zone messages are now translated instead of always appearing in English ([grav-admin-next#13](https://github.com/getgrav/grav-admin-next/issues/13)).
+    * An `elements` field now shows its options when nested inside a list ([#130](https://github.com/getgrav/grav-plugin-admin2/issues/130)).
+    * The create screen for a Flex object now uses the title configured for that object type ([flex-objects#233](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/233)).
+    * Toggle-able fields now show their on/off checkbox when placed inside columns ([#131](https://github.com/getgrav/grav-plugin-admin2/issues/131)).
+    * Renaming a folder or deleting a page beneath a Home page that is hidden from URLs now works reliably instead of failing or moving the page to the site root (requires API plugin 1.0.12) ([#132](https://github.com/getgrav/grav-plugin-admin2/issues/132)).
+    * A page's publish and unpublish dates now display correctly in the Page Information sidebar instead of showing "Invalid Date" after saving ([#134](https://github.com/getgrav/grav-plugin-admin2/issues/134)).
+
+# v2.0.14
+## 07/14/2026
+
+1. [](#new)
+    * The Plugins and Themes items in the sidebar now show a badge with the number of available updates alongside the installed count, so outdated extensions stay visible from anywhere in the admin (requires API plugin 1.0.11) ([#124](https://github.com/getgrav/grav-plugin-admin2/issues/124)).
+1. [](#bugfix)
+    * Inserting a Page Media image with its "+" button now adds it only to the editor you were working in, instead of dropping the same image into every Markdown field on the page such as both Content and Description ([#128](https://github.com/getgrav/grav-plugin-admin2/issues/128)).
+    * The dashboard's plugin and theme cards now each show their own update status, and the active-theme card only flags an update when the active theme itself is outdated, instead of lumping every update onto the plugin card.
+    * Buttons and links no longer show a stray focus outline after you click them, so the interface and screenshots stay clean.
+    * Image uploads on a Flex object's file field no longer fail when the field stores files in the object's own folder.
+    * The first image uploaded to a Flex object's file field now records immediately and enables Save, instead of only taking effect after a second upload.
+    * Images on a Flex object's file field now stay visible when you reopen the object, instead of vanishing from the field.
+    * The message shown after updating all plugins or themes now counts extensions that were brought up to date as a shared dependency, so the total matches the number you asked to update instead of being one short ([#127](https://github.com/getgrav/grav-plugin-admin2/issues/127)).
+    * The title shown when editing a Flex object now honors its blueprint's title template even when it uses a translation filter, instead of printing the raw template text ([flex-objects#233](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/233)).
+
+# v2.0.13
+## 07/09/2026
+
+1. [](#new)
+    * The Pages screen has a new Filter control to narrow the list by published, visible, and routable status or by template, working across the tree, list, and columns views (requires API plugin 1.0.10) ([#121](https://github.com/getgrav/grav-plugin-admin2/issues/121)).
+    * The admin now shows a "Demo Mode" banner and turns read-only when signed in with a demo account, hiding save, upload, and delete controls while keeping everything browsable (requires API plugin 1.0.10).
+    * Plugins can add action buttons to each row of the Users list, running an operation against that account and showing the result without leaving the page (requires API plugin 1.0.10) ([#115](https://github.com/getgrav/grav-plugin-admin2/issues/115)).
+    * Plugin widgets that enhance a specific admin screen now load only on that screen instead of on every page (requires API plugin 1.0.10) ([#116](https://github.com/getgrav/grav-plugin-admin2/issues/116)).
+1. [](#improved)
+    * Plugin and theme details now show Documentation and Report an Issue links taken from the extension's own blueprint, so they point at the project instead of only offering a changelog (requires API plugin 1.0.10) ([#49](https://github.com/trilbymedia/grav-plugin-page-toc/issues/49)).
+    * The homepage link on plugin and theme details now shows the site's actual address instead of a generic "Visit" label.
+    * Plugin link columns in the Users list can now show separate visible text from the link they point to, so a phone number can link to a chat URL while still reading as the number (requires API plugin 1.0.10) ([#111](https://github.com/getgrav/grav-plugin-admin2/issues/111)).
+1. [](#bugfix)
+    * File and media picker fields set to allow multiple selections now let you choose several files instead of only one ([#119](https://github.com/getgrav/grav-plugin-admin2/issues/119)).
+    * Editing metadata with more than one media file selected now applies your change to every selected file, not just the last one you clicked (requires API plugin 1.0.10) ([#117](https://github.com/getgrav/grav-plugin-admin2/issues/117)).
+    * The backup storage bar now fills correctly when backups are limited by count or age, instead of always showing an almost-empty bar.
+    * The page preview popup now keeps its link and close button visible with long preview URLs and shows a clean page URL in the header instead of the internal preview parameters ([#120](https://github.com/getgrav/grav-plugin-admin2/issues/120)).
+    * The page editor's Page Info panel now translates the Published, Visible, and Routable values instead of always showing them in English ([#122](https://github.com/getgrav/grav-plugin-admin2/issues/122)).
+
+# v2.0.12
+## 07/06/2026
+
+1. [](#new)
+    * The Markdown editor's image button now opens a picker to insert one of the page's images or an image URL with alt text, instead of dropping placeholder text ([#114](https://github.com/getgrav/grav-plugin-admin2/issues/114)).
+    * The image picker can now browse the site media library by folder and insert a chosen image as a `media://` link ([#114](https://github.com/getgrav/grav-plugin-admin2/issues/114)).
+    * Page media items now have a "+" button that inserts them at the editor's cursor, so you no longer have to drag them into a long document ([#114](https://github.com/getgrav/grav-plugin-admin2/issues/114)).
+    * The Plugins and Themes lists now show a banner when a Grav update is available, with a one-click button to upgrade Grav without returning to the dashboard ([#113](https://github.com/getgrav/grav-plugin-admin2/issues/113)).
+    * The plugin and theme lists now include a Changelog link, in both the card preview and the table row, so you can see what changed without opening the configure page ([#108](https://github.com/getgrav/grav-plugin-admin2/issues/108)).
+    * The dashboard's Grav update notice now has a Changelog button that shows what changed in the new Grav version before you upgrade (requires API plugin 1.0.9) ([#109](https://github.com/getgrav/grav-plugin-admin2/issues/109)).
+    * Plugins can now add custom columns to the Users list, showing their own per-user data through a set of safe built-in formatters (requires API plugin 1.0.9) ([#111](https://github.com/getgrav/grav-plugin-admin2/issues/111)).
+    * Plugins that provide an icon to the admin can now use a shared icon format covering Font Awesome, other loaded icon sets, and safe custom SVG glyphs ([getgrav/grav-admin-next#7](https://github.com/getgrav/grav-admin-next/pull/7)).
+1. [](#improved)
+    * Inserting an image from the page media field now uses its saved alt text, or title, instead of repeating the filename as the alt (requires API plugin 1.0.9) ([#114](https://github.com/getgrav/grav-plugin-admin2/issues/114)).
+    * The clear-cache button in the top bar now shows a "Cache" label and a refresh icon, styled to match the other top-bar buttons.
+    * The environment switcher is now labelled "Env:" so it is clear what the button controls.
+    * The Accounts Configuration panel now shows a subtitle, so its tab row lines up with the other Users tabs.
+1. [](#bugfix)
+    * The page list summary preview now shows plain text instead of a slice of raw Markdown, so links and images at the start of a page no longer leave broken fragments (requires API plugin 1.0.9) ([#110](https://github.com/getgrav/grav-plugin-admin2/issues/110)).
+    * The Invitations tab in the Users section now highlights while you are viewing pending invitations.
+    * Plugin-provided custom fields that use a plain text input (such as SEO Magic's Custom Title and Description) now save correctly, instead of being cleared when you click away from the field.
+    * With collaboration enabled but the Sync plugin not installed, the page editor now behaves exactly as if collaboration were off, instead of blocking edits from saving.
+
+# v2.0.11
+## 07/04/2026
+
+1. [](#new)
+    * You can now edit media metadata such as alt text, title, caption, description, and tags from both the page media field and the site media manager, with the editable fields configurable in the API plugin settings (requires API plugin 1.0.8) ([#99](https://github.com/getgrav/grav-plugin-admin2/issues/99)).
+    * The Markdown and code editors now offer optional Vim keybindings, turned on per user in Settings and remembered on your account ([#95](https://github.com/getgrav/grav-plugin-admin2/issues/95)).
+    * The page editor's preview now shows an unpublished page instead of a 404, so you can preview drafts without a separate plugin (requires API plugin 1.0.8) ([#100](https://github.com/getgrav/grav-plugin-admin2/issues/100)).
+1. [](#improved)
+    * The Users list now opens on the filter tab named in the address bar, or a plugin's chosen default, and keeps the address bar updated as you switch tabs so a filtered view survives a refresh and can be bookmarked or shared ([#51](https://github.com/getgrav/grav-plugin-admin2/issues/51)).
+    * Filter tabs on the Users list now show their icon, and a plugin can hide the built-in "All Users" tab when it isn't a useful default ([#51](https://github.com/getgrav/grav-plugin-admin2/issues/51)).
+    * The bundled default font files are now compressed to woff2, shrinking them by about two thirds for faster loading.
+    * Large request bursts, such as opening a long pages list, now flow through the same request limiter as the rest of the admin, avoiding momentary server overload errors.
+    * Sidebar badge counts from plugins now load together instead of one after another, so they appear sooner after signing in.
+1. [](#bugfix)
+    * Opening a page preview no longer logs out a visitor signed in to the public site in the same browser, because the preview now renders the page without disturbing the shared front-end session ([#88](https://github.com/getgrav/grav-plugin-admin2/issues/88), [#79](https://github.com/getgrav/grav-plugin-admin2/issues/79)).
+    * A spacer field now shows its text again, matching the classic admin ([#91](https://github.com/getgrav/grav-plugin-admin2/issues/91)).
+    * The date format fields now offer a Custom option for entering any PHP date format, and show a saved custom format instead of appearing blank ([#92](https://github.com/getgrav/grav-plugin-admin2/issues/92)).
+    * The admin now bundles all its fonts locally instead of loading them from Google Fonts, so it runs fully offline and makes no external network requests ([#97](https://github.com/getgrav/grav-plugin-admin2/issues/97)).
+    * Plugin descriptions in the list preview now show special characters such as apostrophes correctly instead of their raw HTML codes ([#103](https://github.com/getgrav/grav-plugin-admin2/issues/103)).
+    * A date field now shows its current value again instead of appearing empty when the stored date is a timestamp ([#106](https://github.com/getgrav/grav-plugin-admin2/issues/106)).
+
+# v2.0.10
+## 06/30/2026
+
+1. [](#improved)
+    * The Backups settings now appear in the Configuration area with their own icon, with the archive list left out of that form since it already lives under Tools → Backups.
+
+# v2.0.9
+## 06/29/2026
+
+1. [](#bugfix)
+    * The page editor no longer gets stuck on "Connecting to collaboration session…" on the second page opened in a session on a site without the Sync plugin ([#87](https://github.com/getgrav/grav-plugin-admin2/issues/87)).
+
+# v2.0.8
+## 06/29/2026
+
+1. [](#new)
+    * Tools now has an optional Audit Trail that lists who changed what and when, with a colored before-and-after diff for edits, shown to super admins once it is turned on in the API plugin.
+    * The Markdown editor toolbar can now show buttons that plugins add to it.
+    * The login screen now shows OAuth sign-in buttons such as GitHub or Google when the Login OAuth2 plugin is set up for the admin, so you can sign in without a password ([getgrav/grav-plugin-login-oauth2#52](https://github.com/trilbymedia/grav-plugin-login-oauth2/issues/52)).
+1. [](#improved)
+    * Page media reordering is now a clear Reorder toggle in the Page Media panel, so you drag the images themselves to set their order instead of a small grip handle ([#74](https://github.com/getgrav/grav-plugin-admin2/issues/74)).
+    * The Media manager now has the same Reorder toggle, so you drag whole cards or rows to set a folder's order and the grip handles are gone ([#74](https://github.com/getgrav/grav-plugin-admin2/issues/74)).
+    * Plugin menubar items can now be external links that open in a new tab, not just actions.
+    * Plugin menubar buttons now sit in the open space on the left of the toolbar, set apart from the system actions by a divider, so everyday plugin actions are no longer crowded against Clear Cache ([#81](https://github.com/getgrav/grav-plugin-admin2/issues/81)).
+    * Plugins can now choose whether a menubar button sits in the left zone or beside the core actions, and set the order buttons appear in ([#81](https://github.com/getgrav/grav-plugin-admin2/issues/81)).
+    * The page editor now limits how many requests it makes at once, so opening a page with many panels and fields no longer overwhelms the server.
+    * Each plugin's custom field scripts are now downloaded as a single bundle and cached, so the page editor opens with fewer downloads and reuses them on the next visit.
+1. [](#bugfix)
+    * The page editor no longer loads the page, its blueprint, and its media twice when it opens.
+    * Custom fields and the editor no longer occasionally fail to appear when a page opens, now retrying automatically and falling back to a cached copy if the server is briefly busy.
+    * Long environment names no longer wrap onto multiple lines in the environment switcher ([#72](https://github.com/getgrav/grav-plugin-admin2/issues/72)).
+    * List fields with a single named sub-field, such as an image picker, no longer reload empty after being saved ([#73](https://github.com/getgrav/grav-plugin-admin2/issues/73)).
+    * The editor no longer keeps retrying collaboration requests on sites without the Sync plugin, which had been flooding the network with 404s ([#73](https://github.com/getgrav/grav-plugin-admin2/issues/73)).
+    * A rejected configuration save now points to the specific field that failed and names it, instead of showing a generic validation error ([getgrav/grav#4176](https://github.com/getgrav/grav/issues/4176)).
+    * The page editor no longer loses unsaved work to a background session check: while you are editing content or a configuration form, automatic preference syncs and pending app-update reloads hold off until you save or leave ([#83](https://github.com/getgrav/grav-plugin-admin2/issues/83)).
+    * A custom branding title is now applied to the browser tab on the login page on a cold load, such as in a private window, instead of only after signing in once ([#84](https://github.com/getgrav/grav-plugin-admin2/issues/84)).
+    * The "Add to allowlist" button in the Twig-in-Content report now removes the resolved block from the recent-blocks list straight away, so the action no longer looks like it did nothing ([#85](https://github.com/getgrav/grav-plugin-admin2/issues/85)).
+    * A page that fails to save now flags the specific field that was rejected and why, instead of showing a generic "did not pass blueprint validation" message ([getgrav/grav#4178](https://github.com/getgrav/grav/issues/4178)).
+
+# v2.0.7
+## 06/25/2026
+
+1. [](#new)
+    * Plugin toolbar buttons can now show a text label, a larger size, and a color such as primary, success, or danger, so custom actions are no longer easy to miss ([#67](https://github.com/getgrav/grav-plugin-admin2/issues/67)).
+    * A built-in API debug panel, shown when Grav's debugger is enabled, lists recent admin requests with their timing, a cross-request message console, and a per-request timeline ([#66](https://github.com/getgrav/grav-plugin-admin2/issues/66)).
+    * The debug panel now breaks each request's server time into phases and shows the API's own authentication, routing, and controller timings in its timeline, making it clearer where slow requests spend their time ([#65](https://github.com/getgrav/grav-plugin-admin2/issues/65)).
+    * Page media can now be drag-reordered, and the order is saved with the page so it controls how images appear in collections.
+    * Site-wide media files in the Media manager can now be drag-reordered, with the chosen order saved per folder.
+1. [](#bugfix)
+    * The Markdown editor now starts editing when you click anywhere in its box, not only on the existing text ([#61](https://github.com/getgrav/grav-plugin-admin2/issues/61)).
+    * The unsaved-changes indicator now clears when you undo your edits back to the saved content, matching the Save button ([#62](https://github.com/getgrav/grav-plugin-admin2/issues/62)).
+    * Refreshing a page with unsaved changes now shows a single confirmation prompt instead of two ([#63](https://github.com/getgrav/grav-plugin-admin2/issues/63)).
+    * The cache purge age setting's help text now correctly refers to days instead of seconds ([#64](https://github.com/getgrav/grav-plugin-admin2/issues/64)).
+
+# v2.0.6
+## 06/24/2026
+
+1. [](#bugfix)
+    * The Server URL on the sign-in and setup screens no longer doubles up its address after signing out and back in ([#58](https://github.com/getgrav/grav-plugin-admin2/issues/58)).
+
+# v2.0.5
+## 06/24/2026
+
+1. [](#new)
+    * The admin title shown on the sign-in screen and in the browser tab can now be customised under Settings > Branding ([#54](https://github.com/getgrav/grav-plugin-admin2/issues/54)).
+    * The sign-in screen can now show a custom subtitle beneath the title.
+    * The "Powered by Grav CMS" line on the sign-in and setup screens can now be hidden.
+    * A custom favicon can now be set for the admin, replacing the generated one.
+1. [](#bugfix)
+    * The sign-in screen now shows the configured logo and admin language on a first or incognito visit, instead of only after signing in once ([#54](https://github.com/getgrav/grav-plugin-admin2/issues/54)).
+    * New pages now have their date filled in with the current time when the page template includes a date field, matching the behaviour of the previous admin ([#49](https://github.com/getgrav/grav-plugin-admin2/issues/49)).
+    * The admin now works when opened on an alternate host such as www, instead of failing to log in and showing untranslated labels because requests were being sent to the site's canonical address ([#56](https://github.com/getgrav/grav-plugin-admin2/issues/56)).
+    * Reopening the admin after closing the browser now keeps you signed in until your session actually expires, instead of sending you back to the sign-in screen while time still remained ([#55](https://github.com/getgrav/grav-plugin-admin2/issues/55)).
+    * Signing in now works on a site served from the web root with no subfolder, instead of failing because the admin was sending its requests to the wrong address ([#58](https://github.com/getgrav/grav-plugin-admin2/issues/58)).
+    * User and group permissions can now be edited when they start out empty, instead of the toggles doing nothing and the change refusing to save ([#58](https://github.com/getgrav/grav-plugin-admin2/issues/58)).
+
+# v2.0.4
+## 06/23/2026
+
+1. [](#bugfix)
+    * [security] The admin no longer includes the exact Grav and Admin version numbers or the environment type in the page served to visitors who are not logged in, removing a fingerprint that made it easier to pick version-specific exploits (GHSA-pfjq-chp8-3vgh).
+    * The user and group permissions editor no longer reports unsaved changes after you set a permission and then switch it back to Not set ([#50](https://github.com/getgrav/grav-plugin-admin2/issues/50)).
+    * Denying or allowing one sub-permission no longer silently removes the access granted by its parent permission group ([#50](https://github.com/getgrav/grav-plugin-admin2/issues/50)).
+    * Enabling a toggleable option such as Visible or Routable now saves a real value instead of a blank one, so a page no longer disappears from navigation after saving ([getgrav/grav#4153](https://github.com/getgrav/grav/issues/4153)).
+    * Fieldsets in the page and configuration editors now honour their collapsible, collapsed and icon settings, showing a working collapse toggle and the chosen icon ([#52](https://github.com/getgrav/grav-plugin-admin2/issues/52)).
+
+# v2.0.3
+## 06/22/2026
+
+1. [](#improved)
+    * Corrected the route-override instructions in the README to point at the right config file.
+
+# v2.0.2
+## 06/22/2026
+
+1. [](#new)
+    * The user editor now shows which permissions a user inherits from their groups, naming the group that grants each one, so you can see a user's effective access at a glance without changing it. Thanks to @Keyskeeper for the report.
+1. [](#improved)
+    * The update confirmation dialog now lists the actual plugins and themes that will be updated, along with their new versions, instead of only showing a count. Thanks to @Sogl for the report.
+1. [](#bugfix)
+    * Logging in now works when the API plugin's route has been changed from the default `/api`, instead of failing because requests still went to the old route ([api#8](https://github.com/getgrav/grav-plugin-api/issues/8)). Thanks to @hasancemcerit for the report.
+
+# v2.0.1
+## 06/21/2026
+
+1. [](#bugfix)
+    * Saving a configuration twice in a row without reloading no longer fails with a conflict error on Apache servers that use Brotli or gzip compression.
+
+# v2.0.0
+## 06/20/2026
+
+1. [](#new)
+    * Version 2.0 stable release for Grav 2.x
+1. [](#bugfix)
+    * Links inside dashboard notifications, such as the trusted-host warning's "How to fix this", now appear as visible underlined links instead of looking like plain text.
+    * Flex object list views now show formatted dates and select option labels instead of raw timestamps and stored keys ([flex-objects#220](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/220)).
+    * Flex object list views now honor a directory's configured default page size and sort order ([flex-objects#221](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/221)).
+
+# v2.0.0-rc.16
+## 06/19/2026
+
+1. [](#new)
+    * Plugins can now open admin modals, either a quick form built from inline field definitions or their own custom modal component ([#44](https://github.com/getgrav/grav-plugin-admin2/issues/44)).
+    * Toolbar buttons added by plugins can now jump straight to a screen, including the new-page form with the parent and template pre-filled ([#44](https://github.com/getgrav/grav-plugin-admin2/issues/44)).
+2. [](#improved)
+    * Reworded the user-folder exposure warning to be clearer and less alarming, and linked it to a dedicated documentation page that explains the risk and how to fix it on each web server.
+3. [](#bugfix)
+    * Sites whose accounts use Flex or custom nested storage no longer get the frontend wrongly redirected to the admin as if no users existed ([#7](https://github.com/getgrav/grav-plugin-api/issues/7)).
+    * The page template selector in Expert mode now lists the correct templates for modular pages instead of showing an empty selector ([#41](https://github.com/getgrav/grav-plugin-admin2/issues/41)).
+
+# v2.0.0-rc.15
+## 06/16/2026
+
+1. [](#new)
+    * The Markdown editor can now keep its toolbar pinned in view as you scroll, and optionally hold a fixed height with its own scrollbar, both configurable in Settings ([#37](https://github.com/getgrav/grav-plugin-admin2/issues/37)).
+    * The Dashboard now shows a prominent warning when your `user/data`, `user/accounts` and `user/config` folders are downloadable over the web, catching a misconfigured webserver before it leaks certificates, keys or databases.
+    * Plugin settings pages can now show a custom save notification supplied by the plugin, including longer-lived or dismiss-required messages, instead of always the generic saved message ([#38](https://github.com/getgrav/grav-plugin-admin2/issues/38)).
+    * Plugin sidebar items can now show a live count badge that refreshes on its own, instead of only a fixed number set when the page loads ([#42](https://github.com/getgrav/grav-plugin-admin2/issues/42)).
+    * Flex object editors now have an info button that reveals the object's id, directory and storage location in a small copyable panel, so you can reference an object in code without hunting for its id ([getgrav/grav#4130](https://github.com/getgrav/grav/issues/4130)).
+    * File upload fields now honor their blueprint's `random_name`, `avoid_overwriting`, `accept`, and `filesize` settings, matching the classic admin.
+2. [](#bugfix)
+    * **The Save button now disables again the moment you empty a required field**, and the unsaved-changes indicator clears with it, instead of the button staying active ([#34](https://github.com/getgrav/grav-plugin-admin2/issues/34)).
+    * **Required custom fields provided by plugins now block saving while they are empty too**, the same as the built-in fields ([#35](https://github.com/getgrav/grav-plugin-admin2/issues/35)).
+    * Required custom fields now show the same inline "field is required" message as built-in fields when you empty them ([#35](https://github.com/getgrav/grav-plugin-admin2/issues/35)).
+    * The inline error on a required field now uses the custom `validate.message` from the blueprint when one is set, instead of the generic text ([#34](https://github.com/getgrav/grav-plugin-admin2/issues/34)).
+    * Dragging an image from the Page Media panel into the markdown editor now inserts a single valid image tag instead of a doubled, corrupted one ([#4123](https://github.com/getgrav/grav/issues/4123)).
+    * The Folder Numeric Prefix toggle in a page's Advanced tab now reflects whether the folder actually has a numeric prefix instead of always showing Enabled, and toggling it adds or removes the prefix on save.
+    * Turning the Folder Numeric Prefix on now places the page last in its folder by giving it a prefix one past the highest among its siblings.
+    * The page editor's Page Info panel now shows the page's folder name, making numeric-prefix and ordering issues easier to spot.
+    * Uploading a file or image to a flex object now saves it to that object instead of failing with a Method Not Allowed error ([flex-objects#216](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/216)).
+    * A plugin page built as a custom component can now control its own Save button, which previously stayed greyed out and unusable ([#40](https://github.com/getgrav/grav-plugin-admin2/issues/40)).
+    * Custom fields shipped by a theme now load in the editor instead of failing with a "Failed to load custom field" error ([#3](https://github.com/getgrav/grav-admin-next/issues/3)). Requires grav-plugin-api ≥ 1.0.0-rc.15.
+    * Required fields now show their asterisk marker again, which had gone missing for every field shown in the two-column label layout ([getgrav/grav#4130](https://github.com/getgrav/grav/issues/4130)).
+    * The flex object "After Save" control no longer shows its label twice and its radio buttons now line up properly.
+
+# v2.0.0-rc.14
+## 06/09/2026
+
+1. [](#new)
+    * **The Users area can now be filtered by permission or group** with a type-ahead picker, so you can find every account that holds a given permission, such as all admins. Requires grav-plugin-api ≥ 1.0.0-rc.14.
+    * **The users table gains a Permissions column, and both the table and cards views flag accounts that have backend access**, with super admins called out separately.
+    * **A user's group memberships now show in their detail panel, and clicking any permission or group filters the list by it.**
+2. [](#improved)
+    * **Added labels for the new image security settings** (URL-based image actions and the maximum-pixels limit) under Configuration > System > Images. Requires Grav ≥ 2.0.0-rc.8.
+    * **Configuration and form field labels and help text can now be translated into the admin's chosen language** instead of always appearing in English, now that the shared admin vocabulary is part of the translatable language set. Requires grav-plugin-api ≥ 1.0.0-rc.14.
+3. [](#bugfix)
+    * **Configuration and blueprint help text no longer renders as an auto-generated placeholder** such as "Default Theme Help" and now shows the real description, including for admins whose language is a base code like English. Requires grav-plugin-api ≥ 1.0.0-rc.14.
+    * **The page editor no longer shows a false unsaved-changes indicator the moment it loads** in collaborative mode.
+    * **Forms now block saving when a required field is empty and flag each one inline**, instead of saving silently, across configuration, plugin and theme settings, users, groups, flex objects and pages ([#30](https://github.com/getgrav/grav-plugin-admin2/issues/30)).
+    * **Drilling into the home page in Columns view now opens its sub-pages instead of just adding it to the breadcrumb over and over** ([#33](https://github.com/getgrav/grav-plugin-admin2/issues/33)).
+
+# v2.0.0-rc.13
+## 06/04/2026
+
+1. [](#new)
+    * **Configuration fields that override an inherited default now show a revert icon**, with the default value in its tooltip, and a "Reset overrides" button clears every override for the scope at once. Works across the config sections, plugin and theme settings, for both the base configuration and per-environment overlays. Requires grav-plugin-api ≥ 1.0.0-rc.13.
+
+# v2.0.0-rc.12
+## 06/03/2026
+
+1. [](#new)
+    * **Invite users by email** from the Users area: pre-set their permissions and groups, send a time-limited invite link, and they choose their own username, name and password when they accept. Requires grav-plugin-api ≥ 1.0.0-rc.12.
+2. [](#improved)
+    * **The permissions editor now leads with the live API permissions and the super-user crown shows on them too**, groups the sections as Site, API, then Admin (legacy, collapsed), so the deprecated admin-classic permissions stay out of the way.
+3. [](#bugfix)
+    * **Usernames with periods (e.g. `john.doe`) can now be created**, matching the characters admin classic has always allowed. Requires grav-plugin-api ≥ 1.0.0-rc.12.
+    * **Running `bin/gpm` commands no longer aborts with a `Grav::close()` error.** When a site had no user accounts yet, the post-install cache clear could redirect the console command to the admin route and stop it dead. Admin2 now stays out of the way entirely on the command line.
+
+# v2.0.0-rc.11
+## 05/29/2026
+
+1. [](#improved)
+    * **Pages tree and list views now show Copy and Delete in a permanent column on the right instead of fading in on hover**, so they're reachable on touch devices and stop visually overlapping the page title and date. Fixes [getgrav/grav-plugin-admin2#19](https://github.com/getgrav/grav-plugin-admin2/issues/19).
+    * **Common actions are now reachable directly from every list view, without entering the detail / configure screen.** Pages tree, list, and columns views get a publish/unpublish toggle by clicking the status indicator. Plugins table and cards views get an inline Delete (alongside the existing Enable toggle). Themes table and cards views get inline Activate and Delete, including switching themes with one click without leaving the list. Users table and cards views get an inline Enable/Disable toggle (alongside the existing Edit/Delete icons), and the user detail panel gains the same toggle and a Delete button. Each detail / preview pane mirrors the row-level action set for parity. Destructive actions go through the standard confirm dialog. Addresses [getgrav/grav-plugin-admin2#21](https://github.com/getgrav/grav-plugin-admin2/issues/21).
+    * **The settings panel's "Default View" section now covers users, plugins, and themes in addition to pages**, so an operator can set the default landing layout (cards vs table) per list type rather than per device. These preferences sync to the server alongside the existing pages-layout preference (uses the four preference keys already added in grav-plugin-api 1.0.0-rc.9).
+2. [](#bugfix)
+    * **Hebrew and Arabic admin languages render the admin in right-to-left layout again.** Requires grav-plugin-api ≥ 1.0.0-rc.11.
+    * **Site Defaults editor's Admin Language dropdown now preselects the right option when the saved value is a short code like `en` instead of `en-US`.**
+    * **Media files in subfolders (e.g. `Folder1/image1.png`) can be deleted again.** The client was percent-encoding the whole path including the slashes, producing `Folder1%2Fimage1.png`, which Apache rejects by default before PHP ever sees it. Path segments are now encoded individually so folder boundaries stay as literal `/`. Fixes [getgrav/grav-plugin-admin2#22](https://github.com/getgrav/grav-plugin-admin2/issues/22).
+    * **The page editor no longer warns about unsaved changes when leaving a page whose only "changes" were edits a peer already saved.** The dirty indicator and leave-prompt now track local edits only, and reset when the sync plugin broadcasts that a peer's save landed. Requires grav-plugin-sync ≥ 1.1.2. Fixes [getgrav/grav-plugin-admin2#25](https://github.com/getgrav/grav-plugin-admin2/issues/25).
+    * **Media files whose names contain `#` or `?` (e.g. `image#1.png`) now render their thumbnail and Open link instead of 404ing.** The characters are percent-encoded when the URL is assembled, in both the media manager (grid/list/inspector) and the page editor's file fields and pickers. Fixes [getgrav/grav-plugin-admin2#26](https://github.com/getgrav/grav-plugin-admin2/issues/26).
+
+# v2.0.0-rc.10
+## 05/26/2026
+
+1. [](#new)
+    * **File picker fields now honor any Grav stream or scope token in their blueprint `folder:` option.** A field set to `folder: user://media`, `folder: theme://images`, `folder: account://`, `folder: self@:videos`, or any other stream the locator can resolve now lists files from that folder, matching admin classic. Requires grav-plugin-api ≥ 1.0.0-rc.10.
+    * **Copy and Delete are now reachable from every Pages view without opening the editor.** Tree and list rows gain a Copy icon next to the existing Delete icon on hover; the columns view's preview pane gets both as small icon-buttons at the end of the badges row (Delete was missing entirely before). The slug + title increment logic is shared with the page-editor's Copy button, so all four entry points yield identical results — `foo` becomes `foo-2`, `foo-3` becomes `foo-4`, and the title's trailing number is bumped or ` 2` is appended. Fixes [getgrav/grav-plugin-admin2#19](https://github.com/getgrav/grav-plugin-admin2/issues/19).
+    * Pages tree, list, and columns views now load pages on demand as you scroll, so folders with hundreds or thousands of children open instantly instead of hanging or quietly hiding rows.
+    * A new "Chunk" picker in the pages toolbar (50 / 100 / 250 / 500 / 1000) lets you tune how many rows are fetched per scroll request; it replaces the unused "Items per page" setting which has been removed.
+    * Returning to the pages view after editing a page now scrolls right back to that page (in tree, list, and columns), so you don't have to re-scroll to find where you were.
+    * Reorder / Move in any view now silently loads the full sibling list of the folders being dragged between before sending the change, so the reorder is always correct even on chunked folders.
+    * "Reorder / Move" toolbar button is now just "Move" so it stops wrapping onto two lines at common browser widths, and its label + tooltip are now translatable along with the rest of the pages toolbar, footer stats, and delete-confirmation dialog.
+2. [](#improved)
+    * Media grid cards no longer grow when selected or hovered — the selection outline is now reserved at idle so neighboring cards stop nudging around when you pick one. The hover checkbox has a stronger outline so it reads as a checkbox affordance rather than a small grey square against a busy image.
+    * Updated languages from https://translations.getgrav.org
+3. [](#bugfix)
+    * Pages tree, columns, and navigator views now show every child of a folder, no matter how many there are. Requires grav-plugin-api ≥ 1.0.0-rc.10. Fixes [getgrav/grav#4096](https://github.com/getgrav/grav/issues/4096).
+    * **Add Page / Add Module parent picker now works on sites where the home page is aliased to a non-root folder** (e.g. `system.home.alias: /blog`). Selecting the home-aliased page as the parent used to create the new page in `/pages` root, and the same row stayed checked alongside `<root>`. Fixes [getgrav/grav-plugin-admin2#18](https://github.com/getgrav/grav-plugin-admin2/issues/18).
+
+# v2.0.0-rc.9
+## 05/21/2026
+
+1. [](#new)
+    * **Users page now has Users / Groups / Configuration tabs across the top**, restoring the three-pane shell from admin classic. Users keeps the existing list + detail view; Groups gains full CRUD (list + blueprint-driven edit + create) backed by the new `/groups` API; Configuration is the Flex accounts compatibility + caching form, gated on super-admin. Requires grav-plugin-api ≥ 1.0.0-rc.9.
+    * **Cards ↔ Table view toggle on Users, Groups, Plugins, and Themes lists.** Cards view is the current sidebar+detail layout; Table view is the classic admin-style sortable list (Username/Email/Full name/Status for users, Name/Author/Version/Status for plugins, etc.). The choice is a per-user Tier B preference (`usersViewMode`, `groupsViewMode`, `pluginsViewMode`, `themesViewMode`), so it persists across sessions and devices the same way `pagesViewMode` does. Requires grav-plugin-api ≥ 1.0.0-rc.9.
+    * **New "Twig in Content" panel in Configuration > Security.** Surfaces the Grav 2.0 master gate, the editor-permission toggle, and the `config` access toggle that govern editor-authored Twig in page content. Requires grav ≥ 2.0.0-rc.4 and grav-plugin-api ≥ 1.0.0-rc.9.
+    * Pages with `process: twig: true` that the current user can't edit now show a clear toast explaining why the editor is blocked, instead of just a generic Access Denied screen.
+    * **Environment switcher now lets you delete environments inline.** Hover any non-Default, non-active row to reveal a trash icon; clicking it shows an inline Cancel / Delete confirmation, and the whole `user/env/<name>/` folder is removed on confirm. The currently active environment (the one Grav resolved for the current request) is shielded so you cannot yank the config out from under your own session, and legacy `user/<name>/config/` layouts (Grav 1.6 fallback) must still be cleaned up by hand. Create and Delete affordances are gated on `api.config.write` so read-only users only see the selection list. Requires grav-plugin-api ≥ 1.0.0-rc.9.
+2. [](#bugfix)
+    * **Page editor's "Parent" picker now lists "/" (root) as a selectable option.** The `type: parents` field reuses the generic `type: pages` picker, which defaulted `show_root` to `false` — making it impossible to move a page back to root from the form. Root is now opted-in by default for the parents field type only; the plain pages field keeps the old behaviour unless its blueprint opts in.
+    * **Columns view drop indicator now appears in every column during a drag**, including columns to the left of the drag source. Per-row `ondragover` fires unreliably across sibling `overflow-y-auto` containers in Chromium — the source column always gets events, passive columns intermittently don't. Cursor position is now tracked at the window level (always fires) and the drop indicator is rendered as a `position: fixed` purple line snapped to the target row boundary, so it paints in any column regardless of the host browser's repaint throttling.
+    * **Columns view same-column drag-drop now lands on the position the indicator showed.** Forward moves (drag a row downwards) used to drop one slot below the intended target because the splice removal shifted the destination index by one. Same-column reorders now adjust `insertAt` by -1 when `currentIndex < targetIndex`.
+    * **Columns view cross-column drag-drop into an unordered parent now honors the visual drop position.** Sending only the moved page's position landed it wherever its slug alphabetized to (the existing siblings stayed unordered). The client now renumbers every target-parent sibling to match the drop, which forces an unordered column into ordered state on first positional drop. Folder routes are unchanged; only on-disk folder names gain `NN.` prefixes.
+    * **Columns view auto-scrolls a column when the cursor is near its top/bottom edge during a drag**, so the user can drag toward rows that are currently scrolled out of view without manually scrolling.
+    * **Page editor no longer flashes a red "Failed to load page" banner after a save-with-rename.** The post-save self-navigation was triggering an immediate API re-fetch on the new route, and Grav's pages cache could briefly fail on the renamed path before reindexing. The editor now consumes a one-shot suppression flag after `goto()` and skips the unnecessary re-fetch — `pageData` was already authoritative from the move response.
+    * Inline HTML in section-panel help text (e.g. `<code>`, `<strong>`) now renders again. Help text outside an active search filter was being escaped instead of rendered; the two code paths are now consistent.
+    * Toggling a toggleable field whose default is an object (e.g. the page editor's Process group) no longer throws a `DataCloneError`. The form sync helper now falls back to a JSON round-trip when the browser's `structuredClone` rejects a value.
+    * After upgrading, humanized labels (e.g. "Twig Content Help" instead of the real translation) no longer linger until you switch language and back. The translation store now force-syncs on the first network load of each session.
+    * Toast notifications that name an entity (environment created, plugin installed, user saved, etc.) no longer render with a literal `{name}` placeholder. The translation strings were wrapping the placeholder in single quotes (`'{name}'`), which the ICU MessageFormat parser treats as a quoted literal and drops the substitution; the quotes are removed from every affected string across all shipped languages.
+    * Creating a new environment from the topbar switcher now responds instantly. The store was awaiting a blocking refetch that duplicated the X-Invalidates-driven background reload, adding an extra round trip before the success toast could fire.
+    * **Page editor Settings panel now actually saves.** Changing the folder name, parent, numeric-prefix toggle, or order from the normal-mode page editor used to silently noop — only Body Classes and the template selector marked the form dirty, and even when forced through, the move request was never sent. All four fields now mark the form unsaved and are committed via a follow-up `/pages/{route}/move` call after the regular header save. Requires grav-plugin-api ≥ 1.0.0-rc.9.
+    * **Tree-view reorder drag works again when dropping into another folder.** The frontend used to renumber every source-side sibling regardless of whether they were ordered, which silently force-added `NN.` prefixes to unordered pages; worse, the destination folder itself was included in that renumber list, so on the backend Phase 2 moved the destination away mid-batch and Phase 3 failed with "No such file or directory". The renumber list now skips unordered siblings, skips the destination parent and any ancestor of it, and the toast surfaces the real backend error message instead of a generic "failed to reorganize pages". Page identity uses `raw_route` so the home page is no longer ambiguous when dragged. Requires grav-plugin-api ≥ 1.0.0-rc.9.
+    * **Page title column in Tree, List, and Columns views now reads `page.title`.** Was bound to `page.menu`, which is a navigation label and falls back to slug-humanized text when no explicit menu field is set. Visible on pages that defined `title:` but no `menu:` — those used to render as e.g. "Contact-us" instead of "Contact Us". The actual fix that makes titles materialize on the wire is in grav-plugin-api 1.0.0-rc.9 (the flex-indexed listing serializer was preferring an empty in-memory title over the parsed-frontmatter one).
+    * **Tree-view expanded-folder state persists across navigation.** Opening a folder, editing a child page, and clicking back used to collapse every node again. Expanded routes are now stored in `sessionStorage` and rehydrated on remount; routes that no longer resolve on the server (page deleted in another tab) are dropped from storage during the rehydrate.
+    * **Language-code chip auto-widens for longer codes.** The badge that shows `EN-US` / `FR-FR` / etc. in the language menu and translation listings had a hardcoded `w-6` width, so any code longer than two characters wrapped inside the chip. It's now `width: auto` with 2px horizontal padding plus `shrink-0` + `whitespace-nowrap` so the badge grows to fit the code and never collapses when the parent dropdown is narrow.
+    * **Site languages now refresh after a `system.yaml` save.** Changing `languages.supported` or `languages.default_lang` from the Configuration → System page used to require a hard browser reload before the topbar language switcher and content-language selectors picked up the new list. The `contentLang` store now subscribes to the `config:update:system` invalidation tag the API emits on every system-config save and refetches the language list automatically.
+    * **Dashboard widgets refresh after any config save.** The dashboard was wired to auto-refresh on `pages:*` / `users:*` / `plugins:*` / `gpm:*` invalidations but not `config:*`, so cache-status / system-health / language-aware widgets could stay stale until the user hit the Refresh button. Now also subscribes to `config:update` and silently reloads when anything in `/config/*` changes.
+    * **Sidebar, menubar, floating widgets, context panels, and badge counts now refresh without a page reload.** Installing, removing, or enabling/disabling a plugin or theme used to leave the navigation stale — new sidebar items (e.g. from License Manager) didn't appear, the plugins/themes badges didn't move, and the same was true for the pages/users/media counts after creating or deleting content. All five integration points now react to the relevant `X-Invalidates` events the API already emits ([grav-plugin-admin2#17](https://github.com/getgrav/grav-plugin-admin2/issues/17)).
+
+# v2.0.0-rc.8
+## 05/17/2026
+
+1. [](#new)
+    * **The "Add Page" button on the Pages page is now a three-way split.** Mirrors classic admin's split-button: the main button still adds a regular page; the chevron opens a menu with **Add Folder** (a routing/grouping folder with no `.md` file) and **Add Module** (a modular sub-page — the folder name is automatically prefixed with `_` per Grav's modular convention, and the template picker shows only modular templates). The Folder form is slimmed down (no Page Title or template selector, just folder name + parent + ordering), and the Module form replaces the "Visible" toggle with an "Ordering" toggle because modular sub-pages never appear in nav. Requires grav-plugin-api ≥ 1.0.0-rc.8.
+    * **Admin Language dropdown now reflects actual installed translations.** Was a hardcoded list of ten languages regardless of which translation files were present; now enumerates `user/plugins/admin2/languages/*.yaml` via the new `GET /admin/languages` endpoint and shows each locale's native name. Requires grav-plugin-api ≥ 1.0.0-rc.8.
+    * **Initial Arabic and Hebrew translations shipped.** Full machine-quality translations covering every admin2-owned string (~1,470 keys each) with plural-aware ICU: Arabic includes all six CLDR plural categories (zero/one/two/few/many/other), Hebrew includes all four (one/two/many/other). Pro plugins remain English for now; their authors can ship their own translations against the same `window.__GRAV_I18N` contract.
+    * **Full RTL support for the admin shell and layout primitives.** `<html>` gains `dir="rtl"` automatically when the active language is Arabic, Hebrew, Persian, or any other locale Grav core flags as RTL, and `window.__GRAV_I18N.dir` is exposed for plugin web components. The sidebar slides in from the right edge on mobile and docks on the right at desktop with its border on the inline-start side; the context panel slides in from the left (with mirrored `@keyframes` for the animation); the floating widget FAB stack dock on the bottom-left; and the segmented-toggle thumb glides in the correct direction.
+    * **Codemod-driven migration of admin-next to Tailwind v4 direction-aware utilities.** ~55 components had their physical `ml-*`/`mr-*`/`pl-*`/`pr-*`/`text-left`/`text-right`/`border-l`/`border-r` rewritten to logical `ms-*`/`me-*`/`ps-*`/`pe-*`/`text-start`/`text-end`/`border-s`/`border-e` equivalents — one rule per side instead of physical + `rtl:` overrides. The codemod itself is committed at `scripts/rtl-pairs.mjs` for re-runs and so plugin authors can apply the same transform to their own bundles.
+    * **Toast notifications now originate from the inline-end corner.** The svelte-sonner `<Toaster>` `position` follows `i18n.dir` and flips between `bottom-right` (LTR) and `bottom-left` (RTL) when the admin language changes.
+    * **Directional icons flip with the language.** Pagination chevrons, "back" arrows on edit screens, drill-in chevrons in breadcrumbs and list items, calendar prev/next buttons, and tree expand chevrons all reverse direction in RTL so a "next" arrow always points the way reading flows. A new `<DirectionalIcon>` component is the canonical wrapper; vertical chevrons (`ChevronUp`/`ChevronDown`) deliberately do not flip.
+    * **Page Navigator d-pad swaps sibling semantics in RTL.** In Arabic/Hebrew the floating d-pad's left quadrant navigates to the *next* sibling and the right quadrant to the *previous* one, matching reading direction. The physical chevron arrows on the buttons stay pointing the same way; only their click targets and tooltips swap.
+1. [](#bugfix)
+    * **Font Size preference now actually scales every part of the admin.** rc.6 added the preference but the sidebar, top toolbar, pages views, dashboard widgets, and many other components used hardcoded pixel sizes that ignored it. All admin text now scales together as designed ([grav-plugin-admin2#11](https://github.com/getgrav/grav-plugin-admin2/issues/11)).
+    * **Admin now boots in the user's preferred language.** A pre-existing bug had the i18n store loading without `adminLanguage`, so the admin always booted in English regardless of the user's saved preference until they revisited Settings. Non-English users may now see translation gaps they never noticed before — those keys are being filled iteratively.
+    * **Language change just before logout now persists.** Picking a new admin language and clicking Sign Out within ~200 ms used to lose the change — the debounced PATCH fired after auth had been cleared and silently failed. The pending-preferences queue is now flushed before the logout call, and language changes bypass the debounce entirely.
+    * **`/translations/{lang}` requests for non-content-language locales now return the right strings.** Caused by a related server-side validation bug — see grav-plugin-api 1.0.0-rc.8.
+    * **Sidebar reappears at desktop sizes in RTL.** The initial RTL pass paired the mobile slide-off translate with an `rtl:` variant whose `[dir="rtl"]` attribute selector outranked the `lg:translate-x-0` desktop rule, so at lg+ in RTL the sidebar stayed pushed off-screen. The slide-off is now scoped to `max-lg:` so it only applies on small screens.
+    * **Split-button corners now flip correctly in RTL.** The Add Page / Save / plugin-action split buttons used physical `rounded-r-*` / `rounded-l-*` so in Arabic and Hebrew the two halves stayed rounded on the wrong sides and the seam looked off. They use logical `rounded-s-*` / `rounded-e-*` now, and their dropdown menus anchor to the inline-end side so they open under the chevron in both directions.
+    * **CodeMirror panels stay LTR in RTL admin languages.** The shared MarkdownEditor and CodeEditor wrappers used by every code-style field now explicitly pin `dir="ltr"` so the gutter, line numbers, and caret movement work as expected when the admin UI runs RTL. Markdown source and code never reverse. Requires grav-plugin-editor-pro ≥ 2.0.6.
+1. [](#improved)
+    * **Toast notifications across the admin are now translated.** Save / delete / move / reorder / install / update / theme-activation / cache-clear / backup / GPM-refresh and the rest of the everyday toasts (~50 strings) used to be hardcoded English template literals. They now go through `i18n.t()` against a new `ADMIN_NEXT.TOASTS.*` namespace with ICU plural forms where it matters (e.g. "Uploaded 1 file" / "Uploaded 3 files"), and ship with Arabic and Hebrew translations covering all CLDR plural categories. Plugin authors should reuse these keys instead of inlining their own copies — see `docs/RTL.md`.
+    * **Plugin RTL contract documented.** New `docs/RTL.md` covers the `window.__GRAV_I18N.dir` contract, `subscribe()` for live language switches, when to reach for Tailwind logical utilities vs `rtl:` pairs, the directional-icon convention, the "code stays LTR" rule, and the `[dir="rtl"]` specificity gotcha. Mirrored in the [admin-next integration skill](https://github.com/getgrav/grav-skills) so plugin authors find it.
+    * **FontAwesome directional plugin icons mirror automatically in RTL.** `faIconClass()` in admin-next now appends a `.flip-rtl` utility class for icons whose meaning reverses with reading direction (`long-arrow-left`/`right`, `chevron-left`/`right`, `angle-left`/`right`, etc.). Plugins that ship next/previous icons in their GPM metadata get the right visual orientation in Arabic and Hebrew with no plugin-side changes.
+    * **Configuration page header + "Info" config tab now translate.** Two leftover English literals — the big "Configuration" / "Configuration: {scope}" header on `/config/*` pages and the "Info" tab label — went through i18n now. New `ADMIN_NEXT.CONFIG.TITLE` / `TITLE_SCROLLED` keys plus a `PLUGIN_ADMIN.INFO` entry in en/ar/he. The auto-save "Failed to save X" fallback toast also gets a translated form label.
+1. [](#improved)
+    * **Many shell strings that were hardcoded English are now translated.** Sidebar nav items, settings-page section headings and toggle labels, environment switcher labels and toasts, dashboard stats and system-health widgets, page-creation form headings and toasts, and a handful of confirm-modal overrides. About 60 net-new i18n keys with Arabic and Hebrew translations.
+    * **User edit page no longer shows two competing "Language" pickers.** The Grav user blueprint's `language` field (site content language preference) was visible alongside Settings → Admin Language and the two looked identical but did different things. The blueprint field is now suppressed in admin2; classic admin still shows it.
+
+# v2.0.0-rc.7
+## 05/14/2026
+
+1. [](#new)
+    * **UI preferences now sync across browsers and devices.** Appearance (color mode, accent, font, font size), pages defaults (view mode, items per page), language, and editor mode are saved to the user's account via the new `/admin-next/preferences/user` endpoint instead of localStorage-only. Logging in on another browser picks up your customizations automatically. localStorage is still used as a render-cache so the first paint matches your last-known accent without flashing the Grav default. Legacy localStorage preferences are auto-migrated on first boot after upgrade. Requires grav-plugin-api ≥ 1.0.0-rc.7.
+    * **New "Site Defaults" section in Settings for super-admins.** Branding (logo type, text, custom light/dark images), default appearance/pages/language/editor preferences, site-wide editing behavior (auto-save, real-time collab), and menubar links — all editable from one place. Defaults apply to every user as the baseline; users can override the appearance/pages/language/editor pieces in their own preferences above, while the editing and menubar settings are site-wide only.
+    * **Site-wide branding replaces per-client logo.** Custom logo (light + dark) and brand text now live in site config and apply to every admin user. Logo files upload through the API to `user://media/admin-next/`, cacheable as real assets, instead of being stored as base64 data URIs in localStorage. Falls back to the built-in Grav logo when nothing is configured.
+1. [](#improved)
+    * **Cross-instance preference updates without a hard refresh.** Settings changed in one browser propagate to other open windows on the next tab-focus, or via a 30-second background poll while a tab is visible. The poll skips refetches while the user has unsent changes pending so an in-flight slider drag isn't clobbered by a stale server snapshot. The same poll doubles as a session keep-alive — every fetch runs through the JWT freshness check, so idle tabs no longer drift into a logged-out state.
+    * **Auto-save toggle, real-time collaboration toggle, and menubar links moved to site-wide configuration.** These were per-user preferences in the previous build; experience showed they make more sense as one decision the admin makes for the whole site. Existing per-user values from before this release are no longer applied — the super-admin sets the site value once for everyone.
+    * **Pages default view (Tree/List/Columns) now follows you across devices.** Was a device-local preference; now stored on your user account alongside items-per-page.
+    * **Preferences are saved even if you close the tab mid-edit.** Debounced PATCHes that hadn't flushed yet are sent via `fetch(keepalive: true)` on `pagehide`/`visibilitychange`, so changing a font and immediately closing the window no longer loses the change.
+
+# v2.0.0-rc.6
+## 05/13/2026
+
+1. [](#new)
+    * **Array fields can now constrain rows to a fixed list of options.** Set `create: false` on an array field with `data-options@` and each row renders as a dropdown instead of a free-form input. The "Add item" button hides once every option is already in the list.
+    * **Tools → Logs viewer can now switch between log files.** Plugins that subscribe to the new `onApiLogFiles` event in the API plugin (rsync, etc.) get their log file listed in a selector alongside `grav.log`, `email.log`, and `scheduler.log`. The selector is hidden on default installs where only the core logs exist. Requires grav-plugin-api ≥ 1.0.0-rc.6.
+    * **Appearance settings now include a Font Size option.** Sits alongside Color Mode, Accent Color, and Font, with Small, Normal, Large, and X-Large presets that scale the root font size via a CSS variable so all rem-based UI scales together ([grav-plugin-admin2#11](https://github.com/getgrav/grav-plugin-admin2/issues/11)).
+1. [](#bugfix)
+    * **Add Page form picks the right numeric prefix for new pages.** The form always sent `order: 1`, so creating a child under a folder whose siblings were unprefixed still produced `01.foo/`, and adding to an already-ordered group (`01..03`) would collide on `01` instead of becoming `04`. The form now asks the API for `order: "auto"` and the server scans the parent's siblings to pick the next free number (or omit the prefix when no sibling uses one), matching admin-classic's add-page behavior. Requires grav-plugin-api ≥ 1.0.0-rc.6.
+1. [](#improved)
+    * **Static assets now served directly by the webserver, not PHP.** All ~260 JS chunks, CSS, and fonts in the SPA bundle are loaded directly from `user/plugins/admin2/app/` via Apache/LiteSpeed/Caddy/Nginx, the same way admin-classic has always served its assets. The previous design routed every chunk request through `index.php` and a per-site materialized copy in `cache/`, which tripped per-account concurrent-PHP-process limits on shared hosting (typically LiteSpeed) and produced waves of `508 Loop Detected` errors on fresh installs (getgrav/grav#4080). The materialization codepath is gone; one shared plugin install now serves any number of sites with different routes or subfolder rootUrls. PHP handles only the SPA shell HTML and the once-a-minute `_app/version.json` poll.
+    * Markdown editor now shows peer name labels next to cursors during collaborative editing, matching the labeled cursors editor-pro already renders.
+    * **Collaborative editing is on by default.** Installing the sync plugin should mean live multi-peer editing "just works"; you no longer have to flip a hidden preference to enable it. Existing users who explicitly turned it off keep their setting. The page editor still degrades cleanly to solo mode when sync isn't installed or the handshake fails, so the default is safe everywhere.
+    * **Users list and detail pages are usable without `api.users.read`.** Callers without the read permission used to 403 on `GET /users` and `GET /users/{me}`; the list now auto-filters to just the caller's own row and the self-edit path lets you save your own profile with only `api.access`. Sensitive fields (`access`, `state`) are stripped from the PATCH body and the Permissions section is hidden for non-managers, matching what the API has always enforced for self-edits. Requires grav-plugin-api ≥ 1.0.0-rc.6.
+    * **User account form works on sites without admin-classic installed.** Grav core's `account.yaml` references `\Grav\Plugin\Admin\Admin::adminLanguages` and `::contentEditor` for the language and content-editor selects. Admin2 now substitutes those references when the class isn't loadable — English-only for the language picker, and the legacy `onAdminListContentEditors` event for the content-editor picker so editor-pro and other editor plugins still register themselves the way they always have.
+1. [](#bugfix)
+    * **Permission tri-state toggles on nested rows respond on first click.** Children of crudl permission groups (e.g. `User Accounts` → `Read`/`Update`/`Delete`/`List`) needed the parent row's toggle to be clicked once before any of the children would respond — initial-render handlers weren't binding through the recursive snippet. Rebuilt as a recursive component that takes the access tree as a prop, so each row's events bind on first mount.
+    * **Changing a page's template no longer locks the editor in a sync-room reconnect loop.** The Expert-mode template select reseeded the new Y.Doc room with a stale `headerData.name`, which round-tripped through the snapshot applier and flipped the template back — restarting the cycle for thousands of API requests until the rate limiter kicked in. The seed now reflects the destination template, and the field keeps `headerData.name` in lockstep with `template`.
+    * **Page editor mounts in solo mode when the collab handshake fails.** If `init` / `pull` return 403 (e.g. the user lacks `api.collab.read`), the content area used to hang on "Connecting to collaboration session…" forever. It now falls through to a single-user mount so the form is at least usable; the collab error still surfaces via the connection-status indicator.
+    * **Mercure SSE reconnects after the subscriber JWT expires.** The hub closes the EventSource with 401 once the token baked into the URL expires, and the browser's built-in retry just replayed the dead token. The provider now re-mints the JWT proactively at ~80% of its TTL and reactively on a hard close, then re-opens both streams.
+    * **Top progress bar slides cleanly without the visible backwards stutter.** The indeterminate bar shown during long-running dashboard actions ("Update All", Grav self-upgrade, backup) animated `translateX` as a percentage of the bar's own width while simultaneously pulsing the width from 30% → 60% → 30%. In the last quarter of each cycle the shrinking width made the same translateX percentage resolve to a smaller pixel offset, so the bar's left edge briefly moved leftward across about a quarter of the screen before snapping to the next cycle. The bar's width is now constant, so the slide is purely forward.
+    * **Toggling Preview off no longer blanks the markdown editor.** The CodeMirror container was wrapped in `{#if showPreview}{:else}`, so toggling preview on unmounted the editor view entirely and toggling back created a fresh empty div. Form state was intact (a refresh restored the content), but the view was gone. Both panes now stay mounted and visibility toggles via CSS, preserving CodeMirror state, cursor position, undo history, and the collab binding ([grav-plugin-admin2#10](https://github.com/getgrav/grav-plugin-admin2/issues/10)).
+    * **Radio and checkbox fields inside list items now pre-select from frontmatter.** All radios within a list item shared `name={field.name}`, collapsing every item's radio group into a single browser-level group so only one option could ever appear checked. Each FieldRenderer instance now owns its own radio group, and value comparison coerces both sides through `String()` so YAML integer values match string-coerced option values. Same fix applied to the checkbox block ([grav-plugin-admin2#13](https://github.com/getgrav/grav-plugin-admin2/issues/13)).
+    * **Page editor no longer marks the form dirty on initial load.** The dirty tracker takes an immutable snapshot of the loaded header on mount and compares incoming field values against it via deep-equal, so mount-time onchange echoes from custom web components and array fields don't trip the unsaved-changes flag. `switchToNormal` no longer pre-seeds `headerChanges` with every parsed YAML key either, so toggling Expert to Normal on an unedited page stays clean ([grav-plugin-admin2#14](https://github.com/getgrav/grav-plugin-admin2/issues/14)).
+    * **File-picker fields with a custom `folder:` no longer silently wipe their saved value.** The auto-clear effect that clears a field when its referenced file goes missing was using the current page's media context as the source of truth, but blueprint fields with a custom folder (`page://videos`, `@self/verter`, etc.) point at files that aren't in that context. The effect always saw the file as "missing" and called `onchange('')`, which tripped the dirty flag on load and would have wiped the value on save (silent data loss). The effect is now gated to only run when the field is bound to the page's own media ([grav-plugin-admin2#14](https://github.com/getgrav/grav-plugin-admin2/issues/14)).
+    * **Colorpicker fields now honor `default:` from the blueprint.** The initial-color fallback chain only checked `value` then `placeholder`, skipping `default` entirely, so the swatch always landed on `#000000` regardless of what the blueprint specified. `field.default` now sits between `value` and `placeholder` in the fallback chain, matching the convention every other field component already follows ([grav-plugin-admin2#16](https://github.com/getgrav/grav-plugin-admin2/issues/16)).
+    * **Modular child page editor no longer shows a phantom empty tab from `unset@: true` directives.** Themes like Typhoon that extend a parent blueprint and use `hero: unset@: true` to drop an inherited tab leave a placeholder field behind in the merged blueprint (the directive doesn't fully remove the entry). The tabs renderer was matching any entry with a `fields` array as a tab, so the placeholder rendered as a bare lowercase tab with unlabeled values. Tabs now require an explicit `type: tab`, or `fields` plus a title or label.
+
+# v2.0.0-rc.5
+## 05/08/2026
+
+1. [](#new)
+    * **Canonical `ICU.PLUGIN_ADMIN.*` vocabulary.** Ported every `PLUGIN_ADMIN.*` key referenced by core + 3rd-party blueprints into `languages/en.yaml` under the ICU namespace — 662 keys, covering ~600 admin-classic strings (verbatim port for term continuity) plus 60+ keys authored for net-new Grav 2 sections (Twig sandbox, `read_file()` constraints, scheduler advanced features, flex pages/users config). Admin2 is now self-sufficient for blueprint translation; admin classic no longer needs to be installed for blueprint labels and helps to render correctly. Requires grav-plugin-api ≥ 1.0.0-rc.5 for the matching ICU-first server-side resolver.
+1. [](#improved)
+    * **Blueprint help, section bodies, and `display` content render HTML.** Field `help:` text and section `text:`/`description:` blueprints now pass through `{@html}` so inline `<code>`, `<strong>`, etc. render as HTML instead of escaped text — matching admin classic. Same trust model as admin classic (blueprint YAML is server-controlled; not user-submitted). 28 field components updated.
+    * **`SectionField` now renders `field.text` in addition to `field.description`.** Grav core blueprints use `text:` for section bodies (e.g. the `READ_FILE_SECTION_HELP` paragraph in `system/blueprints/config/security.yaml`), but the renderer was only checking `description`, so those bodies never appeared.
+1. [](#tools)
+    * **New `scripts/i18n-blueprint-audit.mjs`.** Two modes: the default mode lists every `PLUGIN_ADMIN.*` key referenced by blueprints and reports which are missing from admin2's lang file (with a paste-ready ICU emit option); `--hardcoded` finds blueprint props (`label/help/title/text/description/*_msg`) that hold a literal string instead of a translation key reference. Exits non-zero on missing/hardcoded hits — usable as a CI gate.
+
+# v2.0.0-rc.4
+## 05/06/2026
+
+1. [](#bugfix)
+    * **Sidebar version label refreshes after a Grav core upgrade.** Updating Grav from the GPM page used to leave the `Grav v…` line in the sidebar stuck at the previous version until the next full reload — only admin/admin2/api self-updates were re-fetching the user profile. The shell now also re-fetches when Grav itself is upgraded. Requires grav-plugin-api ≥ 1.0.0-rc.4.
+
+# v2.0.0-rc.3
+## 05/05/2026
+
+1. [](#new)
+    * **Color picker overhaul.** Replaced the bare HTML5 color input with a composable picker: saturation pad, hue + alpha sliders, hex input with arrow-key bumping, screen eyedropper, and a preset palette — themed to match admin-next light/dark. Set `alpha: false` on a `colorpicker` field in your blueprint to hide the alpha slider and emit strict 6-digit `#RRGGBB` (the Grav classic colorpicker convention).
+1. [](#bugfix)
+    * **Stand-alone `column` blueprint fields render their children.** Blueprints that use `type: column` outside a `columns` parent (e.g. the delivernext theme's `_ContentOptions`) used to drop through to the unknown-type debug renderer — field key, `column` type badge, empty textarea. They now render as a transparent group, matching admin-classic.
+    * **Sidebar and top bar now stay pinned while editing long pages.** A destructive overflow rewrite in the editor was collapsing the admin shell so the whole layout scrolled with the content; the editor side has been fixed and the admin's flex shell is back to behaving as a fixed frame around a single scrolling content area (requires editor-pro ≥ 2.0.3).
+    * **Segmented Yes/No toggles inside blueprint forms no longer punch through the sticky tab strip while scrolling.** The toggle now isolates its own stacking context so its `z-10` button labels can't bleed through pinned bars above them.
+
+# v2.0.0-rc.2
+## 05/05/2026
+
+1. [](#bugfix)
+    * **Blueprint `display` fields now render their HTML content.** A `type: display` field with HTML in `content:` (e.g. `<p>...</p><code>...</code>`) was being printed as escaped text in admin-next, while admin-classic has always rendered it as parsed HTML ([grav-plugin-admin2#4](https://github.com/getgrav/grav-plugin-admin2/issues/4)). The non-markdown branch of the renderer now uses `{@html}` to match classic behavior.
+    * **No more solo→collab flash on the page editor.** When collab was enabled the content editor used to mount in solo mode, then tear down and remount once the room connected — flashing whatever the empty Yjs fragment showed in the meantime (often stale content from a prior session). The page editor now defers just the content field until the room is ready, leaving the rest of the form (title, header, taxonomy, etc.) interactive throughout. A short "Connecting…" placeholder shows in the content area while the room negotiates.
+    * Requires grav-plugin-api ≥ 1.0.0-rc.2 for the related blueprint-resolver and page-tree-sort fixes (issues [#1](https://github.com/getgrav/grav-plugin-admin2/issues/1), [#3](https://github.com/getgrav/grav-plugin-admin2/issues/3), [#5](https://github.com/getgrav/grav-plugin-admin2/issues/5)). Requires grav-plugin-sync ≥ 1.0.1 for the storage-layout fix that keeps sync data out of `user/pages/`.
+
+# v2.0.0-rc.1
+## 05/03/2026
+
+1. [](#bugfix)
+    * **Static `.json` / `.xml` / `.rss` assets under the admin route now serve correctly.** SvelteKit polls `_app/version.json` every minute for hot-reload detection, and any plugin asset using one of those extensions ran into the same wall — Grav core strips known page extensions from the parsed route, so admin2's static-asset matcher was looking for a file with no extension and returning 404. Admin2 now reattaches the original extension before matching, leaving hashed `.js` chunks (and other already-extension-bearing paths) untouched.
+    * Minor UI fixes
+
+# v2.0.0-beta.17
+## 04/28/2026
+
+1. [](#bugfix)
+    * **Fix: 500 errors when navigating after an Admin2 self-update.** Updating Admin2 used to leave the running tab pointing at bundle chunks that had just been overwritten on disk; clicking another page would surface a 500 in the toast until a manual browser reload. The admin now polls for new builds, converts the next navigation into a full page load when the bundle has changed, and hard-reloads immediately after Admin2 is updated so users don't have to wait.
+
+# v2.0.0-beta.16
+## 04/28/2026
+
+1. [](#new)
+    * **ICU MessageFormat translations via dual-namespace lookup.** Admin2 now looks up every translation key in two places, in order: `ICU.<key>` (passed through ICU MessageFormat — placeholders, plurals, select cases, number/date formatting), then `<key>` (returned raw, as a fallback for legacy strings). The contract is namespace-based, not content-based: a value is reformatted only when its key sits under `ICU.`, so plugins can ship a single language file that works on both Grav 1 / classic admin (which reads only the legacy block) and Grav 2 / Admin2 (which prefers the `ICU:` block when present). CLDR plural categories are applied per-locale automatically, so Polish, Czech, Russian, Arabic etc. get the right form without per-language code. Resolves [getgrav/grav#4064](https://github.com/getgrav/grav/issues/4064). See the [Admin2 Translations docs](https://learn.getgrav.org/2.0/plugins/admin-translations) for the full plugin-author guide.
+    * **`languages/en.yaml` shipped with Admin2 plugin.** All `ADMIN_NEXT.*` strings now live in the Admin2 plugin under a root `ICU:` block, merged into Grav's standard language pipeline and served via `GET /api/v1/translations/{lang}`. The admin-next runtime keeps only a 4-key boot fallback (loading / sign-out / boot-failed / offline) for the brief window before the API responds. Plugins can contribute their own `ICU.PLUGIN_FOO.*` keys with no special build step or registration.
+    * **Full ICU key coverage of the admin-next UI.** `languages/en.yaml` grew to ~780 strings — every previously-hardcoded toast message, button title, aria-label, placeholder, and inline label across the admin shell, blueprint forms, dashboard widgets, media manager, pages list, plugin / theme / user pages, settings, login / setup / forgot / reset, and tools tabs is now an `ICU.ADMIN_NEXT.*` key. New strings going forward are expected to ship as keys from the start (no English literals in source).
+    * **`i18n.tHtml()` markdown renderer.** Companion to `i18n.t()` for paragraphs that need inline `**bold**` / `*italic*` / `` `code` `` / `[link](url)` — runs the translation through `marked.parseInline`, so each user-facing paragraph stays a single translatable string instead of being fragmented around `<strong>` / `<em>` / `<a>` tags. ICU placeholders run first, so `{name}` etc. work the same as in `t()`.
+    * **`window.__GRAV_I18N` global bridge** — read-only frozen surface (`t`, `has`, `locale`, `subscribe`) for plugin web-component bundles (e.g. `editor-pro`, `ai-pro`) that aren't built against the admin-next runtime. Lets external bundles call into Admin2's translation cache and react to locale changes without their own i18n stack.
+    * **Runtime humanize tracker** — `__GRAV_I18N_DEBUG.enable()` from the browser console (or `?i18n-debug=1` on the URL) logs every translation-key miss to a tracker readable via `__GRAV_I18N_DEBUG.report()` / `.misses()` / `.yaml()`. While debug is on, any humanize fallback is wrapped in `⟦…⟧` brackets so untranslated keys are visible directly in the rendered UI. Persists across reloads via `localStorage`.
+    * **User edit page exposes the account-state toggle.** Grav core's `account.yaml` blueprint has no field for `state` (the `enabled` / `disabled` account flag), so admin-classic and admin-next both lacked a way to disable a user without hand-editing YAML. Admin2 now hooks `onApiBlueprintResolved` for the `account` template and injects a `state` select (Enabled / Disabled) directly after the title field, gated to managers (`api.users.write` / `api.super` / `admin.super`). The PATCH endpoint already enforced manager-only writes for `state` (post-GHSA-r945-h4vm-h736), so the field is consistent with the underlying authorization. New i18n keys: `ICU.ADMIN_NEXT.USERS.STATUS`, `ICU.ADMIN_NEXT.USERS.STATUS_HELP` (the existing `ICU.ADMIN_NEXT.ENABLED` / `DISABLED` are reused for option labels). Requires grav-plugin-api ≥ 1.0.0-beta.15 (which fires the event for the user blueprint).
+    * **Configuration → Info filter.** The header filter input is now wired to the `Info` scope as well, so PHP settings can be searched the same way as System / Site / Security configuration. Typing into the box auto-expands any PHP Configuration section that contains a match (and hides those that don't), narrows the visible Server Info / PHP Extensions / Plugins / Themes cards to matching rows, and highlights the matching substring in yellow with `<mark>`. When the query has no hits in any panel a "No matches found" empty state is shown. Search is also case-insensitive and matches against keys, values, and section headings. New i18n key: `ICU.ADMIN_NEXT.CONFIG.NO_MATCHES_FOUND`.
+    * **List-field filter now matches inside list items.** The blueprint filter previously only matched against field labels / help / name in `BlueprintField` definitions, so on `/admin/config/media` typing `jpg` (an item key) or `application/json` (a value inside a list row) returned an empty list field with no items. `ListField` now receives the active `filter` from the form-level filter input and hides items whose key and string-y values all fail to match. Matching items auto-expand so the matched content is visible immediately, and drag-reorder is suspended while the filter is active (visible-row indices don't map back to the underlying array). Clearing the filter restores the previous expand/collapse state.
+2. [](#bugfix)
+    * **2FA enrollment section now flips to "Finish enabling 2FA" immediately** after clicking *Enable 2FA*, instead of staying on the off-state until the page is reloaded. The `TwoFactorField` `$effect` that mirrors props into local stage was re-running when the in-flight `busy` flag flipped back to `false` and overwriting the freshly-set `pending` stage with `idle` (because the parent's `user.twofa_secret` prop only updates on enable/disable, not on generate). Effect now skips the `pending → idle` downgrade while we hold a locally-generated QR payload that the parent hasn't observed yet, so the QR + verification-code form appears the moment the secret is generated.
+    * **AI Assistant popover sits above the floating-action-button layer.** The widget panel and the FABs both used `z-50`, and FABs rendered after the panel in DOM order — so when the AI Assistant chat was open, the AI Translate / AI Assistant FABs covered the popover's send button. Panel bumped to `z-[60]`. Fixes the unreachable "Send" control on the `Ask anything…` row.
+    * **AI Assistant "Replace" now updates the editor under collaborative editing.** Page-edit's `grav:editor:insert-content` handler used to set `editorPro.value = newContent` directly, but Editor Pro's value setter early-returns when a Yjs fragment is bound (so routine prop syncs from peers can't wipe their pending edits). Result: `headerData.content` flipped to the AI output but the visible editor stayed on the previous text. Handler now calls the new `editorPro.replaceContent()` method when present, falling back to `value =` for older Editor Pro builds. Under collab the resulting `setContent` transaction propagates to peers via y-prosemirror. Requires grav-plugin-editor-pro ≥ 2.0.2.
+    * **`Verify & Enable` 2FA button no longer renders as `Verify &amp; Enable`.** The i18n approval pipeline captured the literal markup source (`&amp;` — Svelte/HTML's encoded form of `&`) into `entry.text`, then the YAML emitter chose that over the corrected `entry.value` field for one key. Fixed in `languages/en.yaml` (and the upstream `languages-additions.yaml` artifact in admin-next).
+    * **Typing inside an expanded list item no longer collapses it.** On `/admin/config/media` (and any blueprint with a list field) every keystroke in a child field round-tripped through `emitChange → onchange → parent → value prop`, where ListField's external-sync `$effect` saw the new value and re-parsed it into fresh items — minting new `id`s, breaking the keyed `{#each}` map (focused input unmounted → focus dropped → page scrolled to the next focusable target), and resetting `collapsed` to the field default. Symptom: opening "default" in Media Types and typing made the panel jump down the page and close. `emitChange()` now stamps `lastExternalJson` with the JSON it just emitted, so the round-trip prop change matches and the `$effect` skips reparsing. External value changes (page reload, undo, collab snapshot) still mint fresh items as before.
+
+# v2.0.0-beta.15
+## 04/26/2026
+
+1. [](#new)
+    * **Collapsible right rail on the page editor.** The right column on `/pages/edit/*` (Page Info + Translations + Page Media when no blueprint provides a `pagemedia` field) is now toggleable from the page-edit top action bar — between the page-navigator button and the Preview/Copy/Delete cluster. Collapsing fully removes the column (no reserved gutter), so the form fills the full available width; expanding restores the rail at its 280px width. Uses the Tabler `arrow-bar-left` / `arrow-bar-right` icons (inverse of the global sidebar toggle, since this rail closes to the right). State persists per-browser via the existing preferences store as `pageSidebarCollapsed`. Only renders at `lg+` widths — the rail is already a vertical stack on smaller breakpoints.
+2. [](#improved)
+    * **Mobile / narrow-viewport polish across admin-next.** First sweep through the admin shell to make every page usable down to phone widths without horizontal page scroll or overlapping controls. Concrete changes:
+        * **App header** — `View site` collapses to its globe icon below `lg`, with `whitespace-nowrap` to prevent the previous "View / site" two-line wrap.
+        * **Configuration page** — top-level scope tabs (System / Site / Media / Security / Info) drag-scroll horizontally instead of pushing the page wide; the wrapper finally has `min-w-0`. Below `sm` the Filter input drops to its own row above the tabs (`flex-col-reverse`) so the tabs aren't squeezed. Inside `TabsField` (side-tabs layout) the active-pane horizontal padding flattens to `py-4` on small screens (`p-4 → py-4 lg:p-4 lg:pl-6`), reclaiming ~32px of content width.
+        * **Drag-scroll action** — new `$lib/utils/dragScroll.ts` Svelte action: pointer-drag (mouse / pen, leaves touch alone) with a 4px deadzone, captures pointer once dragging, swallows the trailing click so buttons inside the strip don't fire after a drag. Applied to ConfigNav and TabsField navs.
+        * **Users / Plugins / Themes list pages** — single-tap on a row now navigates straight to the detail page when the `lg+` preview pane is hidden (`window.matchMedia('(min-width: 1024px)')`). Previous behavior (single-click selects, double-click opens) silently did nothing on narrow viewports because the preview was `hidden lg:block`.
+        * **Plugin / Theme / User detail toolbars** — Update / Remove / Enable / Save / Activate buttons collapse to icon-only below `sm` (text wrapped in `hidden sm:inline`, `aria-label` + `title` for a11y). The header switches to `flex-col` below `sm` so the toolbar drops to its own row under the title block, and the toolbar is `flex-wrap justify-center` on small / `justify-end` on `sm+`. Theme info card and plugin info card stack the screenshot / icon above the description on small screens (`flex-col items-center` → `sm:flex-row sm:items-start`).
+        * **Permissions field** — the three-state Allowed / Denied / Not-set picker is now icon-only at every breakpoint (`Check` / `Ban` / `Minus`, 14px). The text labels were too wide to keep three buttons + the action label on one row at `sm` widths.
+        * **Pages list / tree views** — Status column is now a single `CircleCheck` (green) / `CircleDashed` (muted) icon in a `w-6` cell instead of the old `Published` / `Draft` text badge. Template column hides below `md`; Modified column hides below `sm`. Row gap dropped from `gap-4` to `gap-2`, row padding dropped from `px-4` to `px-2` below `sm`. The hover-only Delete button is absolute-positioned over the row instead of reserving a `w-10` column slot, so the title gets the freed width. Title row also got the missing `min-w-0` on the inner flex container so `truncate` actually shrinks the page name when long titles co-exist with translation badges (e.g. "Frameworks That Empower Product Teams" + EN/FR/DE).
+        * **Pages toolbar search** — focusing the search input on small screens hides the trailing toolbar (language switcher, reorder, view modes) via Tailwind 4's `group-has-[input:focus]:hidden` and the search expands to fill the row, so there's actually room to type. At `sm+` everything stays side-by-side as before.
+    * **Tabler-style sidebar icons.** The global sidebar's logout button now uses Tabler `logout` (door + outbound arrow) instead of Lucide `LogOut`, and the bottom-right sidebar collapse / expand toggle uses Tabler `arrow-bar-left` / `arrow-bar-right` instead of plain chevrons. SVGs are inlined (3 icons total) — no new icon dependency. Sized to 18px to read clearly against the sidebar background.
+    * **Sidebar version label refreshes after a self-update.** Updating the Admin2 plugin from inside admin2 itself used to leave the bottom-of-sidebar `Admin v…` label showing the previous version until the next page reload — the on-disk `blueprints.yaml` was current, but `auth.adminVersion` (cached on the auth store from `GET /me`) was stale. The app shell now subscribes to `plugins:update:{admin,admin2,api}` invalidation events and re-fetches `/me` when any of them fires, so the label flips to the new version in place. Future plugin self-updates will refresh the label automatically.
+3. [](#bugfix)
+    * **Editor-pro toolbar pins correctly below the page tabs at every viewport size and row count.** Two issues were stacking up: (1) `StickyHeader.svelte` declared its `bind:this` refs (`headerEl` / `sentinel`) as plain locals rather than `$state`, so the `$effect`s gated on `if (!headerEl) return` ran once with `undefined`, bailed out, and never re-ran — meaning the `ResizeObserver` that publishes `--sticky-header-height` to the page never started, and that variable stayed at `0px`; (2) even with a correct page-header height, the editor toolbar and the blueprint tab strip both pinned at the same `top: var(--sticky-header-height)`, so when the editor-pro toolbar was wrapped to two rows on narrower viewports, its first row hid behind the tabs and only the second peeked below. `TabsField` now redefines `--sticky-header-height` for its own descendants to "inherited value + tab-strip height" (computed in JS — CSS rejects `--x: calc(var(--x) + N)` as a self-referential cycle and would resolve to the guaranteed-invalid value), so any sticky element nested inside the tabs (the editor toolbar, or future nested sticky bars) automatically pins below the tabs without having to know about them. The reapply runs on tab-strip resize and on style mutations of the host that defines the variable, so the offset tracks the page header's expanded↔compact animation. Editor-pro itself drops its JS-driven `position: fixed` fallback when no `overflow: hidden` ancestor blocks sticky and uses pure `position: sticky; top: var(--sticky-header-height)`, so 1-row and 2-row toolbar layouts compose identically with the stack — no per-frame layout reads on scroll. Requires grav-plugin-editor-pro ≥ today's tip.
+    * **Page-list row double-click no longer drags a text selection into the destination page.** Double-clicking a page row in the Miller view to open the page-edit detail used to cause every text node on the destination to render with the browser-default text selection highlight applied — the second mousedown selected the row label as a "word/paragraph" and the selection persisted across navigation. The Miller row now `preventDefault`s the second mousedown (so `e.detail > 1` won't initiate text selection) without affecting the single-click path, and the dblclick handler also clears any straggling range before navigating, so the destination page starts clean.
+
+# v2.0.0-beta.14
+## 04/25/2026
+
+1. [](#improved)
+    * **"Update All" toasts now expand failure reasons inline** instead of just listing slugs. Bulk update on the dashboard, the plugins page, and the themes page used to render `"Updated 3, failed 2: foo, bar"` — leaving the actual constraint (Grav too old, PHP too old, conflicting plugin version) buried in the network panel. Each failed package's reason now appears on its own line under the count: `"foo: One of the packages require Grav >=2.0.0-beta.2. Please update Grav to the latest release."` `UpdateAllResult` also gains `skipped[]` (packages brought current as a cascade dep of an earlier iteration in the same batch) and `cascaded_dependencies[]` (slugs installed/updated as deps of others), surfaced from the new bulk-update dependency resolution. Requires grav-plugin-api ≥ beta.14.
+
+# v2.0.0-beta.13
+## 04/25/2026
+
+1. [](#new)
+    * **Customizable dashboard.** The dashboard is now a 4-column responsive grid where every widget can be reordered, resized, hidden, or restored. Click the **Customize** pencil in the dashboard header to enter edit mode: each widget grows a small toolbar with a drag handle, a size picker (`SM` / `MD` / `LG` / `XL` per the widget's allowed sizes), and a hide toggle; an "Add a widget" tile lets you bring back hidden ones. Saved per-user via `PATCH /dashboard/layout`. Super-admins additionally get a **Save as site default** action that stamps the layout for everyone via `PATCH /dashboard/site-layout` — site-hidden widgets stay hidden for non-super users and cannot be re-enabled per-user. Three built-in presets are accessible from the customize toolbar:
+    * **Default** — balanced layout: stats (full width), Page Views + System Health, Recent Pages + Top Pages + Backups, Notifications + News Feed.
+    * **Minimal** — stats + recent pages only.
+    * **Compact** — every widget at its smallest supported size.
+    Widget sizes are now horizontal-only (column counts), so a smaller widget hugs its content height instead of being padded out to a row span. The grid uses `auto-rows-min` and each widget container is `h-full`, so widgets in the same row align cleanly to the tallest. A new **`xl`** size (full 4-column width) joins `xs` / `sm` / `md` / `lg` (1, 1, 2, 3 columns). Plugin-contributed widgets are picked up via the API's `onApiDashboardWidgets` event with no client changes — they appear in the picker and the customize-mode size selector automatically. Requires grav-plugin-api ≥ beta.14.
+    * **Notifications widget rewrite (v2 schema)** — the Notifications widget now renders structured payloads from `https://getgrav.org/notifications2.json` instead of the v1 "embedded HTML in `message`" dump. `promo` notifications render as a gradient card at the top of the widget (image / title, markdown message, action button — accent color picked from `purple` / `blue` / `teal` / `amber` / `rose`), and `info` / `notice` / `warning` items render as a clean row with an emoji icon, optional bold title, markdown-rendered message, and a relative date. Messages support inline bold / italic / code / links via `marked` (existing dep — no new dependencies); links open in a new tab. The TopBanner (top-of-dashboard banner for `top`-located notifications) was rewritten the same way, replacing the previous `{@html message}` dump with a structured icon + title + message + action layout that matches the rest of the admin design language. Auto-rotates between multiple banners with prev/next controls and dismiss; rotation pauses on hover.
+    * **Password strength meter + requirements modal** on every password entry surface — first-run setup, password reset, new-user creation, and the user profile edit form. Reads the configured `system.pwd_regex` (or the new optional `system.pwd_rules` list of labeled rules) via `GET /auth/password-policy` and renders a live rule checklist plus a single horizontal meter. Color flips to green only when every required rule passes (so the user knows "this will submit"); fill percentage keeps climbing with a lightweight entropy score, so a barely-passing password sits mid-green and a long, diverse one pushes to full. A small `Requirements` hint button next to the field opens a modal listing each rule with live met/unmet indicators. The setup-status endpoint piggybacks the policy so `/setup` gets it in one round-trip; all three legacy flows cache the policy via a shared Svelte store. Includes a reveal (eye-icon) toggle on every password field. Requires grav-plugin-api ≥ beta.13.
+    * **Real-time collaborative editing on pages**, opt-in via Settings → Editing → "Real-time Collaboration". Multiple users can edit the same page simultaneously and see each other's changes character-by-character, with named cursors in the content editor and live presence avatars in the topbar. The whole blueprint is mirrored into a shared Yjs document (not just the markdown body) so concurrent edits to title, taxonomy, options-tab fields, etc. all merge cleanly per-key — long-form text fields (markdown / textarea / yaml / editor) flow through `Y.Text` for character-level CRDT, while toggles, selects and dates use last-write-wins on the enclosing `Y.Map`. The transport is capability-driven: the client probes `GET /sync/capabilities` and prefers `MercureProvider` (sub-100ms SSE) when the server advertises a Mercure hub, falling back to `PollingProvider` (1-second short-poll) otherwise. Editor integration uses y-prosemirror for editor-pro and y-codemirror.next for the markdown CodeMirror; both share the same Y.Doc as the form binding so every editor sees a single source of truth. Requires grav-plugin-api ≥ beta.13, grav-plugin-sync ≥ 1.0, grav-plugin-editor-pro ≥ 2.0.1, and (optionally for low-latency) grav-plugin-sync-mercure.
+    * **Page-editor presence + Normal/Expert toggle relocated to the global topbar.** The page edit toolbar was visibly cramped on standard 13–14" laptops: the per-page actions (history, language, drafts/published, page navigator, copy/delete, save/save-as) plus the collab presence cluster and the editor-mode segmented control were fighting for the same row. Presence (user avatars + sync status badge) now sits to the right of the environment selector at the top of the app shell, where it's globally visible and matches the global nature of "who else is here." The Normal/Expert pill moves up next to the View site button — close to the other top-of-window editing chrome and out of the per-page button row. Both slots are populated only by the page edit route (via a small `pageEditorBar` Svelte 5 store) and clear on route teardown so the topbar reverts to its plain shape elsewhere in the admin.
+2. [](#improved)
+    * **Refresh button force-refreshes notifications and feed caches.** The dashboard's Refresh button (the `RefreshCw` action in the header) now passes `?force=true` to `/dashboard/notifications` and `/dashboard/feed` in addition to the GPM cache flush — so you can immediately pick up a freshly-deployed notification without waiting up to 30 minutes for the per-user cache to expire. Background polls and post-mutation invalidation reloads still use the cached path, so the network footprint of normal use is unchanged. Pairs with the new `notifications2` endpoint on getgrav.org.
+3. [](#bugfix)
+    * Mixed editor types (the built-in CodeMirror markdown editor vs a custom field like editor-pro) in the same collab session no longer silently split-brain the content. Their underlying CRDT shapes (`Y.Text` vs `Y.XmlFragment`) live in the same `Y.Doc` but don't cross-sync at the character level — a CodeMirror peer's keystrokes never reach the editor-pro peer's TipTap doc and vice-versa. The page editor now arbitrates a first-joiner-wins lock: each peer's editor type ships in the presence heartbeat, the server tracks the original `joinedAt` per peer (preserved across heartbeats), and later joiners with a different editor get a small notice plus a CodeMirror **read-only viewer** in place of their normal content editor. The viewer binds to the same `Y.Text` the form binding uses, so the lock owner's edits stream in live — whether they're typing in CodeMirror (yCollab writes Y.Text directly) or in editor-pro (TipTap's `onUpdate` re-renders markdown, which admin-next diffs into Y.Text). Locked-out users can watch the page evolve in real-time, just not write to it. Window-close / tab-close fires the presence-leave via `keepalive` fetch (`pagehide` listener) so the lock releases within a second of the owner closing their tab rather than waiting up to 30s for the TTL — no ghost locks. Title, options, taxonomies and the rest of the blueprint stay editable for the locked-out user. Requires grav-plugin-sync ≥ today's tip.
+    * List/array fields (tags, taxonomies, multi-selects, etc.) now CRDT-merge concurrent additions instead of last-write-wins clobbering them. Two users adding tags to the same page would previously each call `pushLocal` with their own local array — whichever got serialized last won, and the other user's tag silently disappeared on the next sync. The shared form binding now stores arrays as `Y.Array` and `pushLocal` runs a multiset diff so items present in old-but-not-new get deleted, items present in new-but-not-old get appended (with duplicate handling via sentinel marking). Pure reorders and arrays of objects (repeater rows) still wholesale-replace — a per-item refactor on the field-component side is the path forward for those, but the storage shape is now correct for it. Affects every list/array field surfaced through the page editor's blueprint form when collab is enabled.
+    * Two users opening the same fresh page at the same time no longer end up with doubled-up content. With the live edit feature on, both browsers would observe an empty Yjs document locally, push their own seed update, and the server would land both copies into the log — for a `Y.Text` field that meant the title and body got duplicated (`"HelloHello"`-style). The sync substrate now arbitrates under an exclusive file lock: a new `POST /sync/pages/{route}/init` endpoint accepts a seed only when the log is empty, and admin-next builds its seed in a throwaway `Y.Doc` so the live document isn't touched until the server confirms a win. Losers receive the canonical state inline, so the second tab catches up in the same request without an extra pull. Requires grav-plugin-sync ≥ today's tip.
+    * Cmd-Z / Cmd-Y / the toolbar undo+redo buttons in the markdown CodeMirror editor no longer roll back peer edits when collaborative editing is active. The CodeMirror `history()` extension and `historyKeymap` operate on CM transactions, which include remote ops applied by `yCollab` — so an undo there could erase a co-editor's keystrokes. The editor now substitutes an explicit `Y.UndoManager(yText)` (passed to `yCollab` as the `undoManager` option, with `yUndoManagerKeymap` taking over Cmd-Z bindings) when a shared `Y.Text` is supplied; the toolbar undo/redo also dispatches against that manager. y-codemirror.next's view plugin registers its sync-config origin as the only tracked origin, so peer edits (which arrive with a different origin) are excluded from the undo stack by construction. Pairs with the equivalent fix on the editor-pro side. Requires grav-plugin-editor-pro ≥ 2.0.1.
+    * Plugin / theme / config / user / flex-object detail pages no longer return a spurious `409 Conflict` ("Configuration was modified elsewhere. Please reload.") on the first save when the admin sits behind Apache + mod_deflate (or an nginx build with gzip/br). The compression filter weakens the `ETag` response header by appending `-gzip` (or `-br`) to mark it as a compressed variant — but the client echoes that suffixed value back in the next `If-Match`, and PATCH responses (uncompressed) generate the bare hash, so the strict comparison always failed. The API's `validateEtag()` now strips transport suffixes (`-gzip`, `;gzip`, `-br`, `-deflate`) and weak-validator markers (`W/`) before comparing; admin-next also normalizes ETags at extraction time via a shared `extractEtag()` helper. Invisible locally (`php -S`, MAMP) — only repros behind compressing reverse proxies. Requires grav-plugin-api ≥ beta.13.
+    * User listing no longer surfaces phantom entries for stray files in `user/accounts/`. Grav's Flex `FileStorage::buildIndex()` indexes every file in the accounts folder without filtering by extension, so backup/snapshot files dropped by other plugins (e.g. revisions-pro's `.rev` snapshots) showed up as clickable "users" in the Users list. `UsersController::indexViaFlex` now constrains the collection to keys matching the username pattern `[a-z0-9_-]+` before search/sort/pagination run.
+    * Blueprint password fields in the user profile edit form now render with the strength meter + requirements hint (previously rendered as a plain password input via `TextField`). Size prop is honored so the password input matches the width of neighbouring text inputs.
+    * Mutation requests (`DELETE`, `PATCH`, `PUT`) no longer hard-fail on shared-hosting nginx configurations that 405 non-standard verbs at the edge. The API client now detects a 405 on a mutation verb, flips a `sessionStorage` flag, and transparently retries the request as `POST + X-HTTP-Method-Override: <method>`; subsequent requests in the same session skip the failed first attempt and use the compatible path directly. Session-scoped so a deploy swap or new sign-in re-detects from scratch. Requires grav-plugin-api ≥ beta.13 for the server-side rewrite middleware.
+    * Theme / plugin / user blueprint `type: file` fields now upload to the location declared by the blueprint's `destination:` property (e.g. `theme://images/logo`, `self@:images`, `user://assets`) instead of always routing through the page-media endpoint. The old path built URLs like `/pages//media` when the form had no owning page, which collapsed on the server and surfaced as a "network error" toast. `FileField` now reads `field.destination` and hands it to a new `POST /blueprint-upload` endpoint along with a `blueprintScope` context (set by the themes/plugins/users/config/pages routes so `self@:` resolves to the right owner). Requires grav-plugin-api ≥ beta.13.
+    * File-field removal is now tied to the **save** commit instead of firing a `DELETE` on every ✕ click. Eager deletes left a confusing half-state: the file was gone from disk immediately, but the YAML still referenced it until save — so a reload (or a cancel) would show a broken entry whose image couldn't be retrieved. A new lightweight `formCommit` context lets `FileField` stage removed paths in a `pendingDeletes` set; the host route (themes/plugins/users/config) calls `formCommit.emit()` after a successful PATCH + fresh-config fetch, and only then does `FileField` fire the actual `DELETE /blueprint-upload` calls. Removing a file and then navigating away without saving leaves both the file and the reference intact, so reload restores the expected state.
+    * Page-edit view no longer fires phantom `GET /pages//media` requests (404) before the home-alias redirect resolves. When the user lands on `/pages/edit/` without an explicit slug, `route` starts as `/`; the host page resolves the home alias and replaces the URL with the structural route (e.g. `/home`), but `PageMedia` was eagerly calling `getPageMedia('/')` in `onMount` during that window — producing `/pages//media` which nginx collapses to `/pages/media` and FastRoute mis-matches. `PageMedia` now has a `routeReady` guard (`route !== '' && route !== '/'`); the initial load is skipped until `route` flips to a concrete path, and a reactive `$effect` re-fires the load the moment it does. `getPageMedia` / `uploadPageMedia` / `deletePageMedia` also refuse empty routes at the API-client layer as a defense-in-depth.
+
+# v2.0.0-beta.12
+## 04/24/2026
+
+1. [](#improved)
+    * Require Login version `3.8.2` for security fixes
+
+# v2.0.0-beta.11
+## 04/22/2026
+
+1. [](#new)
+    * **Environment selector dropdown** in the app shell. The environment badge is now an interactive dropdown that lists every writable target: `Default` (base `user/config/`) and each existing `user/env/*` or legacy `user/<host>/` folder. Switching the selection persists per-user via scoped localStorage and drives a new `X-Config-Environment` header on every API request, so config/plugin/theme saves land exactly where you chose — no more invisible env folder auto-created from the hostname. The dropdown also offers an inline **Create env "<current-host>"…** action that calls `POST /system/environments` to create a fresh `user/env/<name>/config/` folder and switches the target to it; envs carrying existing overrides are flagged. Pairs with server-side differential saves: with an env selected, only the keys that differ from the effective base layer are written to that env's file, matching the hand-edit workflow instead of forking full copies. Requires grav-plugin-api ≥ beta.12.
+2. [](#bugfix)
+    * Config/plugin/user/page/flex-object detail pages no longer toast `"<Resource> changed elsewhere — save to overwrite or reload"` after every save. The server's `X-Invalidates` response header fires the matching subscriber inside the same `PATCH` that initiated the save, before `handleSave` has had a chance to clear `hasChanges`. The subscriber saw itself as dirty and showed the "out of sync" toast on top of the success toast. All five detail-route subscribers now pass `dirtyGuard: () => saving` (plus `autoSave.saving` where applicable) so the handler skips while our own save is in flight — other tabs saving the same resource still trigger the toast as intended.
+    * Custom field web components rendered outside the page-edit route now have access to the active content language via `window.__GRAV_CONTENT_LANG`. Previously this global was only populated on `/pages/edit/*`, which pushed plugins (seo-magic et al.) into reaching for `localStorage.getItem('grav_admin_content_lang')` directly. That key is site-scoped (`grav_admin_content_lang::/<basePath>`) on sub-path installs, so the read returned empty and multi-language checks silently fell back to the default locale. `CustomFieldWrapper` now mirrors `contentLang.activeLang` to the global reactively, so every custom field site (plugin configs, themes, user profiles, flex-objects) gets the live value and picks up language switches without a page reload. Requires grav-plugin-seo-magic ≥ 7.0.0 (and similar) to consume.
+
+# v2.0.0-beta.10
+## 04/21/2026
+
+1. [](#improved)
+    * Page visibility signal in Tree, List, and Columns views switched from a 60% opacity dim on the title to a two-tone page/folder icon: **visible** pages use the accent color (matches the rest of the admin chrome), **non-visible** pages drop to the muted grey used for secondary text. Keeps titles at full contrast — the previous dim was hard to read against the dark background — while still giving an at-a-glance signal in the same spot readers already look. Miller's active-row white-on-accent treatment still wins when a row is selected.
+    * Background refreshes now run **silently** across the admin. Previously, the dashboard's 60-second poll and every mutation-triggered refresh re-entered the same code path as the initial load — flipping the `loading` skeleton and resetting the number-tweens, so counters re-animated from zero and cards re-faded-in every minute (and every time a page was saved anywhere). Pages list / tree / columns views took the same approach: a save anywhere fired a `pages:*` event, and each view wiped its entire children cache, showed a skeleton, and refetched from scratch. Split into explicit "fresh load" vs "background refresh":
+    * Dashboard: `loadDashboard({ silent })` — silent path skips the skeleton flip and the animation reset. The poll, all `pages:*` / `users:*` / `plugins:*` / `gpm:*` invalidations, and the post-Update-All / post-Upgrade-Grav refreshes all run silent. Only the first mount and the user-clicked **Refresh** button animate.
+    * Tree view: cache-wipe refetch replaced with `silentRefresh(parentRoutes[])`. Uses the invalidation event's id (e.g. `pages:update:/blog/post-1`) to derive the parent route, then refetches just that parent's children into the cache — no `rootLoading` flip. Root is kept fresh as insurance. Tab-refocus silently refreshes all currently-cached parents instead of wiping them.
+    * List view: `loadPages(silent)` — invalidations and focus events refetch the current page of results silently; no skeleton flip.
+    * Miller (Columns) view: `silentRefreshColumn(parentRoute)` — refetches only the column(s) containing the affected page, preserving the user's selection trail and downstream columns. Previously, any mutation reset the view back to the root column.
+    * Result: the dashboard no longer "re-animates" every minute, and the pages browser no longer flashes a skeleton when a page is saved elsewhere on the site.
+2. [](#bugfix)
+    * Plugin / theme installs now pull in missing blueprint dependencies automatically instead of silently installing only the requested package — e.g. installing `shortcode-ui` now also installs `shortcode-core` if it's missing, with each dependency surfacing as its own success toast ("Plugin '…' installed (dependency)") before the main package's toast. Dependency resolution runs server-side via `GPM::getDependencies()` (same path admin-classic uses, so version constraints and PHP/Grav requirements are checked); the new `dependencies: string[]` field on the `/gpm/install` and `/gpm/update` responses drives the UI side. Applies to `AddPluginModal`, `AddThemeModal`, and the update flow on plugin/theme list + detail pages. Failure modes (needing a newer Grav core, a newer PHP version, an incompatible version constraint, or a mid-install failure after some deps already succeeded) now surface the API's error detail in the toast instead of a generic "Failed to install" message, so users can see exactly why the install stopped and what partial state the system is in. Requires grav-plugin-api ≥ beta.10.
+    * Self-hosted font files (`/fonts/*.ttf`) are now served correctly from the admin2 route. The static-asset gate in `admin2.php` previously only intercepted `/_app/` — anything under `/fonts/` fell through to the SPA router and returned the HTML shell, so browsers reported `OTS parsing error: invalid sfntVersion` and the Google Sans option in Settings → Appearance silently fell back to Inter. The gate now also matches `/fonts/`, `/robots.txt`, and `/favicon.ico`, and the MIME map adds explicit `font/ttf` and `font/otf` handlers. The SPA shell declares an inline `<link rel="icon" href="data:,">` to silence the default browser favicon request.
+    * Pages **Tree view** no longer crashes with `RangeError: Maximum call stack size exceeded` on sites where the home page has sub-pages. The tree's recursive `treeRow` snippet keyed its expansion/cache state off `page.route`, but the home page's public route is `/` — the same value used as the tree's root-parent marker, which is pre-seeded into `expandedRoutes` so the top-level children render on load. When home had any children, rendering its row satisfied `expandedRoutes.has('/')`, looked up `childrenCache['/']` (which holds the root-level page list — including home itself), and recursively rendered the same set of rows again, blowing the stack within a handful of frames. Identity keys inside the snippet now use `pageApiRoute(page)` (`raw_route || route`), so home is tracked as `/home` in the expansion and cache maps and can no longer collide with the root marker. Expanding home now correctly fetches and displays its children via `getChildren('/home')`.
+
+# v2.0.0-beta.9
+## 04/19/2026
+
+1. [](#new)
+    * Accent color **Custom** picker in Settings → Appearance — hue (0–360°) and saturation (0–100%) sliders let you dial in any brand color while the theme's lightness clamp keeps contrast consistent across light and dark modes. The gradient-filled sliders preview the result live; the panel auto-expands for users whose stored color doesn't match a preset.
+    * Added **Grav** accent preset (hue 271 / sat 91 — the purple used on the new getgrav.org design) and promoted it to the default accent color for new installs.
+    * **Font picker** in Settings → Appearance with five built-in variable typefaces: **Google Sans** (self-hosted, new default, matches the marketing site), Inter, Public Sans, Nunito Sans, Jost. Each option renders its label in its own typeface for live preview; the chosen font persists per-install alongside the other appearance preferences and applies globally via a `--font-sans` CSS variable.
+2. [](#improved)
+    * Dark-mode primary color is now rendered at Tailwind-500 lightness (L=65) instead of L=70 with a +8 saturation boost. Toggles, primary buttons, focus rings and every other `--primary`-driven element now match the canonical 500 shade of the chosen hue (e.g. Grav purple → ~#B166F8) instead of a slightly washed-out neon 400.
+    * Dark-mode `--popover` token raised from `hsl(240 10% 3.9%)` (~#09090B, near-black) to `hsl(240 4.5% 14.5%)` so floating surfaces sit in the same grey family as cards and inputs. Fixes the visible inconsistency where custom dropdowns (Selectize, Pages picker, File picker, Icon picker, DateTime calendar, language switcher, cache-clear menu, floating widgets) rendered much darker than native `<select>` controls that used `bg-muted`.
+    * Pages **columns (Miller) view** now surfaces per-page publish/visibility state at a glance: an inline amber **Draft** pill renders next to the title for unpublished pages, invisible pages dim to 60% opacity (consistent with Tree and List views), and the preview panel shows a **Visible** badge for pages that appear in nav alongside the existing Published/Draft and Has-children badges.
+    * Tree and List views also dim invisible pages (those with `visible: false` in frontmatter or missing an order prefix) to 60% opacity on the title + route block. Composes naturally with the existing italic-muted styling for untranslated pages so the two signals remain distinct.
+    * Page Info sidebar on the edit screen now updates immediately after saving a Published or Visible change — previously required a page reload to pick up the new value. Requires grav-plugin-api ≥ beta.9.
+    * Draft / hidden pages in Tree, List, and Columns views now correctly report their published / visible state in the API response. Previously the flex-indexed listing endpoint returned stale "true" values so every draft looked published and every hidden page looked visible. Requires grav-plugin-api ≥ beta.9.
+    * Dashboard **Refresh** button now flushes the GPM remote-manifest cache (equivalent to `bin/gpm index -f`), so clicking it picks up newly released plugin / theme / Grav versions instead of returning the stale local cache. The 60-second auto-poll and invalidation-triggered reloads still use the cached path.
+
+# v2.0.0-beta.8
+## 04/17/2026
+
+1. [](#new)
+    * **Copy page** restored in the Pages edit toolbar (parity with admin-classic). Duplicates the current page into the same parent — picks the next free `slug-N`, increments the trailing number in the title (or appends ` 2` if none), then navigates to the new page's edit screen.
+2. [](#improved)
+    * Pages edit toolbar is now responsive. Below `lg` (1024px) the Normal/Expert toggle, Save and Undo collapse to icon-only; Preview, Copy and Delete are always icon-only and sit to the left of the Normal/Expert toggle. Below `sm` (640px) the toolbar wraps onto its own row beneath the title so it stops crowding the page title on narrow viewports.
+3. [](#bugfix)
+    * Home page now works correctly in the Pages UI. All page list / tree / columns views, the page-navigator D-pad, and the edit screen address the home page by its structural `raw_route` (typically `/home`) instead of the public `/` alias that the API router doesn't match — fixes the empty preview in columns view and the "Failed to load page" error when editing Home. Direct navigation to `/pages/edit/` also resolves to the home page automatically.
+    * Plugin and theme descriptions render inline markdown (links, bold, emphasis) in detail panels instead of showing raw `[text](url)` / `**bold**` syntax. Truncated list-card descriptions strip the markdown to plain text so the one-line summary stays readable. Uses the new `description_html` field from grav-plugin-api beta.8.
+    * Pages with template-dependent shortcodes in their body (e.g. `[poll]`) no longer fail to load a preview in the Miller columns view. The page-summary API endpoint now falls back to plain-text when shortcode rendering throws (requires grav-plugin-api beta.8).
+
+# v2.0.0-beta.7
+## 04/17/2026
+
+1. [](#new)
+    * Symlink indicator in the Plugins and Themes listings — a small VS Code-style corner arrow (↳) renders to the right of each row (next to the Enabled / Disabled / Active pill) for any package installed via symlink, with a native `Symlinked` hover tooltip. Reads the new `is_symlink` field from grav-plugin-api beta.7.
+    * Dashboard Updates card redesigned for hierarchy: prominent purple Grav-core callout (version arrow `v{current} → v{available}`, filled-purple **Upgrade Grav** button) sits above an amber package panel (per-row version chips, filled-amber **Update All** button). Distinct button colors differentiate core upgrades from routine package updates at a glance.
+    * Grav core card degrades to an explanatory message ("installed via symlink — upgrade manually") and hides the upgrade button when `is_symlink` is reported by the API.
+    * **View site** button restored in the top menubar (globe icon + "View site" + external-link glyph) — opens the Grav frontend (`auth.serverUrl`) in a new tab. Had been dropped during the auth transport refactor.
+    * **Unsaved-changes indicator** restored and now uniform across every edit surface — a pulsing amber dot in a bordered pill sits in the toolbar whenever there are pending changes. Adopts the shared `UnsavedIndicator` tri-state (saving spinner / green "saved" check / amber pulsing dot) when auto-save is enabled. Wired up on: Pages edit, Config (system / site / media / security), Plugins config, Themes config, Users edit, Flex-objects edit, and the blueprint-mode Plugin page.
+    * Pages listing now distinguishes "implicit default" pages (those stored as a bare `default.md` with no language-suffixed variant) from genuinely untranslated pages. Implicit defaults render in normal text with a muted default-language badge; only pages that have explicit translations but lack one for the active language are shown italic + muted. Badge highlighting uses the new `explicit_language_files` signal, so the active-lang badge stays muted when it's served by the `default.md` fallback and highlights only when there's a real `default.<lang>.md` on disk.
+    * Miller / columns view reached feature parity with Tree and List: route paths now render below each page title, and translation badges render inline beside the title (same styling + highlighting rules).
+    * Page editor Save-as-{lang} dropdown: when the page is a bare `default.md` and the chosen target matches the site's default language, the action now routes through the new `POST /pages/{route}/adopt-language` API — renaming the file in place instead of creating a duplicate `default.<lang>.md` alongside the original. The dropdown correctly surfaces "Save as {defaultLang}" even when Grav reports the default lang in `translated_languages` (it always does when `default.md` exists), using `explicit_language_files` to tell whether the real file exists.
+    * Tree and List page views now perform **full-site search** against the server (`GET /pages?search=`) instead of only filtering the currently-visible rows. Previously both views were paginated / lazy-loaded and the search box could only match pages that had already been fetched, which made the search feel broken on large sites. When the search input is empty both views revert to their normal paginated / tree behavior; searches are debounced at 250ms and capped at 500 results.
+2. [](#improved)
+    * All package update and Grav upgrade actions (single-package update, Update All, Upgrade Grav) now require explicit confirmation through the shared `ConfirmModal`. Previously these fired immediately on button press, which is risky for destructive / long-running writes on a live site.
+    * X-API-Token header is now the default JWT transport for all API calls, aligning with grav-plugin-api beta.7. Fixes login / reauth on FastCGI hosts (e.g. MAMP) that strip the `Authorization` header.
+
+# v2.0.0-beta.6
+## 04/16/2026
+
+1. [](#new)
+    * Updates control surface across the SPA: Dashboard "Updates" card gains an "Update All (N)" button and a prominent amber/orange "Upgrade Grav to vX" button (disabled + tooltip when Grav is installed as a symlink)
+    * Plugins page: "Update All (N)" header action plus a per-row "Update to vX.Y" button in the detail panel
+    * Plugin config page: amber "Update available" pill next to the version and an "Update to vX.Y" button in the action bar
+    * Themes page + theme config page: mirrors the plugin update surface
+    * Sidebar footer now shows the running `Grav vX` / `AdminN vX` versions next to the collapse chevron (admin2 injects both into `window.__GRAV_CONFIG__`)
+2. [](#improved)
+    * Confirmation prompts for updates route through the shared `ConfirmModal` (via `dialogs.confirm`), matching the rest of the SPA
+    * Dashboard, Plugins, and Themes polling now reflects the refreshed updatable state immediately after any update / upgrade call
+3. [](#bugfix)
+    * `GET /gpm/updates` now counts Grav itself in `total`; the dashboard previously said "1 update available" when both a plugin and Grav core had pending releases
+
+# v2.0.0-beta.5
+## 04/16/2026
+
+1. [](#new)
+    * Server-side bootstrap hijack — frontend requests on sites with zero user accounts are now redirected to the admin route (parity with admin-classic), closing the window where a stranger could reach the admin before the site owner did
+2. [](#improved)
+    * All admin-next SPA `localStorage` keys (auth tokens, preferences, theme, content language, i18n cache) are now scoped by `__GRAV_CONFIG__.basePath` so multiple Grav installs on the same browser origin (e.g. `localhost/site-a`, `localhost/site-b`) no longer share or clobber each other's session and settings
+    * Self-contained `anyUsersExist()` helper so the hijack does not require admin-classic to be installed
+3. [](#bugfix)
+    * No-user redirect now passes a route-local path to `Grav::redirect()` (the framework prepends the site root itself); previously double-prefixed on installs mounted under a subpath
+    * No-user hijack excludes the API plugin's own route prefix so the SPA's `/auth/setup` probe can reach the API
+
+# v2.0.0-beta.4
+## 04/15/2026
+
+1. [](#new)
+    * Registers `site.login`, `admin.login`, `admin.super` permissions so the user-edit ACL UI works without admin-classic enabled
+    * Contextual frontend launcher in the header — opens the current page (when editing) or the site root in a new tab
+    * Compact `<UnsavedIndicator>` pill (pulsing amber dot for unsaved, green check for saved, spinner for saving) wired into every save-button view: pages, config, users, plugins, themes, flex-objects
+    * Dashboard "Backups" card promoted to a full-width row with filename + "Pre-migration" badge for migration backups
+    * Setup wizard route + login-page redirect when no user accounts exist
+    * Reauth modal probes `/auth/setup` and bounces to the wizard when the underlying account no longer exists
+2. [](#improved)
+    * Permissions editor: scoped crowns (`admin.super` → `admin.*` only, `api.super` → `api.*` only), section badges ("Admin Classic is deprecated in Grav 2.0", "API & Admin2 Access"), Admin section collapsed by default
+    * Page navigation prefers the API's new `raw_route` so home-page editing resolves to `/home` instead of failing on `/`
+    * Brightened dark-mode `--popover` token so dropdowns no longer read as near-black against the slate UI
+    * Top Pages widened to `lg:col-span-2` to balance the dashboard grid after Backups moved out
+3. [](#bugfix)
+    * Edit-page navigation no longer 404s on the home page
+
+# v2.0.0-beta.3
+## 04/15/2026
+
+1. [](#new)
+    * Support for first user creation
+
+# v2.0.0-beta.2
+## 04/15/2026
+
+1. [](#bugfix)
+    * Fixed dynamic path issue
+
+# v2.0.0-beta.1
+## 04/14/2026
+
+1. [](#new)
+    * Initial alpha release
+    * SvelteKit single-page application served from `app/` directory
+    * PHP wrapper serves static assets and SPA shell, injects runtime config via `window.__GRAV_CONFIG__`
+    * Route configurable via `plugins.admin2.route` (defaults to `/admin2`)
+    * All data operations routed through the Grav API plugin
+    * `bin/build.sh` for building the sibling `grav-admin-next` SvelteKit project into this plugin

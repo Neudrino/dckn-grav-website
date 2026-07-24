@@ -20,7 +20,13 @@
 {% block content %}
     <article class="content-item">
         {% set intro_text = page.header.verein_intro %}
-        {% set blog_posts = page.header.blog_posts %}
+
+        <header class="home-header">
+            <h1>{{ page.title }}</h1>
+            {% if page.header.subtitle %}
+            <h2>{{ page.header.subtitle }}</h2>
+            {% endif %}
+        </header>
 
         {# Three-column layout: Unser Verein | Co-Kreative Projekte | Newsletter #}
         <div class="three-col">
@@ -64,6 +70,8 @@
         </div>
 
         {# Blog section below the 3-column layout #}
+        <div class="home-blog-section">
         {{ page.content|raw }}
+        </div>
     </article>
 {% endblock %}

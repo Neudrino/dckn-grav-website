@@ -1,10 +1,11 @@
 ---
 title: 'Simmelfolk Festival'
 body_classes: 'title-center'
+template: event
 event:
   startdatum: '2026-09-03'
   enddatum: '2026-09-06'
-  ort: 'Simmel'
+  ort: 'Simmelsdorf'
 ---
 
 ## 6. SimmelFolk Festival vom 03.-06. September 2026

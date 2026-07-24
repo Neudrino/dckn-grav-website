@@ -32,3 +32,7 @@ user/themes/quark2/css/*
 user/themes/quark2/templates/*
 !user/themes/quark2/templates/projekte.html.twig
 !user/themes/quark2/templates/home.html.twig
+!user/themes/quark2/templates/event.html.twig
+!user/themes/quark2/blueprints/
+user/themes/quark2/blueprints/*
+!user/themes/quark2/blueprints/event.yaml

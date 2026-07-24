@@ -63,8 +63,16 @@
 .newsletter-tile .checkbox input {
   margin-top: 0.15rem;
 }
-.newsletter-tile .button {
+.newsletter-tile .buttons,
+.newsletter-tile .button-wrapper {
+  display: block;
+}
+.newsletter-tile .buttons button,
+.newsletter-tile .buttons input[type="submit"],
+.newsletter-tile .button-wrapper button,
+.newsletter-tile .button-wrapper input[type="submit"] {
   width: 100%;
+  display: flex;
   justify-content: center;
 }
 

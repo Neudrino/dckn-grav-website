@@ -1,6 +1,5 @@
 ---
-title: 'Das co-kreative Netzwerk e.V.'
-menu: 🏠
+title: 🏠
 body_classes: 'title-center'
 template: home
 process:
@@ -45,7 +44,11 @@ form:
     - message: 'Danke! Du bist jetzt für den Newsletter angemeldet.'
 ---
 
-### Neues aus unserem Blog
+# Das co-kreative Netzwerk e.V.
+
+===
+
+## Neues aus unserem Blog
 
 - [Vereins-IT: Voll digital](/blog/vereins-it-voll-digital) — 2025-04-19
 - [Vereinsgründung: Vision – Menschen – Zeit](/blog/vereinsgruendung-vision-menschen-zeit) — 2025-04-10

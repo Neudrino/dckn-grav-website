@@ -5,6 +5,10 @@ body_classes: 'title-center'
 
 ## 2. MärzTanz Festival 14. – 16.03.2025
 
+![Header](mt25-header.png)
+
+![Zeitplan](mt25-zeitplan.png)
+
 Vielen Dank allen Helfern, Musikern und Tänzern die das Märztanz Festival 2025 möglich gemacht haben.
 
 **Donnerstag** Nachmittag beginnt der Aufbau. Nach dem Helferessen können wir abends (19:30) gemeinsam den **Film** "**Le grand Bal**" schauen und anschließend kann es einen sanften Festivalstart mit Session und Tanz geben.
@@ -14,6 +18,8 @@ Freitag ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch 
 
 **[CLARABAL](https://www.facebook.com/clarabalmusic/)** (Halle) – Freitag 19:30
 
+![CLARABAL](mt25-clarabal.jpg)
+
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka.
 Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
@@ -22,9 +28,13 @@ Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
 **Richard** (Chemnitz) – Freitag 21:30 Uhr
 
+![Richard](mt25-richard.jpg)
+
 Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
 
 **[Feather and Fox](https://www.facebook.com/featherandfoxduo/)** (Berlin und Brüssel) – Freitag 23:00 Uhr
+
+![Feather and Fox](mt25-feather.jpg)
 
 Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
 
@@ -32,6 +42,8 @@ Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane u
 *Victor Lekeu – Mandoline, Percussion*
 
 **Hilde und Syn** – Samstag 19:00 Uhr
+
+![Hilde und Syn](mt25-hilde-syn.jpg)
 
 Hilde Van Belle schreibt kleine flämische Lieder für ein lauschendes und tanzendes Publikum. Begleitet wird sie von Yassine Amrouch an der Nyckelharpa, der den Liedern einen zusätzlichen Glanz verleiht. Erwartet zuckersüße Liebeslieder, verträumte Melodien und ein wärmendes Zusammenspiel.
 
@@ -47,6 +59,8 @@ Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahle
 
 **[TriOblique](https://triobliquebalfolk.wixsite.com/trioblique)** (IT/F) – Samstag 23:30 Uhr
 
+![TriOblique](mt25-trioblique.png)
+
 Diese drei Musiker bringen die Welt zum Tanzen. TriOblique kombiniert Gitarre, irische Bouzouki, irische Flöten und Uillean Pipe. Ihre Musik führt sie auf verschlungenen Pfaden von einem Stil zum nächsten, von Genua nach Irland, vom Funk zur traditionellen Musik aus der Hochbretagne. Sie kombinieren zartes Fingerpicking mit rockigen Akkorden und experimentieren mit verschiedenen Instrumenten und Gesangsstilen. Das Ziel der Band ist es, die Körper der Zuhörer zum Tanzen zu bringen, sei es zu einer schlichten Mazurka oder zu wilden Tänzen wie dem Kost Ar Choat.
 
 *Susanna Roncallo – Gitarre*
@@ -54,6 +68,8 @@ Diese drei Musiker bringen die Welt zum Tanzen. TriOblique kombiniert Gitarre, i
 *Dario Gisotti – Uillean Pipe und Flöten*
 
 **[Marina Lazar](https://www.marinalazar.com/)** (BE) – Sonntag 13:00 Uhr
+
+![Marina Lazar](mt25-marina.jpg)
 
 Die klassisch ausgebildete Pianistin Marina Lazar nimmt uns mit ihrem Klavier auf eine Reise durch vorwiegend Paartänze des Balfolk.
 Wunderbar sanfte Melodien lassen uns durch den Sonntag Mittag schweben.
@@ -69,6 +85,8 @@ Als leidenschaftlicher Tänzer ist er schon mit vielen verschiedenen Rhythmen in
 Nun verbinden beide ihre Leidenschaft zur jeweiligen Musikrichtung, indem sie sich gegenseitig "anfeuern", das Tanzvolk zahlreich und ausgelassen auf die Tanzfläche zu holen.
 
 **[La Galavarde](https://linktr.ee/lagalavarde)** (F) – Sonntag 16:00 Uhr
+
+![La Galavarde](mt25-galavarde.jpg)
 
 La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspiration aus dem Klangreichtum von Zentralfrankreich und der Dauphiné schöpft. Ihre drei Musikerinnen, Sarah, Claire und Sidonie, flechten gemeinsam die Klangfarben des Akkordeons, der Geige, der irischen Flöte und ihrer drei Stimmen ein.
 

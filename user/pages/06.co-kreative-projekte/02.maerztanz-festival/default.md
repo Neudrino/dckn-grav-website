@@ -3,6 +3,8 @@ title: 'MärzTanz Festival 2027'
 body_classes: 'title-center'
 ---
 
+![MärzTanz Festival](banner.png)
+
 ## 4. MärzTanz Festival
 ## 04.-07. März 2027
 

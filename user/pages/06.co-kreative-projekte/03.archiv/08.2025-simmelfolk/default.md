@@ -5,6 +5,10 @@ body_classes: 'title-center'
 
 ## 5. SimmelFolk Festival vom 4.-7. September 2025
 
+![Logo](sf25-logo.png)
+
+![Auf dem Bühl](sf25-buehl.jpg)
+
 Das diesjährige Festival wird gefördert von der Kulturförderung des Bezirks Mittelfranken. Im Namen unserer Musiker:innen und aller Teilnehmenden – **Vielen Dank** dafür!
 
 ### Liebe Freund:innen, Tänzer:innen, Musiker:innen und deren Freund:innen,
@@ -24,6 +28,8 @@ Ohne euch gibt es kein Festival.
 Jede und jeder ist eingeladen sich mit ihren/seinen Fähigkeiten, Energie und Präsenz einzubringen, um das Festival mitzugestalten, egal ob als Musiker:in oder Workshopleiter:in, beim Kochen, Vorbereiten oder Aufräumen.
 Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein Balfolk-Festival. Das ist Co-Kreation!
 
+![Tanzen](sf25-tanzen.jpg)
+
 ### Auf dem Bühl
 
 Das Festival findet auf dem Bühl in Simmelsdorf statt, am Tor zur Fränkischen Schweiz.
@@ -35,7 +41,11 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 ## Programm und Bands
 
+![Programm 2025](sf25-prog.jpg)
+
 ### AKLEJA
+
+![AKLEJA](sf25-akleja.jpg)
 
 erforscht musikalisch, was ihnen am Herzen liegt – Natur, Begegnungen und berührende Augenblicke. Sie spielen instrumentale Folkmusik auf Nyckelharpa, Gitarre und Cittern. Besonders geprägt sind sie von Tanzmusik aus alten Notenbüchern, sowie der Musiktradition Schwedens, dem Heimatland der Nyckelharpa. Mit ihrer Musik gehen sie eigene Wege und erschaffen eine einzigartige Klangwelt voller Lebensfreude und Atmosphäre. Mit ihrem mitreißenden Spiel zeichnen sie klingende Bilder und entreißen ihr Publikum mühelos dem Alltag.
 
@@ -47,12 +57,16 @@ Björn Kaidel – Nyckelharpa, Gitarre, Cittern
 
 ### CLARABAL
 
+![CLARABAL](sf25-clarabal.jpg)
+
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka. Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
 Clara von Lampe – Violine, Gesang, Piano
 Jakob Meussling – Gitarre
 
 ### Gribouille
+
+![Gribouille](sf25-gribouille.jpg)
 
 … wer kennt diesen Typ nicht? und seine unglaubliche Gitarre?
 
@@ -62,6 +76,8 @@ Olivier Valence – Gitarre, Gesang
 - [youtube](https://www.youtube.com/watch?v=L3G120G5-sE)
 
 ### Indigo
+
+![Indigo](sf25-indigo.jpg)
 
 Indigo spielt Eigenkompositionen und Tunes, die in deren Umwelt herumfliegen.
 Dey liebt es, z.B. mal ein Kinderlied zu spielen oder ein klassisch angehauchtes Stück neu zu vertonen.
@@ -74,6 +90,8 @@ Indigo Baur – Diabolisches Akkordeon, Stimme und Stompbox
 
 ### Le Driadi Trio
 
+![Le Driadi Trio](sf25-driadi.jpg)
+
 … ist die Verschmelzung von Poesie und Musikalität der italienischen Singer-Songwriter-Tradition mit den Klängen der Indie-Pop-Szene, die durch lebendige französische Balfolkkultur bereichert wird. Im Mittelpunkt des Projekts steht der neo-traditionelle Balfolk mit einem Repertoire, das sich auf historische französische Tänze konzentriert und von romantischen Mazurkas bis zu dynamischen bretonischen Ketten reicht.
 Jedes Konzert ist eine klangvolle und tanzbare Reise, ein musikalischer Wald, in dem jede Note ein Zauber ist, der neugierige Ohren und eifrige Füße gleichermaßen fesselt. Ihre Musik verbindet Kulturen, Klänge und Geschichten und erkundet neue Horizonte in der europäischen Balfolk-Szene.
 
@@ -85,6 +103,8 @@ leonardo – Violine
 - [Youtube](https://www.youtube.com/watch?v=_643wmKaGbo&list=PLjCfQULfkaa4ce7v4vEnlyV478v6gjHva)
 
 ### L'Hêtre Heureux
+
+![L'Hêtre Heureux](sf25-booking.jpg)
 
 ist eine Folkband, die hauptsächlich Paartanz spielt. Wir haben uns in „Le grand bal de l'europe – gennetines" bei der Ausgabe 2019 getroffen. Wir haben dort auf der Bühne unsere Kompositionen aufgeführt.
 
@@ -107,6 +127,8 @@ Durch verschiedene Einflüsse bei Festivals und Workshops hat sie einen ganz eig
 
 ### Triaz
 
+![Triaz](sf25-triaz.jpg)
+
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
 Antonin – Kontrabass
@@ -117,6 +139,8 @@ Jonathan – Akkordeon
 - [Homepage](https://triaz-balfolk.de/)
 
 ### Viadeyra
+
+![Viadeyra](sf25-viadeyra.jpg)
 
 … ist eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
 
@@ -130,6 +154,8 @@ Marco Gagliardi – Klarinette und Duduk
 - [Youtube](https://www.youtube.com/watch?v=GHjy0mn8RVI)
 
 ### Xenia
+
+![Xenia](sf25-xenia.jpg)
 
 In ihrem neuen Solo-Programm 'Baltics meet Balfolk' lädt Xenia Twarz zu einem träumerischen Balfolk-Erlebnis zum Tanzen und Zuhören ein.
 

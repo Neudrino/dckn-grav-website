@@ -7,6 +7,10 @@ body_classes: 'title-center'
 
 15.-17.03.2024 — das erste Balfolk-Festival in Chemnitz mit Workshops und Tanzabenden mit Live-Musik
 
+![MärzTanz 2024](mt24-header.png)
+
+![Zeitplan](mt24-zeitplan.png)
+
 Donnerstag Nachmittag beginnt der Aufbau. Abends kann es ein gemütliches Vorabendbeisammensein unter den Helfern geben.
 Fr ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch mit anfassen beim Schönzaubern 🙂
 
@@ -15,6 +19,9 @@ Fr ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch mit a
 ### Freitag
 
 **Ginkgo**
+
+![Ginkgo](ginkgo.jpg)
+
 Folkmusik quer durch Europa zum Tanzen und Träumen – aus Dresden
 
 Wir mögen die vielfältigen Klänge und Rhythmen der traditionellen Tanzmusik verschiedener Regionen Europas. So gehören westeuropäische Bal Folk Klänge genauso zu unserem Repertoire, wie Tänze aus Nord-, Ost- und Südeuropa.
@@ -24,9 +31,15 @@ Wir lieben es, Neues auszuprobieren und traditionelle Melodien mit kreativen Ide
 *Andrea Kunze (fl, git, perc, voc), Karin Hartmann (viol, acc, voc), Jens Dost (acc, harp, voc), Matthias Klooß (b) und Thomas Scherber (git, bouz, viol, voc)*
 
 **Richard**
+
+![Richard](richard.jpg)
+
 Richard ist junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
 
 **Mara & Fine**
+
+![Mara & Fine](mara-fine.png)
+
 Ein brandneues Duo aus Leipzig bringt Spaß, Finesse und Groove auf die Tanzböden!
 Mit ihren Instrumenten Geige und Akkordeon erwecken sie eigene Kompositionen und ausgewählte Balfolk-Melodien zum Leben. Sowohl gefühlvolle Melodien als auch sprudelnde Lebensfreude laden zu einem dynamischen und mitreißenden Tanzabend ein.
 
@@ -36,12 +49,16 @@ Mit ihren Instrumenten Geige und Akkordeon erwecken sie eigene Kompositionen und
 ### Samstag
 
 **Eins68**
+
+![Eins68](eins68.jpg)
 Das Duo Eins68 aus Kassel spielt liebevoll arrangierten Balfolk mit kleinen feinen Extras. Einfühlsam nutzen sie eine große Vielfalt an Instrumenten, um jedem Stück eine ganz besondere Note zu geben. Ob mehrstimmiger Gesang oder zärtliche Mazurka oder schwungvolle Bourrée: Es ist eine Freude, ihrer Musik zuzuhören und dazu zu tanzen.
 
 *Angelina Krastel – Mandoline, Mandola, Gesang, Kleinpercussion*
 *Rike Callies – Gesang, diatonisches Akkordeon, Toypiano, Blockflöten, Kleinpercussion*
 
 **Emily and the Simons**
+
+![Emily and the Simons](emily-band.jpg)
 Emily & the Simons sind ein anglo-belgisches Balfolk-Trio. Im Mittelpunkt ihrer Musik stehen Emilys Kompositionen, die sich von den Begegnungen im Leben und der Energie auf der Tanzfläche inspirieren lassen. Ihr Stil ist sehr ausdrucksstark, voller Improvisation, Leidenschaft, Zärtlichkeit und Verspieltheit. Mit einem breiten Repertoire, das von exquisiten, sinnlichen Mazurken bis zu fröhlichen, treibenden Bourrées reicht, regt ihre Musik die Fantasie an, bewegt die Füße und hebt den Geist.
 
 Beim Balfolk wird eine bunte Mischung aus Paar-, Kreis- und Kettentänzen getanzt. Viele Tänze können schnell gelernt und mitgetanzt werden.
@@ -54,6 +71,8 @@ Mit Andreas Bothe am diatonischen Akkordeon und Percussion sowie Uwe Molzahn an 
 ### Sonntag
 
 **Duo Nello**
+
+![Duo Nello](duo-nello.jpg)
 Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarde…
 
 Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigenen Kompositionen ihre eigenen Noten erahnen. Sie nehmen uns mit auf eine Reise durch die Gefühle, die das Parkett zum Beben bringen, uns im Walzerschritt schwelgen und uns inmitten ihres bunten und berührenden Universums den Kopf verlieren lassen.
@@ -99,6 +118,8 @@ Sonntag 12:00-13:00 Uhr
 
 ## Ort
 
+![Subbotnik](subbotnik.jpg)
+
 Wir tanzen auf Parkettboden im Saal des Soziokulturellen Zentrums **[Subbotnik e.V.](https://subbotnik-chemnitz.de/)**
 Dort werden wir auch eine Küche zum Kochen der gemeinsamen Mahlzeiten haben.
 Zusätzlich zum Tanzsaal gibt es einen kleinen Workshopraum.
@@ -115,6 +136,8 @@ Es ist unbewacht und ohne Schranken.
 In den umliegenden Straßen um das Subbotnik ist Parken in der Straße kostenfrei möglich, doch es gibt wenige Parkplätze.
 
 ## Essen
+
+![Essen](essen.jpg)
 
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet 18:30 – 20:00 Uhr
 

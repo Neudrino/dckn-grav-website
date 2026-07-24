@@ -7,6 +7,10 @@ body_classes: 'title-center'
 
 **28.05.-01.06.2025 (Himmelfahrts-Wochenende)**
 
+![Flyer TuV 2025](tuv25-flyer.jpg)
+
+![Zeitplan](tuv25-zeitplan.jpg)
+
 Am Himmelfahrts-Wochenende lassen wir im und um das Ballhaus Lindenhof Waldheim ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Kontaktimprovisation, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.
 
@@ -21,6 +25,8 @@ Wer nur für Workshops oder Kleidertausch da ist, braucht keinen Eintritt zu zah
 
 **Triaz** – Mittwoch 19:30 Uhr
 
+![Triaz](tuv25-triaz.jpg)
+
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
 *David – Klarinette*
@@ -28,6 +34,8 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 *Antonin – Kontrabass*
 
 **[Lunesk](https://www.facebook.com/LuneskBalfolk)** – Mittwoch 21:30 Uhr
+
+![Lunesk](tuv25-lunesk.jpg)
 
 Die Balfolk – Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht. Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt.
 Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/Néotrad über Rock bis zu Salsa.
@@ -38,6 +46,8 @@ Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgische
 *Mara Menzel – Diatonisches Akkordeon, Gesang*
 
 [BALAFENN](https://www.balafenn.de/) – Donnerstag 19:30 Uhr
+
+![BALAFENN](tuv25-balafenn.jpg)
 
 Finest BalFolk Music aus Leipzig/Halle
 Im Frühjahr 2023 als reines Balfolk-Projekt gegründet, spielt BALAFENN vor allem europäische Tanzmusik – beliebte Klassiker erklingen oft im Wechsel mit spritzigen Eigenkompositionen. Bretonische Andros, schwedische Polskas, Jigs und Reels von den britischen Inseln werden dabei genauso aufgegriffen, wie schwungvolle Walzer, Mazurkas oder Schottische.
@@ -51,6 +61,8 @@ Die außergewöhnliche Besetzung mit Irish Flute, Dudelsack, Drehleier, Nycklhar
 
 **[Pabameto Quartett](https://www.youtube.com/watch?v=pn-ORS3DNew)** – Donnerstag 22:00 Uhr
 
+![Pabameto Quartett](tuv25-pabameto.avif)
+
 Die zwei eineiigen Brüder Torge und Bandik spielen schon länger gemeinsam als Pabameto.
 Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich das neu gegründete Pabameto Quartett auf Balfolk; sehr tanzbar mit skandinavischen, keltischen und poppigen Einflüssen.
 
@@ -61,6 +73,8 @@ Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich
 
 **[Wings & Tales](https://www.wingsandtales.de/)** – Freitag 19:30 Uhr
 
+![Wings & Tales](tuv25-wings.jpg)
+
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
 *Fili – Geige, Vocals, Obertongesang*
@@ -70,6 +84,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 **Duo FA** – Freitag 22:00 Uhr
 
+![Duo FA](tuv25-duo-fa.png)
+
 Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit einigen Jahren Sessions und Bühnen der Balfolk-Szene. Aber neu ist, dass sie gemeinsam spielen und damit ihre große Liebe zur Balfolkmusik gemeinsam erlebbar machen. FA ist nicht nur ein Ton, sondern bei den beiden Musikerinnen ein Gefühl und eine ausgewogene Mischung aus feinen Melodien.
 
 *Anna Gaide – Akkordeon*
@@ -77,9 +93,13 @@ Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit ein
 
 **Rokkende Vrouwen** – Samstag 19:30 Uhr
 
+![Rokkende Vrouwen](tuv25-rokkende.jpg)
+
 Rokkende Vrouwen is a folk duo consisting of pianist and singer Hilde Van Belle and violinist and singer Lore Vancauwenberghe. Together they take old Flemish and Dutch songs out of the dust and put them in a contemporary jacket with here and there some Scandinavian influences. Expect danceable folk with unforgettable melodies and dreamy tones. Enjoy, dance, and travel through time and space with these ladies. From the 13th century poet Hadewijch to the 19th-century song 'De Weverkens'; the Rokkende Vrouwen get their inspiration from everywhere, and bring their songs in a hip folk version.
 
 **Le Driadi** (It) – Samstag 22:00 Uhr
+
+![Le Driadi](tuv25-driadi.jpg)
 
 ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldnymphen unveröffentlichte Stücke mit italienischen Singer-Songwriter-Einflüssen verwebt. Balfolk steht im Mittelpunkt des Projekts und umfasst französische Tänze, romantische Mazurken, Mixer und bretonische Ketten. Bei SimmelFolk wird die Band als Quartett auftreten, das die Magie von Rhythmus und Musik mit der vokalen Poesie des italienischen Singer-Songwritings mischt. Es entsteht ein klanglicher Wald, in dem jede Note ein Zauber ist und die Zuhörer einlädt, sich in der Welt aus Musik, Tanz und Magie zu verlieren!
 
@@ -89,6 +109,8 @@ ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldny
 
 **[Balsam](https://www.facebook.com/balsam.balfolk)** (PL) – Sonntag 13:00 Uhr
 
+![Balsam](tuv25-balsam.jpg)
+
 Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer und haben ein Repertoire aus energiegeladenen Chapelloises, verbindenden Hanter-Dros, romantischen Walzern und intimen Mazurken. Balsam komponiert und arrangiert europäische Tanzformen mit Respekt für die Tradition und einem mutig-kreativen Ansatz. Sie kombinieren Tanzmusik mit selbst geschriebener, polnisch gesungener Poesie. Das Ergebnis ist eine subtile, emotionale und herzerwärmende Reise für Tänzer und Zuhörer. Im Jahr 2019 veröffentlichte die Gruppe ihr Debütalbum "DO", die erste Balfolk-CD in Polen.
 
 *Ewa de Mezer – chromatisches Akkordeon, Gesang, Texte*
@@ -96,6 +118,8 @@ Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer
 *Jakub "Goldfinch" Szczygieł – Irische Flöte, Low Whistle, Tin Whistle*
 
 **Hilde van Belle** – Sonntag 15:00 Uhr
+
+![Hilde van Belle](tuv25-hilde.jpg)
 
 Hilde Van Belle writes litte songs in Flemish for both a listening and dancing audience. Prepare yourself for a mix of soft romance and intense craziness, brought with only one voice and a piano.
 
@@ -131,6 +155,8 @@ Hilde Van Belle writes litte songs in Flemish for both a listening and dancing a
 
 ## Ort und Anreise
 
+![Ballhaus Lindenhof](tuv25-ballhaus.jpg)
+
 Wir tanzen im imposanten [Grünen Ballsaal](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) des
 
 **Ballhaus Lindenhof**
@@ -143,6 +169,8 @@ Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplätze am Haus sind als Übernachtungsplätze reserviert. Weitere sind entlang der Straße zu finden und im Zentrum gibt es auch noch Stellflächen.
 
 ## Unterkunft
+
+![Unterkunft](tuv25-schlafen.jpg)
 
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige einfache Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).

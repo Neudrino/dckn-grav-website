@@ -7,6 +7,8 @@ body_classes: 'title-center'
 
 **22. – 25.05.2026**
 
+![Tanz und Verbindung 2026](tuv26-header.jpg)
+
 Zu Pfingsten lassen wir im und um das Ballhaus Lindenhof ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Contactimpro, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.
 Willkommen sind dabei Menschen jeglichen Alters – sehr gern in der ganzen Familie, jeglicher Hautfarbe, Herkunft, Glaubensrichtung, Geschlechtsidentität oder sexueller Orientierung.
@@ -19,6 +21,8 @@ Wir wünschen uns ein friedvolles, unterstützendes Miteinander, wo jede:r auf d
 
 19:00 Uhr **Duo Bothe** (D)
 
+![Duo Bothe](tuv26-bothe.jpg)
+
 Andreas und Barbara Bothe aus Erlangen kommen mit Akkordeon, Harfe, Flöte und Klarinette und bringen uns zum Tanzen.
 Andreas kennen einige von euch schon vom Duo Bothe/Molzahn oder von anderen Gelegenheiten. Nun neu als Duo auf den Bühnen des Balfolk.
 
@@ -27,11 +31,15 @@ Andreas kennen einige von euch schon vom Duo Bothe/Molzahn oder von anderen Gele
 
 21:30 Uhr [**Snaarmaarwaar**](https://www.snaarmaarwaar.be/en/home/) (BE)
 
+![Snaarmaarwaar](tuv26-snaarmaarwaar.webp)
+
 Eine Gitarre, eine Mandola, eine Mandoline, ein Satz Ersatzsaiten und die immense Freude am gemeinsamen Musizieren: Mehr braucht es nicht, um das Publikum mit ihren inspirierenden Melodien und ihrer magischen Live-Atmosphäre zu begeistern. Ihr neues Album heißt „LYS" und erzählt die Geschichte der launischen und wunderschönen Wege, die sie mit ihrer Musik beschritten haben – genau wie der gleichnamige Fluss, der manchmal reißend, manchmal mäandernd zwischen Frankreich und Belgien fließt.
 
 ### Samstag 23.05.
 
 18:00 Uhr **[Duo Marfinara](http://queeringbalfolk.de)** (L)
+
+![Duo Marfinara](tuv26-marfinara.webp)
 
 Mara Menzel (Akkordeon) und Josefine Schlät (Geige) fließen als „Duo Marfinara" zusammen zu einer Einheit von Klang, Tanz, Glück.
 In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkeit und Gefühl. Wenn sie dann noch dazu singen, wird es besonders schön. Die Stücke sind abwechslungsreich – vom energetisch schwungvollen Schottisch oder Cercle bis zur romantisch melancholischen Mazurka ist alles dabei. Dabei bewegt sich die Musik, entwickelt sich und gibt immer wieder neue tänzerische Impulse.
@@ -49,6 +57,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Helena – Flöte, Vocals*
 
 [**Flos**](https://www.facebook.com/flos.band) (NL)
+
+![Flos](tuv26-flos.jpg)
 Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente der Band. Mit eigenen Kompositionen und bestehenden Melodien lassen sie ihre Vorliebe für die Balfolkmusik ineinanderfließen. Schlendern Sie mit uns am Fluss entlang, wo die Maiglöckchen blühen und die Insekten tanzend den Frühling ankündigen.
 
 *Yvette – Gitarre*
@@ -59,6 +69,8 @@ Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente de
 ### Sonntag 24.05.
 
 18:00 Uhr **Juggling Strings** (DD und so)
+
+![Juggling Strings](tuv26-juggling.jpg)
 
 Die Dresdner Band gründete sich aus dem Wunsch heraus, die Musik und Tanzfreude auf die Straße zu bringen und neue Menschen für wirbelnde Begegnung und den Folktanz zu begeistern.
 Zwischen vielen Kreis- und Mixertänzen versteckt sich auch der eine oder andere historische Tanz oder Paartanz. Das Repertoire hierfür stammt aus dem europäischen Raum, von baskisch bis griechisch und italienisch bis dänisch…
@@ -71,6 +83,8 @@ Einige Tunes wurden bearbeitet oder gar neu interpretiert und oft wird auch frö
 *Miroslav Mütze – Gesang, Bodhran*
 
 20:00 Uhr **[Mehr als Wir](https://mehralswir.de/)** (D)
+
+![Mehr als Wir](tuv26-mehralswir.jpg)
 
 Weniger Singer, mehr Songwriter.
 Weniger Duo, mehr Band.
@@ -101,6 +115,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 ### Montag, 25.05.
 
 12:00 Uhr [**Mara Menzel** und friends (L)](https://queeringbalfolk.de/mara/mara-menzel-musik/)
+
+![Mara Menzel](tuv26-mara.webp)
 
 Ein Akkordeon, eine Stimme und selbstgeschriebene Melodien.
 
@@ -155,6 +171,8 @@ Du hast Lust, einen Workshop zu geben? Dann schick eine Workshopbeschreibung und
 
 ## Veranstaltungsort
 
+![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
+
 Wir tanzen im imposanten Grünen Ballsaal im [Ballhaus Lindenhof](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) in Waldheim, mitten in Sachsen.
 Waldheim ist ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
@@ -167,6 +185,8 @@ Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind n
 
 ## Essen
 
+![Essen](tuv26-essen.jpg)
+
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden.
 Frühstück jeweils 9 – 12 Uhr
@@ -174,6 +194,8 @@ Frühstück jeweils 9 – 12 Uhr
 Mitternachtssnack Fr, Sa und So
 
 ## Schlafen
+
+![Schlafen](tuv26-schlafen.jpg)
 
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).

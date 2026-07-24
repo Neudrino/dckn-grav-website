@@ -9,9 +9,11 @@ Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte
 
 ## Was wir bieten
 
-- [Spenden & Fördern](/der-verein/foerdern-spenden)
-- [Mitglied werden](/der-verein/vereinsmitglied-werden)
-- [Projektantrag stellen](/der-verein/projektfoerderung-beantragen)
+[![Spenden & Fördern](tiles/spenden-foerdern.jpg)](/der-verein/foerdern-spenden)
+
+[![Mitglied werden](tiles/mitglied-werden.jpg)](/der-verein/vereinsmitglied-werden)
+
+[![Projektantrag stellen](tiles/projektantrag.jpg)](/der-verein/projektfoerderung-beantragen)
 
 ## Unsere Werte für co-kreative Projekte
 

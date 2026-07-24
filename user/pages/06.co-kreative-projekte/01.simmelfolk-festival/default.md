@@ -9,6 +9,8 @@ body_classes: 'title-center'
 
 ### Ihr lieben Balfolk-Menschen!
 
+![Auf dem Bühl](buehl.jpg)
+
 Wir laden euch herzlich zum SimmelFolk Festivals ein, ein Balfolk-Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.
 
 Gemeinsam schaffen wir einen Ort der Gemeinschaft, mit gegenseitigem Respekt und ausgelassener Fröhlichkeit, mit freudigem Wiedersehen und neuen Begegnungen, geselligen Stunden am Lagerfeuer, beim jammen, chillen und gemeinsamem Essen, beim Reden, Lachen, Umarmen und vielem mehr.
@@ -24,6 +26,10 @@ Ohne euch gibt es kein Festival.
 Jede und jeder ist eingeladen sich mit ihren/seinen Fähigkeiten, Energie und Präsenz einzubringen, um das Festival mitzugestalten, egal ob als Musiker:in oder Workshopleiter:in, beim Kochen, Vorbereiten oder Aufräumen.
 Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein Balfolk-Festival. Das ist Co-Kreation!
 
+![Tanzen](tanzen.jpg)
+
+![Lagerfeuer](lagerfeuer.jpg)
+
 ### Auf dem Bühl
 
 Das Festival findet auf dem Bühl in Simmelsdorf statt, am Tor zur Fränkischen Schweiz.
@@ -37,7 +43,11 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 ## Programm und Bands
 
+![Programm 2026](programm.jpg)
+
 ### Augustas (LT)
+
+![Augustas](augustas.jpg)
 
 Hinter dem Projekt „Rhythmic Connections" steht ein Musiker aus Litauen, der traditionelle Tanzmelodien mit eigenen Balfolk-Kompositionen verbindet. Erste Bühnenerfahrungen sammelte er 2018, seitdem hat sich sein Stil stetig weiterentwickelt – nun ist er solo unterwegs.
 
@@ -54,6 +64,8 @@ Seine Leidenschaft für Folk und Tanz ist in jedem Moment spürbar: Mitreißende
 
 ### Baluga (F)
 
+![Baluga](baluga.png)
+
 Eymeric's electro-folk Projekt…
 
 Folge dem Belugawal …
@@ -66,6 +78,8 @@ hinter den Parkettdielen öffnet sich eine schimmernde blaue Welt: getragen von 
 
 ### Duo Neus (D)
 
+![Duo Neus](duo-neus.png)
+
 aka Mara und Torge haben im Frühling 2024 erstmals zusammen gespielt und es war sofort klar, dass es bei dieser Begegnung nicht bleiben konnte. In kürzester Zeit schrieben sie eine Menge Tunes und haben mittlerweile ein vielseitiges Konzertprogramm für einen vollen Balfolk Abend anzubieten.
 
 Ihre Stücke kommen aus eigener Feder und sind allesamt neu. Duo Neus spielt sowohl zum Tanz als auch zum Zuhören – auf jeden Fall spielen sie mit viel Feuer und Spaß!
@@ -77,6 +91,8 @@ Ihre Stücke kommen aus eigener Feder und sind allesamt neu. Duo Neus spielt sow
 - [Youtube](https://youtu.be/xxSuulhm6_w?si=G_FcOMj6L1e4dHt1)
 
 ### Duo Plodocus (F)
+
+![Duo Plodocus](duo-plodocus.jpg)
 
 … lädt zu einer ebenso feinsinnigen wie verspielten musikalischen Reise ein. Mit Geige, diatonischem Akkordeon und Gesang verweben sie eigene Kompositionen und neu interpretierte traditionelle Melodien zu ihrem ganz eigenen Klang – der unverwechselbaren „Plodo-Sauce".
 
@@ -93,6 +109,8 @@ Die Klänge atmen, flirren und überraschen – sie kribbeln im Nacken, tragen d
 
 ### Drehwurm (D)
 
+![Drehwurm](drehwurm.jpg)
+
 Wir sind Drehwurm aus Berlin, Lübeck und Erfurt. Uns verbindet nicht nur unsere Nähe zu Dresden, sondern besonders unsere Freude am gemeinsamen Musizieren.
 
 Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwiebeln. Sie sind geprägt von internationaler Folkmusik (ägyptischen Trolltänzen, Metal,…) sowie von Liedermachern und Holter-die-polter-Polka. Diese Stilrichtungen finden sich in schwindelerregenden Walzern, träumerischen Gavottes, angriffslustigen Bourrees und flott geflöteten Polkas wieder. Dazu gibt es eigene Texte, inhaltlich gestreut von philosophischen Themen über Landschaftsbeschreibungen bis hin zu Gutenachtliedern. Mit einer Prise Albernheit gestalten wir unsere Musik sowohl tanzbar als auch zum lauschen.
@@ -105,6 +123,8 @@ Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwi
 - [Homepage](https://drehwurm.band/)
 
 ### Fyndus (B)
+
+![Fyndus](fyndus.jpg)
 
 Willkommen in der wunderbaren Welt von Fyndus, einem neuen Folk-Duo mit Emma Coopman und Thomas Hoste (elektroakustische Alt-Drehleier & Soundeffekte).
 Gemeinsam präsentieren wir sehr tanzbare Musik zum Zuhören oder hörenswerte Tanzmusik.
@@ -120,6 +140,8 @@ Wir haben unsere Musik bereits auf vielen (inter)nationalen Bühnen präsentiert
 
 ### Julien Bohème (F)
 
+![Julien Bohème](julien-boheme.gif)
+
 Aus Lausanne in der Schweiz stammend, entdeckte der Künstler bereits im Alter von acht Jahren seine Leidenschaft für die Musik. Erste prägende Erfahrungen sammelte er auf Reisen durch Frankreich, bevor er seinen ursprünglichen Beruf hinter sich ließ und in die Welt des Zirkus eintauchte. Dort arbeitete er zunächst hinter den Kulissen, bis er 2017 selbst den Schritt auf die Bühne wagte. Kurz darauf folgte mit dem Trio Baladins die erste Europatournee im Bal-Folk-Bereich.
 
 Heute präsentiert er ein neues Solo-Projekt, das seine musikalische Reise auf persönliche Weise weiterführt. Eine erste EP ist in Arbeit – getragen von einem engagierten Team und der Lust auf neue Klangwelten.
@@ -133,6 +155,8 @@ Seit fast einem Jahrzehnt ist das Akkordeon sein treuer Begleiter. Seine Musik e
 
 ### Mara Menzel (D)
 
+![Mara Menzel](mara-menzel.png)
+
 Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite mich dabei auf dem diatonischen Akkordeon, der Gitarre und der Kalimba. Das Balfolk Universum begeistert mich schon seit klein auf, zuerst fand ich meinen Zugang über den Tanz und dann musizierend mit verschiedenen Gruppen wie Stimmt so., meinem Solo, Lunesk und meinen Duos. Freut Euch auf Geschichten in Deutsch, Englisch, Französisch und Italienisch mal laut, mal leise, mal wild und zum dahin schmelzen.
 
 *Mara Menzel – diatonisches Akkordeon, Stimme*
@@ -142,6 +166,8 @@ Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite
 - [Youtube](https://youtu.be/T33DDiHX390?si=gIOBoQOCQYRG7ehA)
 
 ### Zéphyr Combo (CH/B)
+
+![Zéphyr Combo](zephyr-combo.png)
 
 … kommen diesmal leider nur als Trio – dafür mit Helikon, Strombox, E-Gitarre – und jeder Menge Energie!
 
@@ -189,6 +215,8 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 
 ### Gemeindehaus und Tanzsaal
 
+![Tanzsaal](saal.jpg)
+
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
 
 Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die zum Zubereiten der gemeinsamen Speisen verwendet wird. Im Garten werden Tische und Bänke stehen, um bei schönem Wetter draußen zu essen und verweilen.
@@ -196,6 +224,8 @@ Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die z
 ## Unterkunft und Verpflegung
 
 ### Schlafsaal
+
+![Schlafsaal](schlafen.jpg)
 
 **Anreise: Donnerstag ab 15 Uhr**
 **Abreise: Montag bis 12 Uhr**
@@ -205,6 +235,7 @@ Wir dürfen uns im Vereinsheim des SV Achteltal ein Matrazenlager einrichten, ca
 ### Camping
 
 **Zelten**
+![Camping](camping.jpg)
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
 
 **Wohnmobile**
@@ -217,6 +248,8 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 - [FeWo-direkt](https://www.fewo-direkt.de/search/keywords:simmelsdorf-bayern-deutschland/)
 
 ### Verpflegung
+
+![Verpflegung](verpflegung.jpg)
 
 Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
 

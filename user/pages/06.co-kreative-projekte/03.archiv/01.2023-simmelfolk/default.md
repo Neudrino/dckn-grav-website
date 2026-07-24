@@ -7,6 +7,8 @@ body_classes: 'title-center'
 
 Die Turnhalle und der Campingplatz müssen bis Sonntag 12 Uhr geräumt sein. Die letzte Nutzung der Sanitäranlagen ist 14 Uhr.
 
+![Programm 2023](simmelfolk-prog-2023.jpg)
+
 ## Workshops
 
 ### Samstag
@@ -24,6 +26,8 @@ Die Turnhalle und der Campingplatz müssen bis Sonntag 12 Uhr geräumt sein. Die
 
 ### Bal de L`Aube
 
+![Bal de L'Aube](bal-de-laube.jpg)
+
 "… Duo tout terrain habitué des bals sauvages* vous emmène danser jusqu'au bout de la nuit!"
 
 frei übersetzt:
@@ -38,6 +42,8 @@ Fabien Bucher (F) – Mandoline
 - [Bal à Maffé (Youtube)](https://www.youtube.com/watch?v=PaLz72TFVyQ)
 
 ### BassdScho!
+
+![BassdScho!](bassdscho.jpg)
 
 Die wollen nur spielen!
 
@@ -54,6 +60,8 @@ Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
 
 ### Duo Bothe Molzahn
 
+![Duo Bothe Molzahn](duo-bothe.jpg)
+
 … das sind zwei Folkbegeisterte, die an moderner Spielweise, rhythmischen Akzenten und Improvisation sichtlich ihre Freude haben. So erklingen ihre Stücke nie genau so, wie beim Bal zuvor, sie sind immer etwas einmalig… denn die Intuition des Augenblicks bestimmt ihr intensives Zusammenspiel!
 
 Mit viel energiegeladener, aber auch beseelt-romantischer Musik wird eine spannende Tanzreise durch Frankreich, ins Poitou und die Bretagne geboten. Abstecher nach Portugal und Skandinavien ergänzen die vielseitige Tour – Bon voyage!
@@ -62,6 +70,8 @@ Andreas Bothe (D) – Diatonisches Akkordeon, Percussion (Udu, Davul, Maultromme
 Uwe Molzahn (D) – Violine
 
 ### Emily and the Simons
+
+![Emily and the Simons](emily-simons.jpg)
 
 Emily & the Simons sind ein anglo-belgisches Balfolk-Trio. Im Mittelpunkt ihrer Musik stehen Emilys Kompositionen, die sich von den Begegnungen im Leben und der Energie auf der Tanzfläche inspirieren lassen. Ihr Stil ist sehr ausdrucksstark, voller Improvisation, Leidenschaft, Zärtlichkeit und Verspieltheit.
 
@@ -76,6 +86,8 @@ Simon Laffineur (B) – Gitarre
 
 ### L`Air Inconnu
 
+![L'Air Inconnu](lair-inconnu.jpg)
+
 … ist ein künstlerisches und kreatives Musik Trio, das sowohl den aktuellen Balfolk bedient, als auch neugierige Ohren und wilde Tiere wie Pflanzen gleichermaßen zum Tanzen bringt.
 
 Ihre Kompositionen und Arrangements von traditionellen Stücken sind von den Erlebnissen und starken Emotionen inspiriert, die sie auf unzähligen Bällen und Festivals erfahren durften: die Freude der Begegnung, zwischenmenschliche Poesie, die Ansteckungskraft der Musik, die Energie von Körpern in Bewegung, kollektiver Rausch…
@@ -88,6 +100,8 @@ Sylvain Pool (F) – Akkordeon, Gitarre
 - [Balalalune (Youtube)](https://youtu.be/iPOkNRlhMjY)
 
 ### Lunesk
+
+![Lunesk](luesk.jpg)
 
 Die Balfolk-Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht.
 Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt. Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/ Néotrad über Rock bis zu Salsa.
@@ -102,6 +116,8 @@ Benedikt Willberg – Perkussion
 - [5 Minutenwalzer (Youtube)](https://www.youtube.com/watch?v=1RV1GOJvPVY)
 
 ### Luca Fiorini
+
+![Luca Fiorini](luca-fiorini.jpg)
 
 Luca und sein Akkordeon: sie tanzen miteinander, mal zart und leise, langsam und romantisch, mal im crescendo, laut und dynamisch, immer leidenschaftlich und ja- mit Herz. Durch ihre Melodien, traditionelle und eigene Kompositionen, öffnet sich das Tor in ihre Welt, die Welt der Musik, und wir können diese authentische Priese italienischer Emotion und Lebensfreude kosten.
 

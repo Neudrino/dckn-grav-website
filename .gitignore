@@ -1,10 +1,24 @@
-config/
+# === Container runtime (managed by linuxserver/grav image) ===
+/config/
 
-# Grav runtime artifacts under user/ — installable via GPM, not content we author.
-# Only user/pages/ is tracked (the editable example content).
-user/accounts/
-user/config/
+# === Grav runtime data (auto-generated: caches, indexes, feeds, scheduler) ===
 user/data/
+
+# === Grav secrets (auto-generated, must never be committed) ===
+user/config/plugins/api-private.php
+user/config/security-private.php
+
+# === Auto-generated metadata ===
+user/config/versions.yaml
+user/config/media.yaml
+
+# === Plugins (installed via setup-plugins.sh, not content we author) ===
 user/plugins/
-user/themes/
+
+# === Theme (bundled with image; only our custom.css override is tracked) ===
+user/themes/*
+!user/themes/quark2/
+user/themes/quark2/*
+!user/themes/quark2/css/
+user/themes/quark2/css/*
 !user/themes/quark2/css/custom.css

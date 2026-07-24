@@ -1,0 +1,6 @@
+vorstand:
+  readableName: Vorstand
+  description: ''
+  enabled: true
+  access: {  }
+  groupname: vorstand

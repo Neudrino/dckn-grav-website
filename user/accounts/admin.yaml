@@ -1,0 +1,20 @@
+state: enabled
+email: admin@email.com
+fullname: admin
+title: Administrator
+access:
+  site:
+    login: true
+  api:
+    super: true
+hashed_password: $2y$12$ymXsMyt6HqdT7VNkOM.jW.dn9GG2k3UlBPjKS972Mdae1PaFSoVG2
+created: 1784887017
+modified: 1784887017
+avatar: {  }
+twofa_enabled: false
+twofa_secret: ''
+admin_next:
+  preferences:
+    accentHue: 25
+    accentSaturation: 95
+    fontSize: xlarge

@@ -1,0 +1,26 @@
+slug: signature-attachment
+type: plugin
+version: 1.0.0
+name: Signature Attachment
+description: Converts a signature_pad base64 field to a PNG email attachment
+icon: signature
+author:
+  name: DckN
+homepage: https://dckn.de
+keywords: signature, form, email, attachment
+dependencies:
+  - form
+  - email
+
+form:
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

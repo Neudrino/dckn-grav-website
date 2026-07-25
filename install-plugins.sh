@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# install-plugins.sh — Install Grav plugins + composer dependencies
+# install-plugins.sh — Install Grav plugins, theme, + composer dependencies
 #
 # This script runs INSIDE the Grav container (either during Docker build
 # or inside a running container). It does NOT use docker exec.
@@ -28,16 +28,32 @@ PLUGINS=(
   shortcode-core
 )
 
-echo "==> Installing Grav plugins via GPM..."
+# The quark2 theme is not shipped with the linuxserver/grav image and is
+# excluded from git (.gitignore) — only our custom overrides are tracked.
+# Install the full base theme via GPM so templates/partials resolve.
+THEMES=(
+  quark2
+)
 
 cd "$GRAV_ROOT"
 
+echo "==> Installing Grav plugins via GPM..."
 for plugin in "${PLUGINS[@]}"; do
   if [ -d "user/plugins/$plugin" ]; then
     echo "    $plugin — already installed, skipping"
   else
     echo "    $plugin — installing..."
     bin/gpm install "$plugin" --no-interaction 2>&1 | tail -3
+  fi
+done
+
+echo "==> Installing Grav themes via GPM..."
+for theme in "${THEMES[@]}"; do
+  if [ -f "user/themes/$theme/blueprints.yaml" ]; then
+    echo "    $theme — already installed, skipping"
+  else
+    echo "    $theme — installing..."
+    bin/gpm install "$theme" --no-interaction 2>&1 | tail -3
   fi
 done
 
@@ -55,3 +71,5 @@ bin/grav cache 2>&1 | tail -1
 
 echo "==> Done. Plugins installed:"
 ls user/plugins/
+echo "==> Themes installed:"
+ls user/themes/

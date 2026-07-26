@@ -295,3 +295,21 @@ object[type="application/pdf"] {
   border-radius: var(--q2-radius-sm, 4px);
   margin-bottom: 1rem;
 }
+
+/* ===== Split column layout ([split] shortcode) ===== */
+.split-cols {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.split-cols > div {
+  flex: 1;
+  min-width: 250px;
+}
+.split-cols img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

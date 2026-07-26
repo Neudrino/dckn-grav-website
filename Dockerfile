@@ -18,8 +18,17 @@ FROM lscr.io/linuxserver/grav:latest AS builder
 COPY user/ /config/www/user/
 COPY install-plugins.sh /tmp/install-plugins.sh
 
-# Run the init scripts manually to set up symlinks before installing plugins
-RUN /etc/s6-overlay/s6-rc.d/init-grav-config/run 2>/dev/null || true && \
+# Set up symlinks (replicates what init-grav-config/run does at runtime)
+RUN for d in user backup logs; do \
+      if [ -d "/config/www/$d" ]; then \
+        rm -rf "/app/www/public/$d"; \
+        ln -s "/config/www/$d" "/app/www/public/$d"; \
+      fi; \
+    done && \
+    if [ -f /config/www/robots.txt ]; then \
+      rm -f /app/www/public/robots.txt; \
+      ln -s /config/www/robots.txt /app/www/public/robots.txt; \
+    fi && \
     chmod +x /tmp/install-plugins.sh && \
     GRAV_ROOT=/app/www/public /tmp/install-plugins.sh
 

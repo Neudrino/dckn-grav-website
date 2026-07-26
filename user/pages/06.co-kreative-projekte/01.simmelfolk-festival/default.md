@@ -1,27 +1,36 @@
 ---
 title: 'Simmelfolk Festival'
-body_classes: 'title-center'
+body_classes: title-center
 template: event
 event:
-  startdatum: '2026-09-03'
-  enddatum: '2026-09-06'
-  ort: 'Simmelsdorf'
+    startdatum: '2026-09-03'
+    enddatum: '2026-09-06'
+    ort: Simmelsdorf
 ---
 
-## 6. SimmelFolk Festival vom 03.-06. September 2026
+# 6. SimmelFolk Festival
+## vom 03.-06. September 2026
 
-[Anmeldung](https://eveeno.com/simmelfolk)
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/simmelfolk">Anmeldung</a></p>
 
-### Ihr lieben Balfolk-Menschen!
 
+[split]
+[col]
 ![Auf dem Bühl](buehl.jpg)
+[/col]
+[col]
+### Ihr lieben Balfolk-Menschen!
 
 Wir laden euch herzlich zum SimmelFolk Festivals ein, ein Balfolk-Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.
 
 Gemeinsam schaffen wir einen Ort der Gemeinschaft, mit gegenseitigem Respekt und ausgelassener Fröhlichkeit, mit freudigem Wiedersehen und neuen Begegnungen, geselligen Stunden am Lagerfeuer, beim jammen, chillen und gemeinsamem Essen, beim Reden, Lachen, Umarmen und vielem mehr.
 
 Kommt und bringt eure Freunde mit!
+[/col]
+[/split]
 
+[split]
+[col]
 ### Mitmach-Festival
 
 Dieses Festival ist ein Gemeinschaftsprojekt.
@@ -30,11 +39,17 @@ Ohne euch gibt es kein Festival.
 
 Jede und jeder ist eingeladen sich mit ihren/seinen Fähigkeiten, Energie und Präsenz einzubringen, um das Festival mitzugestalten, egal ob als Musiker:in oder Workshopleiter:in, beim Kochen, Vorbereiten oder Aufräumen.
 Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein Balfolk-Festival. Das ist Co-Kreation!
-
+[/col]
+[col]
 ![Tanzen](tanzen.jpg)
+[/col]
+[/split]
 
+[split]
+[col]
 ![Lagerfeuer](lagerfeuer.jpg)
-
+[/col]
+[col]
 ### Auf dem Bühl
 
 Das Festival findet auf dem Bühl in Simmelsdorf statt, am Tor zur Fränkischen Schweiz.
@@ -43,8 +58,10 @@ Es ist der perfekte Ort für ein Festival: wenig Verkehr und Nachbarn aber viel 
 Egal, ob ihr rund um die Uhr tanzen wollt, oder einfach in Ruhe ausspannen, der Spätsommer auf dem Bühl lädt euch ein, einfach nur hier zu sein.
 
 Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben zu feiern!
+[/col]
+[/split]
 
-[Anmeldung](https://eveeno.com/simmelfolk)
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/simmelfolk">Anmeldung</a></p>
 
 ## Programm und Bands
 
@@ -284,7 +301,7 @@ Dieses Jahr wird es 2 Anmeldeslots geben. In den letzten Jahren waren Tickets na
 
 Wir brauchen euch! Als DCKN Mitglied unterstützt ihr dauerhaft und wirkungsvoll unsere ehrenamtliche Arbeit. Ihr profitiert von eurer Mitgliedschaft, indem ihr 24h vor dem offiziellen Anmeldestart am 05.07. Zugang zur Anmedlung durch einen CODE per Email bekommt und euch anmelden könnt.
 
-[Anmeldung](https://eveeno.com/167891942)
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/167891942">Anmeldung</a></p>
 
 ### Kosten
 
@@ -305,4 +322,4 @@ Bei Fragen und Ideen einfach melden!
 
 [Email](mailto:simmelfolk@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20Simmelfolk%20Festival)
 
-[Anmeldung](https://eveeno.com/167891942)
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/167891942">Anmeldung</a></p>

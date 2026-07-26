@@ -10,7 +10,8 @@ git clone <repo-url> grav-website
 cd grav-website
 docker compose up -d
 ./setup-plugins.sh
-npm install          # for Grav MCP server (see "Grav MCP Server" below)
+# create package.json for Grav MCP (see below)
+npm init -y && npm install grav-mcp
 ```
 
 Then open `http://localhost:8080`.
@@ -53,10 +54,10 @@ manage site content. Full tool reference: [grav-mcp README](node_modules/grav-mc
 
 ### Fresh Setup
 
-1. **Install the dependency:**
+1. **Create `package.json` and install the dependency:**
 
    ```bash
-   npm install
+   npm init -y && npm install grav-mcp
    ```
 
 2. **Generate an API key** (printed once — save it):
@@ -97,8 +98,6 @@ manage site content. Full tool reference: [grav-mcp README](node_modules/grav-mc
 - `user/accounts/` — admin user account
 - `user/themes/quark2/css/custom.css` — CSS overrides only
 - `setup-plugins.sh` — plugin installation script
-- `package.json` / `package-lock.json` — grav-mcp dependency manifest
-
 ## What's NOT Tracked
 
 - `config/` — container runtime (managed by linuxserver image)

@@ -9,6 +9,8 @@ opencode.json
 
 # === Node dependencies (installed via npm install, not tracked) ===
 node_modules/
+package.json
+package-lock.json
 
 # === Grav runtime data (auto-generated: caches, indexes, feeds, scheduler) ===
 user/data/

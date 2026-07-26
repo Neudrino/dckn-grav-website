@@ -19,3 +19,25 @@ user/config/media.yaml
 # Exclude secrets (injected at runtime via entrypoint.sh)
 user/config/plugins/api-private.php
 user/config/security-private.php
+
+# Exclude locally-installed plugins (bundled with image or installed via GPM)
+user/plugins/*
+!user/plugins/signature-attachment/
+user/plugins/signature-attachment/vendor/
+
+# Exclude theme base files (bundled with image; only our overrides tracked)
+user/themes/*
+!user/themes/quark2/
+user/themes/quark2/*
+!user/themes/quark2/css/
+user/themes/quark2/css/*
+!user/themes/quark2/css/custom.css
+!user/themes/quark2/templates/
+user/themes/quark2/templates/*
+!user/themes/quark2/templates/home.html.twig
+!user/themes/quark2/templates/projekte.html.twig
+!user/themes/quark2/templates/event.html.twig
+!user/themes/quark2/templates/formular.html.twig
+!user/themes/quark2/blueprints/
+user/themes/quark2/blueprints/*
+!user/themes/quark2/blueprints/event.yaml

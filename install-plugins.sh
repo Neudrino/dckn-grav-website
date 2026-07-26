@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 #
-# install-plugins.sh — Install Grav plugins, theme, + composer dependencies
+# install-plugins.sh — Install plugins and composer dependencies
 #
-# This script runs INSIDE the Grav container (either during Docker build
-# or inside a running container). It does NOT use docker exec.
+# The linuxserver/grav image already bundles quark2 theme + 10 plugins.
+# This script only installs the 2 missing plugins (brevo, form-captcha-hcaptcha)
+# via GPM and runs composer install for signature-attachment.
+#
+# Runs INSIDE the Grav container (Docker build or running container).
 # Use setup-plugins.sh from the host for local development.
 #
 # Environment variables:
@@ -13,6 +16,11 @@ set -euo pipefail
 
 GRAV_ROOT="${GRAV_ROOT:-/app/www/public}"
 
+# The linuxserver/grav image bundles 10 of 12 plugins listed below;
+# those already present (with a directory in user/plugins/) are skipped.
+# Only the missing plugins (brevo, form-captcha-hcaptcha) are installed
+# via GPM during Docker build — making it fast.
+# quark2 theme is also bundled with the image, so no theme install needed.
 PLUGINS=(
   admin2
   api
@@ -27,10 +35,8 @@ PLUGINS=(
   problems
   shortcode-core
 )
-
-# The quark2 theme is not shipped with the linuxserver/grav image and is
-# excluded from git (.gitignore) — only our custom overrides are tracked.
-# Install the full base theme via GPM so templates/partials resolve.
+# quark2 is bundled with the image (Docker build) so GPM skips it.
+# For local dev (fresh clone), GPM installs it here.
 THEMES=(
   quark2
 )

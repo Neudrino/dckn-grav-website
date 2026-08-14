@@ -46,6 +46,8 @@ user/themes/quark2/templates/*
 !user/themes/quark2/templates/partials/
 user/themes/quark2/templates/partials/*
 !user/themes/quark2/templates/partials/footer.html.twig
+!user/themes/quark2/templates/partials/projekt-card.html.twig
+!user/themes/quark2/templates/partials/projekt-date-range.html.twig
 !user/themes/quark2/blueprints/
 user/themes/quark2/blueprints/*
 !user/themes/quark2/blueprints/event.yaml

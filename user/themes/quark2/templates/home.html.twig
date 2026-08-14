@@ -1,22 +1,5 @@
 {% extends 'partials/base.html.twig' %}
 
-{% macro format_date_range(start, end) %}
-    {% if start and end %}
-        {% set s = start|split('-') %}
-        {% set e = end|split('-') %}
-        {% if s.0 == e.0 and s.1 == e.1 %}
-            {{ s.2 }}.–{{ e.2 }}.{{ s.1 }}.{{ s.0 }}
-        {% elseif s.0 == e.0 %}
-            {{ s.2 }}.{{ s.1 }}.–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
-        {% else %}
-            {{ s.2 }}.{{ s.1 }}.{{ s.0 }}–{{ e.2 }}.{{ e.1 }}.{{ e.0 }}
-        {% endif %}
-    {% elseif start %}
-        {% set s = start|split('-') %}
-        {{ s.2 }}.{{ s.1 }}.{{ s.0 }}
-    {% endif %}
-{% endmacro %}
-
 {% block content %}
     <article class="content-item">
         {% set intro_text = page.header.verein_intro %}
@@ -47,10 +30,10 @@
                             <div class="projekt-mini-body">
                                 <strong>{{ child.title }}</strong>
                                 {% if event.startdatum %}
-                                <span class="projekt-mini-datum">{{ _self.format_date_range(event.startdatum, event.enddatum) }}</span>
+                                <span class="projekt-mini-datum">{% include 'partials/projekt-date-range.html.twig' with {start: event.startdatum, end: event.enddatum} %}</span>
                                 {% endif %}
                                 {% if event.ort %}
-                                <span class="projekt-mini-ort">📍 {{ event.ort }}</span>
+                                <span class="projekt-mini-ort"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ event.ort }}</span>
                                 {% endif %}
                             </div>
                         </a>

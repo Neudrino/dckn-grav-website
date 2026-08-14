@@ -137,10 +137,6 @@
   align-items: center;
   gap: 0.375rem;
 }
-.projekt-icon {
-  font-size: 0.9375rem;
-  line-height: 1;
-}
 
 /* ===== Projekte mini cards on homepage ===== */
 .projekte-tile {

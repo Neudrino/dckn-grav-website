@@ -1,6 +1,11 @@
 ---
 title: '2025 Tanz- und Begegnungstag'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2025-11-15
+  enddatum: 2025-11-15
+  ort: Lautenbach
 ---
 
 ## Tanz- und Begegnungstag am 15.11.2025

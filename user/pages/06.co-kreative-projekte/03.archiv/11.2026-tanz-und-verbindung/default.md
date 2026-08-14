@@ -1,6 +1,11 @@
 ---
 title: '2026 Tanz und Verbindung'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2026-05-22
+  enddatum: 2026-05-25
+  ort: Waldheim
 ---
 
 ## Tanz und Verbindung 2026

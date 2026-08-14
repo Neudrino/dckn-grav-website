@@ -1,6 +1,11 @@
 ---
 title: '2023 SimmelFolk Programm und Bands'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2023-09-01
+  enddatum: 2023-09-03
+  ort: Simmelsdorf
 ---
 
 ## Geänderte Abgabezeit Turnhalle: 12 Uhr

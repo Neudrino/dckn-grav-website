@@ -1,6 +1,11 @@
 ---
 title: '2024 MärzTanz Festival'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2024-03-15
+  enddatum: 2024-03-17
+  ort: Chemnitz
 ---
 
 ## MärzTanz Festival — Rückblick auf das 1. MärzTanz Festival

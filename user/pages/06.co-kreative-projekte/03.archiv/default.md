@@ -2,6 +2,7 @@
 title: 'Archiv'
 body_classes: 'title-center'
 template: projekte
+event_sort: desc
 ---
 
 # Archiv

@@ -22,7 +22,11 @@
         {{ page.content|raw }}
 
         <div class="projekte-grid">
-            {% for child in page.children.visible %}
+            {% set children = page.children.visible %}
+            {% if page.header.event_sort %}
+                {% set children = children.order('header.event.startdatum', page.header.event_sort) %}
+            {% endif %}
+            {% for child in children %}
                 {% set image = child.media.images|first %}
                 {% set event = child.header.event %}
                 <a class="projekt-card" href="{{ child.url }}">

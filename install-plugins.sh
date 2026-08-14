@@ -55,11 +55,11 @@ done
 
 echo "==> Installing Grav themes via GPM..."
 for theme in "${THEMES[@]}"; do
-  if [ -f "user/themes/$theme/blueprints.yaml" ]; then
+  if [ -f "user/themes/$theme/templates/default.html.twig" ]; then
     echo "    $theme — already installed, skipping"
   else
     echo "    $theme — installing..."
-    bin/gpm install "$theme" --no-interaction 2>&1 | tail -3
+    bin/gpm install "$theme" --all-yes 2>&1 | tail -3
   fi
 done
 

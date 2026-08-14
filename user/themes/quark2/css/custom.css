@@ -5,6 +5,64 @@
  * theme.css without having to mark rules !important.
  */
 
+/* Google Translate button in navbar — mirrors .theme-toggle sizing */
+a.translate-btn {
+  --size: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size);
+  height: var(--size);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--q2-radius-pill);
+  background: transparent;
+  color: var(--q2-text-strong);
+  cursor: pointer;
+  line-height: 0;
+  font-size: 0;
+  box-shadow: none;
+  flex: 0 0 auto;
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+a.translate-btn i {
+  font-size: 16px;
+  line-height: 1;
+}
+a.translate-btn:hover {
+  background: var(--q2-bg-muted);
+  color: var(--q2-text-strong);
+  text-decoration: none !important;
+}
+a.translate-btn:focus-visible {
+  outline: 2px solid var(--q2-focus-ring);
+  outline-offset: 2px;
+}
+
+/* Mobile overlay: undo the icon-only sizing, show label inline */
+#overlay a.translate-btn {
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  gap: 0;
+}
+#overlay a.translate-btn i {
+  font-size: 1rem;
+}
+
+/* Inherit header-dark / header-light colour overrides like theme-toggle */
+body.header-dark:not(.scrolled) #header a.translate-btn {
+  color: #ffffff;
+}
+body.header-light:not(.scrolled) #header a.translate-btn {
+  color: #111111;
+}
+
 /* Three-column grid for homepage tiles */
 .three-col {
   display: grid;

@@ -1,6 +1,11 @@
 ---
 title: '2024 Simmelfolk Programm und Bands'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2024-09-05
+  enddatum: 2024-09-08
+  ort: Simmelsdorf
 ---
 
 ## SimmelFolk Festival 2024

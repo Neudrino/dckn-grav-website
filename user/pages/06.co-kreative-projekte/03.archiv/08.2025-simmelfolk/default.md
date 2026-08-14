@@ -1,6 +1,11 @@
 ---
 title: '2025 SimmelFolk Festival'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2025-09-04
+  enddatum: 2025-09-07
+  ort: Simmelsdorf
 ---
 
 ## 5. SimmelFolk Festival vom 4.-7. September 2025

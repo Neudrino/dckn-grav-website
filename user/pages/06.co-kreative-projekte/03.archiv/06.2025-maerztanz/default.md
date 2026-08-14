@@ -1,6 +1,11 @@
 ---
 title: '2025 MärzTanz Festival'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2025-03-14
+  enddatum: 2025-03-16
+  ort: Chemnitz
 ---
 
 ## 2. MärzTanz Festival 14. – 16.03.2025

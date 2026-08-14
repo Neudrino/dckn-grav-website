@@ -1,6 +1,11 @@
 ---
 title: '2025 Cross-step waltz – Fusion Weekend'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2025-02-28
+  enddatum: 2025-03-02
+  ort: Erlangen
 ---
 
 ## Cross-step waltz – Fusion Weekend with Alena

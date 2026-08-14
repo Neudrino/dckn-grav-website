@@ -1,6 +1,11 @@
 ---
 title: '2024 Tanz und Verbindung'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2024-05-17
+  enddatum: 2024-05-20
+  ort: Waldheim
 ---
 
 ## Tanz und Verbindung 2024

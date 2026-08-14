@@ -1,6 +1,11 @@
 ---
 title: '2026 MärzTanz Festival'
-body_classes: 'title-center'
+template: event
+body_classes: title-center
+event:
+  startdatum: 2026-03-12
+  enddatum: 2026-03-15
+  ort: Chemnitz
 ---
 
 ## 3. MärzTanz Festival

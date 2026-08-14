@@ -3,8 +3,8 @@ title: '2025 Tanz- und Begegnungstag'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2025-11-15
-  enddatum: 2025-11-15
+  startdatum: '2025-11-15'
+  enddatum: '2025-11-15'
   ort: Lautenbach
 ---
 

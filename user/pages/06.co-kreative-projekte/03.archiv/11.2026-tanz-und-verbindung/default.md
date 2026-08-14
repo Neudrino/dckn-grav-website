@@ -3,8 +3,8 @@ title: '2026 Tanz und Verbindung'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2026-05-22
-  enddatum: 2026-05-25
+  startdatum: '2026-05-22'
+  enddatum: '2026-05-25'
   ort: Waldheim
 ---
 

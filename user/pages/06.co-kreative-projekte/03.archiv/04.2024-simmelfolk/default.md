@@ -3,8 +3,8 @@ title: '2024 Simmelfolk Programm und Bands'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2024-09-05
-  enddatum: 2024-09-08
+  startdatum: '2024-09-05'
+  enddatum: '2024-09-08'
   ort: Simmelsdorf
 ---
 

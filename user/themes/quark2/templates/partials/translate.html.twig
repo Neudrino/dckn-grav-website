@@ -1,0 +1,9 @@
+{% set labeled = labeled|default(false) %}
+<a href="javascript:void(0)"
+   class="translate-btn"
+   onclick="window.location.href='https://translate.google.com/translate?sl=auto&u='+encodeURIComponent(window.location.href)"
+   aria-label="{{ 'THEME_QUARK2.TRANSLATE.LABEL'|t|e('html_attr') }}"
+   title="{{ 'THEME_QUARK2.TRANSLATE.LABEL'|t|e('html_attr') }}">
+    <i class="fa-solid fa-language" aria-hidden="true"></i>
+    {% if labeled %}<span style="margin-left:.5rem;">{{ 'THEME_QUARK2.TRANSLATE.LABEL'|t }}</span>{% endif %}
+</a>

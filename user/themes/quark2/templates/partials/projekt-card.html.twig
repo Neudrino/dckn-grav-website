@@ -1,0 +1,22 @@
+{% set image = page.media.images|first %}
+{% set event = page.header.event %}
+<a class="projekt-card" href="{{ page.url }}">
+    {% if image %}
+        <div class="projekt-card-image">{{ image.cropZoom(600, 340).html|raw }}</div>
+    {% endif %}
+    <div class="projekt-card-body">
+        <h3>{{ page.title }}</h3>
+        {% if event and (event.startdatum or event.enddatum) %}
+            <div class="projekt-card-datum">
+                <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+                {% include 'partials/projekt-date-range.html.twig' with {start: event.startdatum, end: event.enddatum} %}
+            </div>
+        {% endif %}
+        {% if event and event.ort %}
+            <div class="projekt-card-ort">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                {{ event.ort }}
+            </div>
+        {% endif %}
+    </div>
+</a>

@@ -2,6 +2,13 @@
 title: 'Co-Kreative Projekte'
 body_classes: 'title-center'
 template: projekte
+content:
+  items: '@self.children'
+  filter:
+    visible: true
+  order:
+    by: default
+    dir: asc
 ---
 
 # Co-Kreative Projekte

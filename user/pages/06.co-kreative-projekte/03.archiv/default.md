@@ -2,7 +2,14 @@
 title: 'Archiv'
 body_classes: 'title-center'
 template: projekte
-event_sort: desc
+content:
+  items: '@self.children'
+  filter:
+    visible: true
+    type: event
+  order:
+    by: header.event.startdatum
+    dir: desc
 ---
 
 # Archiv

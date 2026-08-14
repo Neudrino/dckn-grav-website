@@ -3,8 +3,8 @@ title: '2025 SimmelFolk Festival'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2025-09-04
-  enddatum: 2025-09-07
+  startdatum: '2025-09-04'
+  enddatum: '2025-09-07'
   ort: Simmelsdorf
 ---
 

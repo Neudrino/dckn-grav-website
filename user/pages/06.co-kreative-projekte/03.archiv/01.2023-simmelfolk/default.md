@@ -3,8 +3,8 @@ title: '2023 SimmelFolk Programm und Bands'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2023-09-01
-  enddatum: 2023-09-03
+  startdatum: '2023-09-01'
+  enddatum: '2023-09-03'
   ort: Simmelsdorf
 ---
 

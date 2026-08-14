@@ -3,8 +3,8 @@ title: '2025 Cross-step waltz – Fusion Weekend'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2025-02-28
-  enddatum: 2025-03-02
+  startdatum: '2025-02-28'
+  enddatum: '2025-03-02'
   ort: Erlangen
 ---
 

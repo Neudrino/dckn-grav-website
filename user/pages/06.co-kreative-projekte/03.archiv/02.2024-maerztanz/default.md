@@ -3,8 +3,8 @@ title: '2024 MärzTanz Festival'
 template: event
 body_classes: title-center
 event:
-  startdatum: 2024-03-15
-  enddatum: 2024-03-17
+  startdatum: '2024-03-15'
+  enddatum: '2024-03-17'
   ort: Chemnitz
 ---
 

@@ -47,8 +47,3 @@ form:
 # Das co-kreative Netzwerk e.V.
 
 ===
-
-## Neues aus unserem Blog
-
-- [Vereins-IT: Voll digital](/blog/vereins-it-voll-digital) — 2025-04-19
-- [Vereinsgründung: Vision – Menschen – Zeit](/blog/vereinsgruendung-vision-menschen-zeit) — 2025-04-10

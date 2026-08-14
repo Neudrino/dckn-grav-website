@@ -90,21 +90,4 @@ manage site content. Full tool reference: [grav-mcp README](node_modules/grav-mc
    Requires the Grav container running and the API plugin installed (both
    handled by `docker compose up -d` + `./setup-plugins.sh`).
 
-## What's Tracked in Git
 
-- `docker-compose.yml` — container definition
-- `user/pages/` — all page content and media (images, PDFs)
-- `user/config/` — system, site, theme, and plugin configuration (excluding secrets)
-- `user/accounts/` — admin user account
-- `user/themes/quark2/css/custom.css` — CSS overrides only
-- `setup-plugins.sh` — plugin installation script
-## What's NOT Tracked
-
-- `config/` — container runtime (managed by linuxserver image)
-- `user/plugins/` — installed via `setup-plugins.sh`
-- `user/themes/quark2/` (except `custom.css`) — bundled with image
-- `user/data/` — runtime caches, indexes, scheduler data
-- `user/config/plugins/api-private.php` — JWT signing secret (auto-generated)
-- `user/config/security-private.php` — CSRF nonce secret (auto-generated)
-- `node_modules/` — installed via `npm install` (grav-mcp and dependencies)
-- `opencode.json` — opencode MCP config (contains API key)

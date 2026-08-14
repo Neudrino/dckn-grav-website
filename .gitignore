@@ -18,6 +18,7 @@ user/data/
 # === Grav secrets (auto-generated, must never be committed) ===
 user/config/plugins/api-private.php
 user/config/security-private.php
+user/accounts/admin.yaml
 
 # === Auto-generated metadata ===
 user/config/versions.yaml

@@ -13,8 +13,26 @@
                 {% if intro_text %}
                 <p>{{ intro_text }}</p>
                 {% endif %}
-                <a href="/der-verein/vereinsmitglied-werden"><img src="/user/pages/01.home/mitglied-werden.jpeg" alt="Mitglied werden" /></a>
                 <a class="btn" href="/der-verein/vereinsmitglied-werden">Mitglied werden</a>
+                <h3>Aus unserem Blog</h3>
+                <div class="home-blog-list">
+                    {% set blog_page = page.find('/blog') %}
+                    {% set blog_collection = blog_page.collection() %}
+                    {% for child in blog_collection.slice(0, 3) %}
+                        {% set image = child.media.images|first %}
+                        <a class="blog-mini-card" href="{{ child.url }}">
+                            {% if image %}
+                            <div class="blog-mini-image">{{ image.cropZoom(300, 170).html|raw }}</div>
+                            {% endif %}
+                            <div class="blog-mini-body">
+                                <span class="blog-mini-datum"><i class="fa-solid fa-calendar" aria-hidden="true"></i> {{ child.date|date(system.pages.dateformat.short) }}</span>
+                                <strong class="blog-mini-title">{{ child.title }}</strong>
+                                <span class="blog-mini-summary">{{ child.summary|striptags|trim|replace({(child.title ~ '\n'): '', (child.title): ''})|trim|slice(0, 120) }}…</span>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+                <a class="btn" href="/blog">Alle Blogbeiträge</a>
             </div>
             <div class="projekte-tile">
                 <h3>Co-Kreative Projekte</h3>
@@ -47,10 +65,5 @@
             </div>
         </div>
 
-        {# Blog section below the 3-column layout #}
-        <div class="home-blog-section">
-        {% set summary_html = page.summary() %}
-        {{ page.content|slice(summary_html|length)|raw }}
-        </div>
     </article>
 {% endblock %}

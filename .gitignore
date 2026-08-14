@@ -6,6 +6,7 @@
 
 # === opencode config (contains API keys) ===
 opencode.json
+AGENTS.md
 
 # === Node dependencies (installed via npm install, not tracked) ===
 node_modules/

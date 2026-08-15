@@ -30,7 +30,7 @@ form:
         required: true
 
     - name: datenschutz
-      label: 'Hiermit akzeptiere ich die Datenschutzbestimmungen'
+      label: 'Ich akzeptiere die auf dieser Seite ausgeführten Bestimmungen des Vereins.'
       type: checkbox
       validate:
         required: true
@@ -46,7 +46,7 @@ form:
 
   process:
     - brevo:
-        lists: [2]
+        lists: [3]
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname
@@ -65,15 +65,19 @@ Hiermit beantrage ich meine Aufnahme in den Verein "**Das Co-Kreative Netzwerk e
 
 **Mit meiner Mitgliedschaft erkenne ich die [aktuelle Fassung der Vereinssatzung](/der-verein/vereinssatzung) und die gültige Beitragsordnung an.**
 
-Ich bin damit einverstanden, alle Informationen über Vereinsaktivitäten per E-Mail zu erhalten. Da unser Verein ist überregional tätig ist, läuft unsere Kommunikation per Email oder Chat und unsere Mitgliederversammlungen finden digital statt.
+Der Verein strebt eine digitale Arbeitsweise an. Da die Informationstechnologie (IT) heutzutage überaus komplex ist, nutzt der Verein digitale Dienstleistungen verschiedener Firmen, um ein modernes und komfortables digitales Angebot anbieten zu können. Dazu gehört auch die Verwaltung der Mitglieder und die Kommunikation mit den Mitgliedern. Der Verein nutzt dazu die folgenden Dienstleister, deren Datenschutzerklärungen ich zur Kenntnis genommen habe und stimme der Verarbeitung der relevanten Daten durch die Dienstleister zu.
 
-Das Co-Kreative Netzwerk darf mit meinen Daten arbeiten. Mit der Speicherung, Übermittlung und Verarbeitung meiner personenbezogenen Daten für Vereinszwecke gemäß den Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und der Datenschutzgrundverordnung (DSGVO) bin ich einverstanden. Meine Daten werden nur so lange gespeichert, wie die gesetzlichen Bestimmungen dies erlauben. Ich habe jederzeit die Möglichkeit, vom Verein Auskunft über meine Daten zu erhalten. Meine Daten werden nach meinem Austritt aus dem Verein gelöscht. Für die Inanspruchnahme weiterer Betroffenenrechte erreiche ich als Ansprechpartner:in des Vereins den Vorstand unter: [vorstand@dckn.de](mailto:vorstand@dckn.de).
-
-Der Verein strebt eine digitale Arbeitsweise an. Die Informationstechnologie (IT) ist heutzutage viel zu komplex, als dass der Verein alles selbst machen (und hosten) könnte, sodass digitale Dienstleistungen von verschiedenen Firmen genutzt werden. Dazu gehört auch die Verwaltung der Mitglieder und die Kommunikation mit den Mitgliedern. Der Verein nutzt dazu hauptsächlich die folgenden 3 Dienstleister, deren Datenschutzerklärungen ich zur Kenntnis genommen habe und stimme der Verarbeitung der relevanten Daten durch die Dienstleister zu.
-
-- [Datenschutzerklärung](https://www.netcup.de/kontakt/datenschutzerklaerung.php) der [netcup GmbH](https://www.netcup.de/) für die Webseite und die Email-Abos.
+- [Datenschutzerklärung](https://www.netcup.de/kontakt/datenschutzerklaerung.php) der [netcup GmbH](https://www.netcup.de/) für die öffentliche Webseite und für die Email-Abos.
 - [Datenschutzerklärung](https://www.hetzner.com/de/legal/privacy-policy/) der [Hetzner GmbH](https://www.hetzner.com/de/legal/legal-notice/) für den NextCloud online Dateispeicher zur Ablage aller "Nicht-Webseite-Daten".
 - [Datenschutzerklärung](https://gocardless.com/de-de/rechtliches/datenschutz/) der [goCardless Ltd](https://gocardless.com/de-de/rechtliches/) für die Abwicklung der Zahlungen rund um die Mitgliedsbeiträge.
+- [Datenschutzerklärung](https://www.brevo.com/de/legal/privacypolicy/) der [Brevo GmbH](https://www.brevo.com) für die Email-Abos.
+
+Da sich die digitale Landschaft fortlaufend wandelt, können sich die eingesetzten Dienste im Laufe der Zeit ändern. Über solche Änderungen wird der Verein die Mitglieder informieren. Sofern nicht binnen vier Wochen nach der Bekanntgabe ein aktiver Widerspruch erfolgt, gilt die Nutzung der geänderten Dienste als akzeptiert.
+
+Das Co-Kreative Netzwerk darf mit meinen Daten arbeiten und dafür auch digitale Dienste Dritter nutzen. Mit der Speicherung, Übermittlung und Verarbeitung meiner personenbezogenen Daten für Vereinszwecke gemäß den Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und der Datenschutzgrundverordnung (DSGVO) bin ich einverstanden. Meine Daten werden nur so lange gespeichert, wie die gesetzlichen Bestimmungen dies erlauben. Ich habe jederzeit die Möglichkeit, vom Verein Auskunft über meine Daten zu erhalten. Meine Daten werden nach meinem Austritt aus dem Verein gelöscht. Für die Inanspruchnahme weiterer Betroffenenrechte erreiche ich als Ansprechpartner:in des Vereins den Vorstand unter: [vorstand@dckn.de](mailto:vorstand@dckn.de).
 
 **Ich versichere vollständige und richtige Angaben zu meiner Person zu machen.**
+
 **Ich bin damit einverstanden, alle Informationen über Vereinsaktivitäten per E-Mail zu erhalten.**
+
+**Ich akzeptiere die [Datenschutzerklärung des Vereins](/impressum#datenschutz).**

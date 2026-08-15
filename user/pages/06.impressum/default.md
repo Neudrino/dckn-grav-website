@@ -49,9 +49,18 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
+<a id="datenschutz"></a>
+
 ### Datenschutz
 
-Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+Der Verein strebt eine digitale Arbeitsweise an. Da die Informationstechnologie (IT) heutzutage überaus komplex ist, nutzt der Verein digitale Dienstleistungen verschiedener Firmen, um ein modernes und komfortables digitales Angebot anbieten zu können. Dazu gehört auch die Verwaltung der Mitglieder und die Kommunikation mit den Mitgliedern. Der Verein nutzt dazu die folgenden Dienstleister, deren Datenschutzerklärungen ich zur Kenntnis genommen habe und stimme der Verarbeitung der relevanten Daten durch die Dienstleister zu.
+
+- [Datenschutzerklärung](https://www.netcup.de/kontakt/datenschutzerklaerung.php) der [netcup GmbH](https://www.netcup.de/) für die öffentliche Webseite und für die Email-Abos.
+- [Datenschutzerklärung](https://www.hetzner.com/de/legal/privacy-policy/) der [Hetzner GmbH](https://www.hetzner.com/de/legal/legal-notice/) für den NextCloud online Dateispeicher zur Ablage aller "Nicht-Webseite-Daten".
+- [Datenschutzerklärung](https://gocardless.com/de-de/rechtliches/datenschutz/) der [goCardless Ltd](https://gocardless.com/de-de/rechtliches/) für die Abwicklung der Zahlungen rund um die Mitgliedsbeiträge.
+- [Datenschutzerklärung](https://www.brevo.com/de/legal/privacypolicy/) der [Brevo GmbH](https://www.brevo.com) für die Email-Abos.
+
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden durch unsere Dienstleister (s.o.) erfasst und verarbeitet. Eine Weitergabe an andere erfolgt nicht.
 
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 

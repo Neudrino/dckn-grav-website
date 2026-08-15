@@ -21,6 +21,9 @@ user/config/plugins/api-private.php
 user/config/security-private.php
 user/accounts/admin.yaml
 
+# === hCaptcha keys (per-environment, must never be committed) ===
+user/config/plugins/form-captcha-hcaptcha.yaml
+
 # === Auto-generated metadata ===
 user/config/versions.yaml
 user/config/media.yaml

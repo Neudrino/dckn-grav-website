@@ -304,8 +304,6 @@ In dem Teilnahmebeitrag ist alles inklusive: 3,5 Tage Festival, alle Bälle, Ver
 Jede:r wird ein Ämtli übernehmen um zum Gelingen des Festivals beizutragen.
 Wenn es dir möglich ist, etwas mehr zu geben, darst du gern zum Ticket eine Spende ergänzen und dazu beitragen, dass das Festival ein voller Erfolg wird.
 
-[**Anmeldung**](https://eveeno.com/tuv2026)
-
 ### Storno
 
 Wenn das Festival aus Gründen höherer Gewalt abgesagt werden müsste, werden die Kosten erstattet.

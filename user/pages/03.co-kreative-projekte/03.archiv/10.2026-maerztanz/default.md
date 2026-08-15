@@ -18,8 +18,6 @@ Das Festival beginnt am Donnerstag, 12.3., ab 16 Uhr und endet Sonntag, 15.03., 
 
 Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Workshops geben, abends spielen Bands zum Tanz.
 
-[**Anmeldung**](https://eveeno.com/maerztanz2026)
-
 ## Bands
 
 ![Zeitplan](mt26-zeitplan.jpg)
@@ -264,8 +262,6 @@ Der **Standardpreis** für ein Wochenendticket beträgt 150 €.
 **Ermäßigte** Tickets 130 € (für Geringsverdiener, Menschen in Engpässen oder besonderen Belastungen, aus Ländern mit niedrigerem Lohnniveau oder wenn du dir das volle Ticket einfach nicht leisten kannst)
 **Kinder** bis 15 sind frei.
 **Schüler/Studenten/Auszubildende** zahlen 100 € für das Wochenende.
-
-[**Anmeldung**](https://eveeno.com/maerztanz2026)
 
 Abendkarten sind ab März erhältlich und berechtigen zur Teilnahme an den Bällen des Abends (ab 19:30/19:00/18:30). Die Abendsuppe ist im Preis enthalten, die warme Mahlzeit am Nachmittag nicht.
 

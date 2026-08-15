@@ -5,6 +5,12 @@
  * theme.css without having to mark rules !important.
  */
 
+:root,
+:root[data-theme="light"],
+:root[data-theme="dark"] {
+  --pico-font-size: 24px;
+}
+
 /* Google Translate button in navbar — mirrors .theme-toggle sizing */
 a.translate-btn {
   --size: 36px;

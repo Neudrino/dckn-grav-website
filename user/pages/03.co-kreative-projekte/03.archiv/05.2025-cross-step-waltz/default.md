@@ -12,9 +12,14 @@ event:
 
 ### 28.02.2025 – 02.03.2025 Erlingen
 
+[split]
+[col]
 ![That Swing Nürnberg](csw-logo.png)
-
+[/col]
+[col]
 ![Flyer](csw-fyer.png)
+[/col]
+[/split]
 
 Eine Veranstaltung in Kooperation mit That Swing Nürnberg.
 

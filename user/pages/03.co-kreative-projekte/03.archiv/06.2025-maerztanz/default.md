@@ -8,7 +8,9 @@ event:
   ort: Chemnitz
 ---
 
-## 2. MärzTanz Festival 14. – 16.03.2025
+## 2. MärzTanz Festival
+
+### 14. – 16.03.2025
 
 ![Header](mt25-header.png)
 
@@ -21,67 +23,105 @@ Freitag ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch 
 
 ## Bands
 
-**[CLARABAL](https://www.facebook.com/clarabalmusic/)** (Halle) – Freitag 19:30
+### CLARABAL (Halle) – Freitag 19:30
 
+[split]
+[col]
 ![CLARABAL](mt25-clarabal.jpg)
-
+[/col]
+[col]
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka.
 Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
 *Clara Schein – violin/voc/piano*
 *Jacob Meussling – guit*
 
-**Richard** (Chemnitz) – Freitag 21:30 Uhr
+[Facebook](https://www.facebook.com/clarabalmusic/)
+[/col]
+[/split]
 
-![Richard](mt25-richard.jpg)
+### Richard (Chemnitz) – Freitag 21:30 Uhr
 
+[split]
+[col]
 Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
+[/col]
+[col]
+![Richard](mt25-richard.jpg)
+[/col]
+[/split]
 
-**[Feather and Fox](https://www.facebook.com/featherandfoxduo/)** (Berlin und Brüssel) – Freitag 23:00 Uhr
+### Feather and Fox (Berlin und Brüssel) – Freitag 23:00 Uhr
 
+[split]
+[col]
 ![Feather and Fox](mt25-feather.jpg)
-
+[/col]
+[col]
 Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
 
 *Christiane Bisitz – Cello, Gesang*
 *Victor Lekeu – Mandoline, Percussion*
 
-**Hilde und Syn** – Samstag 19:00 Uhr
+[Facebook](https://www.facebook.com/featherandfoxduo/)
+[/col]
+[/split]
 
-![Hilde und Syn](mt25-hilde-syn.jpg)
+### Hilde und Syn – Samstag 19:00 Uhr
 
+[split]
+[col]
 Hilde Van Belle schreibt kleine flämische Lieder für ein lauschendes und tanzendes Publikum. Begleitet wird sie von Yassine Amrouch an der Nyckelharpa, der den Liedern einen zusätzlichen Glanz verleiht. Erwartet zuckersüße Liebeslieder, verträumte Melodien und ein wärmendes Zusammenspiel.
 
 *Hilde – Piano und Gesang*
 *Yassine – Nyckelharpa*
+[/col]
+[col]
+![Hilde und Syn](mt25-hilde-syn.jpg)
+[/col]
+[/split]
 
-**Duo Wolff/Moschcau** – Samstag 21:00 Uhr
+### Duo Wolff/Moschcau – Samstag 21:00 Uhr
 
 Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
 
 *Karola Wolff – Geige*
 *Thomas Moschcau – diat. Akkordeon*
 
-**[TriOblique](https://triobliquebalfolk.wixsite.com/trioblique)** (IT/F) – Samstag 23:30 Uhr
+### TriOblique (IT/F) – Samstag 23:30 Uhr
 
+[split]
+[col]
 ![TriOblique](mt25-trioblique.png)
-
+[/col]
+[col]
 Diese drei Musiker bringen die Welt zum Tanzen. TriOblique kombiniert Gitarre, irische Bouzouki, irische Flöten und Uillean Pipe. Ihre Musik führt sie auf verschlungenen Pfaden von einem Stil zum nächsten, von Genua nach Irland, vom Funk zur traditionellen Musik aus der Hochbretagne. Sie kombinieren zartes Fingerpicking mit rockigen Akkorden und experimentieren mit verschiedenen Instrumenten und Gesangsstilen. Das Ziel der Band ist es, die Körper der Zuhörer zum Tanzen zu bringen, sei es zu einer schlichten Mazurka oder zu wilden Tänzen wie dem Kost Ar Choat.
 
 *Susanna Roncallo – Gitarre*
 *Aurélien Congrega – irische Bouzouki und Gesang*
 *Dario Gisotti – Uillean Pipe und Flöten*
 
-**[Marina Lazar](https://www.marinalazar.com/)** (BE) – Sonntag 13:00 Uhr
+[Website](https://triobliquebalfolk.wixsite.com/trioblique)
+[/col]
+[/split]
 
-![Marina Lazar](mt25-marina.jpg)
+### Marina Lazar (BE) – Sonntag 13:00 Uhr
 
+[split]
+[col]
 Die klassisch ausgebildete Pianistin Marina Lazar nimmt uns mit ihrem Klavier auf eine Reise durch vorwiegend Paartänze des Balfolk.
 Wunderbar sanfte Melodien lassen uns durch den Sonntag Mittag schweben.
 
 *Marina Lazar – Piano*
 
-**Uwe & Uli** – Sonntag 14:30 Uhr
+[Website](https://www.marinalazar.com/)
+[/col]
+[col]
+![Marina Lazar](mt25-marina.jpg)
+[/col]
+[/split]
+
+### Uwe & Uli – Sonntag 14:30 Uhr
 
 Uwe spielt seit vielen Jahren chromatisches Akkordeon. Recht früh hat er seine Liebe zur Musik vom Balkan entdeckt. Immer wieder zieht es ihn nach Bulgarien, um dort von Musikern und Tänzern in die Feinheiten dieser Tradition eingeweiht zu werden.
 Das viele Musizieren inspiriert ihn zum Schreiben eigener Melodien und zusätzlicher Stimmen zu traditionellen Stücken. Sein Steckenpferd sind ungerade Rhythmen. Uwe leitet seit mehr als 10 Jahren die Balkantanzgruppe "Gizdava Moma" in Jena.
@@ -89,49 +129,65 @@ Uli hat sich als erstes mit schwedischer Tanzmusik und dann zunehmend mit Balfol
 Als leidenschaftlicher Tänzer ist er schon mit vielen verschiedenen Rhythmen in Berührung gekommen, die er dann gemeinsam mit Uwe auch auf der Geige umsetzt.
 Nun verbinden beide ihre Leidenschaft zur jeweiligen Musikrichtung, indem sie sich gegenseitig "anfeuern", das Tanzvolk zahlreich und ausgelassen auf die Tanzfläche zu holen.
 
-**[La Galavarde](https://linktr.ee/lagalavarde)** (F) – Sonntag 16:00 Uhr
+### La Galavarde (F) – Sonntag 16:00 Uhr
 
+[split]
+[col]
 ![La Galavarde](mt25-galavarde.jpg)
-
+[/col]
+[col]
 La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspiration aus dem Klangreichtum von Zentralfrankreich und der Dauphiné schöpft. Ihre drei Musikerinnen, Sarah, Claire und Sidonie, flechten gemeinsam die Klangfarben des Akkordeons, der Geige, der irischen Flöte und ihrer drei Stimmen ein.
+
+[Linktree](https://linktr.ee/lagalavarde)
+[/col]
+[/split]
 
 ## Workshops
 
 ### Freitag
 
-**Freitag 16:30 Uhr: ContaKids – Contact Improvisation für Eltern und Kinder mit Nils**
+#### ContaKids – Contact Improvisation für Eltern und Kinder mit Nils – 16:30 Uhr
+
 Bei Contakids steht die Eltern-Kind Interaktion im Mittelpunkt. Durch angeleitete Bewegungsspiele entsteht ein Raum, in dem du deinem Kind auf Augenhöhe begegnen und die intuitive Kommunikation miteinander vertiefen kannst. Dabei entwickelt dein Kind seine motorischen Fähigkeiten weiter und du baust Vertrauen in dein Kind und dich selbst auf. Contakids ist 45 minuten gemeinsames Sein, Du und dein Kind.
 
 Hier gibt es einen Einblick: [Youtube](https://www.youtube.com/watch?v=oW_LR5TDqRo)
 
 Das ideale Alter deines Kindes liegt für Contakids zwischen 2 und 5 Jahren. Ältere Kinder sind aber auch eingeladen, sich an den Spielen mit ihren Eltern auszuprobieren.
 
-**Freitag 17:00 Uhr: Balfolk-Einführungsworkshop mit Antonia**
+#### Balfolk-Einführungsworkshop mit Antonia – 17:00 Uhr
+
 Einführung in die Welt des Balfolk mit Antonia Sophie Balzer. Tänzerin und Musik und Bewegungspädagogin aus Basel und Halle.
 [Youtube](https://m.youtube.com/watch?v=nxR3kFf51Qw&pp=ygUkaW50ZXJuYXRpb25hbGUga3JlaXN0w6RuemUgdG9uaXRhbnp0)
 
-- Freitag 17:00 Uhr: Bachata mit Sabine und Frithjof
-- Freitag 18:30 Uhr: Hebefiguren im Balfolk mit Miro
+#### Bachata mit Sabine und Frithjof – 17:00 Uhr
+
+#### Hebefiguren im Balfolk mit Miro – 18:30 Uhr
 
 ### Samstag
 
-- Samstag 11:00 Uhr: Zouk mit Sabine und Frithjof
-- Samstag 12:00 Uhr: Malen mit Clara
-- Samstag 12:00 Uhr: Bourrée für 3-12 Personen mit Antje (begleitet von René auf dem Chello)
+#### Zouk mit Sabine und Frithjof – 11:00 Uhr
 
-**Samstag 14:00 Uhr: Ensemblekurs für Musiker mit Feather and Fox**
+#### Malen mit Clara – 12:00 Uhr
+
+#### Bourrée für 3-12 Personen mit Antje (begleitet von René auf dem Chello) – 12:00 Uhr
+
+#### Ensemblekurs für Musiker mit Feather and Fox – 14:00 Uhr
+
 In this workshop, we will start with some improvisation games to meet and listen to each other within the group. We will then learn a simple melody by ear and work together to make it more interesting: adding dynamics and accents, finding chords and drones, and putting those together to create a longer arrangement. We will share some of our ideas about all these elements in folk music, and are also looking forward to hearing yours!
 
 The entire workshop will be done by ear. All instruments and levels are welcome.
 
-- Samstag 14:30 Uhr: ConTango mit Uwe Fährmann
-- Samstag 15:00 Uhr: Speeddating in Chapeloise und Cercle mit Noemi
-- Samstag 18:00 Uhr: Spür dich in deinem Körper mit Frieda
+#### ConTango mit Uwe Fährmann – 14:30 Uhr
+
+#### Speeddating in Chapeloise und Cercle mit Noemi – 15:00 Uhr
+
+#### Spür dich in deinem Körper mit Frieda – 18:00 Uhr
 
 ### Sonntag
 
-- Sonntag 10:30 Uhr: Atemmeditation nach Wim Hof mit Gabi
-- Sonntag 11:00 Uhr: Bulgarische Tänze mit Uwe Kapell
+#### Atemmeditation nach Wim Hof mit Gabi – 10:30 Uhr
+
+#### Bulgarische Tänze mit Uwe Kapell – 11:00 Uhr
 
 ## Ort und Anreise
 

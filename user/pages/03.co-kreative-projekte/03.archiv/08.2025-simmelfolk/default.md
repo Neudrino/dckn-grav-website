@@ -95,21 +95,23 @@ Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLA
 
 ### Gribouille
 
+[split]
+[col]
 ![Gribouille](sf25-gribouille.jpg)
-
+[/col]
+[col]
 … wer kennt diesen Typ nicht? und seine unglaubliche Gitarre?
 
 *Olivier Valence – Gitarre, Gesang*
 
 - [facebook](https://www.facebook.com/profile.php?id=100076243351263&ref=pages_you_manage)
 - [youtube](https://www.youtube.com/watch?v=L3G120G5-sE)
+[/col]
+[/split]
 
 ### Indigo
 
 [split]
-[col]
-![Indigo](sf25-indigo.jpg)
-[/col]
 [col]
 Indigo spielt Eigenkompositionen und Tunes, die in deren Umwelt herumfliegen.
 Dey liebt es, z.B. mal ein Kinderlied zu spielen oder ein klassisch angehauchtes Stück neu zu vertonen.
@@ -120,11 +122,17 @@ Indigo ist nicht-binär, Indigos Pronomen sind they/them.
 
 - [youtube](https://youtu.be/4OPQBZ7zN7Q)
 [/col]
+[col]
+![Indigo](sf25-indigo.jpg)
+[/col]
 [/split]
 
 ### Le Driadi Trio
 
 [split]
+[col]
+![Le Driadi Trio](sf25-driadi.jpg)
+[/col]
 [col]
 … ist die Verschmelzung von Poesie und Musikalität der italienischen Singer-Songwriter-Tradition mit den Klängen der Indie-Pop-Szene, die durch lebendige französische Balfolkkultur bereichert wird. Im Mittelpunkt des Projekts steht der neo-traditionelle Balfolk mit einem Repertoire, das sich auf historische französische Tänze konzentriert und von romantischen Mazurkas bis zu dynamischen bretonischen Ketten reicht.
 Jedes Konzert ist eine klangvolle und tanzbare Reise, ein musikalischer Wald, in dem jede Note ein Zauber ist, der neugierige Ohren und eifrige Füße gleichermaßen fesselt. Ihre Musik verbindet Kulturen, Klänge und Geschichten und erkundet neue Horizonte in der europäischen Balfolk-Szene.
@@ -138,17 +146,11 @@ Foto by **Giuseppe Restuccia**
 - [Album](https://ledriadi.bandcamp.com/album/dentro-lo-specchio)
 - [Youtube](https://www.youtube.com/watch?v=_643wmKaGbo&list=PLjCfQULfkaa4ce7v4vEnlyV478v6gjHva)
 [/col]
-[col]
-![Le Driadi Trio](sf25-driadi.jpg)
-[/col]
 [/split]
 
 ### L'Hêtre Heureux
 
 [split]
-[col]
-![L'Hêtre Heureux](sf25-booking.jpg)
-[/col]
 [col]
 ist eine Folkband, die hauptsächlich Paartanz spielt. Wir haben uns in „Le grand bal de l'europe – gennetines" bei der Ausgabe 2019 getroffen. Wir haben dort auf der Bühne unsere Kompositionen aufgeführt.
 
@@ -159,6 +161,9 @@ Unser Universum ist inspiriert von der französischen Neo-Folk-Bewegung, dem fra
 
 - [Homepage](https://linktr.ee/duolhetreheureux)
 - [letztes Album](https://www.youtube.com/playlist?list=PLr70EvqG7vcwZ_I9ZjDy-63ETxBgGw41a)
+[/col]
+[col]
+![L'Hêtre Heureux](sf25-booking.jpg)
 [/col]
 [/split]
 
@@ -249,28 +254,44 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 
 ### Gemeindehaus und Tanzsaal
 
+[split]
+[col]
 ![Tanzsaal](sf25-saal.jpg)
-
+[/col]
+[col]
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
 
 Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die zum Zubereiten der gemeinsamen Speisen verwendet wird. Im Garten werden Tische und Bänke stehen, um bei schönem Wetter draußen zu essen und verweilen.
+[/col]
+[/split]
 
 ## Unterkunft und Verpflegung
 
 ### Schlafsaal
 
+[split]
+[col]
 ![Schlafsaal](sf25-schlafen.jpg)
-
+[/col]
+[col]
 **Anreise: Donnerstag ab 15 Uhr**
 **Abreise: Montag bis 12 Uhr**
 
 Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
+[/col]
+[/split]
 
 ### Camping
 
 **Zelten**
+[split]
+[col]
 ![Camping](sf25-camping.jpg)
+[/col]
+[col]
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
+[/col]
+[/split]
 
 **Wohnmobile**
 Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den Wanderparkplatz stellen. Alternativ einreihig entlang der Walnussallee, ein paar Plätze gibt es auch am Sportheim. Ihr könnt die Toiletten und Duschen des Vereinsheims benutzen.
@@ -283,8 +304,11 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 
 ### Verpflegung
 
+[split]
+[col]
 ![Verpflegung](sf25-verpflegung.jpg)
-
+[/col]
+[col]
 Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
 
 **Frühstücksbrunch** Freitag, Samstag und Sonntag von 8:30 – 12 (14) Uhr wird es ein Mitbring-Frühstücks-Brunch-Mittagsbuffet geben.
@@ -300,6 +324,8 @@ Das Brot beziehen wir von **lokalen** Bäckereien, unsere Lebensmittel sind **bi
 **Getränke**
 Rund um die Uhr gibt es bestes Simmelsdorfer Leitungswasser, Tee und Kaffee ist gratis.
 Lokales fränkisches Bier, Wein, Limo, usw wird von der Brauerei Kanone, Schnaittach, zu günstigen Preisen zur Verfügung gestellt.
+[/col]
+[/split]
 
 ## Kontakt
 

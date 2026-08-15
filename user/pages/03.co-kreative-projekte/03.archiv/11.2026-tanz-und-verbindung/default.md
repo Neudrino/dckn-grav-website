@@ -75,9 +75,6 @@ In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkei
 
 [split]
 [col]
-![Wings & Tales](tuv26-wings.jpg)
-[/col]
-[col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
 *Fili – Geige, Vocals, Obertongesang*
@@ -87,9 +84,15 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 [Website](https://www.wingsandtales.de/)
 [/col]
+[col]
+![Wings & Tales](tuv26-wings.jpg)
+[/col]
 [/split]
 
 [split]
+[col]
+![Flos](tuv26-flos.jpg)
+[/col]
 [col]
 #### Flos (NL)
 
@@ -102,17 +105,11 @@ Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente de
 
 [Facebook](https://www.facebook.com/flos.band)
 [/col]
-[col]
-![Flos](tuv26-flos.jpg)
-[/col]
 [/split]
 
 ### Sonntag 24.05.
 
 [split]
-[col]
-![Juggling Strings](tuv26-juggling.jpg)
-[/col]
 [col]
 #### Juggling Strings (DD und so) – 18:00 Uhr
 
@@ -126,9 +123,15 @@ Einige Tunes wurden bearbeitet oder gar neu interpretiert und oft wird auch frö
 *Robin Vollhardt – Gesang, Mandriola*
 *Miroslav Mütze – Gesang, Bodhran*
 [/col]
+[col]
+![Juggling Strings](tuv26-juggling.jpg)
+[/col]
 [/split]
 
 [split]
+[col]
+![Mehr als Wir](tuv26-mehralswir.jpg)
+[/col]
 [col]
 #### Mehr als Wir (D) – 20:00 Uhr
 
@@ -149,9 +152,6 @@ Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 
 [Website](https://mehralswir.de/)
 [/col]
-[col]
-![Mehr als Wir](tuv26-mehralswir.jpg)
-[/col]
 [/split]
 
 [Balforia](https://balforia.com/) können leider aus persönlichen Gründen nicht in Waldheim spielen
@@ -159,9 +159,6 @@ Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 #### Wings & Tales
 
 [split]
-[col]
-![Wings & Tales](tuv26-wings.jpg)
-[/col]
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
@@ -171,6 +168,9 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)
+[/col]
+[col]
+![Wings & Tales](tuv26-wings.jpg)
 [/col]
 [/split]
 

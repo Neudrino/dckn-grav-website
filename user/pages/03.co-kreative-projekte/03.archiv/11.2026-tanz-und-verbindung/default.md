@@ -235,9 +235,6 @@ Du hast Lust, einen Workshop zu geben? Dann schick eine Workshopbeschreibung und
 
 [split]
 [col]
-![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
-[/col]
-[col]
 Wir tanzen im imposanten Grünen Ballsaal im [Ballhaus Lindenhof](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) in Waldheim, mitten in Sachsen.
 Waldheim ist ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
@@ -248,11 +245,17 @@ Mittweidaer Str. 5A
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
+[col]
+![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
+[/col]
 [/split]
 
 ## Essen
 
 [split]
+[col]
+![Essen](tuv26-essen.jpg)
+[/col]
 [col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden.
@@ -260,17 +263,11 @@ Frühstück jeweils 9 – 12 Uhr
 1 warme Mahlzeit ca 16:30 – 18:30 Uhr
 Mitternachtssnack Fr, Sa und So
 [/col]
-[col]
-![Essen](tuv26-essen.jpg)
-[/col]
 [/split]
 
 ## Schlafen
 
 [split]
-[col]
-![Schlafen](tuv26-schlafen.jpg)
-[/col]
 [col]
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).
@@ -278,6 +275,9 @@ Außerdem ist es möglich, auf der Wiese zu zelten oder im Hof im Auto zu schlaf
 Für die Zelter und "Autoschläfer" werden Außenduschen installiert.
 
 Im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
+[/col]
+[col]
+![Schlafen](tuv26-schlafen.jpg)
 [/col]
 [/split]
 

@@ -65,10 +65,10 @@ Silvia, Thomas und Ulrike
 
 [split]
 [col]
-![Duo Wolff/Moschcau](tuv24-wolff.jpg)
+Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
 [/col]
 [col]
-Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
+![Duo Wolff/Moschcau](tuv24-wolff.jpg)
 [/col]
 [/split]
 
@@ -76,13 +76,13 @@ Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahle
 
 [split]
 [col]
+![Naragonia](tuv24-naragonia.jpg)
+[/col]
+[col]
 Die 4 Musiker verzaubern mit ihrer Musik zum Tanzen, Zuhören und Träumen.
 Sie spielen die klassischen Tänze des Balfolk und bringen uns damit in Paaren, Kreisen oder Ketten zum Tanzen.
 
 [Naragonia](https://www.naragonia.com/en/)
-[/col]
-[col]
-![Naragonia](tuv24-naragonia.jpg)
 [/col]
 [/split]
 
@@ -92,9 +92,6 @@ Sie spielen die klassischen Tänze des Balfolk und bringen uns damit in Paaren, 
 
 [split]
 [col]
-![Wings & Tales](tuv24-wings.jpg)
-[/col]
-[col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 [https://www.wingsandtales.de/](https://www.wingsandtales.de/)
 
@@ -103,11 +100,17 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Kontrabass, Vocals – Niklas*
 *Flöte, Vocals – Helena*
 [/col]
+[col]
+![Wings & Tales](tuv24-wings.jpg)
+[/col]
 [/split]
 
 #### Maracu – 21:30 Uhr
 
 [split]
+[col]
+![Maracu](tuv24-maracu.jpg)
+[/col]
 [col]
 Bal? Folk! aus Leipzig
 Inspiriert von den feinsten Tänzen, die wir vielerorts aufgabeln konnten, haben wir Grooves und Melodien zusammengeschnürt. Die lassen wir mal harmonisch davon fliegen und mal fangen wir sie sanft wieder ein. Wir lassen Klangkonfetti regnen und gehen mit euch in fetten Sounds baden! Und wenn sich die Tanzbeine dabei richtig ausgetobt haben, dürfen sie zu Ohren werden und den Geschichten lauschen, die von einer nächtlichen Begegnung mit Jazz und Klezmer erzählen…
@@ -119,17 +122,11 @@ Inspiriert von den feinsten Tänzen, die wir vielerorts aufgabeln konnten, haben
 *Klarinette – Luzia Walsch*
 *Gitarre & Charango – Matthias Glatthorn*
 [/col]
-[col]
-![Maracu](tuv24-maracu.jpg)
-[/col]
 [/split]
 
 ## Veranstaltungsort
 
 [split]
-[col]
-![Ballhaus Lindenhof](tuv24-ballhaus.jpg)
-[/col]
 [col]
 Wir tanzen im imposanten Grünen Ballsaal im [Ballhaus Lindenhof](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) in Waldheim, mitten in Sachsen.
 Waldheim ist ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
@@ -141,11 +138,17 @@ Mittweidaer Str. 5A
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
+[col]
+![Ballhaus Lindenhof](tuv24-ballhaus.jpg)
+[/col]
 [/split]
 
 ## Essen
 
 [split]
+[col]
+![Essen](tuv24-essen.jpg)
+[/col]
 [col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden.
@@ -153,17 +156,11 @@ Frühstück jeweils 9 – 12 Uhr
 1 warme Mahlzeit ca 16:30 – 18:30 Uhr
 Mitternachtssnack Fr, Sa und So
 [/col]
-[col]
-![Essen](tuv24-essen.jpg)
-[/col]
 [/split]
 
 ## Schlafen
 
 [split]
-[col]
-![Schlafen](tuv24-schlafen.jpg)
-[/col]
 [col]
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).
@@ -171,6 +168,9 @@ Außerdem ist es möglich, auf der Wiese zu zelten oder im Hof im Auto zu schlaf
 Für die Zelter und "Autoschläfer" werden Außenduschen installiert.
 
 Im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
+[/col]
+[col]
+![Schlafen](tuv24-schlafen.jpg)
 [/col]
 [/split]
 

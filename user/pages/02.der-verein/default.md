@@ -7,11 +7,14 @@ body_classes: 'title-center'
 
 Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern. Ein co-kreatives Projekt erfordert das Zusammenwirken mehrerer Personen über einen gewissen Zeitraum zur Förderung oder Verwirklichung eines gemeinsamen Zweckes, im Folgenden „Beitrag" genannt.
 
-## Was wir bieten
-
-[![Mitglied werden](mitglied-werden.jpg)](/der-verein/vereinsmitglied-werden)
-
-[![Projektantrag stellen](projektantrag.jpg)](/der-verein/projektfoerderung-beantragen)
+[split]
+[col]
+<p style="text-align:center"><a class="btn" href="/der-verein/vereinsmitglied-werden">Mitglied werden</a></p>
+[/col]
+[col]
+<p style="text-align:center"><a class="btn" href="/der-verein/projektfoerderung-beantragen">Projektantrag stellen</a></p>
+[/col]
+[/split]
 
 ## Unsere Werte für co-kreative Projekte
 

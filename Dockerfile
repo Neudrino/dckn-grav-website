@@ -4,6 +4,7 @@
 
 # Stage 1: Merge tracked content into image's bundled user/ dir and install missing plugins
 FROM lscr.io/linuxserver/grav:latest AS builder
+RUN rm -rf /app/www/public/user/pages/02.typography
 COPY user/ /app/www/public/user/
 COPY install-plugins.sh /tmp/install-plugins.sh
 RUN chmod +x /tmp/install-plugins.sh && \

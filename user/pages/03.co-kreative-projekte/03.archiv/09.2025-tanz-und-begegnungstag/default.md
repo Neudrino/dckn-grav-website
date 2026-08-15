@@ -10,9 +10,14 @@ event:
 
 ## Tanz- und Begegnungstag am 15.11.2025
 
+[split]
+[col]
 ![Flyer Vorderseite](begn-vorn.jpeg)
-
+[/col]
+[col]
 ![Flyer Rückseite](begn-ruck.jpeg)
+[/col]
+[/split]
 
 in der [Dorfgemeinschaft Lautenbach](https://osm.org/go/0DiB60sV-?m=)
 

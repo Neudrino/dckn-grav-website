@@ -31,8 +31,11 @@ Die Turnhalle und der Campingplatz müssen bis Sonntag 12 Uhr geräumt sein. Die
 
 ### Bal de L`Aube
 
+[split]
+[col]
 ![Bal de L'Aube](bal-de-laube.jpg)
-
+[/col]
+[col]
 "… Duo tout terrain habitué des bals sauvages* vous emmène danser jusqu'au bout de la nuit!"
 
 frei übersetzt:
@@ -45,11 +48,13 @@ Fabien Bucher (F) – Mandoline
 
 - [Bourrée (Youtube)](https://www.youtube.com/watch?v=TuKlxeWw_Ec)
 - [Bal à Maffé (Youtube)](https://www.youtube.com/watch?v=PaLz72TFVyQ)
+[/col]
+[/split]
 
 ### BassdScho!
 
-![BassdScho!](bassdscho.jpg)
-
+[split]
+[col]
 Die wollen nur spielen!
 
 Macht euch bereit für eine muntre Fahrt! Denn die 7 Musiker aus dem Münchner Raum akzeptieren weder Orts-, Stil- oder Genre-Grenzen. Das bedeutet Musik zum Tanzen aus ganz Europa – mal wild, mal schmusig, laut und leise, gerockt oder gesungen, Traditionelles und Eigenkompositionen, oft gegen den Strich gebürstet, aber vor allem immer gut gelaunt.
@@ -62,22 +67,32 @@ Stefan Ehrlich – Flöten, Pommer, Schalmei, Dudelsack, Percussion
 Felix Lipowsky – Akkordeon, Gitarre, Dudelsack, Gesang
 Bodo Meißner – Bodhran, Tanzmeister
 Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
+[/col]
+[col]
+![BassdScho!](bassdscho.jpg)
+[/col]
+[/split]
 
 ### Duo Bothe Molzahn
 
+[split]
+[col]
 ![Duo Bothe Molzahn](duo-bothe.jpg)
-
+[/col]
+[col]
 … das sind zwei Folkbegeisterte, die an moderner Spielweise, rhythmischen Akzenten und Improvisation sichtlich ihre Freude haben. So erklingen ihre Stücke nie genau so, wie beim Bal zuvor, sie sind immer etwas einmalig… denn die Intuition des Augenblicks bestimmt ihr intensives Zusammenspiel!
 
 Mit viel energiegeladener, aber auch beseelt-romantischer Musik wird eine spannende Tanzreise durch Frankreich, ins Poitou und die Bretagne geboten. Abstecher nach Portugal und Skandinavien ergänzen die vielseitige Tour – Bon voyage!
 
 Andreas Bothe (D) – Diatonisches Akkordeon, Percussion (Udu, Davul, Maultrommel)
 Uwe Molzahn (D) – Violine
+[/col]
+[/split]
 
 ### Emily and the Simons
 
-![Emily and the Simons](emily-simons.jpg)
-
+[split]
+[col]
 Emily & the Simons sind ein anglo-belgisches Balfolk-Trio. Im Mittelpunkt ihrer Musik stehen Emilys Kompositionen, die sich von den Begegnungen im Leben und der Energie auf der Tanzfläche inspirieren lassen. Ihr Stil ist sehr ausdrucksstark, voller Improvisation, Leidenschaft, Zärtlichkeit und Verspieltheit.
 
 Mit einem breiten Repertoire, das von exquisiten, sinnlichen Mazurken bis zu fröhlichen, treibenden Bourrées reicht, regt ihre Musik die Fantasie an, bewegt die Füße und hebt den Geist.
@@ -88,11 +103,19 @@ Simon Laffineur (B) – Gitarre
 
 - [Homepage](http://emilyandthesimons.com/)
 - [Firelight (Youtube)](https://youtu.be/i-FZtMTzyzs)
+[/col]
+[col]
+![Emily and the Simons](emily-simons.jpg)
+[/col]
+[/split]
 
 ### L`Air Inconnu
 
+[split]
+[col]
 ![L'Air Inconnu](lair-inconnu.jpg)
-
+[/col]
+[col]
 … ist ein künstlerisches und kreatives Musik Trio, das sowohl den aktuellen Balfolk bedient, als auch neugierige Ohren und wilde Tiere wie Pflanzen gleichermaßen zum Tanzen bringt.
 
 Ihre Kompositionen und Arrangements von traditionellen Stücken sind von den Erlebnissen und starken Emotionen inspiriert, die sie auf unzähligen Bällen und Festivals erfahren durften: die Freude der Begegnung, zwischenmenschliche Poesie, die Ansteckungskraft der Musik, die Energie von Körpern in Bewegung, kollektiver Rausch…
@@ -103,11 +126,13 @@ Sylvain Pool (F) – Akkordeon, Gitarre
 
 - [BandCamp](https://lairinconnu.bandcamp.com/album/lair-inconnu-ep)
 - [Balalalune (Youtube)](https://youtu.be/iPOkNRlhMjY)
+[/col]
+[/split]
 
 ### Lunesk
 
-![Lunesk](luesk.jpg)
-
+[split]
+[col]
 Die Balfolk-Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht.
 Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt. Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/ Néotrad über Rock bis zu Salsa.
 
@@ -119,13 +144,23 @@ Benedikt Willberg – Perkussion
 
 - [Facebook](https://www.facebook.com/LuneskBalfolk)
 - [5 Minutenwalzer (Youtube)](https://www.youtube.com/watch?v=1RV1GOJvPVY)
+[/col]
+[col]
+![Lunesk](luesk.jpg)
+[/col]
+[/split]
 
 ### Luca Fiorini
 
+[split]
+[col]
 ![Luca Fiorini](luca-fiorini.jpg)
-
+[/col]
+[col]
 Luca und sein Akkordeon: sie tanzen miteinander, mal zart und leise, langsam und romantisch, mal im crescendo, laut und dynamisch, immer leidenschaftlich und ja- mit Herz. Durch ihre Melodien, traditionelle und eigene Kompositionen, öffnet sich das Tor in ihre Welt, die Welt der Musik, und wir können diese authentische Priese italienischer Emotion und Lebensfreude kosten.
 
 Luca schafft es, mit einem einzigen Instrument so viel Energie und Magie in den Tanzraum zu bringen, dass sich alle Anwesenden verbunden fühlen – mit Ihm, mit der Musik und miteinander. Ein Balfolk-Erlebnis.
 
 Luca Fiorini (I) – chromatisches Akkordeon
+[/col]
+[/split]

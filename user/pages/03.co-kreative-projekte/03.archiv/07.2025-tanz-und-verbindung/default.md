@@ -32,20 +32,25 @@ Wer nur für Workshops oder Kleidertausch da ist, braucht keinen Eintritt zu zah
 
 Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkende Vrouwen, Le Driadi, Balsam und Hilde. Hier klicken für Details.
 
-**Triaz** – Mittwoch 19:30 Uhr
+### Triaz – Mittwoch 19:30 Uhr
 
+[split]
+[col]
 ![Triaz](tuv25-triaz.jpg)
-
+[/col]
+[col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
 *David – Klarinette*
 *Jonathan – Akkordeon*
 *Antonin – Kontrabass*
+[/col]
+[/split]
 
-**[Lunesk](https://www.facebook.com/LuneskBalfolk)** – Mittwoch 21:30 Uhr
+### Lunesk – Mittwoch 21:30 Uhr
 
-![Lunesk](tuv25-lunesk.jpg)
-
+[split]
+[col]
 Die Balfolk – Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht. Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt.
 Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/Néotrad über Rock bis zu Salsa.
 
@@ -54,10 +59,20 @@ Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgische
 *Fili – Geige (Vertretung for Jojo)*
 *Mara Menzel – Diatonisches Akkordeon, Gesang*
 
-[BALAFENN](https://www.balafenn.de/) – Donnerstag 19:30 Uhr
+[Facebook](https://www.facebook.com/LuneskBalfolk)
+[/col]
+[col]
+![Lunesk](tuv25-lunesk.jpg)
+[/col]
+[/split]
 
+### BALAFENN – Donnerstag 19:30 Uhr
+
+[split]
+[col]
 ![BALAFENN](tuv25-balafenn.jpg)
-
+[/col]
+[col]
 Finest BalFolk Music aus Leipzig/Halle
 Im Frühjahr 2023 als reines Balfolk-Projekt gegründet, spielt BALAFENN vor allem europäische Tanzmusik – beliebte Klassiker erklingen oft im Wechsel mit spritzigen Eigenkompositionen. Bretonische Andros, schwedische Polskas, Jigs und Reels von den britischen Inseln werden dabei genauso aufgegriffen, wie schwungvolle Walzer, Mazurkas oder Schottische.
 Die außergewöhnliche Besetzung mit Irish Flute, Dudelsack, Drehleier, Nycklharpa und anderen spannenden Instrumenten machen BALAFENN zu einem echten Erlebnis – für Ohren, Herz und Bein!
@@ -68,10 +83,14 @@ Die außergewöhnliche Besetzung mit Irish Flute, Dudelsack, Drehleier, Nycklhar
 *Antonin Delpeuch – Kontrabass*
 *Martin Burkhardson – Schäferpfeife, Nyckelharpa, Geige, Gitarre*
 
-**[Pabameto Quartett](https://www.youtube.com/watch?v=pn-ORS3DNew)** – Donnerstag 22:00 Uhr
+[Website](https://www.balafenn.de/)
+[/col]
+[/split]
 
-![Pabameto Quartett](tuv25-pabameto.avif)
+### Pabameto Quartett – Donnerstag 22:00 Uhr
 
+[split]
+[col]
 Die zwei eineiigen Brüder Torge und Bandik spielen schon länger gemeinsam als Pabameto.
 Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich das neu gegründete Pabameto Quartett auf Balfolk; sehr tanzbar mit skandinavischen, keltischen und poppigen Einflüssen.
 
@@ -80,10 +99,20 @@ Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich
 *Melf Torge Nonn – Clarinet / Whistles / Flute / Sopranosax Pay*
 *Bandik Nonn – Guitar / Doublebass*
 
-**[Wings & Tales](https://www.wingsandtales.de/)** – Freitag 19:30 Uhr
+[Youtube](https://www.youtube.com/watch?v=pn-ORS3DNew)
+[/col]
+[col]
+![Pabameto Quartett](tuv25-pabameto.avif)
+[/col]
+[/split]
 
+### Wings & Tales – Freitag 19:30 Uhr
+
+[split]
+[col]
 ![Wings & Tales](tuv25-wings.jpg)
-
+[/col]
+[col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
 *Fili – Geige, Vocals, Obertongesang*
@@ -91,46 +120,77 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Niklas – Kontrabass, Vocals*
 *Helena – Flöte, Vocals*
 
-**Duo FA** – Freitag 22:00 Uhr
+[Website](https://www.wingsandtales.de/)
+[/col]
+[/split]
 
-![Duo FA](tuv25-duo-fa.png)
+### Duo FA – Freitag 22:00 Uhr
 
+[split]
+[col]
 Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit einigen Jahren Sessions und Bühnen der Balfolk-Szene. Aber neu ist, dass sie gemeinsam spielen und damit ihre große Liebe zur Balfolkmusik gemeinsam erlebbar machen. FA ist nicht nur ein Ton, sondern bei den beiden Musikerinnen ein Gefühl und eine ausgewogene Mischung aus feinen Melodien.
 
 *Anna Gaide – Akkordeon*
 *Josefine Schlät – Geige*
+[/col]
+[col]
+![Duo FA](tuv25-duo-fa.png)
+[/col]
+[/split]
 
-**Rokkende Vrouwen** – Samstag 19:30 Uhr
+### Rokkende Vrouwen – Samstag 19:30 Uhr
 
+[split]
+[col]
 ![Rokkende Vrouwen](tuv25-rokkende.jpg)
-
+[/col]
+[col]
 Rokkende Vrouwen is a folk duo consisting of pianist and singer Hilde Van Belle and violinist and singer Lore Vancauwenberghe. Together they take old Flemish and Dutch songs out of the dust and put them in a contemporary jacket with here and there some Scandinavian influences. Expect danceable folk with unforgettable melodies and dreamy tones. Enjoy, dance, and travel through time and space with these ladies. From the 13th century poet Hadewijch to the 19th-century song 'De Weverkens'; the Rokkende Vrouwen get their inspiration from everywhere, and bring their songs in a hip folk version.
+[/col]
+[/split]
 
-**Le Driadi** (It) – Samstag 22:00 Uhr
+### Le Driadi (It) – Samstag 22:00 Uhr
 
-![Le Driadi](tuv25-driadi.jpg)
-
+[split]
+[col]
 ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldnymphen unveröffentlichte Stücke mit italienischen Singer-Songwriter-Einflüssen verwebt. Balfolk steht im Mittelpunkt des Projekts und umfasst französische Tänze, romantische Mazurken, Mixer und bretonische Ketten. Bei SimmelFolk wird die Band als Quartett auftreten, das die Magie von Rhythmus und Musik mit der vokalen Poesie des italienischen Singer-Songwritings mischt. Es entsteht ein klanglicher Wald, in dem jede Note ein Zauber ist und die Zuhörer einlädt, sich in der Welt aus Musik, Tanz und Magie zu verlieren!
 
 *Alessandro – Stimme, Gitarre*
 *Alessandro – E-Bass*
 *Mattia – Violine*
+[/col]
+[col]
+![Le Driadi](tuv25-driadi.jpg)
+[/col]
+[/split]
 
-**[Balsam](https://www.facebook.com/balsam.balfolk)** (PL) – Sonntag 13:00 Uhr
+### Balsam (PL) – Sonntag 13:00 Uhr
 
+[split]
+[col]
 ![Balsam](tuv25-balsam.jpg)
-
+[/col]
+[col]
 Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer und haben ein Repertoire aus energiegeladenen Chapelloises, verbindenden Hanter-Dros, romantischen Walzern und intimen Mazurken. Balsam komponiert und arrangiert europäische Tanzformen mit Respekt für die Tradition und einem mutig-kreativen Ansatz. Sie kombinieren Tanzmusik mit selbst geschriebener, polnisch gesungener Poesie. Das Ergebnis ist eine subtile, emotionale und herzerwärmende Reise für Tänzer und Zuhörer. Im Jahr 2019 veröffentlichte die Gruppe ihr Debütalbum "DO", die erste Balfolk-CD in Polen.
 
 *Ewa de Mezer – chromatisches Akkordeon, Gesang, Texte*
 *Michał Zajączkowski-de Mezer – akustische Gitarre, Gesang*
 *Jakub "Goldfinch" Szczygieł – Irische Flöte, Low Whistle, Tin Whistle*
 
-**Hilde van Belle** – Sonntag 15:00 Uhr
+[Facebook](https://www.facebook.com/balsam.balfolk)
+[/col]
+[/split]
 
-![Hilde van Belle](tuv25-hilde.jpg)
+### Hilde van Belle – Sonntag 15:00 Uhr
 
+[split]
+[col]
 Hilde Van Belle writes litte songs in Flemish for both a listening and dancing audience. Prepare yourself for a mix of soft romance and intense craziness, brought with only one voice and a piano.
+[/col]
+[col]
+![Hilde van Belle](tuv25-hilde.jpg)
+[/col]
+[/split]
 
 ## Workshops
 
@@ -138,35 +198,43 @@ Die Workshopdetails findet ihr hier.
 
 ### Mittwoch
 
-**Mi 17:00 Uhr – Tanzworkshop Triaz**
+#### Tanzworkshop Triaz – 17:00 Uhr
+
 Triaz werden im Workshop einige bretonische Tänze erklären, die dann im Ball gespielt werden: Suite Loudéac, Suite Plinn, Rond de St. Vincent und Kost ar C'hoat
 
 ### Donnerstag
 
-**Do 11:00 Uhr – Lieder des Herzens – Mantras mit Anganietje**
+#### Lieder des Herzens – Mantras mit Anganietje – 11:00 Uhr
+
 KOMM und SING
 Ich hab' Lust mit euch zu singen – manchmal still und eher lauschend und manchmal laut und freudvoll.
 Wer selber ein Instrument spielt und schnell in Melodien einsteigen kann, ist eingeladen, diese mitzubringen. Auch kleinere Trommeln und Percussion Instrumente sind willkommen.
 Liedtexte und Blätter werden da sein.
 
-**Do 11:00 Uhr – Spür dich in deinem Körper mit Frieda**
+#### Spür dich in deinem Körper mit Frieda – 11:00 Uhr
+
 Der Körper ist dein Instrument mit dem du den Musik in die Bewegung bringst. Wir üben Präsenz.
 Komm in deinem Körper an, spür den Atem, die Aufrichtung. Wie bist du in diesem Moment da?
 Es ist keine Matte nötig.
 
-**Do 12:00 Uhr – Zouk mit Sabine und Frithjof**
+#### Zouk mit Sabine und Frithjof – 12:00 Uhr
+
 Einführungsworkshop zu dem brasilianischen Paartanz Zouk
 
-**Do 13:00 Uhr – Tanzmusik wirklich hören mit Gina**
+#### Tanzmusik wirklich hören mit Gina – 13:00 Uhr
+
 In diesem Workshop wollen wir uns die Zeit nehmen, und der Musik, zu der wir tanzen, unsere volle Aufmerksamkeit zu schenken. Ziel des Workshops ist es, eure Sinne für musikalische Feinheiten zu schärfen. Durch aktives Zuhören wollen wir versuchen dies dann auf die Tanzfläche zu bringen. In diesem Workshop werden wir gemeinsam tanzen, der Musik zuhören und uns darüber austauschen. Der Hauptfokus liegt auf Paartänzen. Deshalb ist es hilfreich, wenn ihr bereits Grundkenntnisse in Schottisch und Mazurka habt. Zur Übung werden wir noch in ein/zwei andere Tänze reinschauen.
 
-**Do 15:00 Uhr – Capoeira Angola mit Moni und Sven**
+#### Capoeira Angola mit Moni und Sven – 15:00 Uhr
+
 Capoeira Angola- brasilianischer Kampftanz mit akrobatischen Elementen vereint Singen, Musizieren und fließende Bewegungen mit einem Partner. In dem kurzen Workshop werden sowohl ein paar Bewegungen ausprobiert, als auch ein Capoeiralied gesungen und die verschiedenen Instrumente ausprobiert.
 
-**Do 17:30 Uhr – Einführungsworkshop mit Jana und Edgar**
+#### Einführungsworkshop mit Jana und Edgar – 17:30 Uhr
+
 Ein Einführungskurs in verschiedene Balfolktänze (für Anfänger), der kurz und knapp euch die Gelegenheit gibt, mit den Grundformen gleich in verschiedene Paar – Kreis- und Reihentänze einzusteigen.
 
-**Do 17:30 Uhr – Consent mit Indigo**
+#### Consent mit Indigo – 17:30 Uhr
+
 Consent = Einverständnis
 Im Consent Workshop kannst du deine Grenzen näher kennenlernen und üben, sie aufzuweisen. Verbal und Nonverbal.
 Wir üben Nein sagen, Ja sagen und Präferenzen im Tanz ausdrücken.
@@ -174,13 +242,15 @@ Wenn deine Grenzen öfters überschritten werden und du dafür keinen guten Umga
 
 ### Freitag
 
-**Fr 11:00 Uhr – WIGEZ: Selbsthilfe zur emotionalen Befreiung mit Harald**
+#### WIGEZ: Selbsthilfe zur emotionalen Befreiung mit Harald – 11:00 Uhr
+
 Neuauswertungs-Counceln (Deutsch: Wigez) ist eine Methode zum Loslassen von (Schmerz)mustern, die zu zweit und selbstorganisiert statt findet. Dabei wird die Zeit geteilt und gegenseitig Aufmerksamkeit gegeben. Es geht um praktische Hilfsmittel im Leben.
 Du kannst Harald auch zu anderen Zeiten ansprechen, wenn du Interesse hast.
 
-**Fr 12:00 Uhr – Open Contact Impro Jam with short introduction mit Andreas A.**
+#### Open Contact Impro Jam with short introduction mit Andreas A. – 12:00 Uhr
 
-**Fr 14:00 Uhr – Wohlfühl-Labor 1 mit Melanie und Anselm**
+#### Wohlfühl-Labor 1 mit Melanie und Anselm – 14:00 Uhr
+
 Wir alle sind hier, weil wir das Tanzen lieben. Und doch gibt es manchmal frustrierende Momente und Missverständnisse. In diesen beiden Workshops möchten wir üben, unsere Erwartungen, Bedürfnisse aber auch unsere Grenzen wahrzunehmen, zu benennen und verständlich zu machen. Gleichzeitig nehmen wir achtsam die Grenzen und Wünsche unseres Gegenübers wahr – und wie sie unseren eigenen Tanz zum Erblühen bringen!
 Die Workshops bauen inhaltlich aufeinander auf, man kann sie aber auch einzeln wahrnehmen.
 Bringt euch bei Bedarf Schreibzeug mit. Dieser Workshop ist ein Labor – wir diskutieren, experimentieren und lernen voneinander, Anfänger und Fortgeschrittene Willkommen! Wir freuen uns auf den Austausch mit euch.
@@ -189,16 +259,19 @@ Wo ist meine Komfortzone?
 Wir diskutieren über den Begriff consent = Einverständnis und Grenzüberschreitungen.
 In verschiedenen Übungen erforschen wir unseren individuellen Wohlfühlraum und -distanz. Wir üben "Nein" zu sagen und ein "Nein" liebevoll zu empfangen.
 
-**Fr 14:30 Uhr – Klang und Körper mit Ronja**
+#### Klang und Körper mit Ronja – 14:30 Uhr
+
 Nähe und eigene Grenzen selbst Erfahren und wertschätzend kommunizieren
 In diesem Workshop erkunden wir, wie wir mit einfachen Lauten, Tönen und Bewegungen in Kontakt kommen können – mit uns selbst und miteinander. Du brauchst weder singen noch tanzen können – es geht ums Ausprobieren, Lauschen und Spüren. In kleinen Übungen erforschen wir Stimme und Körper spielerisch, alleine, zu zweit und in der Gruppe.
 
 ### Samstag
 
-**Sa 12:30 Uhr – AcroYoga mit Luise**
+#### AcroYoga mit Luise – 12:30 Uhr
+
 Akrobatik und Yoga. Übungen zu zweit, dritt, … Bitte möglichst (Yoga-, Iso-) Matte mitbringen.
 
-**Sa 13:00 Uhr – Wohlfühl-Labor 2 mit Melanie und Anselm**
+#### Wohlfühl-Labor 2 mit Melanie und Anselm – 13:00 Uhr
+
 Wir alle sind hier, weil wir das Tanzen lieben. Und doch gibt es manchmal frustrierende Momente und Missverständnisse. In diesen beiden Workshops möchten wir üben, unsere Erwartungen, Bedürfnisse aber auch unsere Grenzen wahrzunehmen, zu benennen und verständlich zu machen. Gleichzeitig nehmen wir achtsam die Grenzen und Wünsche unseres Gegenübers wahr – und wie sie unseren eigenen Tanz zum Erblühen bringen!
 Die Workshops bauen inhaltlich aufeinander auf, man kann sie aber auch einzeln wahrnehmen.
 Bringt euch bei Bedarf Schreibzeug mit. Dieser Workshop ist ein Labor – wir diskutieren, experimentieren und lernen voneinander, Anfänger und Fortgeschrittene Willkommen! Wir freuen uns auf den Austausch mit euch.
@@ -206,18 +279,23 @@ Bringt euch bei Bedarf Schreibzeug mit. Dieser Workshop ist ein Labor – wir di
 Wie bekomme ich meinen Tanz?
 Wir üben verbal und nonverbal unsere Tanz-Bedürfnisse auszudrücken. Wir erörtern eine gemeinsame Sprache und Werkzeuge, um uns innerhalb des Tanzes auszudrücken.
 
-**Sa 15:00 Uhr – Fusion tanzen mit Roswitha**
+#### Fusion tanzen mit Roswitha – 15:00 Uhr
+
 Die Verbindung verschiedener (Paar)Tanzstile – Menschen mit verschiedenem (Paar)tanz-Hintergrund tanzen gemeinsam im Paar
 
-**Sa 14:30 Uhr und 17:30 Uhr – Kraftliedersingen und Krafttänze mit den Good Weibs**
+#### Kraftliedersingen und Krafttänze mit den Good Weibs – 14:30 Uhr und 17:30 Uhr
+
 Selina und Franziska von den "Good Weibs" aus Dresden laden beim Kraftliederkreis zum Mitsingen, Mitschwingen und gemeinsamen Musizieren ein. Im Gepäck haben sie jede Menge Instrumente und eingängige Lieder aus verschiedenen Kulturen, die in Ohr und Herz gehen und dich mit dir selbst und der Kraft des Kreises verbinden. Hier wird Gesang als ein Ausdruck deiner Seele gefeiert – jede*r ist willkommen, besonders, wenn du glaubst, nicht singen zu können 🙂
 Im Anschluss werden die Kraftlieder zu live Musik&Gesang gemeinsam getanzt – als bewegte Mandalas, die Inhalt und Kraft der Lieder auf einer noch tieferen Ebene erlebbar machen. Ein besinnliches und zugleich energetisierendes Erlebnis!
 Sonst sind die beiden im [Herzraum Dresden](https://herzraum-dresden.de/event/litha-lichtsingen/) zu erleben.
 
 ## Ort und Anreise
 
+[split]
+[col]
 ![Ballhaus Lindenhof](tuv25-ballhaus.jpg)
-
+[/col]
+[col]
 Wir tanzen im imposanten [Grünen Ballsaal](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) des
 
 **Ballhaus Lindenhof**
@@ -228,17 +306,24 @@ ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplätze am Haus sind als Übernachtungsplätze reserviert. Weitere sind entlang der Straße zu finden und im Zentrum gibt es auch noch Stellflächen.
+[/col]
+[/split]
 
 ## Unterkunft
 
-![Unterkunft](tuv25-schlafen.jpg)
-
+[split]
+[col]
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige einfache Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).
 Außerdem ist es möglich, auf der Wiese oben oder unten am Fluss zu zelten oder im Hof im Auto zu schlafen.
 Für die Zelter und "Autoschläfer" werden Außenduschen (allerdings kalt, maximal lauwarm!) installiert.
 
 Wer mehr Komfort möchte: im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
+[/col]
+[col]
+![Unterkunft](tuv25-schlafen.jpg)
+[/col]
+[/split]
 
 ## Verpflegung
 

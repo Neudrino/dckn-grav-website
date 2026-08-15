@@ -24,27 +24,42 @@ Wir wünschen uns ein friedvolles, unterstützendes Miteinander, wo jede:r auf d
 
 ### Freitag 22.05.
 
-19:00 Uhr **Duo Bothe** (D)
-
+[split]
+[col]
 ![Duo Bothe](tuv26-bothe.jpg)
+[/col]
+[col]
+#### Duo Bothe (D) – 19:00 Uhr
 
 Andreas und Barbara Bothe aus Erlangen kommen mit Akkordeon, Harfe, Flöte und Klarinette und bringen uns zum Tanzen.
 Andreas kennen einige von euch schon vom Duo Bothe/Molzahn oder von anderen Gelegenheiten. Nun neu als Duo auf den Bühnen des Balfolk.
 
 *Andreas Bothe – diat. Akkordeon, Trommel*
 *Barbara Bothe – Harfe, Flöte, Klarinette*
+[/col]
+[/split]
 
-21:30 Uhr [**Snaarmaarwaar**](https://www.snaarmaarwaar.be/en/home/) (BE)
-
-![Snaarmaarwaar](tuv26-snaarmaarwaar.webp)
+[split]
+[col]
+#### Snaarmaarwaar (BE) – 21:30 Uhr
 
 Eine Gitarre, eine Mandola, eine Mandoline, ein Satz Ersatzsaiten und die immense Freude am gemeinsamen Musizieren: Mehr braucht es nicht, um das Publikum mit ihren inspirierenden Melodien und ihrer magischen Live-Atmosphäre zu begeistern. Ihr neues Album heißt „LYS" und erzählt die Geschichte der launischen und wunderschönen Wege, die sie mit ihrer Musik beschritten haben – genau wie der gleichnamige Fluss, der manchmal reißend, manchmal mäandernd zwischen Frankreich und Belgien fließt.
 
+[Website](https://www.snaarmaarwaar.be/en/home/)
+[/col]
+[col]
+![Snaarmaarwaar](tuv26-snaarmaarwaar.webp)
+[/col]
+[/split]
+
 ### Samstag 23.05.
 
-18:00 Uhr **[Duo Marfinara](http://queeringbalfolk.de)** (L)
-
+[split]
+[col]
 ![Duo Marfinara](tuv26-marfinara.webp)
+[/col]
+[col]
+#### Duo Marfinara (L) – 18:00 Uhr
 
 Mara Menzel (Akkordeon) und Josefine Schlät (Geige) fließen als „Duo Marfinara" zusammen zu einer Einheit von Klang, Tanz, Glück.
 In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkeit und Gefühl. Wenn sie dann noch dazu singen, wird es besonders schön. Die Stücke sind abwechslungsreich – vom energetisch schwungvollen Schottisch oder Cercle bis zur romantisch melancholischen Mazurka ist alles dabei. Dabei bewegt sich die Musik, entwickelt sich und gibt immer wieder neue tänzerische Impulse.
@@ -52,7 +67,11 @@ In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkei
 *Mara Menzel – diat. Akkordeon, Gesang*
 *Josefine Schlät – Geige*
 
-**[Wings & Tales](https://www.wingsandtales.de/)**
+[Website](http://queeringbalfolk.de)
+[/col]
+[/split]
+
+#### Wings & Tales
 
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
@@ -61,9 +80,12 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Niklas – Kontrabass, Vocals*
 *Helena – Flöte, Vocals*
 
-[**Flos**](https://www.facebook.com/flos.band) (NL)
+[Website](https://www.wingsandtales.de/)
 
-![Flos](tuv26-flos.jpg)
+[split]
+[col]
+#### Flos (NL)
+
 Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente der Band. Mit eigenen Kompositionen und bestehenden Melodien lassen sie ihre Vorliebe für die Balfolkmusik ineinanderfließen. Schlendern Sie mit uns am Fluss entlang, wo die Maiglöckchen blühen und die Insekten tanzend den Frühling ankündigen.
 
 *Yvette – Gitarre*
@@ -71,11 +93,21 @@ Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente de
 *Lennaert – Cello*
 *Renske – Saxophon*
 
+[Facebook](https://www.facebook.com/flos.band)
+[/col]
+[col]
+![Flos](tuv26-flos.jpg)
+[/col]
+[/split]
+
 ### Sonntag 24.05.
 
-18:00 Uhr **Juggling Strings** (DD und so)
-
+[split]
+[col]
 ![Juggling Strings](tuv26-juggling.jpg)
+[/col]
+[col]
+#### Juggling Strings (DD und so) – 18:00 Uhr
 
 Die Dresdner Band gründete sich aus dem Wunsch heraus, die Musik und Tanzfreude auf die Straße zu bringen und neue Menschen für wirbelnde Begegnung und den Folktanz zu begeistern.
 Zwischen vielen Kreis- und Mixertänzen versteckt sich auch der eine oder andere historische Tanz oder Paartanz. Das Repertoire hierfür stammt aus dem europäischen Raum, von baskisch bis griechisch und italienisch bis dänisch…
@@ -86,10 +118,12 @@ Einige Tunes wurden bearbeitet oder gar neu interpretiert und oft wird auch frö
 *Cora Schütze – Gesang, Bratsche*
 *Robin Vollhardt – Gesang, Mandriola*
 *Miroslav Mütze – Gesang, Bodhran*
+[/col]
+[/split]
 
-20:00 Uhr **[Mehr als Wir](https://mehralswir.de/)** (D)
-
-![Mehr als Wir](tuv26-mehralswir.jpg)
+[split]
+[col]
+#### Mehr als Wir (D) – 20:00 Uhr
 
 Weniger Singer, mehr Songwriter.
 Weniger Duo, mehr Band.
@@ -106,9 +140,16 @@ Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 *Matthias Ehrig – Gitarre, Loopstation und Stompbox*
 *Andreas Uhlmann – Posaune, Flügelhorn, Synthesizer, Loopstation und Beatbox*
 
-**[Balforia](https://balforia.com/)** können leider aus persönlichen Gründen nicht in Waldheim spielen
+[Website](https://mehralswir.de/)
+[/col]
+[col]
+![Mehr als Wir](tuv26-mehralswir.jpg)
+[/col]
+[/split]
 
-**[Wings & Tales](https://www.wingsandtales.de/)**
+[Balforia](https://balforia.com/) können leider aus persönlichen Gründen nicht in Waldheim spielen
+
+#### Wings & Tales
 
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
@@ -117,67 +158,86 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Niklas – Kontrabass, Vocals*
 *Helena – Flöte, Vocals*
 
+[Website](https://www.wingsandtales.de/)
+
 ### Montag, 25.05.
 
-12:00 Uhr [**Mara Menzel** und friends (L)](https://queeringbalfolk.de/mara/mara-menzel-musik/)
-
+[split]
+[col]
 ![Mara Menzel](tuv26-mara.webp)
+[/col]
+[col]
+#### Mara Menzel und friends (L) – 12:00 Uhr
 
 Ein Akkordeon, eine Stimme und selbstgeschriebene Melodien.
 
 Mara Menzel spielt seit sie zum 18. Geburstag ein diatonisches Akkordeon geschenkt bekam mit Bands wie „Stimmt so.", „Searching the Roots", „Lunesk" oder „Knopfgemurmel" zuerst auf Bühnen in Deutschland und dann in Europa. Mit der Zeit sind viele Melodien zu Balfolk-Stücken geworden, sodass sie seit einigen Jahren nun auch mit ihrem Soloset auftritt. In ihren Stücken stecken Geschichten, Lebensfreude und viel Gefühl. Selbst vom Tanz kommend, kombiniert sie ihren Spaß mit der Erfahrung als Musikerin und Tänzerin. Ihr könnt euch bei ihrem Solo-Konzert auf mehrsprachigen Gesang, viel Spaß, und eine offene und warme Atmosphäre freuen.
 
+[Website](https://queeringbalfolk.de/mara/mara-menzel-musik/)
+[/col]
+[/split]
+
 ## Workshops
 
 ### Freitag 22.05.
 
-17:30 Uhr **Willkommensworkshop**
+#### Willkommensworkshop – 17:30 Uhr
 
 ### Samstag 23.05.
 
-9:00 Uhr **Reise an deinen inneren Kraftort** – Kristina – Sofaraum
+#### Reise an deinen inneren Kraftort – Kristina – 9:00 Uhr (Sofaraum)
+
 Komm ganz in dir selbst an und lernen einen sicheren Ort in dir kennen, an den du immer wieder gehen kannst, wenn du eine Auszeit für dich brauchst. Ein wunderbarer Start in den Tag.
 
-11:00 Uhr **Spür dich in deinem Körper** – Frieda – Balkonsaal
+#### Spür dich in deinem Körper – Frieda – 11:00 Uhr (Balkonsaal)
+
 Komm in deinem Körper an. Atme dich. Richte dich auf. In Leichtigkeit.
 
-12:00 Uhr **Tanzeinführungsworkshop** – Jana und Edgar – Saal
+#### Tanzeinführungsworkshop – Jana und Edgar – 12:00 Uhr (Saal)
+
 Ein Einführungskurs in verschiedene Balfolktänze (für Anfänger), der kurz und knapp euch die Gelegenheit gibt, mit den Grundformen gleich in verschiedene Paar – Kreis- und Reihentänze einzusteigen.
 
-12:00 Uhr **Acroyoga** – Louise und Aaron – Wiese
+#### Acroyoga – Louise und Aaron – 12:00 Uhr (Wiese)
 
-12:00 Uhr **Tune learning session** – Tomas Fiers – Anticafé
+#### Tune learning session – Tomas Fiers – 12:00 Uhr (Anticafé)
+
 for musicians: learn a tune to play together
 
-14:00 Uhr **Scottisch deep dive** – Frank Jagusch
+#### Scottisch deep dive – Frank Jagusch – 14:00 Uhr
 
-14:00 Uhr **Uvos = Unvollendete Näh/Strickprojekte vollenden** – Anke W. – Kreativraum
+#### Uvos = Unvollendete Näh/Strickprojekte vollenden – Anke W. – 14:00 Uhr (Kreativraum)
+
 Reparatur an Kleidung im Alltag per Hand
 
-17:00 Uhr **Pfadfinderlieder singen** – Arlett und Tux – Pavillon
+#### Pfadfinderlieder singen – Arlett und Tux – 17:00 Uhr (Pavillon)
 
 ### Sonntag 24.05.
 
-12:00 Uhr **Daumen-Hirn-Yoga** – Marina – Balkonsaal
+#### Daumen-Hirn-Yoga – Marina – 12:00 Uhr (Balkonsaal)
 
-12:00 Uhr **Theaterübungen zur französischen Aussprache** – Harald – Kreativraum
+#### Theaterübungen zur französischen Aussprache – Harald – 12:00 Uhr (Kreativraum)
+
 Übungen für typische Laute der französischen Sprache. Sie klingt romantisch, manche Laute fühlen sich bei der Erzeugung lächerlich an. Wir nähern uns diesen Lauten spielerisch.
 Keine französischen Sprachkenntnisse nötig.
 
-14:00 Uhr **Malen mit den Füßen** – Anne – Balkonsaal
+#### Malen mit den Füßen – Anne – 14:00 Uhr (Balkonsaal)
+
 Tanzen sichtbar machen: Durch Schritte entstehen mit den Füßen farbige Spuren auf einer Leinwand. Wir experimentieren Bewebung in Farbe darzustellen und entdecken, wie Tanz kreative Bilder entstehen lassen kann.
 Vorsicht: Dabei werden die Füße dreckig!
 
 ### Montag, 25.05.
 
-10:30 Uhr **Branles und Kreistänze** – Marlies – Balkonsaal
+#### Branles und Kreistänze – Marlies – 10:30 Uhr (Balkonsaal)
 
 Du hast Lust, einen Workshop zu geben? Dann schick eine Workshopbeschreibung und mögliche Zeiten an tuv@dckn.de
 
 ## Veranstaltungsort
 
+[split]
+[col]
 ![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
-
+[/col]
+[col]
 Wir tanzen im imposanten Grünen Ballsaal im [Ballhaus Lindenhof](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) in Waldheim, mitten in Sachsen.
 Waldheim ist ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
@@ -187,27 +247,39 @@ Mittweidaer Str. 5A
 
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
+[/col]
+[/split]
 
 ## Essen
 
-![Essen](tuv26-essen.jpg)
-
+[split]
+[col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden.
 Frühstück jeweils 9 – 12 Uhr
 1 warme Mahlzeit ca 16:30 – 18:30 Uhr
 Mitternachtssnack Fr, Sa und So
+[/col]
+[col]
+![Essen](tuv26-essen.jpg)
+[/col]
+[/split]
 
 ## Schlafen
 
+[split]
+[col]
 ![Schlafen](tuv26-schlafen.jpg)
-
+[/col]
+[col]
 Nach dem Tanzen braucht es die Möglichkeit zum Ausruhen.
 Es gibt direkt im Lindenhof einige Zimmer zum Übernachten (3-6 Personen, mit Dusche/WC).
 Außerdem ist es möglich, auf der Wiese zu zelten oder im Hof im Auto zu schlafen.
 Für die Zelter und "Autoschläfer" werden Außenduschen installiert.
 
 Im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
+[/col]
+[/split]
 
 ## Kleidertausch/Verschenketisch
 

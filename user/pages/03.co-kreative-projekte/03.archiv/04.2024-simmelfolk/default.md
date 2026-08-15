@@ -74,7 +74,9 @@ But what if the mazurka didn't stop after 5 or 10 minutes? If it just kept going
 
 Forget time and space while you dive deep into this dance, dare to experiment, take your time to find your rhythm, and express it in a beautiful flow.
 
-Angela Solothurnmann (CH), chromatisches Akkordeon
+Angela Solothurnmann (CH),chromatisches Akkordeon
+
+Foto: Linda Pollari [lindapollari.ch](https://lindapollari.ch/.)
 
 - [Youtube](https://www.youtube.com/@fibonanschi5475)
 - [Homepage](https://fibonanschi.ch)

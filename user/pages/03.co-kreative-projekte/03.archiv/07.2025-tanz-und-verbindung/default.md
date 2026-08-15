@@ -14,8 +14,6 @@ event:
 
 ![Flyer TuV 2025](tuv25-flyer.jpg)
 
-![Zeitplan](tuv25-zeitplan.jpg)
-
 Am Himmelfahrts-Wochenende lassen wir im und um das Ballhaus Lindenhof Waldheim ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Kontaktimprovisation, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.
 
@@ -26,7 +24,13 @@ Wir wünschen uns ein friedvolles, unterstützendes Miteinander, wo jede:r auf d
 Tagsüber finden **Workshops** statt, abends gibt es Musik und Tanz.
 Wer nur für Workshops oder Kleidertausch da ist, braucht keinen Eintritt zu zahlen, wir freuen uns aber über eine Spende.
 
+### Vorläufiger Zeitplan
+
+![Zeitplan](tuv25-zeitplan.jpg)
+
 ## Bands
+
+Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkende Vrouwen, Le Driadi, Balsam und Hilde. Hier klicken für Details.
 
 **Triaz** – Mittwoch 19:30 Uhr
 
@@ -130,33 +134,85 @@ Hilde Van Belle writes litte songs in Flemish for both a listening and dancing a
 
 ## Workshops
 
+Die Workshopdetails findet ihr hier.
+
 ### Mittwoch
 
-- Mi 17:00 Uhr – Tanzworkshop Triaz (bretonische Tänze: Suite Loudéac, Suite Plinn, Rond de St. Vincent und Kost ar C'hoat)
+**Mi 17:00 Uhr – Tanzworkshop Triaz**
+Triaz werden im Workshop einige bretonische Tänze erklären, die dann im Ball gespielt werden: Suite Loudéac, Suite Plinn, Rond de St. Vincent und Kost ar C'hoat
 
 ### Donnerstag
 
-- Do 11:00 Uhr – Lieder des Herzens – Mantras mit Anganietje
-- Do 11:00 Uhr – Spür dich in deinem Körper mit Frieda
-- Do 12:00 Uhr – Zouk mit Sabine und Frithjof
-- Do 13:00 Uhr – Tanzmusik wirklich hören mit Gina
-- Do 15:00 Uhr – Capoeira Angola mit Moni und Sven
-- Do 17:30 Uhr – Einführungsworkshop mit Jana und Edgar
-- Do 17:30 Uhr – Consent mit Indigo
+**Do 11:00 Uhr – Lieder des Herzens – Mantras mit Anganietje**
+KOMM und SING
+Ich hab' Lust mit euch zu singen – manchmal still und eher lauschend und manchmal laut und freudvoll.
+Wer selber ein Instrument spielt und schnell in Melodien einsteigen kann, ist eingeladen, diese mitzubringen. Auch kleinere Trommeln und Percussion Instrumente sind willkommen.
+Liedtexte und Blätter werden da sein.
+
+**Do 11:00 Uhr – Spür dich in deinem Körper mit Frieda**
+Der Körper ist dein Instrument mit dem du den Musik in die Bewegung bringst. Wir üben Präsenz.
+Komm in deinem Körper an, spür den Atem, die Aufrichtung. Wie bist du in diesem Moment da?
+Es ist keine Matte nötig.
+
+**Do 12:00 Uhr – Zouk mit Sabine und Frithjof**
+Einführungsworkshop zu dem brasilianischen Paartanz Zouk
+
+**Do 13:00 Uhr – Tanzmusik wirklich hören mit Gina**
+In diesem Workshop wollen wir uns die Zeit nehmen, und der Musik, zu der wir tanzen, unsere volle Aufmerksamkeit zu schenken. Ziel des Workshops ist es, eure Sinne für musikalische Feinheiten zu schärfen. Durch aktives Zuhören wollen wir versuchen dies dann auf die Tanzfläche zu bringen. In diesem Workshop werden wir gemeinsam tanzen, der Musik zuhören und uns darüber austauschen. Der Hauptfokus liegt auf Paartänzen. Deshalb ist es hilfreich, wenn ihr bereits Grundkenntnisse in Schottisch und Mazurka habt. Zur Übung werden wir noch in ein/zwei andere Tänze reinschauen.
+
+**Do 15:00 Uhr – Capoeira Angola mit Moni und Sven**
+Capoeira Angola- brasilianischer Kampftanz mit akrobatischen Elementen vereint Singen, Musizieren und fließende Bewegungen mit einem Partner. In dem kurzen Workshop werden sowohl ein paar Bewegungen ausprobiert, als auch ein Capoeiralied gesungen und die verschiedenen Instrumente ausprobiert.
+
+**Do 17:30 Uhr – Einführungsworkshop mit Jana und Edgar**
+Ein Einführungskurs in verschiedene Balfolktänze (für Anfänger), der kurz und knapp euch die Gelegenheit gibt, mit den Grundformen gleich in verschiedene Paar – Kreis- und Reihentänze einzusteigen.
+
+**Do 17:30 Uhr – Consent mit Indigo**
+Consent = Einverständnis
+Im Consent Workshop kannst du deine Grenzen näher kennenlernen und üben, sie aufzuweisen. Verbal und Nonverbal.
+Wir üben Nein sagen, Ja sagen und Präferenzen im Tanz ausdrücken.
+Wenn deine Grenzen öfters überschritten werden und du dafür keinen guten Umgang hast, ist das der Workshop für dich!
 
 ### Freitag
 
-- Fr 11:00 Uhr – WIGEZ: Selbsthilfe zur emotionalen Befreiung mit Harald
-- Fr 12:00 Uhr – Open Contact Impro Jam with short introduction mit Andreas A.
-- Fr 14:00 Uhr – Wohlfühl-Labor 1 mit Melanie und Anselm
-- Fr 14:30 Uhr – Klang und Körper mit Ronja
+**Fr 11:00 Uhr – WIGEZ: Selbsthilfe zur emotionalen Befreiung mit Harald**
+Neuauswertungs-Counceln (Deutsch: Wigez) ist eine Methode zum Loslassen von (Schmerz)mustern, die zu zweit und selbstorganisiert statt findet. Dabei wird die Zeit geteilt und gegenseitig Aufmerksamkeit gegeben. Es geht um praktische Hilfsmittel im Leben.
+Du kannst Harald auch zu anderen Zeiten ansprechen, wenn du Interesse hast.
+
+**Fr 12:00 Uhr – Open Contact Impro Jam with short introduction mit Andreas A.**
+
+**Fr 14:00 Uhr – Wohlfühl-Labor 1 mit Melanie und Anselm**
+Wir alle sind hier, weil wir das Tanzen lieben. Und doch gibt es manchmal frustrierende Momente und Missverständnisse. In diesen beiden Workshops möchten wir üben, unsere Erwartungen, Bedürfnisse aber auch unsere Grenzen wahrzunehmen, zu benennen und verständlich zu machen. Gleichzeitig nehmen wir achtsam die Grenzen und Wünsche unseres Gegenübers wahr – und wie sie unseren eigenen Tanz zum Erblühen bringen!
+Die Workshops bauen inhaltlich aufeinander auf, man kann sie aber auch einzeln wahrnehmen.
+Bringt euch bei Bedarf Schreibzeug mit. Dieser Workshop ist ein Labor – wir diskutieren, experimentieren und lernen voneinander, Anfänger und Fortgeschrittene Willkommen! Wir freuen uns auf den Austausch mit euch.
+
+Wo ist meine Komfortzone?
+Wir diskutieren über den Begriff consent = Einverständnis und Grenzüberschreitungen.
+In verschiedenen Übungen erforschen wir unseren individuellen Wohlfühlraum und -distanz. Wir üben "Nein" zu sagen und ein "Nein" liebevoll zu empfangen.
+
+**Fr 14:30 Uhr – Klang und Körper mit Ronja**
+Nähe und eigene Grenzen selbst Erfahren und wertschätzend kommunizieren
+In diesem Workshop erkunden wir, wie wir mit einfachen Lauten, Tönen und Bewegungen in Kontakt kommen können – mit uns selbst und miteinander. Du brauchst weder singen noch tanzen können – es geht ums Ausprobieren, Lauschen und Spüren. In kleinen Übungen erforschen wir Stimme und Körper spielerisch, alleine, zu zweit und in der Gruppe.
 
 ### Samstag
 
-- Sa 12:30 Uhr – AcroYoga mit Luise
-- Sa 13:00 Uhr – Wohlfühl-Labor 2 mit Melanie und Anselm
-- Sa 15:00 Uhr – Fusion tanzen mit Roswitha
-- Sa 14:30 Uhr und 17:30 Uhr – Kraftliedersingen und Krafttänze mit den Good Weibs
+**Sa 12:30 Uhr – AcroYoga mit Luise**
+Akrobatik und Yoga. Übungen zu zweit, dritt, … Bitte möglichst (Yoga-, Iso-) Matte mitbringen.
+
+**Sa 13:00 Uhr – Wohlfühl-Labor 2 mit Melanie und Anselm**
+Wir alle sind hier, weil wir das Tanzen lieben. Und doch gibt es manchmal frustrierende Momente und Missverständnisse. In diesen beiden Workshops möchten wir üben, unsere Erwartungen, Bedürfnisse aber auch unsere Grenzen wahrzunehmen, zu benennen und verständlich zu machen. Gleichzeitig nehmen wir achtsam die Grenzen und Wünsche unseres Gegenübers wahr – und wie sie unseren eigenen Tanz zum Erblühen bringen!
+Die Workshops bauen inhaltlich aufeinander auf, man kann sie aber auch einzeln wahrnehmen.
+Bringt euch bei Bedarf Schreibzeug mit. Dieser Workshop ist ein Labor – wir diskutieren, experimentieren und lernen voneinander, Anfänger und Fortgeschrittene Willkommen! Wir freuen uns auf den Austausch mit euch.
+
+Wie bekomme ich meinen Tanz?
+Wir üben verbal und nonverbal unsere Tanz-Bedürfnisse auszudrücken. Wir erörtern eine gemeinsame Sprache und Werkzeuge, um uns innerhalb des Tanzes auszudrücken.
+
+**Sa 15:00 Uhr – Fusion tanzen mit Roswitha**
+Die Verbindung verschiedener (Paar)Tanzstile – Menschen mit verschiedenem (Paar)tanz-Hintergrund tanzen gemeinsam im Paar
+
+**Sa 14:30 Uhr und 17:30 Uhr – Kraftliedersingen und Krafttänze mit den Good Weibs**
+Selina und Franziska von den "Good Weibs" aus Dresden laden beim Kraftliederkreis zum Mitsingen, Mitschwingen und gemeinsamen Musizieren ein. Im Gepäck haben sie jede Menge Instrumente und eingängige Lieder aus verschiedenen Kulturen, die in Ohr und Herz gehen und dich mit dir selbst und der Kraft des Kreises verbinden. Hier wird Gesang als ein Ausdruck deiner Seele gefeiert – jede*r ist willkommen, besonders, wenn du glaubst, nicht singen zu können 🙂
+Im Anschluss werden die Kraftlieder zu live Musik&Gesang gemeinsam getanzt – als bewegte Mandalas, die Inhalt und Kraft der Lieder auf einer noch tieferen Ebene erlebbar machen. Ein besinnliches und zugleich energetisierendes Erlebnis!
+Sonst sind die beiden im [Herzraum Dresden](https://herzraum-dresden.de/event/litha-lichtsingen/) zu erleben.
 
 ## Ort und Anreise
 

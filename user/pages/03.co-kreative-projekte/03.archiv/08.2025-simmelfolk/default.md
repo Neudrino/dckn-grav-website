@@ -104,6 +104,8 @@ Alessandro Cornio – Gitarre, Stimme und Stompbox
 Alessandro Scacchi – Bass
 leonardo – Violine
 
+Foto by **Giuseppe Restuccia**
+
 - [Album](https://ledriadi.bandcamp.com/album/dentro-lo-specchio)
 - [Youtube](https://www.youtube.com/watch?v=_643wmKaGbo&list=PLjCfQULfkaa4ce7v4vEnlyV478v6gjHva)
 
@@ -164,7 +166,7 @@ Marco Gagliardi – Klarinette und Duduk
 
 In ihrem neuen Solo-Programm 'Baltics meet Balfolk' lädt Xenia Twarz zu einem träumerischen Balfolk-Erlebnis zum Tanzen und Zuhören ein.
 
-Mit der Stimme und dem einzigartigen Klang der Kokle (lettische, traditionelle Zither) trägt sie Eigenkompositionen und baltische Folklore vor, die Geschichten aus ihrer musikalischen Biographie erzählen. Neben melancholischen Mazurkas und stürmischen Kreistänzen dürfen sich die Tänzer\*innen auf den ein oder anderen Tanz aus Lettland freuen.
+Mit der Stimme und dem einzigartigen Klang der Kokle (lettische, traditionelle Zither) trägt sie Eigenkompositionen und baltische Folklore vor, die Geschichten aus ihrer musikalischen Biographie erzählen. Neben melancholischen Mazurkas und stürmischen Kreistänzen dürfen sich die Tänzer\*innen auf den ein oder anderen hier noch unbekannten Tanz aus Lettland freuen.
 
 Xenia Twarz – Kokle und Gesang
 

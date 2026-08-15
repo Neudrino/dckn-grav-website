@@ -99,8 +99,17 @@ La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspir
 
 ### Freitag
 
-- Freitag 16:30 Uhr: ContaKids – Contact Improvisation für Eltern und Kinder mit Nils
-- Freitag 17:00 Uhr: Balfolk-Einführungsworkshop mit Antonia
+**Freitag 16:30 Uhr: ContaKids – Contact Improvisation für Eltern und Kinder mit Nils**
+Bei Contakids steht die Eltern-Kind Interaktion im Mittelpunkt. Durch angeleitete Bewegungsspiele entsteht ein Raum, in dem du deinem Kind auf Augenhöhe begegnen und die intuitive Kommunikation miteinander vertiefen kannst. Dabei entwickelt dein Kind seine motorischen Fähigkeiten weiter und du baust Vertrauen in dein Kind und dich selbst auf. Contakids ist 45 minuten gemeinsames Sein, Du und dein Kind.
+
+Hier gibt es einen Einblick: [Youtube](https://www.youtube.com/watch?v=oW_LR5TDqRo)
+
+Das ideale Alter deines Kindes liegt für Contakids zwischen 2 und 5 Jahren. Ältere Kinder sind aber auch eingeladen, sich an den Spielen mit ihren Eltern auszuprobieren.
+
+**Freitag 17:00 Uhr: Balfolk-Einführungsworkshop mit Antonia**
+Einführung in die Welt des Balfolk mit Antonia Sophie Balzer. Tänzerin und Musik und Bewegungspädagogin aus Basel und Halle.
+[Youtube](https://m.youtube.com/watch?v=nxR3kFf51Qw&pp=ygUkaW50ZXJuYXRpb25hbGUga3JlaXN0w6RuemUgdG9uaXRhbnp0)
+
 - Freitag 17:00 Uhr: Bachata mit Sabine und Frithjof
 - Freitag 18:30 Uhr: Hebefiguren im Balfolk mit Miro
 
@@ -109,7 +118,12 @@ La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspir
 - Samstag 11:00 Uhr: Zouk mit Sabine und Frithjof
 - Samstag 12:00 Uhr: Malen mit Clara
 - Samstag 12:00 Uhr: Bourrée für 3-12 Personen mit Antje (begleitet von René auf dem Chello)
-- Samstag 14:00 Uhr: Ensemblekurs für Musiker mit Feather and Fox
+
+**Samstag 14:00 Uhr: Ensemblekurs für Musiker mit Feather and Fox**
+In this workshop, we will start with some improvisation games to meet and listen to each other within the group. We will then learn a simple melody by ear and work together to make it more interesting: adding dynamics and accents, finding chords and drones, and putting those together to create a longer arrangement. We will share some of our ideas about all these elements in folk music, and are also looking forward to hearing yours!
+
+The entire workshop will be done by ear. All instruments and levels are welcome.
+
 - Samstag 14:30 Uhr: ConTango mit Uwe Fährmann
 - Samstag 15:00 Uhr: Speeddating in Chapeloise und Cercle mit Noemi
 - Samstag 18:00 Uhr: Spür dich in deinem Körper mit Frieda

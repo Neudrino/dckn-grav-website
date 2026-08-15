@@ -30,7 +30,7 @@ Wer nur für Workshops oder Kleidertausch da ist, braucht keinen Eintritt zu zah
 
 ## Bands
 
-Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkende Vrouwen, Le Driadi, Balsam und Hilde. Hier klicken für Details.
+Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkende Vrouwen, Le Driadi, Balsam und Hilde.
 
 ### Triaz – Mittwoch 19:30 Uhr
 
@@ -185,7 +185,7 @@ Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer
 
 [split]
 [col]
-Hilde Van Belle writes litte songs in Flemish for both a listening and dancing audience. Prepare yourself for a mix of soft romance and intense craziness, brought with only one voice and a piano.
+Hilde Van Belle writes little songs in Flemish for both a listening and dancing audience. Prepare yourself for a mix of soft romance and intense craziness, brought with only one voice and a piano.
 [/col]
 [col]
 ![Hilde van Belle](tuv25-hilde.jpg)
@@ -193,8 +193,6 @@ Hilde Van Belle writes litte songs in Flemish for both a listening and dancing a
 [/split]
 
 ## Workshops
-
-Die Workshopdetails findet ihr hier.
 
 ### Mittwoch
 
@@ -326,6 +324,8 @@ Wer mehr Komfort möchte: im Zentrum von Waldheim befindet sich in 15 Minuten fu
 [/split]
 
 ## Verpflegung
+
+![Essen](tuv25-essen.jpg)
 
 Mittwoch Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden. Es wird vegan/vegetarisch gekocht.

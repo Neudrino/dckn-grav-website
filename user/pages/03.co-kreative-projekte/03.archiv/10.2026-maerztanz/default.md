@@ -108,7 +108,7 @@ Ihre Tänze reichen von den üblichen Balfolktänzen über ein paar eingestreute
 
 [split]
 [col]
-Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarde…
+Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarre…
 
 Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigenen Kompositionen ihre eigenen Noten erahnen. Sie nehmen uns mit auf eine Reise durch die Gefühle, die das Parkett zum Beben bringen, uns im Walzerschritt schwelgen und uns inmitten ihres bunten und berührenden Universums den Kopf verlieren lassen.
 
@@ -218,7 +218,7 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 ## Verpflegung
 
-Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeitäge (vegan, vegetarisch, mit Fleisch, Gluten)
+Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)
 
 Im Festivalpreis inklusive:
 1 warme Mahlzeit Fr 16:30 – 18:00 Uhr
@@ -280,11 +280,11 @@ Beim Tanzen geht es um die Gemeinschaft, nicht um Perfektion. "Dance roles are s
 Im Tanzsaal ist während des Balls Zeit der Musik zu lauschen und dazu zu tanzen. Für Gespräche gibt es in anderen Räumen und in den Pausen Gelegenheit.
 Bitte achtet bei euren Tänzen auch auf eure Umgebung. Manchmal ist nicht genug Platz für sehr ausladende Figuren, dann spart sie euch bitte für Momente mit mehr Platz auf. Wenn ihr euch in eine Kette einreihen wollt, dann bitte am Ende anhängen. In Kreisen im besten Fall schon mit dem aufgenommenen Rhythmus und zu einem günstigen Zeitpunkt einsteigen, um die anderen nicht aus dem Takt zu bringen. Nicht alle tanzen schon seit Jahren und sind in den Tänzen sicher.
 Bei Paartänzen, die sich im Raum bewegen, sind die Tänzer, die am Platz tanzen in der Mitte und die Tänzer, die in Tanzrichtung durch den Raum tanzen, außen.
-Bist du neu im Balfolk, wird es die Mögllichkeit geben, mit einem Erkennungszeichen darauf aufmerksam zu machen, dass du den Wunsch hast, von erfahrenen Tänzer:innen an die Hand genommen zu werden.
+Bist du neu im Balfolk, wird es die Möglichkeit geben, mit einem Erkennungszeichen darauf aufmerksam zu machen, dass du den Wunsch hast, von erfahrenen Tänzer:innen an die Hand genommen zu werden.
 
 Im Ruheraum darf geruht, geschlafen, massiert, gekuschelt werden. Ist niemand zum Schlafen da, dürft ihr dort auch tuscheln.
 
 Bitte geh achtsam mit den Räumen und allen Gegenständen um. Fällt dir etwas auf, was nicht in Ordnung ist oder sollte dir versehentlich etwas kaputt gegangen sein, wäre es schön, wenn du dafür Sorge trägst, dass es in Ordnung kommt oder eine Info an das Orgateam weiterreichst.
-Beim Tanz-Wochenende werden Fotos und Video erstellt und den Teilnehmern zugänglich gemacht. Manche der Daten werden auch öffentlich verwendet. Mit deiner Teilnahme erklärst du dich damit einverstanden. Falls du nicht einverstanden bist, muss die Einwilligung schriftlich bei DCKN e.V. widerrufen werden.
+Beim Tanz-Wochenende werden Fotos und Videos erstellt und den Teilnehmern zugänglich gemacht. Manche der Daten werden auch öffentlich verwendet. Mit deiner Teilnahme erklärst du dich damit einverstanden. Falls du nicht einverstanden bist, muss die Einwilligung schriftlich bei DCKN e.V. widerrufen werden.
 
 Auf ein schönes gemeinsames Tanzfest!

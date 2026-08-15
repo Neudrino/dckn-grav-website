@@ -123,11 +123,21 @@ Wunderbar sanfte Melodien lassen uns durch den Sonntag Mittag schweben.
 
 ### Uwe & Uli – Sonntag 14:30 Uhr
 
-Uwe spielt seit vielen Jahren chromatisches Akkordeon. Recht früh hat er seine Liebe zur Musik vom Balkan entdeckt. Immer wieder zieht es ihn nach Bulgarien, um dort von Musikern und Tänzern in die Feinheiten dieser Tradition eingeweiht zu werden.
+[split]
+[col]
+![Uwe & Uli](mt25-uwe-uli.jpg)
+[/col]
+[col]
+Uwe spielt seit vielen Jahren chromatisches Akkordeon. Recht früh hat er seine Liebe zur Musik vom Balkan entdeckt. Immer wieder zieht es ihn nach Bulgarien, um dort von Musikern und Tänzern in die Feinigkeiten dieser Tradition eingeweiht zu werden.
+
 Das viele Musizieren inspiriert ihn zum Schreiben eigener Melodien und zusätzlicher Stimmen zu traditionellen Stücken. Sein Steckenpferd sind ungerade Rhythmen. Uwe leitet seit mehr als 10 Jahren die Balkantanzgruppe "Gizdava Moma" in Jena.
+
 Uli hat sich als erstes mit schwedischer Tanzmusik und dann zunehmend mit Balfolk-Musik beschäftigt.
 Als leidenschaftlicher Tänzer ist er schon mit vielen verschiedenen Rhythmen in Berührung gekommen, die er dann gemeinsam mit Uwe auch auf der Geige umsetzt.
+
 Nun verbinden beide ihre Leidenschaft zur jeweiligen Musikrichtung, indem sie sich gegenseitig "anfeuern", das Tanzvolk zahlreich und ausgelassen auf die Tanzfläche zu holen.
+[/col]
+[/split]
 
 ### La Galavarde (F) – Sonntag 16:00 Uhr
 
@@ -212,7 +222,9 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 ## Verpflegung
 
-Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet 17:30 – 20:00 Uhr. Bitte beschriftet eure Buffetbeitäge (vegan, vegetarisch, mit Fleisch, Gluten)
+![Essen](mt25-essen.jpg)
+
+Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet 17:30 – 20:00 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)
 
 Im Festivalpreis inklusive:
 Mitternachtssnack Fr

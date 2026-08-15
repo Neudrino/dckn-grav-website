@@ -73,6 +73,11 @@ In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkei
 
 #### Wings & Tales
 
+[split]
+[col]
+![Wings & Tales](tuv26-wings.jpg)
+[/col]
+[col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
 *Fili – Geige, Vocals, Obertongesang*
@@ -81,6 +86,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)
+[/col]
+[/split]
 
 [split]
 [col]
@@ -151,6 +158,11 @@ Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 
 #### Wings & Tales
 
+[split]
+[col]
+![Wings & Tales](tuv26-wings.jpg)
+[/col]
+[col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
 *Fili – Geige, Vocals, Obertongesang*
@@ -159,6 +171,8 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)
+[/col]
+[/split]
 
 ### Montag, 25.05.
 
@@ -171,7 +185,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 Ein Akkordeon, eine Stimme und selbstgeschriebene Melodien.
 
-Mara Menzel spielt seit sie zum 18. Geburstag ein diatonisches Akkordeon geschenkt bekam mit Bands wie „Stimmt so.", „Searching the Roots", „Lunesk" oder „Knopfgemurmel" zuerst auf Bühnen in Deutschland und dann in Europa. Mit der Zeit sind viele Melodien zu Balfolk-Stücken geworden, sodass sie seit einigen Jahren nun auch mit ihrem Soloset auftritt. In ihren Stücken stecken Geschichten, Lebensfreude und viel Gefühl. Selbst vom Tanz kommend, kombiniert sie ihren Spaß mit der Erfahrung als Musikerin und Tänzerin. Ihr könnt euch bei ihrem Solo-Konzert auf mehrsprachigen Gesang, viel Spaß, und eine offene und warme Atmosphäre freuen.
+Mara Menzel spielt seit sie zum 18. Geburtstag ein diatonisches Akkordeon geschenkt bekam mit Bands wie „Stimmt so.", „Searching the Roots", „Lunesk" oder „Knopfgemurmel" zuerst auf Bühnen in Deutschland und dann in Europa. Mit der Zeit sind viele Melodien zu Balfolk-Stücken geworden, sodass sie seit einigen Jahren nun auch mit ihrem Soloset auftritt. In ihren Stücken stecken Geschichten, Lebensfreude und viel Gefühl. Selbst vom Tanz kommend, kombiniert sie ihren Spaß mit der Erfahrung als Musikerin und Tänzerin. Ihr könnt euch bei ihrem Solo-Konzert auf mehrsprachigen Gesang, viel Spaß, und eine offene und warme Atmosphäre freuen.
 
 [Website](https://queeringbalfolk.de/mara/mara-menzel-musik/)
 [/col]
@@ -222,7 +236,7 @@ Keine französischen Sprachkenntnisse nötig.
 
 #### Malen mit den Füßen – Anne – 14:00 Uhr (Balkonsaal)
 
-Tanzen sichtbar machen: Durch Schritte entstehen mit den Füßen farbige Spuren auf einer Leinwand. Wir experimentieren Bewebung in Farbe darzustellen und entdecken, wie Tanz kreative Bilder entstehen lassen kann.
+Tanzen sichtbar machen: Durch Schritte entstehen mit den Füßen farbige Spuren auf einer Leinwand. Wir experimentieren Bewegung in Farbe darzustellen und entdecken, wie Tanz kreative Bilder entstehen lassen kann.
 Vorsicht: Dabei werden die Füße dreckig!
 
 ### Montag, 25.05.
@@ -243,7 +257,7 @@ Mittweidaer Str. 5A
 04736 WALDHEIM
 
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
-Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
+Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
 [col]
 ![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
@@ -319,9 +333,7 @@ Beim Tanzen geht es um die Gemeinschaft, nicht um Perfektion. "Dance roles are s
 Im Tanzsaal ist während des Balls Zeit der Musik zu lauschen und dazu zu tanzen. Für Gespräche gibt es in anderen Räumen und in den Pausen Gelegenheit.
 Bitte achtet bei euren Tänzen auch auf eure Umgebung. Manchmal ist nicht genug Platz für sehr ausladende Figuren, dann spart sie euch bitte für Momente mit mehr Platz auf. Wenn ihr euch in eine Kette einreihen wollt, dann bitte am Ende anhängen. In Kreisen im besten Fall schon mit dem aufgenommenen Rhythmus und zu einem günstigen Zeitpunkt einsteigen, um die anderen nicht aus dem Takt zu bringen. Nicht alle tanzen schon seit Jahren und sind in den Tänzen sicher.
 Bei Paartänzen, die sich im Raum bewegen, sind die Tänzer, die am Platz tanzen in der Mitte und die Tänzer, die in Tanzrichtung durch den Raum tanzen, außen.
-Bist du neu im Balfolk, wird es die Mögllichkeit geben, mit einem Erkennungszeichen darauf aufmerksam zu machen, dass du den Wunsch hast, von erfahrenen Tänzer:innen an die Hand genommen zu werden.
-
-Im Ruheraum darf geruht, geschlafen, massiert, gekuschelt werden. Ist niemand zum Schlafen da, dürft ihr dort auch tuscheln.
+Bist du neu im Balfolk, wird es die Möglichkeit geben, mit einem Erkennungszeichen darauf aufmerksam zu machen, dass du den Wunsch hast, von erfahrenen Tänzer:innen an die Hand genommen zu werden.
 
 Bitte geh achtsam mit den Räumen und allen Gegenständen um. Fällt dir etwas auf, was nicht in Ordnung ist oder sollte dir versehentlich etwas kaputt gegangen sein, wäre es schön, wenn du dafür Sorge trägst, dass es in Ordnung kommt oder eine Info an das Orgateam weiterreichst.
 Beim Tanz-Wochenende werden Fotos und Videos erstellt und den Teilnehmern zugänglich gemacht. Manche der Daten werden auch öffentlich verwendet. Mit deiner Teilnahme erklärst du dich damit einverstanden. Falls du nicht einverstanden bist, muss die Einwilligung schriftlich bei DCKN e.V. widerrufen werden.

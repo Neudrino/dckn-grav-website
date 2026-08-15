@@ -9,7 +9,7 @@ body_classes: 'title-center'
 
 Das co-kreative Netzwerk ist im Jahr 2023 entstanden als neuer Verein. Im Zuge der Vereinsneugründung haben wir (der Vorstand) viel gelernt. Ein Lernerlebnis für mich war, dass das Internet alles mögliche bereit hält, inklusive allerlei Ratgeberseiten, die voll von langem Geschwafel sind, jedoch ohne handfeste, begründete und auf Primärquellen verlinkende Inhalte. Die besten Hinweise und Empfehlungen zum Unterfangen erhielt ich von zuverlässigen persönlichen Kontakten, die eigene Erfahrungen einbrachten (Danke euch!). In diesem Sinne möchte ich meine Erfahrungen und Erkenntnisse hier mit euch teilen. Vielleicht finden dies andere Menschen, die Ähnliches vorhaben und erhalten dadurch den ein oder anderen Denkanstoß. Und zum Teil kann es auch für neue Vorstände oder Vereinsmodernisierungen interessant sein.
 
-Vorab sei erwähnt, dass es meine persönliche Perspektive auf die Dinge beleuchtet, und nicht unbedingt eine Konsensmeinung des gesamten Vorstandes, geschweige denn Vereins wiedergibt.
+Vorab sei erwähnt, dass es meine persönliche Perspektive auf die Dinge beleuchtet, und nicht unbedingt eine Konsensmeinung des gesamten Vorstandes, geschweige denn des Vereins wiedergibt.
 
 Nun genug der Vorrede und ran ans Thema, dem wir uns heute aus hoher Flughöhe mit allgemeinen Betrachtungen nähern.
 

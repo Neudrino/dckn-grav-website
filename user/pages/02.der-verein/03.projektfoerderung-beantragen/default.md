@@ -9,7 +9,7 @@ Die Veranstaltung eines Projektes über Das Co-Kreative Netzwerk e.V. bringt ein
 
 ## Was wir bieten
 
-- Möglichkeit (öffentliche) **Fördergelder** zu beantragen und erhalten. Diese werde üblicherweise nur an nachgewiesen gemeinnützige Organisationen abgegeben.
+- Möglichkeit (öffentliche) **Fördergelder** zu beantragen und erhalten. Diese werden üblicherweise nur an nachgewiesen gemeinnützige Organisationen abgegeben.
 - **Vereinsversicherungspaket** des [Deutschen Ehrenamts](https://deutsches-ehrenamt.de/schutz-vereine/versicherung-fuer-vereine/)
 - Nutzung der **IT-Infrastruktur** des Vereins
     - Internetseite in der Kategorie "Projekte"

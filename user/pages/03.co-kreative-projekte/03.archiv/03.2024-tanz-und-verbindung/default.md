@@ -136,7 +136,7 @@ Mittweidaer Str. 5A
 04736 WALDHEIM
 
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
-Die Parkplatze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
+Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
 [col]
 ![Ballhaus Lindenhof](tuv24-ballhaus.jpg)

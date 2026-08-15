@@ -97,8 +97,16 @@ Beim Balfolk wird eine bunte Mischung aus Paar-, Kreis- und Kettentänzen getanz
 [/split]
 
 #### Duo Bothe/Molzahn
+
+[split]
+[col]
+![Duo Bothe/Molzahn](duo-bothe.jpg)
+[/col]
+[col]
 Das Duo Bothe & Molzahn (Erlangen, Jena) sorgt mit Spielfreude, Kreativität und mitreißender Leidenschaft bei Balfolk-Tänzern stets für unvergessliche Tanzabende – und gewinnt ebenso Ohr und Herz musikbegeisterter Zuhörer!
 Mit Andreas Bothe am diatonischen Akkordeon und Percussion sowie Uwe Molzahn an der Violine fanden und ergänzen sich zwei Folkbegeisterte, die beide an moderner Spielweise, rhythmischen Akzenten und Improvisation sichtlich ihre Freude haben. Ihre Stücke klingen daher nie genau so, wie beim Ball zuvor, sind immer ein Stück weit einmalig… denn die Intuition des Augenblicks bestimmt ihr intensives Zusammenspiel weit häufiger als man annehmen mag.
+[/col]
+[/split]
 
 ### Sonntag
 
@@ -106,7 +114,7 @@ Mit Andreas Bothe am diatonischen Akkordeon und Percussion sowie Uwe Molzahn an 
 
 [split]
 [col]
-Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarde…
+Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarre…
 
 Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigenen Kompositionen ihre eigenen Noten erahnen. Sie nehmen uns mit auf eine Reise durch die Gefühle, die das Parkett zum Beben bringen, uns im Walzerschritt schwelgen und uns inmitten ihres bunten und berührenden Universums den Kopf verlieren lassen.
 [Duo Nello](https://gabrielchiapello.fr/duo-nello)
@@ -117,11 +125,19 @@ Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigene
 [/split]
 
 #### Angelina und Ulli
+
+[split]
+[col]
+![Angelina und Ulli](angelina-ulli.jpg)
+[/col]
+[col]
 Angelina und Ulli spielen Balfolkmusik mit Mandoline, Akkordeon und Gesang.
 Sie haben ein paar seltene Tänze im Programm, u.a. einen Congo de Captieux…
 
 *Angelina Krastel – Mandoline, Gesang*
 *Ulrich Möhrke – Akkordeon, Gesang*
+[/col]
+[/split]
 
 ## Workshops
 

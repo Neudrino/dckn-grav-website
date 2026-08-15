@@ -106,6 +106,10 @@ Foto: Linda Pollari [lindapollari.ch](https://lindapollari.ch/.)
 - [Youtube](https://www.youtube.com/@fibonanschi5475)
 - [Homepage](https://fibonanschi.ch)
 
+### Swedenland Spelmanslag
+
+![Swedenland Spelmanslag](sf24-sweden.jpg)
+
 ### GrandLoup
 
 [split]

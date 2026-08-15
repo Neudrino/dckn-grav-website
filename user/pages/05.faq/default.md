@@ -15,7 +15,7 @@ Unsere Webseite befindet sich noch im Aufbau. Das ist harte Arbeit und daher sin
 
 ## Für Künstler:innen
 
-### Ich würden gern auf einem eurer Festivals auftreten. Was muss ich tun?
+### Ich würde gern auf einem eurer Festivals auftreten. Was muss ich tun?
 
 Wir freuen uns, dass du Interesse hast, bei, mit und für uns zu musizieren! Schreibe am Besten an [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20co-kreativen%20Netzwerk) und stelle dich kurz vor. Bitte sende uns auch ein Hörbeispiel deiner Musik (ggf. auch als Link zu einer online Plattform). Es ist außerdem günstig wenn du uns deine Vorstellung der Gage benennst. Bitte sei geduldig und nachsichtig mit uns, wenn wir nicht sofort antworten. Wir arbeiten projektbezogen und haben manchmal nur wenig Zeit außerhalb der geplanten Projekte.
 
@@ -49,7 +49,7 @@ Konkrete Fragen von Mitgliedern beantworten wir gern unter [vorstand (at) dckn.d
 
 ## Für Vereine
 
-Im Jahr 2023 gegründet, erkunden wir zusammen das Vereinsleben und lernen dabei viel über allerlei Themen, von Veranstaltungsorganisation, über Steuern bis hin zu IT-Infrastuktur.
+Im Jahr 2023 gegründet, erkunden wir zusammen das Vereinsleben und lernen dabei viel über allerlei Themen, von Veranstaltungsorganisation, über Steuern bis hin zu IT-Infrastruktur.
 
 Eine der wichtigeren Änderungen im Vereinsrecht war das [Gesetz zur Ermöglichung hybrider und virtueller Mitgliederversammlungen im Vereinsrecht](https://www.recht.bund.de/bgbl/1/2023/72/VO), welches [§32 BGB](https://www.gesetze-im-internet.de/bgb/__32.html) derart ändert, dass virtuelle Mitgliederversammlung auch ohne Satzungsänderungen möglich sind. Dies soll vielen bestehenden Vereinen einen einfacheren Zugang zu den Möglichkeiten der digitalen Kommunikation öffnen.
 

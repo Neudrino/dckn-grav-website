@@ -5,7 +5,7 @@ template: event
 event:
   startdatum: '2027-03-04'
   enddatum: '2027-03-07'
-  ort: 'München'
+  ort: 'Chemnitz'
 ---
 
 ![MärzTanz Festival](banner.png)
@@ -46,7 +46,9 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 ### Verpflegung
 
-Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeitäge (vegan, vegetarisch, mit Fleisch, Gluten)
+![Essen](essen.jpg)
+
+Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)
 
 Im Festivalpreis inklusive:
 

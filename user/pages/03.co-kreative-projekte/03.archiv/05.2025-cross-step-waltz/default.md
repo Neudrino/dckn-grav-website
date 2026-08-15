@@ -10,14 +10,14 @@ event:
 
 ## Cross-step waltz – Fusion Weekend with Alena
 
-### 28.02.2025 – 02.03.2025 Erlingen
+### 28.02.2025 – 02.03.2025 Erlangen
 
 [split]
 [col]
 ![That Swing Nürnberg](csw-logo.png)
 [/col]
 [col]
-![Flyer](csw-fyer.png)
+![Flyer](csw-flyer.png)
 [/col]
 [/split]
 

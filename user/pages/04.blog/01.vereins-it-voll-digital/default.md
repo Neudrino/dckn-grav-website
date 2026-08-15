@@ -23,7 +23,7 @@ Diese neuen Regelungen wurden schließlich mit dem „[Gesetz zur Ermöglichung 
 
 Das Co-Kreative Netzwerk führt in seiner Satzung § 3 (1) „Der Verein ist überregional, deutschlandweit tätig." und unsere aktiven Mitglieder sind verteilt auf verschiedene Standorte. Wir haben also ganz spezielle Voraussetzungen und sind daher gestartet mit der Prämisse ein **voll-digitaler Verein** zu sein.
 
-Als neugegründeter Verein war es für Das co-keative Netzwerk notwendig seine komplette IT-Infrastruktur neu aufzubauen. Einerseits hat man dabei viele Freiheiten, andererseits ist eine Priorisierung unbedingt erforderlich, da man nicht alles zugleich bewältigen kann. Um zu einer Priorisierung zu gelangen habe ich mich anfangs gefragt, welche Aspekte und Prozesse rund um den Verein besonders wichtig sind. Später floss unter anderem mit ein, welche Erleichterung man sich von einer digitalen Unterstützung des Prozesses verspricht.
+Als neugegründeter Verein war es für Das co-kreative Netzwerk notwendig seine komplette IT-Infrastruktur neu aufzubauen. Einerseits hat man dabei viele Freiheiten, andererseits ist eine Priorisierung unbedingt erforderlich, da man nicht alles zugleich bewältigen kann. Um zu einer Priorisierung zu gelangen habe ich mich anfangs gefragt, welche Aspekte und Prozesse rund um den Verein besonders wichtig sind. Später floss unter anderem mit ein, welche Erleichterung man sich von einer digitalen Unterstützung des Prozesses verspricht.
 
 Zu den Fragen die man sich über eine Anforderung stellen kann, um zu einer Priorisierung zu gelangen gehören:
 

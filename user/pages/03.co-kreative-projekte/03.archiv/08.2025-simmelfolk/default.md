@@ -42,6 +42,8 @@ Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein B
 [/col]
 [col]
 ![Tanzen](sf25-tanzen.jpg)
+
+![Lagerfeuer](sf25-lagerfeuer.jpg)
 [/col]
 [/split]
 
@@ -63,6 +65,8 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 [split]
 [col]
 ![AKLEJA](sf25-akleja.jpg)
+
+![AKLEJA](sf25-akleja2.jpg)
 [/col]
 [col]
 erforscht musikalisch, was ihnen am Herzen liegt – Natur, Begegnungen und berührende Augenblicke. Sie spielen instrumentale Folkmusik auf Nyckelharpa, Gitarre und Cittern. Besonders geprägt sind sie von Tanzmusik aus alten Notenbüchern, sowie der Musiktradition Schwedens, dem Heimatland der Nyckelharpa. Mit ihrer Musik gehen sie eigene Wege und erschaffen eine einzigartige Klangwelt voller Lebensfreude und Atmosphäre. Mit ihrem mitreißenden Spiel zeichnen sie klingende Bilder und entreißen ihr Publikum mühelos dem Alltag.
@@ -160,12 +164,19 @@ Unser Universum ist inspiriert von der französischen Neo-Folk-Bewegung, dem fra
 
 ### No&Mi
 
+[split]
+[col]
+![No&Mi](sf25-nomi.jpg)
+[/col]
+[col]
 Seit mehr als 10 Jahren reist Noémie mit ihrem unzertrennlichen diatonischen Akkordeon durch die Welt der traditionellen Musik.
 
 Durch verschiedene Einflüsse bei Festivals und Workshops hat sie einen ganz eigenen Stil entwickelt… der für alle sofort erkennbar ist. Mit ihrem Keyboard lässt sie uns zu den Klängen einer sanften und hypnotisierenden Musik außergewöhnliche Paartänze entdecken. Sie versteht es, Seufzer und unregelmäßige Töne zu mischen, um die Tänzer zu überraschen und die Zuhörer in ihren Bann zu ziehen.
 
 - [Homepage](https://noemiesolo.jimdofree.com/)
 - [Youtube](https://youtu.be/3C_PkrOibGw)
+[/col]
+[/split]
 
 ### Triaz
 
@@ -238,6 +249,8 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 
 ### Gemeindehaus und Tanzsaal
 
+![Tanzsaal](sf25-saal.jpg)
+
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
 
 Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die zum Zubereiten der gemeinsamen Speisen verwendet wird. Im Garten werden Tische und Bänke stehen, um bei schönem Wetter draußen zu essen und verweilen.
@@ -246,14 +259,17 @@ Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die z
 
 ### Schlafsaal
 
+![Schlafsaal](sf25-schlafen.jpg)
+
 **Anreise: Donnerstag ab 15 Uhr**
 **Abreise: Montag bis 12 Uhr**
 
-Wir dürfen uns im Vereinsheim des SV Achteltal ein Matrazenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
+Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
 
 ### Camping
 
 **Zelten**
+![Camping](sf25-camping.jpg)
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
 
 **Wohnmobile**
@@ -267,7 +283,9 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 
 ### Verpflegung
 
-Am Donneratg abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
+![Verpflegung](sf25-verpflegung.jpg)
+
+Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
 
 **Frühstücksbrunch** Freitag, Samstag und Sonntag von 8:30 – 12 (14) Uhr wird es ein Mitbring-Frühstücks-Brunch-Mittagsbuffet geben.
 Es gibt Kaffee, Tee, Milch, Joghurt, Haferflocken, Brot, Butter, Marmelade.

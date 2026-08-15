@@ -16,9 +16,6 @@ event:
 
 [split]
 [col]
-![Auf dem Bühl](buehl.jpg)
-[/col]
-[col]
 ### Ihr lieben Balfolk-Menschen!
 
 Wir laden euch herzlich zum SimmelFolk Festivals ein, ein Balfolk-Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.
@@ -27,9 +24,15 @@ Gemeinsam schaffen wir einen Ort der Gemeinschaft, mit gegenseitigem Respekt und
 
 Kommt und bringt eure Freunde mit!
 [/col]
+[col]
+![Auf dem Bühl](buehl.jpg)
+[/col]
 [/split]
 
 [split]
+[col]
+![Tanzen](tanzen.jpg)
+[/col]
 [col]
 ### Mitmach-Festival
 
@@ -40,15 +43,9 @@ Ohne euch gibt es kein Festival.
 Jede und jeder ist eingeladen sich mit ihren/seinen Fähigkeiten, Energie und Präsenz einzubringen, um das Festival mitzugestalten, egal ob als Musiker:in oder Workshopleiter:in, beim Kochen, Vorbereiten oder Aufräumen.
 Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein Balfolk-Festival. Das ist Co-Kreation!
 [/col]
-[col]
-![Tanzen](tanzen.jpg)
-[/col]
 [/split]
 
 [split]
-[col]
-![Lagerfeuer](lagerfeuer.jpg)
-[/col]
 [col]
 ### Auf dem Bühl
 
@@ -59,6 +56,9 @@ Egal, ob ihr rund um die Uhr tanzen wollt, oder einfach in Ruhe ausspannen, der 
 
 Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben zu feiern!
 [/col]
+[col]
+![Lagerfeuer](lagerfeuer.jpg)
+[/col]
 [/split]
 
 <p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/simmelfolk">Anmeldung</a></p>
@@ -67,12 +67,13 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 ![Programm 2026](programm.jpg)
 
-![Programm und Bands](programm-poppy.jpg)
-
 ### Augustas (LT)
 
+[split]
+[col]
 ![Augustas](augustas.jpg)
-
+[/col]
+[col]
 Hinter dem Projekt „Rhythmic Connections" steht ein Musiker aus Litauen, der traditionelle Tanzmelodien mit eigenen Balfolk-Kompositionen verbindet. Erste Bühnenerfahrungen sammelte er 2018, seitdem hat sich sein Stil stetig weiterentwickelt – nun ist er solo unterwegs.
 
 Mit Auftritten in ganz Europa hat er sich einen Namen in der Balfolk-Szene gemacht. Seine Musik war bereits auf zahlreichen Tanzbällen und Festivals zu hören, von Litauen bis Spanien, von Bulgarien bis Portugal.
@@ -85,11 +86,13 @@ Seine Leidenschaft für Folk und Tanz ist in jedem Moment spürbar: Mitreißende
 
 - [Spotify](https://open.spotify.com/artist/74EezmExdfRycjKq4m3LRc?si=nKLxrVo_S22HAh8S1Dvd4g)
 - [Apple music](https://music.apple.com/lt/artist/augustas-%C4%8Derniauskas/1557583800)
+[/col]
+[/split]
 
 ### Baluga (F)
 
-![Baluga](baluga.png)
-
+[split]
+[col]
 Eymeric's electro-folk Projekt…
 
 Folge dem Belugawal …
@@ -99,11 +102,19 @@ hinter den Parkettdielen öffnet sich eine schimmernde blaue Welt: getragen von 
 *Anaïs Wisniewski – Geige*
 
 - [Youtube](https://www.youtube.com/watch?v=fmHlp4Vv4XU&feature=youtu.be)
+[/col]
+[col]
+![Baluga](baluga.png)
+[/col]
+[/split]
 
 ### Duo Neus (D)
 
+[split]
+[col]
 ![Duo Neus](duo-neus.png)
-
+[/col]
+[col]
 aka Mara und Torge haben im Frühling 2024 erstmals zusammen gespielt und es war sofort klar, dass es bei dieser Begegnung nicht bleiben konnte. In kürzester Zeit schrieben sie eine Menge Tunes und haben mittlerweile ein vielseitiges Konzertprogramm für einen vollen Balfolk Abend anzubieten.
 
 Ihre Stücke kommen aus eigener Feder und sind allesamt neu. Duo Neus spielt sowohl zum Tanz als auch zum Zuhören – auf jeden Fall spielen sie mit viel Feuer und Spaß!
@@ -113,11 +124,13 @@ Ihre Stücke kommen aus eigener Feder und sind allesamt neu. Duo Neus spielt sow
 
 - [Insta](https://www.instagram.com/duo_neus/)
 - [Youtube](https://youtu.be/xxSuulhm6_w?si=G_FcOMj6L1e4dHt1)
+[/col]
+[/split]
 
 ### Duo Plodocus (F)
 
-![Duo Plodocus](duo-plodocus.jpg)
-
+[split]
+[col]
 … lädt zu einer ebenso feinsinnigen wie verspielten musikalischen Reise ein. Mit Geige, diatonischem Akkordeon und Gesang verweben sie eigene Kompositionen und neu interpretierte traditionelle Melodien zu ihrem ganz eigenen Klang – der unverwechselbaren „Plodo-Sauce".
 
 Ihre Musik durchstreift Klanglandschaften voller Farben und Kontraste und führt das Publikum mitten hinein in die Welt europäischer Tänze: von lebendigen Paartänzen über mitreißende Mixer bis hin zu bretonischen Rhythmen und Traditionen aus Poitou, der Auvergne und dem Südwesten Frankreichs.
@@ -130,11 +143,19 @@ Die Klänge atmen, flirren und überraschen – sie kribbeln im Nacken, tragen d
 - [Youtube](https://www.youtube.com/watch?v=zCi8lXrmp74&feature=youtu.be)
 - [Youtube](https://www.youtube.com/watch?v=VesTs5017hQ)
 - [Insta](https://www.instagram.com/duoplodocus/)
+[/col]
+[col]
+![Duo Plodocus](duo-plodocus.jpg)
+[/col]
+[/split]
 
 ### Drehwurm (D)
 
+[split]
+[col]
 ![Drehwurm](drehwurm.jpg)
-
+[/col]
+[col]
 Wir sind Drehwurm aus Berlin, Lübeck und Erfurt. Uns verbindet nicht nur unsere Nähe zu Dresden, sondern besonders unsere Freude am gemeinsamen Musizieren.
 
 Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwiebeln. Sie sind geprägt von internationaler Folkmusik (ägyptischen Trolltänzen, Metal,…) sowie von Liedermachern und Holter-die-polter-Polka. Diese Stilrichtungen finden sich in schwindelerregenden Walzern, träumerischen Gavottes, angriffslustigen Bourrees und flott geflöteten Polkas wieder. Dazu gibt es eigene Texte, inhaltlich gestreut von philosophischen Themen über Landschaftsbeschreibungen bis hin zu Gutenachtliedern. Mit einer Prise Albernheit gestalten wir unsere Musik sowohl tanzbar als auch zum lauschen.
@@ -145,11 +166,13 @@ Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwi
 *Teresa – Gitarre, Stimme, Flöten*
 
 - [Homepage](https://drehwurm.band/)
+[/col]
+[/split]
 
 ### Fyndus (B)
 
-![Fyndus](fyndus.jpg)
-
+[split]
+[col]
 Willkommen in der wunderbaren Welt von Fyndus, einem neuen Folk-Duo mit Emma Coopman und Thomas Hoste (elektroakustische Alt-Drehleier & Soundeffekte).
 Gemeinsam präsentieren wir sehr tanzbare Musik zum Zuhören oder hörenswerte Tanzmusik.
 Genießt unsere musikalischen Geschichten und lasst euch von der magischen Harmonie unserer Instrumente verzaubern. Im Februar 2025 haben wir unsere erste CD „re root ed" veröffentlicht.
@@ -161,11 +184,19 @@ Wir haben unsere Musik bereits auf vielen (inter)nationalen Bühnen präsentiert
 
 - [Youtube](https://www.youtube.com/@fyndusmusic)
 - [Album](https://fyndus.bandcamp.com/album/re-root-ed)
+[/col]
+[col]
+![Fyndus](fyndus.jpg)
+[/col]
+[/split]
 
 ### Julien Bohème (F)
 
+[split]
+[col]
 ![Julien Bohème](julien-boheme.gif)
-
+[/col]
+[col]
 Aus Lausanne in der Schweiz stammend, entdeckte der Künstler bereits im Alter von acht Jahren seine Leidenschaft für die Musik. Erste prägende Erfahrungen sammelte er auf Reisen durch Frankreich, bevor er seinen ursprünglichen Beruf hinter sich ließ und in die Welt des Zirkus eintauchte. Dort arbeitete er zunächst hinter den Kulissen, bis er 2017 selbst den Schritt auf die Bühne wagte. Kurz darauf folgte mit dem Trio Baladins die erste Europatournee im Bal-Folk-Bereich.
 
 Heute präsentiert er ein neues Solo-Projekt, das seine musikalische Reise auf persönliche Weise weiterführt. Eine erste EP ist in Arbeit – getragen von einem engagierten Team und der Lust auf neue Klangwelten.
@@ -176,11 +207,13 @@ Seit fast einem Jahrzehnt ist das Akkordeon sein treuer Begleiter. Seine Musik e
 
 - [Homepage](http://www.JulienBoheme.com)
 - [Youtube](https://www.youtube.com/watch?v=zdAUVgR8iVM)
+[/col]
+[/split]
 
 ### Mara Menzel (D)
 
-![Mara Menzel](mara-menzel.png)
-
+[split]
+[col]
 Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite mich dabei auf dem diatonischen Akkordeon, der Gitarre und der Kalimba. Das Balfolk Universum begeistert mich schon seit klein auf, zuerst fand ich meinen Zugang über den Tanz und dann musizierend mit verschiedenen Gruppen wie Stimmt so., meinem Solo, Lunesk und meinen Duos. Freut Euch auf Geschichten in Deutsch, Englisch, Französisch und Italienisch mal laut, mal leise, mal wild und zum dahin schmelzen.
 
 *Mara Menzel – diatonisches Akkordeon, Stimme*
@@ -188,11 +221,19 @@ Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite
 - [Homepage](https://queeringbalfolk.de/mara/mara-menzel-musik/)
 - [Youtube](https://youtu.be/KSd87VGGST8?si=2RQ8k46edWbQu_eU)
 - [Youtube](https://youtu.be/T33DDiHX390?si=gIOBoQOCQYRG7ehA)
+[/col]
+[col]
+![Mara Menzel](mara-menzel.png)
+[/col]
+[/split]
 
 ### Zéphyr Combo (CH/B)
 
+[split]
+[col]
 ![Zéphyr Combo](zephyr-combo.png)
-
+[/col]
+[col]
 … kommen diesmal leider nur als Trio – dafür mit Helikon, Strombox, E-Gitarre – und jeder Menge Energie!
 
 Zéphyr Combo vermischt Chanson mit Gipsyklängen, Handorgelrock, bissigen Satiren, wirren Trinkliedern und Träumereien. Dazu begleiten wir uns auf Akkordeon, Geige, Drehleier, Klavier, Gitarre, Helikon, und Trompete. Tönt ein wenig wie Brel, ein wenig wie Bregovic, aber vor Allem wie – Zéphyr Combo.
@@ -206,13 +247,19 @@ Foto: Mischa Scherrer
 
 - [Homepage](https://zephyrcombo.ch/)
 - [Album](https://zephyrcombo.ch/?js_albums=face-a-lorage-bal-folk)
+[/col]
+[/split]
 
 ### Zèphyr Duo
 
+[split]
+[col]
 .. wie oben als Duo, erfrischend anders, unglaublich vielseitig und mitreißend tänzerisch.
 
 *Geert Dedapper – Akkordeon, Stimme, und allerlei*
 *Esther Nydegger – Geige, Stimme, Querflöte, Gitarre*
+[/col]
+[/split]
 
 ## Workshops
 
@@ -228,6 +275,8 @@ In den vergangenen Jahren ist so ein inspirierendes, vielfältiges Workshopprogr
 
 ### Anreise
 
+[split]
+[col]
 **Adresse**
 [Bühl 6, 91245 Simmelsdorf, Deutschland](https://osm.org/go/0JRCUDqLF-?m=)
 
@@ -236,33 +285,52 @@ Die Schnaittachtal-Bahn (RB 31) fährt im 1h Takt von Nürnberg Hauptbahnhof, Fa
 
 **mit Auto**
 von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an der Kreuzung Richtung Diepoltsdorf gerade aus, dann die nächste kleine Straße rechts hoch Richtung "Bühl".
+[/col]
+[col]
+![Karte](karte.jpg)
+[/col]
+[/split]
 
 ### Gemeindehaus und Tanzsaal
 
+[split]
+[col]
 ![Tanzsaal](saal.jpg)
-
-![Karte](karte.jpg)
-
+[/col]
+[col]
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
 
 Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die zum Zubereiten der gemeinsamen Speisen verwendet wird. Im Garten werden Tische und Bänke stehen, um bei schönem Wetter draußen zu essen und verweilen.
+[/col]
+[/split]
 
 ## Unterkunft und Verpflegung
 
 ### Schlafsaal
 
-![Schlafsaal](schlafen.jpg)
-
+[split]
+[col]
 **Anreise: Donnerstag ab 15 Uhr**
 **Abreise: Montag bis 12 Uhr**
 
 Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
+[/col]
+[col]
+![Schlafsaal](schlafen.jpg)
+[/col]
+[/split]
 
 ### Camping
 
 **Zelten**
+[split]
+[col]
 ![Camping](camping.jpg)
+[/col]
+[col]
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
+[/col]
+[/split]
 
 **Wohnmobile**
 Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den Wanderparkplatz stellen. Alternativ einreihig entlang der Walnussallee, ein paar Plätze gibt es auch am Sportheim. Ihr könnt die Toiletten und Duschen des Vereinsheims benutzen.
@@ -275,8 +343,8 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 
 ### Verpflegung
 
-![Verpflegung](verpflegung.jpg)
-
+[split]
+[col]
 Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
 
 **Frühstücksbrunch** Freitag, Samstag und Sonntag von 8:30 – 12 (bis 14 im Garten) Uhr wird es ein Mitbring-Frühstücks-Brunch-Mittagsbuffet geben.
@@ -292,6 +360,11 @@ Das Brot beziehen wir von **lokalen** Bäckereien, unsere Lebensmittel sind **bi
 **Getränke**
 Rund um die Uhr gibt es bestes Simmelsdorfer Leitungswasser, Tee und Kaffee ist gratis.
 Lokales fränkisches Bier, Wein, Limo, usw wird von der Brauerei Kanone, Schnaittach, zu günstigen Preisen zur Verfügung gestellt.
+[/col]
+[col]
+![Verpflegung](verpflegung.jpg)
+[/col]
+[/split]
 
 ## Anmeldung und Teilnahme
 

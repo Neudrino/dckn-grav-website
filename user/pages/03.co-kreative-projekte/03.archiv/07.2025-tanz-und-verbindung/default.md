@@ -325,13 +325,18 @@ Wer mehr Komfort möchte: im Zentrum von Waldheim befindet sich in 15 Minuten fu
 
 ## Verpflegung
 
+[split]
+[col]
 ![Essen](tuv25-essen.jpg)
-
+[/col]
+[col]
 Mittwoch Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
 Es gibt eine Küche, in der sich Küchenteams um die gemeinsamen Mahlzeiten kümmern werden. Es wird vegan/vegetarisch gekocht.
 Frühstück jeweils 9 – 12 Uhr
-warme Mahlzeit ca. 16:00 – 17:30 Uhr
+warme Mahlzeit ca 16:00 – 17:30 Uhr
 Suppe am Abend
+[/col]
+[/split]
 
 ## Kleidertausch / Verschenketisch
 

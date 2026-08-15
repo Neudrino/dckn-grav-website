@@ -143,12 +143,12 @@ Nun verbinden beide ihre Leidenschaft zur jeweiligen Musikrichtung, indem sie si
 
 [split]
 [col]
-![La Galavarde](mt25-galavarde.jpg)
-[/col]
-[col]
 La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspiration aus dem Klangreichtum von Zentralfrankreich und der Dauphiné schöpft. Ihre drei Musikerinnen, Sarah, Claire und Sidonie, flechten gemeinsam die Klangfarben des Akkordeons, der Geige, der irischen Flöte und ihrer drei Stimmen ein.
 
 [Linktree](https://linktr.ee/lagalavarde)
+[/col]
+[col]
+![La Galavarde](mt25-galavarde.jpg)
 [/col]
 [/split]
 
@@ -222,8 +222,11 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 ## Verpflegung
 
+[split]
+[col]
 ![Essen](mt25-essen.jpg)
-
+[/col]
+[col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet 17:30 – 20:00 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)
 
 Im Festivalpreis inklusive:
@@ -234,6 +237,8 @@ Sonntag Brunch 9:00-13:00 Uhr
 
 Extra:
 Frühstück Sa 9 – 12 Uhr ist bei Bedarf dazubuchbar
+[/col]
+[/split]
 
 ## Kleidertausch / Verschenketisch
 

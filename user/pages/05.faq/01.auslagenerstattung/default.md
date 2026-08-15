@@ -67,8 +67,6 @@ form:
       filesize: 1
       destination: user/data/auslagenerstattung/belege
       avoid_overwriting: true
-      validate:
-        required: true
 
     - name: kontoinhaber
       label: 'Kontoinhaber:in'
@@ -91,13 +89,7 @@ form:
     - name: unterschrift
       label: 'Unterschrift'
       type: signature
-      validate:
-        required: true
-
-    - name: hcaptcha
-      type: hcaptcha
-      validate:
-        required: true
+      xss_check: false
 
   buttons:
     - type: submit
@@ -115,5 +107,3 @@ form:
 ---
 
 # Auslagenerstattung
-
-_Aus unklaren Gründen kommt in manchen Browsern beim ersten Klick auf Senden ein Fehler. Probiere es dann einfach direkt noch einmal. An der grünen Meldung und dem Zurücksetzen der Formulare erkennst du das erfolgreiche Absenden._

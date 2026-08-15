@@ -21,6 +21,10 @@ user/config/plugins/api-private.php
 user/config/security-private.php
 user/accounts/admin.yaml
 
+# === Plugin configs with credentials (per-environment, must never be committed) ===
+user/config/plugins/brevo.yaml
+user/config/plugins/email.yaml
+
 # === hCaptcha keys (per-environment, must never be committed) ===
 user/config/plugins/form-captcha-hcaptcha.yaml
 

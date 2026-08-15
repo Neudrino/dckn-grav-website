@@ -34,10 +34,6 @@ form:
       type: checkbox
       validate:
         required: true
-    - name: hcaptcha
-      type: hcaptcha
-      validate:
-        required: true
 
   buttons:
     - type: submit

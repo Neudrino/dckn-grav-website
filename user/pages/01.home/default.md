@@ -24,9 +24,18 @@ form:
       placeholder: deine@email.de
       validate:
         required: true
+    - name: datenschutz_link
+      label: false
+      type: display
+      markdown: true
+      content: "Hier findest du unsere [Datenschutzerklärung](/impressum#datenschutz)."
     - name: datenschutz
-      label: 'Ich akzeptiere die Datenschutzerklärung'
+      label: 'Ich akzeptiere die Datenschutzerklärung.'
       type: checkbox
+      validate:
+        required: true
+    - name: hcaptcha
+      type: hcaptcha
       validate:
         required: true
 
@@ -37,7 +46,7 @@ form:
 
   process:
     - brevo:
-        lists: [1]
+        lists: [3]
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname

@@ -22,7 +22,9 @@ class SignatureAttachmentPlugin extends Plugin
 
         $twig = $this->grav['twig'];
         $vars = ['form' => $form];
-        $html = $twig->processTemplate('pdf-template.html.twig', $vars);
+        $templateFile = __DIR__ . '/templates/pdf-template.html.twig';
+        $templateContent = file_get_contents($templateFile);
+        $html = $twig->processString($templateContent, $vars);
 
         $options = new \Dompdf\Options();
         $options->set('isRemoteEnabled', true);

@@ -447,3 +447,17 @@ object[type="application/pdf"] {
   height: auto;
   border-radius: 0.5rem;
 }
+
+/* ===== Projektantrag: Vereinszwecke checkboxes as simple vertical list ===== */
+.form-wrapper .checkboxes.zwecke-list {
+  display: block;
+}
+.checkbox-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.checkbox-option label {
+  padding: 0 !important;
+  margin: 0 !important;
+}

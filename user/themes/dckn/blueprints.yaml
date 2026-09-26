@@ -1,0 +1,12 @@
+name: DCKN
+slug: dckn
+type: theme
+version: 1.0.0
+description: DCKN child theme of Quark 2 — survives image/theme updates.
+author:
+  name: DCKN
+dependencies:
+  - { name: quark2, version: '>=1.1.14' }
+form:
+  validation: loose
+extends@: themes://quark2/blueprints.yaml

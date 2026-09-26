@@ -1,0 +1,21 @@
+enabled: true
+header-fixed: true
+header-animated: true
+header-transparent: false
+header-dark: false
+header-light: false
+sticky-footer: true
+theme-mode: auto
+accent-color: '#c6530a'
+blog-page: '/blog'
+fontawesome:
+  enabled: true
+  local: false
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '':
+          - user/themes/dckn
+          - user/themes/quark2

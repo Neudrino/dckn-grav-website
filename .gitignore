@@ -45,27 +45,6 @@ user/plugins/*
 !user/plugins/signature-attachment/
 user/plugins/signature-attachment/vendor/
 
-# === Theme (bundled with image; only our custom overrides are tracked) ===
+# === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*
-!user/themes/quark2/
-user/themes/quark2/*
-!user/themes/quark2/css/
-user/themes/quark2/css/*
-!user/themes/quark2/css/custom.css
-!user/themes/quark2/templates/
-user/themes/quark2/templates/*
-!user/themes/quark2/templates/projekte.html.twig
-!user/themes/quark2/templates/home.html.twig
-!user/themes/quark2/templates/event.html.twig
-!user/themes/quark2/templates/formular.html.twig
-!user/themes/quark2/templates/partials/
-user/themes/quark2/templates/partials/*
-!user/themes/quark2/templates/partials/footer.html.twig
-!user/themes/quark2/templates/partials/projekt-card.html.twig
-!user/themes/quark2/templates/partials/projekt-date-range.html.twig
-!user/themes/quark2/templates/partials/translate.html.twig
-!user/themes/quark2/templates/partials/base.html.twig
-!user/themes/quark2/blueprints/
-user/themes/quark2/blueprints/*
-!user/themes/quark2/blueprints/event.yaml
-!user/themes/quark2/languages.yaml
+!user/themes/dckn/

@@ -461,3 +461,15 @@ object[type="application/pdf"] {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+/* ===== Split column with natural-size centered logo ===== */
+.split-cols > div.split-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.split-cols > div.split-logo img {
+  width: 200px !important;
+  max-width: 100%;
+  height: auto !important;
+}

@@ -110,7 +110,7 @@ Für alle, die bei uns übernachten möchten, gibt es drei Möglichkeiten:
 **Camping**
 - Wer lieber im eigenen Zuhause auf Rädern schläft, kann außerdem mit dem WINTERFESTEN **Wohnmobil** anreisen. Stellplätze sind vorhanden und ein Stromanschluss ist möglich (evtl. gibt es einen kleinen Aufpreis).
 
-Jede Person, die auf dem Gelände der Gemeinschaft Sonnenwald schläft, muss vor Ort noch eine Kurtaxe von 2 € pro Tag zahlen. Diese muss vor Ort und in bar gezahlt werden.
+Jede Person, die auf dem Gelände der Gemeinschaft Sonnenwald schläft, muss vor Ort noch eine **Kurtaxe von 2 € pro Tag** zahlen. Diese muss vor Ort und in bar gezahlt werden.
 
 Falls ihr noch irgendwelche Fragen habt oder irgendwo mehr Informationen braucht, scheut euch nicht, uns zu schreiben.
 

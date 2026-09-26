@@ -18,11 +18,25 @@ class SignatureAttachmentPlugin extends Plugin
         $message = $event['message'];
         $form = $event['form'];
 
+        $has_signature = false;
+        foreach ($form->getFields() as $field) {
+            if (($field['type'] ?? null) === 'signature') {
+                $has_signature = true;
+                break;
+            }
+        }
+        if (!$has_signature) {
+            return;
+        }
+
         require_once __DIR__ . '/vendor/autoload.php';
 
         $twig = $this->grav['twig'];
         $vars = ['form' => $form];
-        $templateFile = __DIR__ . '/templates/pdf-template.html.twig';
+
+        $formName = $form->getName();
+        $matchedFile = __DIR__ . '/templates/pdf-template-' . $formName . '.html.twig';
+        $templateFile = is_file($matchedFile) ? $matchedFile : __DIR__ . '/templates/pdf-template.html.twig';
         $templateContent = file_get_contents($templateFile);
         $html = $twig->processString($templateContent, $vars);
 
@@ -41,7 +55,7 @@ class SignatureAttachmentPlugin extends Plugin
 
         if ($pdfData) {
             $symfonyEmail = $message->getEmail();
-            $symfonyEmail->attach($pdfData, 'auslagenerstattung.pdf', 'application/pdf');
+            $symfonyEmail->attach($pdfData, $formName . '.pdf', 'application/pdf');
         }
     }
 }

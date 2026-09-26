@@ -35,10 +35,36 @@ On first boot, if the hashed password needs resetting, delete
 | `docker-compose.yml` | Container definition, port mapping, bind mounts |
 | `user/config/system.yaml` | Grav system config (theme, caching, markdown) |
 | `user/config/site.yaml` | Site title, author, metadata |
-| `user/config/themes/quark2.yaml` | Theme accent color (`#c6530a`) |
+| `user/config/themes/dckn.yaml` | Theme accent color (`#c6530a`) |
 | `user/config/plugins/brevo.yaml` | Brevo newsletter plugin (API key placeholder) |
-| `user/themes/quark2/css/custom.css` | CSS overrides (3-column grid, etc.) |
+| `user/themes/dckn/` | Child theme: all our theme customizations |
 | `setup-plugins.sh` | Installs all required Grav plugins via GPM |
+
+## Child Theme `dckn`
+
+All theme customizations (templates, CSS, languages, the event page
+blueprint) live in `user/themes/dckn/`, a Grav child theme that
+inherits from the bundled Quark 2 theme:
+
+- **Templates/CSS:** resolved via the `theme://` stream chain — files
+  present in `dckn/` win, everything else falls through to `quark2`.
+- **Admin form:** `blueprints.yaml` inherits Quark 2's form fields via
+  `extends@: themes://quark2/blueprints.yaml`.
+- **PHP class:** `dckn.php` extends `Grav\Theme\Quark2`.
+- Active theme: `pages.theme: dckn` in `user/config/system.yaml`.
+
+### After an Image/Quark 2 Update
+
+Nothing tracked gets overwritten anymore. `docker compose pull` +
+restart only updates Quark 2. If a Quark 2 release changes one of the
+templates we also ship in `dckn/templates/`, compare and patch:
+
+```bash
+docker run --rm lscr.io/linuxserver/grav:latest \
+  cat /app/www/public/user/themes/quark2/templates/partials/base.html.twig \
+  > /tmp/upstream-base.html.twig
+diff /tmp/upstream-base.html.twig user/themes/dckn/templates/partials/base.html.twig
+```
 
 ## Brevo Newsletter
 

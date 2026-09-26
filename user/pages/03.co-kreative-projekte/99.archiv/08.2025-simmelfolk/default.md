@@ -10,15 +10,20 @@ event:
 
 ## 5. SimmelFolk Festival vom 4.-7. September 2025
 
-![Logo](sf25-logo.png)
+[split]
+[col]
+Das diesjährige Festival wird gefördert von der Kulturförderung des Bezirks Mittelfranken. Im Namen unserer Musiker:innen und aller Teilnehmenden – **Vielen Dank** dafür!
+[/col]
+[col class="split-logo"]
+![Logo Bezirk Mittelfranken](bezirk-mittelfranken-logo.png?width=200)
+[/col]
+[/split]
 
 [split]
 [col]
 ![Auf dem Bühl](sf25-buehl.jpg)
 [/col]
 [col]
-Das diesjährige Festival wird gefördert von der Kulturförderung des Bezirks Mittelfranken. Im Namen unserer Musiker:innen und aller Teilnehmenden – **Vielen Dank** dafür!
-
 ### Liebe Freund:innen, Tänzer:innen, Musiker:innen und deren Freund:innen,
 
 Wir möchten euch herzlich zur **fünften Edition** des SimmelFolk Festivals einladen – einem Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.

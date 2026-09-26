@@ -12,7 +12,8 @@ class SplitShortcode extends Shortcode
         });
 
         $this->shortcode->getHandlers()->add('col', function (ShortcodeInterface $sc) {
-            return '<div>' . $sc->getContent() . '</div>';
+            $class = $sc->getParameter('class');
+            return '<div' . ($class ? ' class="' . htmlspecialchars($class, ENT_QUOTES) . '"' : '') . '>' . $sc->getContent() . '</div>';
         });
     }
 }

@@ -416,6 +416,11 @@ body.header-light:not(.scrolled) #header a.translate-btn {
   max-width: none;
 }
 
+/* Reduced vertical page padding (half, matching container side padding) */
+#body-wrapper {
+  padding-block: clamp(1.25rem, 2.5vw, 2rem);
+}
+
 /* ===== Inline PDF embed ===== */
 object[type="application/pdf"] {
   width: 100%;

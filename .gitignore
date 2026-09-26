@@ -16,6 +16,14 @@ package-lock.json
 # === Grav runtime data (auto-generated: caches, indexes, feeds, scheduler) ===
 user/data/
 
+# === Apache-only defense files (inert on this nginx deployment; supplied by image skeleton) ===
+user/.htaccess
+user/accounts/.htaccess
+user/config/.htaccess
+
+# === Accounts (runtime, contains password hashes; skeleton created by image) ===
+user/accounts/*
+
 # === Grav secrets (auto-generated, must never be committed) ===
 user/config/plugins/api-private.php
 user/config/security-private.php

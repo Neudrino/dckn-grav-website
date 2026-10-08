@@ -30,6 +30,7 @@ PLUGINS=(
   flex-objects
   form
   form-captcha-hcaptcha
+  gis
   github-markdown-alerts
   login
   problems

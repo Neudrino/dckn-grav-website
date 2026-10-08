@@ -1,38 +1,36 @@
-# Exclude files not needed in the Docker build context
+# === Repo/dev files not needed in the build context ===
 .git/
 .gitignore
 node_modules/
 config/
 opencode.json
+AGENTS.md
 package.json
 package-lock.json
 README.md
+.env
 
-# Exclude Grav runtime data
+# === Grav runtime data (auto-generated or supplied by image skeleton) ===
 user/data/
 user/cache/
 user/tmp/
 user/logs/
+user/accounts/
 user/config/versions.yaml
 user/config/media.yaml
 
-# Exclude secrets (injected at runtime via entrypoint.sh)
-user/config/plugins/api-private.php
+# === Grav secrets & credentials (injected at runtime via entrypoint.sh) ===
 user/config/security-private.php
+user/config/plugins/api-private.php
+user/config/plugins/brevo.yaml
+user/config/plugins/email.yaml
+user/config/plugins/form-captcha-hcaptcha.yaml
 
-# Exclude locally-installed plugins (bundled with image or installed via GPM)
+# === Plugins (bundled with image or installed via GPM) ===
 user/plugins/*
 !user/plugins/signature-attachment/
 user/plugins/signature-attachment/vendor/
 
-# Exclude theme base files (bundled with image; only our overrides tracked)
+# === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*
-!user/themes/quark2/
-user/themes/quark2/*
-!user/themes/quark2/css/
-user/themes/quark2/css/*
-!user/themes/quark2/css/custom.css
-!user/themes/quark2/templates/
-!user/themes/quark2/blueprints/
-user/themes/quark2/blueprints/*
-!user/themes/quark2/blueprints/event.yaml
+!user/themes/dckn/

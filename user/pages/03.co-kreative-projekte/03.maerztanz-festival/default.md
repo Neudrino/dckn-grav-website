@@ -25,6 +25,8 @@ Du möchtest einen Workshop geben? Dann schreib eine Mail an maerztanz at dckn.d
 
 ### Ort und Anreise
 
+[split]
+[col]
 Dieses Jahr tanzen wir wieder im wunderschönen Tanzsaal im [**Haus des Gastes**](https://www.hausdesgastes.info/raumlichkeiten/veranstaltungsraume/) Chemnitz-Reichenbrand. Dort haben wir auch sehr schöne Workshopräume zur Verfügung.
 
 [Haus des Gastes Reichenbrand
@@ -35,6 +37,11 @@ Zwickauer Straße 485
 - nächste Bushaltestelle: Kirche Reichenbrand (direkt gegenüber)
 - Autobahnabfahrt A72: Chemnitz Süd (oder Chemnitz Rottluff) (Fahrzeit 6 min)
 - Parken: in den umliegenden Straßen kostenlos möglich. Direkt am Haus des Gastes nur wenige Parkmöglichkeiten (der Hof ist für Mitarbeiter und Künstler reserviert)
+[/col]
+[col]
+[gis marker1="Haus des Gastes Reichenbrand, 50.8115423, 12.8285122, green" marker2="Bahnhof Chemnitz-Siegmar, 50.8155542, 12.8430079, red" marker3="Bushaltestelle Kirche Reichenbrand, 50.8122284, 12.8295201, orange"]
+[/col]
+[/split]
 
 ### Unterkunft
 
@@ -46,8 +53,11 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 ### Verpflegung
 
+[split]
+[col]
 ![Essen](essen.jpg)
-
+[/col]
+[col]
 Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)
 
 Im Festivalpreis inklusive:
@@ -60,6 +70,8 @@ Im Festivalpreis inklusive:
 
 Extra:
 Frühstück Fr und Sa 9 – 12 Uhr ist bei Bedarf dazubuchbar
+[/col]
+[/split]
 
 ### Kleidertausch / Verschenketisch
 

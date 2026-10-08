@@ -208,6 +208,8 @@ Zwickauer Straße 485
 - Autobahnabfahrt A72: Chemnitz Süd (oder Chemnitz Rottluff) (Fahrzeit 6 min)
 - Parken: in den umliegenden Straßen kostenlos möglich. Direkt am Haus des Gastes nur wenige Parkmöglichkeiten (der Hof ist für Mitarbeiter und Künstler reserviert)
 
+[gis marker1="Haus des Gastes Reichenbrand, 50.8115423, 12.8285122, green" marker2="Bahnhof Chemnitz-Siegmar, 50.8155542, 12.8430079, red" marker3="Bushaltestelle Kirche Reichenbrand, 50.8122284, 12.8295201, orange"]
+
 ## Unterkunft
 
 Wir können in der angrenzenden Turnhalle einige Schlafplätze im Matratzenlager (mit eigener Isomatte+Schlafsack) anbieten. Die Pensionszimmer stehen nicht zur Verfügung, da sie langfristig vermietet sind.

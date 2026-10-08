@@ -277,16 +277,18 @@ In den vergangenen Jahren ist so ein inspirierendes, vielfältiges Workshopprogr
 
 [split]
 [col]
-**Adresse**
-[Bühl 6, 91245 Simmelsdorf, Deutschland](https://osm.org/go/0JRCUDqLF-?m=)
-
 **mit Öffis**
 Die Schnaittachtal-Bahn (RB 31) fährt im 1h Takt von Nürnberg Hauptbahnhof, Fahrtzeit ca 40Min. Endstation ist der Bahnhof **Simmelsdorf-Hüttenbach**. Von dort sind es etwa 10 Minuten Fussweg (bergauf!).
 
 **mit Auto**
 von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an der Kreuzung Richtung Diepoltsdorf gerade aus, dann die nächste kleine Straße rechts hoch Richtung "Bühl".
+
+[gis marker1="Festivalland Bühl, 49.6039729, 11.3405299, green" marker2="Bahnhof Simmelsdorf-Hüttenbach, 49.5983619, 11.341543, red" marker3="SV Achteltal (Matratzenlager), 49.6049437, 11.3444225, purple"]
 [/col]
 [col]
+**Adresse**
+[Bühl 6, 91245 Simmelsdorf, Deutschland](https://osm.org/go/0JRCUDqLF-?m=)
+
 ![Karte](karte.jpg)
 [/col]
 [/split]

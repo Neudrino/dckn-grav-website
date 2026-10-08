@@ -257,6 +257,8 @@ Die Schnaittachtal-Bahn (R-Bahn 31) fährt im 1h Takt von Nürnberg Hauptbahnhof
 **mit Auto**
 von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an der Kreuzung Richtung Diepoltsdorf gerade aus, dann die nächste kleine Straße rechts hoch Richtung "Bühl".
 
+[gis marker1="Festivalland Bühl, 49.6039729, 11.3405299, green" marker2="Bahnhof Simmelsdorf-Hüttenbach, 49.5983619, 11.341543, red" marker3="SV Achteltal (Matratzenlager), 49.6049437, 11.3444225, purple"]
+
 ### Gemeindehaus und Tanzsaal
 
 [split]

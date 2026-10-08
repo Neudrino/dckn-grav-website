@@ -31,6 +31,8 @@ Wie alle unsere DCKN-Festivals lebt auch der Lumi Bal von euch. Es gibt kein fes
 ## Der Ort
 
 Eine kleine Turnhalle wird gemeinsam mit dem Speisesaal zum Ballsaal, dazu eine große Küche mit jeder Menge guter, regionaler Zutaten, die wir gemeinsam zu Festmählern verarbeiten. Beheizte Matratzenlager, zwei Workshop-Spaces und eine kleine Sauna zum Ausklingen der kalten Winternächte runden das Ganze ab.
+
+[gis marker1="Gemeinschaft Sonnenwald, 48.5621234, 8.4906123, blue" marker2="Bahnhof Freudenstadt Hbf., 48.460296, 8.4287108, red"]
 [/col]
 [/split]
 

@@ -21,6 +21,8 @@ event:
 
 in der [Dorfgemeinschaft Lautenbach](https://osm.org/go/0DiB60sV-?m=)
 
+[gis marker1="Dorfgemeinschaft Lautenbach, 47.8827846, 9.2240524, green"]
+
 [Anfragen an Sönke Speck](mailto:soenke_norge@web.de?subject=Tanz-%20und%20Begegnungstag)
 
 ## Kosten

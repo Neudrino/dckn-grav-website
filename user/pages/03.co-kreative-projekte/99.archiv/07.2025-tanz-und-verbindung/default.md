@@ -304,6 +304,8 @@ ungefähr im Mittelpunkt zwischen Leipzig, Dresden, Chemnitz.
 
 Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplätze am Haus sind als Übernachtungsplätze reserviert. Weitere sind entlang der Straße zu finden und im Zentrum gibt es auch noch Stellflächen.
+
+[gis marker1="Ballhaus Lindenhof, 51.0663088, 13.0198700, pink" marker2="Bahnhof Waldheim, 51.0752787, 13.0140137, red"]
 [/col]
 [/split]
 

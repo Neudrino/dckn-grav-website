@@ -55,7 +55,7 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 Der Verein strebt eine digitale Arbeitsweise an. Da die Informationstechnologie (IT) heutzutage überaus komplex ist, nutzt der Verein digitale Dienstleistungen verschiedener Firmen, um ein modernes und komfortables digitales Angebot anbieten zu können. Dazu gehört auch die Verwaltung der Mitglieder und die Kommunikation mit den Mitgliedern. Der Verein nutzt dazu die folgenden Dienstleister, deren Datenschutzerklärungen ich zur Kenntnis genommen habe und stimme der Verarbeitung der relevanten Daten durch die Dienstleister zu.
 
-- [Datenschutzerklärung](https://www.netcup.de/kontakt/datenschutzerklaerung.php) der [netcup GmbH](https://www.netcup.de/) für die öffentliche Webseite und für die Email-Abos.
+- [Datenschutzerklärung](https://www.netcup.de/kontakt/datenschutzerklaerung.php) der [netcup GmbH](https://www.netcup.de/) für die öffentliche Webseite.
 - [Datenschutzerklärung](https://www.hetzner.com/de/legal/privacy-policy/) der [Hetzner GmbH](https://www.hetzner.com/de/legal/legal-notice/) für den NextCloud online Dateispeicher zur Ablage aller "Nicht-Webseite-Daten".
 - [Datenschutzerklärung](https://gocardless.com/de-de/rechtliches/datenschutz/) der [goCardless Ltd](https://gocardless.com/de-de/rechtliches/) für die Abwicklung der Zahlungen rund um die Mitgliedsbeiträge.
 - [Datenschutzerklärung](https://www.brevo.com/de/legal/privacypolicy/) der [Brevo GmbH](https://www.brevo.com) für die Email-Abos.

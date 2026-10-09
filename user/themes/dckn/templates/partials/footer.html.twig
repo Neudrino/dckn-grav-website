@@ -14,7 +14,12 @@
             &nbsp;|&nbsp;
             <a href="https://webmail01.webhosting.systems/">Webmail Login</a>
             &nbsp;|&nbsp;
-            <a href="/admin">Admin Login</a>
+            {% set admin_url = '/admin' %}
+        {% set site_root = uri.rootUrl(true) %}
+        {% if site_root starts with 'http://' and not (site_root starts with 'http://localhost' or site_root starts with 'http://127.') %}
+            {% set admin_url = site_root|replace({'http://': 'https://'}) ~ '/admin' %}
+        {% endif %}
+        <a href="{{ admin_url }}">Admin Login</a>
         </p>
     </div>
 </footer>

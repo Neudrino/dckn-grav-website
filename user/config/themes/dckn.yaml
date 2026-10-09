@@ -1,1 +1,11 @@
 accent-color: "#c6530a"
+custom_logo:
+  user/themes/dckn/images/logo/2024-06-10 DCKN Logo + Wortmarke.png:
+    name: '2024-06-10 DCKN Logo + Wortmarke.png'
+    type: image/png
+    path: 'user/themes/dckn/images/logo/2024-06-10 DCKN Logo + Wortmarke.png'
+custom_favicon:
+  user/themes/dckn/images/favicon/2024-06-10 DCKN Logo.png:
+    name: '2024-06-10 DCKN Logo.png'
+    type: image/png
+    path: 'user/themes/dckn/images/favicon/2024-06-10 DCKN Logo.png'

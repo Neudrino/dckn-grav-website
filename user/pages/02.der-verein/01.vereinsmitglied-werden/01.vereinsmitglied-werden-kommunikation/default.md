@@ -41,7 +41,7 @@ form:
 
   process:
     - brevo:
-        lists: [3]
+        lists: [2]
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname

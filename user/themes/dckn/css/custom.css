@@ -473,3 +473,31 @@ object[type="application/pdf"] {
   max-width: 100%;
   height: auto !important;
 }
+
+/* ===== Navbar logo: slightly larger than quark2's default 28px ===== */
+.navbar-brand img {
+  height: 2rem;
+  width: auto;
+}
+
+/* ===== Hamburger menu from 1465px instead of quark2's 860px =====
+ * The desktop nav is 985px wide at the 24px base font; together with
+ * logo, actions and container padding it only fits one line from
+ * 1465px (measured). Mirrors quark2's own <=860px rules below that. */
+@media (min-width: 861px) and (max-width: 1464px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-container {
+    display: block;
+  }
+  #header .navbar {
+    min-height: 64px;
+  }
+  .navbar-section.actions {
+    display: none;
+  }
+}

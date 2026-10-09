@@ -1,0 +1,96 @@
+name: Deploy to Netcup
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run"
+        type: boolean
+        default: true
+
+concurrency:
+  group: deploy-netcup
+  cancel-in-progress: false
+
+permissions: {}
+
+env:
+  SSH_HOST: ${{ secrets.NETCUP_SSH_HOST }}
+  SSH_USER: ${{ secrets.NETCUP_SSH_USER }}
+  REMOTE_PATH: ${{ vars.NETCUP_REMOTE_PATH }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: netcup-das-co-kreative-netzwerk
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq rclone
+
+      - name: Set up SSH
+        env:
+          NETCUP_SSH_KEY: ${{ secrets.NETCUP_SSH_KEY }}
+        run: |
+          : "${SSH_HOST:?secret NETCUP_SSH_HOST is not configured}" \
+            "${SSH_USER:?secret NETCUP_SSH_USER is not configured}" \
+            "${REMOTE_PATH:?variable NETCUP_REMOTE_PATH is not configured}" \
+            "${NETCUP_SSH_KEY:?secret NETCUP_SSH_KEY is not configured}"
+          
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$NETCUP_SSH_KEY" > "$HOME/.ssh/id_netcup"
+          chmod 600 "$HOME/.ssh/id_netcup"
+          
+          ssh-keyscan "$SSH_HOST" >> "$HOME/.ssh/known_hosts" 2>/dev/null
+          [ -s "$HOME/.ssh/known_hosts" ] || { echo "::error::ssh-keyscan found no host key for $SSH_HOST"; exit 1; }
+          
+          cat > "$HOME/.ssh/config" <<EOF
+          Host netcup
+            HostName $SSH_HOST
+            User $SSH_USER
+            IdentityFile ~/.ssh/id_netcup
+            IdentitiesOnly yes
+            BatchMode yes
+            StrictHostKeyChecking yes
+          EOF
+          
+          chmod 600 "$HOME/.ssh/config"
+
+      - name: Report Grav core state (dry run)
+        if: ${{ inputs.dry_run == true }}
+        run: |
+          if ssh netcup "test -f '$REMOTE_PATH/system/defines.php'"; then
+            echo "Dry run: Grav core present (a real run would run gpm selfupgrade)"
+          else
+            echo "Dry run: no Grav core (a real run would install the latest grav-admin)"
+          fi
+
+      - name: Provision Grav core on Netcup (latest grav-admin)
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          ssh netcup "mkdir -p ~/.grav-deploy"
+          scp provision-grav.sh netcup:.grav-deploy/
+          ssh netcup "REMOTE_PATH='$REMOTE_PATH' bash ~/.grav-deploy/provision-grav.sh"
+
+      - name: Sync user/ to Netcup (rclone over SFTP)
+        env:
+          RCLONE_CONFIG_NETCUP_TYPE: sftp
+          RCLONE_CONFIG_NETCUP_HOST: ${{ env.SSH_HOST }}
+          RCLONE_CONFIG_NETCUP_USER: ${{ env.SSH_USER }}
+          RCLONE_CONFIG_NETCUP_KEY_FILE: ~/.ssh/id_netcup
+          RCLONE_CONFIG_NETCUP_KNOWN_HOSTS_FILE: ~/.ssh/known_hosts
+          RCLONE_CONFIG_NETCUP_SHELL_TYPE: none
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          OPTS=(-v --stats-one-line --transfers 8 --sftp-chunk-size 255k)
+          if [ "$DRY_RUN" = "true" ]; then OPTS+=(--dry-run); fi
+          rclone sync ./user/ "NETCUP:${REMOTE_PATH}/user/" --filter-from .rclonefilter "${OPTS[@]}"
+          rclone copy ./user/config/plugins/ "NETCUP:${REMOTE_PATH}/user/config/plugins/" "${OPTS[@]}"
+
+      - name: Install plugins and dependencies on Netcup
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          scp install-plugins.sh netcup:.grav-deploy/
+          ssh netcup "export PATH=\$HOME/.grav-deploy/bin:\$PATH GRAV_ROOT='$REMOTE_PATH'; bash ~/.grav-deploy/install-plugins.sh"

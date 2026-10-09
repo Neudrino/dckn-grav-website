@@ -6,7 +6,6 @@
 # This script only installs the 2 missing plugins (brevo, form-captcha-hcaptcha)
 # via GPM and runs composer install for signature-attachment.
 #
-# Runs INSIDE the Grav container (Docker build or running container).
 # Use setup-plugins.sh from the host for local development.
 #
 # Environment variables:
@@ -14,10 +13,8 @@
 
 set -euo pipefail
 
-GRAV_ROOT="${GRAV_ROOT:-/app/www/public}"
-
 # The linuxserver/grav image bundles 10 of 12 plugins listed below;
-# those already present (with a directory in user/plugins/) are skipped.
+# those already present (entry file in user/plugins/) are skipped.
 # Only the missing plugins (brevo, form-captcha-hcaptcha) are installed
 # via GPM during Docker build — making it fast.
 # quark2 theme is also bundled with the image, so no theme install needed.
@@ -42,11 +39,13 @@ THEMES=(
   quark2
 )
 
+GRAV_ROOT="${GRAV_ROOT:-/app/www/public}"
 cd "$GRAV_ROOT"
+GRAV_ROOT="$PWD"
 
 echo "==> Installing Grav plugins via GPM..."
 for plugin in "${PLUGINS[@]}"; do
-  if [ -d "user/plugins/$plugin" ]; then
+  if [ -f "user/plugins/$plugin/$plugin.php" ]; then
     echo "    $plugin — already installed, skipping"
   else
     echo "    $plugin — installing..."

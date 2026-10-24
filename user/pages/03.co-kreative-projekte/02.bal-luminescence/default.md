@@ -6,6 +6,9 @@ event:
     startdatum: '2026-12-04'
     enddatum: '2026-12-06'
     ort: 'Sonnenwald, Schwarzwald'
+permissions:
+    groups:
+        projekt-lumibal: u
 ---
 
 # Bal Luminescence

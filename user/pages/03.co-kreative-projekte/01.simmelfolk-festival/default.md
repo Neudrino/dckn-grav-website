@@ -6,6 +6,9 @@ event:
     startdatum: '2026-09-03'
     enddatum: '2026-09-06'
     ort: Simmelsdorf
+permissions:
+    groups:
+        projekt-simmelfolk: u
 ---
 
 # 6. SimmelFolk Festival

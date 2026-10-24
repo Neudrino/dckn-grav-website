@@ -6,6 +6,9 @@ event:
     startdatum: '2027-03-04'
     enddatum: '2027-03-07'
     ort: Chemnitz
+permissions:
+    groups:
+        projekt-maerztanz: u
 ---
 
 ![MärzTanz Festival](banner.png)

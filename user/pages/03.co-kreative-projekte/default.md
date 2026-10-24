@@ -4,9 +4,7 @@ body_classes: 'title-center'
 template: projekte
 permissions:
     groups:
-        projekt-simmelfolk: '-u-d'
-        projekt-maerztanz: '-u-d'
-        projekt-lumibal: '-u-d'
+        defaults: '-u-d'
 content:
   items: '@self.children'
   filter:

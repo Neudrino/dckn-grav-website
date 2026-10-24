@@ -1,0 +1,30 @@
+slug: media-guard
+type: plugin
+version: 1.0.0
+name: Media Guard
+description: Keeps the site media library read-only for project editors while page media stays writable.
+icon: shield
+author:
+  name: DckN
+homepage: https://dckn.de
+keywords: media, acl, permissions
+
+form:
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    site_media_write_groups:
+      type: tags
+      label: Groups allowed to edit site media
+      help: 'Only members of these groups may upload, rename, move or delete in the site media library. Everyone else gets read-only access.'
+      validate:
+        type: array

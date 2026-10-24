@@ -44,6 +44,7 @@ user/config/media.yaml
 user/plugins/*
 !user/plugins/signature-attachment/
 user/plugins/signature-attachment/vendor/
+!user/plugins/media-guard/
 
 # === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*

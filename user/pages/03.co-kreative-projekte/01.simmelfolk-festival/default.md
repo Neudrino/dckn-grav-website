@@ -98,7 +98,7 @@ Eymeric's electro-folk Projekt…
 Folge dem Belugawal …
 hinter den Parkettdielen öffnet sich eine schimmernde blaue Welt: getragen von verträumten Synthesizerklängen, durchzogen von galoppierenden Streichern und umspielt von wirbelnden Trommelrhythmen – alles eingebettet in einen tiefen, geheimnisvoll leuchtenden Bassnebel.
 
-*Eymeric Amselem – Geige und Synthesizer*
+*Eymeric Amselem – Geige und Synthesizer*  
 *Anaïs Wisniewski – Geige*
 
 - [Youtube](https://www.youtube.com/watch?v=fmHlp4Vv4XU&feature=youtu.be)
@@ -119,7 +119,7 @@ aka Mara und Torge haben im Frühling 2024 erstmals zusammen gespielt und es war
 
 Ihre Stücke kommen aus eigener Feder und sind allesamt neu. Duo Neus spielt sowohl zum Tanz als auch zum Zuhören – auf jeden Fall spielen sie mit viel Feuer und Spaß!
 
-*Mara – diatonisches Akkordion, Stimme*
+*Mara – diatonisches Akkordion, Stimme*  
 *Torge – allerlei Blasinstrumente*
 
 - [Insta](https://www.instagram.com/duo_neus/)
@@ -137,7 +137,7 @@ Ihre Musik durchstreift Klanglandschaften voller Farben und Kontraste und führt
 
 Die Klänge atmen, flirren und überraschen – sie kribbeln im Nacken, tragen durch den Raum und finden ihren Puls im Rhythmus der Tanzschritte. Ein Konzert, das nicht nur gehört, sondern gespürt wird – und das unweigerlich Lust macht, sich von der Musik mitreißen zu lassen.
 
-*Sidonie Couëdel – diatonisches Akkordeon, Stimme*
+*Sidonie Couëdel – diatonisches Akkordeon, Stimme*  
 *Eymeric Amselem – Geige, Stimme*
 
 - [Youtube](https://www.youtube.com/watch?v=zCi8lXrmp74&feature=youtu.be)
@@ -160,9 +160,9 @@ Wir sind Drehwurm aus Berlin, Lübeck und Erfurt. Uns verbindet nicht nur unsere
 
 Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwiebeln. Sie sind geprägt von internationaler Folkmusik (ägyptischen Trolltänzen, Metal,…) sowie von Liedermachern und Holter-die-polter-Polka. Diese Stilrichtungen finden sich in schwindelerregenden Walzern, träumerischen Gavottes, angriffslustigen Bourrees und flott geflöteten Polkas wieder. Dazu gibt es eigene Texte, inhaltlich gestreut von philosophischen Themen über Landschaftsbeschreibungen bis hin zu Gutenachtliedern. Mit einer Prise Albernheit gestalten wir unsere Musik sowohl tanzbar als auch zum lauschen.
 
-*Hannah – Cello, Stimme*
-*Max – Oboe*
-*Nico – Gitarre, Bouzouki*
+*Hannah – Cello, Stimme*  
+*Max – Oboe*  
+*Nico – Gitarre, Bouzouki*  
 *Teresa – Gitarre, Stimme, Flöten*
 
 - [Homepage](https://drehwurm.band/)
@@ -179,7 +179,7 @@ Genießt unsere musikalischen Geschichten und lasst euch von der magischen Harmo
 
 Wir haben unsere Musik bereits auf vielen (inter)nationalen Bühnen präsentiert.
 
-*Emma Coopman – Gesang, keltische Harfe & diatonisches Akkordeon*
+*Emma Coopman – Gesang, keltische Harfe & diatonisches Akkordeon*  
 *Thomas Hoste – elektroakustische Alt-Drehleier & Soundeffekte*
 
 - [Youtube](https://www.youtube.com/@fyndusmusic)
@@ -238,9 +238,9 @@ Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite
 
 Zéphyr Combo vermischt Chanson mit Gipsyklängen, Handorgelrock, bissigen Satiren, wirren Trinkliedern und Träumereien. Dazu begleiten wir uns auf Akkordeon, Geige, Drehleier, Klavier, Gitarre, Helikon, und Trompete. Tönt ein wenig wie Brel, ein wenig wie Bregovic, aber vor Allem wie – Zéphyr Combo.
 
-*Geert Dedapper – Akkordeon, Stimme, und allerlei*
-*Esther Nydegger – Geige, Stimme, Querflöte, Gitarre*
-*Leon Schaetti – Helikon, Stimme*
+*Geert Dedapper – Akkordeon, Stimme, und allerlei*  
+*Esther Nydegger – Geige, Stimme, Querflöte, Gitarre*  
+*Leon Schaetti – Helikon, Stimme*  
 *Olaf Ryter – Schlagzeug*
 
 Foto: Mischa Scherrer
@@ -256,7 +256,7 @@ Foto: Mischa Scherrer
 [col]
 .. wie oben als Duo, erfrischend anders, unglaublich vielseitig und mitreißend tänzerisch.
 
-*Geert Dedapper – Akkordeon, Stimme, und allerlei*
+*Geert Dedapper – Akkordeon, Stimme, und allerlei*  
 *Esther Nydegger – Geige, Stimme, Querflöte, Gitarre*
 [/col]
 [/split]

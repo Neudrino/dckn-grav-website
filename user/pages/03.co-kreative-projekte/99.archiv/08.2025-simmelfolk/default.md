@@ -76,7 +76,7 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 [col]
 erforscht musikalisch, was ihnen am Herzen liegt – Natur, Begegnungen und berührende Augenblicke. Sie spielen instrumentale Folkmusik auf Nyckelharpa, Gitarre und Cittern. Besonders geprägt sind sie von Tanzmusik aus alten Notenbüchern, sowie der Musiktradition Schwedens, dem Heimatland der Nyckelharpa. Mit ihrer Musik gehen sie eigene Wege und erschaffen eine einzigartige Klangwelt voller Lebensfreude und Atmosphäre. Mit ihrem mitreißenden Spiel zeichnen sie klingende Bilder und entreißen ihr Publikum mühelos dem Alltag.
 
-*Regina Kunkel – Nyckelharpa*
+*Regina Kunkel – Nyckelharpa*  
 *Björn Kaidel – Nyckelharpa, Gitarre, Cittern*
 
 - [Homepage](https://akleja.de)
@@ -90,7 +90,7 @@ erforscht musikalisch, was ihnen am Herzen liegt – Natur, Begegnungen und ber�
 [col]
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka. Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
-*Clara von Lampe – Violine, Gesang, Piano*
+*Clara von Lampe – Violine, Gesang, Piano*  
 *Jakob Meussling – Gitarre*
 [/col]
 [col]
@@ -142,8 +142,8 @@ Indigo ist nicht-binär, Indigos Pronomen sind they/them.
 … ist die Verschmelzung von Poesie und Musikalität der italienischen Singer-Songwriter-Tradition mit den Klängen der Indie-Pop-Szene, die durch lebendige französische Balfolkkultur bereichert wird. Im Mittelpunkt des Projekts steht der neo-traditionelle Balfolk mit einem Repertoire, das sich auf historische französische Tänze konzentriert und von romantischen Mazurkas bis zu dynamischen bretonischen Ketten reicht.
 Jedes Konzert ist eine klangvolle und tanzbare Reise, ein musikalischer Wald, in dem jede Note ein Zauber ist, der neugierige Ohren und eifrige Füße gleichermaßen fesselt. Ihre Musik verbindet Kulturen, Klänge und Geschichten und erkundet neue Horizonte in der europäischen Balfolk-Szene.
 
-*Alessandro Cornio – Gitarre, Stimme und Stompbox*
-*Alessandro Scacchi – Bass*
+*Alessandro Cornio – Gitarre, Stimme und Stompbox*  
+*Alessandro Scacchi – Bass*  
 *leonardo – Violine*
 
 Foto by **Giuseppe Restuccia**
@@ -161,7 +161,7 @@ ist eine Folkband, die hauptsächlich Paartanz spielt. Wir haben uns in „Le gr
 
 Unser Universum ist inspiriert von der französischen Neo-Folk-Bewegung, dem französischen Gypsy-Jazz und französischen Sängern (Georges Brassens, um ein bekanntes Beispiel zu nennen). Da beide Musiker Tänzer sind, spielen wir gerne mit Rhythmen und Pausen in der Musik.
 
-*Leo Proulx – Klarinette*
+*Leo Proulx – Klarinette*  
 *Olivier Valence – Gesang, Gitarre*
 
 - [Homepage](https://linktr.ee/duolhetreheureux)
@@ -194,8 +194,8 @@ Durch verschiedene Einflüsse bei Festivals und Workshops hat sie einen ganz eig
 [col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
-*Antonin – Kontrabass*
-*David – Klarinette*
+*Antonin – Kontrabass*  
+*David – Klarinette*  
 *Jonathan – Akkordeon*
 
 - [Youtube](https://youtu.be/fcMzRe2gf4w?feature=shared)
@@ -217,8 +217,8 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 
 Im Jahr 2024 haben wir auf unseren Reisen Bibliotheken und Musikarchive in verschiedenen Städten besucht und dabei alte Musiktraditionen wiederentdeckt. Bei jeder Begegnung mit diesen kulturellen Schätzen konnten wir verborgene Juwelen finden, die wir nun in Musik verwandeln, um sie mit der Balfolk-Gemeinschaft zu teilen. Unser Repertoire reicht von Troubadour-Balladen bis zur sephardischen Tradition, von den Melodien des alten Griechenlands bis zu denen des jakobitischen Schottlands.
 
-*Alessandro Cornio – Gitarre und Gesang*
-*Alessandro Scacchi – Bass*
+*Alessandro Cornio – Gitarre und Gesang*  
+*Alessandro Scacchi – Bass*  
 *Marco Gagliardi – Klarinette und Duduk*
 
 - [Youtube](https://www.youtube.com/watch?v=yxygzzCpzmA)

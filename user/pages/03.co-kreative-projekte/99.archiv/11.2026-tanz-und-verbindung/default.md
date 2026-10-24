@@ -34,7 +34,7 @@ Wir wünschen uns ein friedvolles, unterstützendes Miteinander, wo jede:r auf d
 Andreas und Barbara Bothe aus Erlangen kommen mit Akkordeon, Harfe, Flöte und Klarinette und bringen uns zum Tanzen.
 Andreas kennen einige von euch schon vom Duo Bothe/Molzahn oder von anderen Gelegenheiten. Nun neu als Duo auf den Bühnen des Balfolk.
 
-*Andreas Bothe – diat. Akkordeon, Trommel*
+*Andreas Bothe – diat. Akkordeon, Trommel*  
 *Barbara Bothe – Harfe, Flöte, Klarinette*
 [/col]
 [/split]
@@ -64,7 +64,7 @@ Eine Gitarre, eine Mandola, eine Mandoline, ein Satz Ersatzsaiten und die immens
 Mara Menzel (Akkordeon) und Josefine Schlät (Geige) fließen als „Duo Marfinara" zusammen zu einer Einheit von Klang, Tanz, Glück.
 In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkeit und Gefühl. Wenn sie dann noch dazu singen, wird es besonders schön. Die Stücke sind abwechslungsreich – vom energetisch schwungvollen Schottisch oder Cercle bis zur romantisch melancholischen Mazurka ist alles dabei. Dabei bewegt sich die Musik, entwickelt sich und gibt immer wieder neue tänzerische Impulse.
 
-*Mara Menzel – diat. Akkordeon, Gesang*
+*Mara Menzel – diat. Akkordeon, Gesang*  
 *Josefine Schlät – Geige*
 
 [Website](http://queeringbalfolk.de)
@@ -77,9 +77,9 @@ In ihrem Spiel zeigt sich ihre ganze tänzerische Erfahrung mit viel Leichtigkei
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
-*Fili – Geige, Vocals, Obertongesang*
-*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*
-*Niklas – Kontrabass, Vocals*
+*Fili – Geige, Vocals, Obertongesang*  
+*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*  
+*Niklas – Kontrabass, Vocals*  
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)
@@ -98,9 +98,9 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 Flos wurde in den Bergen gegründet und verwebt die Klänge der 4 Instrumente der Band. Mit eigenen Kompositionen und bestehenden Melodien lassen sie ihre Vorliebe für die Balfolkmusik ineinanderfließen. Schlendern Sie mit uns am Fluss entlang, wo die Maiglöckchen blühen und die Insekten tanzend den Frühling ankündigen.
 
-*Yvette – Gitarre*
-*Kris – Kontrabass*
-*Lennaert – Cello*
+*Yvette – Gitarre*  
+*Kris – Kontrabass*  
+*Lennaert – Cello*  
 *Renske – Saxophon*
 
 [Facebook](https://www.facebook.com/flos.band)
@@ -117,10 +117,10 @@ Die Dresdner Band gründete sich aus dem Wunsch heraus, die Musik und Tanzfreude
 Zwischen vielen Kreis- und Mixertänzen versteckt sich auch der eine oder andere historische Tanz oder Paartanz. Das Repertoire hierfür stammt aus dem europäischen Raum, von baskisch bis griechisch und italienisch bis dänisch…
 Einige Tunes wurden bearbeitet oder gar neu interpretiert und oft wird auch fröhlich improvisiert.
 
-*Arlett Grygar – Gesang, Kontrabass*
-*Filine Ulrich – Gesang, Geige*
-*Cora Schütze – Gesang, Bratsche*
-*Robin Vollhardt – Gesang, Mandriola*
+*Arlett Grygar – Gesang, Kontrabass*  
+*Filine Ulrich – Gesang, Geige*  
+*Cora Schütze – Gesang, Bratsche*  
+*Robin Vollhardt – Gesang, Mandriola*  
 *Miroslav Mütze – Gesang, Bodhran*
 [/col]
 [col]
@@ -147,7 +147,7 @@ Die Songs von Mehr als Wir funktionieren auch ohne Worte – und bleiben lange n
 
 Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 
-*Matthias Ehrig – Gitarre, Loopstation und Stompbox*
+*Matthias Ehrig – Gitarre, Loopstation und Stompbox*  
 *Andreas Uhlmann – Posaune, Flügelhorn, Synthesizer, Loopstation und Beatbox*
 
 [Website](https://mehralswir.de/)
@@ -162,9 +162,9 @@ Ein Konzert zum Lauschen mit Raum für freie Tanzimprovisationen.
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
-*Fili – Geige, Vocals, Obertongesang*
-*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*
-*Niklas – Kontrabass, Vocals*
+*Fili – Geige, Vocals, Obertongesang*  
+*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*  
+*Niklas – Kontrabass, Vocals*  
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)

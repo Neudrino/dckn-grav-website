@@ -95,9 +95,9 @@ Sie spielen die klassischen Tänze des Balfolk und bringen uns damit in Paaren, 
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 [https://www.wingsandtales.de/](https://www.wingsandtales.de/)
 
-*Geige, Vocals, Obertongesang – Fili*
-*Rhythmusgitarre, Vocals, Rahmentrommel – Martin*
-*Kontrabass, Vocals – Niklas*
+*Geige, Vocals, Obertongesang – Fili*  
+*Rhythmusgitarre, Vocals, Rahmentrommel – Martin*  
+*Kontrabass, Vocals – Niklas*  
 *Flöte, Vocals – Helena*
 [/col]
 [col]
@@ -116,10 +116,10 @@ Bal? Folk! aus Leipzig
 Inspiriert von den feinsten Tänzen, die wir vielerorts aufgabeln konnten, haben wir Grooves und Melodien zusammengeschnürt. Die lassen wir mal harmonisch davon fliegen und mal fangen wir sie sanft wieder ein. Wir lassen Klangkonfetti regnen und gehen mit euch in fetten Sounds baden! Und wenn sich die Tanzbeine dabei richtig ausgetobt haben, dürfen sie zu Ohren werden und den Geschichten lauschen, die von einer nächtlichen Begegnung mit Jazz und Klezmer erzählen…
 [https://maracu.de](https://maracu.de)
 
-*Violine – Josefine Schlät*
-*Schlagzeug & Percussion – Michael Kock*
-*Kontrabass – Niklas Jacob*
-*Klarinette – Luzia Walsch*
+*Violine – Josefine Schlät*  
+*Schlagzeug & Percussion – Michael Kock*  
+*Kontrabass – Niklas Jacob*  
+*Klarinette – Luzia Walsch*  
 *Gitarre & Charango – Matthias Glatthorn*
 [/col]
 [/split]

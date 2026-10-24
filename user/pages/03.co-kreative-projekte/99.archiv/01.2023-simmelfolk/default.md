@@ -43,7 +43,7 @@ Ein geländegängiges Duo, das es gewohnt ist, auf wilden Bällen* zu spielen l�
 
 \* bal sauvages = hier: wilde Bälle, ist die französische Balfolk Tradition der Jam sessions, die spontan, auf offener Straße oder auch bis in die Morgenstunden stattfinden.
 
-Luca Fiorini (I) – chromatisches Akkordeon
+Luca Fiorini (I) – chromatisches Akkordeon  
 Fabien Bucher (F) – Mandoline
 
 - [Bourrée (Youtube)](https://www.youtube.com/watch?v=TuKlxeWw_Ec)
@@ -60,12 +60,12 @@ Die wollen nur spielen!
 Macht euch bereit für eine muntre Fahrt! Denn die 7 Musiker aus dem Münchner Raum akzeptieren weder Orts-, Stil- oder Genre-Grenzen. Das bedeutet Musik zum Tanzen aus ganz Europa – mal wild, mal schmusig, laut und leise, gerockt oder gesungen, Traditionelles und Eigenkompositionen, oft gegen den Strich gebürstet, aber vor allem immer gut gelaunt.
 Also auf die Sohlen, Leute! Da kommt was auf euch zu!
 
-Charlotte Baur – Geige
-Nicola Bowen – Geige
-Lucas Dietl – Geige, Cello
-Stefan Ehrlich – Flöten, Pommer, Schalmei, Dudelsack, Percussion
-Felix Lipowsky – Akkordeon, Gitarre, Dudelsack, Gesang
-Bodo Meißner – Bodhran, Tanzmeister
+Charlotte Baur – Geige  
+Nicola Bowen – Geige  
+Lucas Dietl – Geige, Cello  
+Stefan Ehrlich – Flöten, Pommer, Schalmei, Dudelsack, Percussion  
+Felix Lipowsky – Akkordeon, Gitarre, Dudelsack, Gesang  
+Bodo Meißner – Bodhran, Tanzmeister  
 Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
 [/col]
 [col]
@@ -84,7 +84,7 @@ Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
 
 Mit viel energiegeladener, aber auch beseelt-romantischer Musik wird eine spannende Tanzreise durch Frankreich, ins Poitou und die Bretagne geboten. Abstecher nach Portugal und Skandinavien ergänzen die vielseitige Tour – Bon voyage!
 
-Andreas Bothe (D) – Diatonisches Akkordeon, Percussion (Udu, Davul, Maultrommel)
+Andreas Bothe (D) – Diatonisches Akkordeon, Percussion (Udu, Davul, Maultrommel)  
 Uwe Molzahn (D) – Violine
 [/col]
 [/split]
@@ -97,8 +97,8 @@ Emily & the Simons sind ein anglo-belgisches Balfolk-Trio. Im Mittelpunkt ihrer 
 
 Mit einem breiten Repertoire, das von exquisiten, sinnlichen Mazurken bis zu fröhlichen, treibenden Bourrées reicht, regt ihre Musik die Fantasie an, bewegt die Füße und hebt den Geist.
 
-Emily Bowden (UK) – Violine
-Simon Dumpleton (UK) – chromatisches Akkordeon
+Emily Bowden (UK) – Violine  
+Simon Dumpleton (UK) – chromatisches Akkordeon  
 Simon Laffineur (B) – Gitarre
 
 - [Homepage](http://emilyandthesimons.com/)
@@ -120,8 +120,8 @@ Simon Laffineur (B) – Gitarre
 
 Ihre Kompositionen und Arrangements von traditionellen Stücken sind von den Erlebnissen und starken Emotionen inspiriert, die sie auf unzähligen Bällen und Festivals erfahren durften: die Freude der Begegnung, zwischenmenschliche Poesie, die Ansteckungskraft der Musik, die Energie von Körpern in Bewegung, kollektiver Rausch…
 
-Dani Velasco (ES) – Geige
-Fabien Bucher (F) – Gitarre, Mandoline
+Dani Velasco (ES) – Geige  
+Fabien Bucher (F) – Gitarre, Mandoline  
 Sylvain Pool (F) – Akkordeon, Gitarre
 
 - [BandCamp](https://lairinconnu.bandcamp.com/album/lair-inconnu-ep)
@@ -136,10 +136,10 @@ Sylvain Pool (F) – Akkordeon, Gitarre
 Die Balfolk-Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht.
 Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt. Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/ Néotrad über Rock bis zu Salsa.
 
-Tobias Biernoth – Cello
-Anna Gaide – Diatonisches Akkordeon, Klarinette
-Johanna Huhn – Geige
-Mara Senger – Diatonisches Akkordeon, Gesang
+Tobias Biernoth – Cello  
+Anna Gaide – Diatonisches Akkordeon, Klarinette  
+Johanna Huhn – Geige  
+Mara Senger – Diatonisches Akkordeon, Gesang  
 Benedikt Willberg – Perkussion
 
 - [Facebook](https://www.facebook.com/LuneskBalfolk)

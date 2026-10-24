@@ -308,12 +308,12 @@ Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die z
 
 ## Unterkunft und Verpflegung
 
-### Schlafsaal
-
 [split]
 [col]
-**Anreise: Donnerstag ab 15 Uhr**
-**Abreise: Montag bis 12 Uhr**
+### Schlafsaal
+
+- **Anreise: Donnerstag ab 15 Uhr**
+- **Abreise: Montag bis 12 Uhr**
 
 Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
 [/col]
@@ -322,20 +322,22 @@ Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, c
 [/col]
 [/split]
 
-### Camping
-
-**Zelten**
 [split]
 [col]
 ![Camping](camping.jpg)
 [/col]
 [col]
+### Camping
+
+#### Zelten
+
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
+
+#### Wohnmobile
+
+Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den Wanderparkplatz stellen. Alternativ einreihig entlang der Walnussallee, ein paar Plätze gibt es auch am Sportheim. Ihr könnt die Toiletten und Duschen des Vereinsheims benutzen.
 [/col]
 [/split]
-
-**Wohnmobile**
-Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den Wanderparkplatz stellen. Alternativ einreihig entlang der Walnussallee, ein paar Plätze gibt es auch am Sportheim. Ihr könnt die Toiletten und Duschen des Vereinsheims benutzen.
 
 ### Privatunterkunft
 
@@ -349,17 +351,21 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 [col]
 Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**
 
-**Frühstücksbrunch** Freitag, Samstag und Sonntag von 8:30 – 12 (bis 14 im Garten) Uhr wird es ein Mitbring-Frühstücks-Brunch-Mittagsbuffet geben.
+**Frühstücksbrunch**
+
+Freitag, Samstag und Sonntag von 8:30 – 12 (bis 14 im Garten) Uhr wird es ein Mitbring-Frühstücks-Brunch-Mittagsbuffet geben.
 Es gibt Kaffee, Tee, Milch, Joghurt, Haferflocken, Brot, Butter, Marmelade.
 **Bringt gerne was aus eurer Gegend zum Teilen mit, um das Frühstücksbuffet bunter zu machen: Käse, Marmelade, Aufstrich – was Ihr am liebsten mögt.**
 Kuchen geht immer 🙂
 
 **Abendessen**
+
 Freitag, Samstag und Sonntag Abend kochen wir gemeinsam einen riesigen Topf einer saisonalen Abendspeise. Es wird eine vegane/ vegetarische Suppe oder Eintopf sein, Specials gerne mitbringen. Pimp my Eintopf.
 
 Das Brot beziehen wir von **lokalen** Bäckereien, unsere Lebensmittel sind **bio, regional und saisonal.**
 
 **Getränke**
+
 Rund um die Uhr gibt es bestes Simmelsdorfer Leitungswasser, Tee und Kaffee ist gratis.
 Lokales fränkisches Bier, Wein, Limo, usw wird von der Brauerei Kanone, Schnaittach, zu günstigen Preisen zur Verfügung gestellt.
 [/col]

@@ -32,9 +32,33 @@ Wie alle unsere DCKN-Festivals lebt auch der Lumi Bal von euch. Es gibt kein fes
 
 Eine kleine Turnhalle wird gemeinsam mit dem Speisesaal zum Ballsaal, dazu eine große Küche mit jeder Menge guter, regionaler Zutaten, die wir gemeinsam zu Festmählern verarbeiten. Beheizte Matratzenlager, zwei Workshop-Spaces und eine kleine Sauna zum Ausklingen der kalten Winternächte runden das Ganze ab.
 
-[gis marker1="Gemeinschaft Sonnenwald, 48.5621234, 8.4906123, blue" marker2="Bahnhof Freudenstadt Hbf., 48.460296, 8.4287108, red"]
+## Anfahrt
+
+### Anfahrt mit Bahn & Bus & Shuttle
+
+[split]
+[col]
+Die nächstgelegenen Bahnhöfe sind Freudenstadt, Dornstetten, Klosterreichenbach und Schönmünzach.
+
+Die Fahrplanauskunft des örtlichen Regionalverkehrs findet ihr unter [bwegt.de](https://www.bwegt.de/).
+
+Wochentags bis 17 Uhr ist Schernbach mit dem Bus (7787 oder 7788) erreichbar. Einige davon sind Rufbusse mit telefonischer Anmeldung mindestens 1 Stunde vorher.
+Am Wochenende fahren in Schernbach keine Busse.
+
+Klappt es zeitlich nicht so gut mit Bus oder Rufbus, oder ihr seid unsicher wegen der Winterfahrt? Meldet euch einfach bei uns – bei Bedarf organisieren wir gerne einen Shuttle ab Freudenstadt oder Dornstetten.
+Schreibt uns dafür rechtzeitig vorher an [lumi-bal@gmx.de](mailto:lumi-bal@gmx.de).
+[/col]
+[col]
+[gis marker1="Gemeinschaft Sonnenwald, 48.562212, 8.4853604, blue" marker2="Bushaltestelle Schernbach, 48.5615651, 8.48705, yellow" marker3="Bahnhof Klosterreichenbach, 48.5264565, 8.3990645, red" marker4="Bahnhof Schönmünzach, 48.6050155, 8.3695873, red" marker5="Bahnhof Freudenstadt Hbf., 48.460296, 8.4287108, red"]
 [/col]
 [/split]
+
+### Anfahrt mit dem Auto
+
+Sonnenwald liegt auf einer Hochebene mitten im Schwarzwald, im Dezember heißt das: zauberhafte Winterlandschaft, aber auch möglicherweise Schnee und Glätte. Hier ist alles Wichtige für eure Anreise.
+
+**Gästeparkplatz:** Buchenweg 8, 72297 Seewald
+**Parkverbot am Buchenweg 4!**
 
 ## Die Musik
 
@@ -58,8 +82,8 @@ Mit dabei sind unter anderem:
 [col]
 **Viadeyra** ist eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
 
-*Alessandro Cornio – Gitarre und Gesang*
-*Alessandro Scacchi – Bass*
+*Alessandro Cornio – Gitarre und Gesang*  
+*Alessandro Scacchi – Bass*  
 *Marco Gagliardi – Klarinette und Duduk*
 
 [Youtube](https://www.youtube.com/watch?v=yxygzzCpzmA),
@@ -81,7 +105,7 @@ Mit dabei sind unter anderem:
 ![Gribouille](gribouille.jpg)
 [/col]
 [col]
-**Gribouille** – wer kennt diesen Typ nicht? Und seine unglaubliche Gitarre?
+**Gribouille** – Olivier entführt mit charmanten und energetischen Liedern, mit seiner Gitarre und Gesang in die französische Bal Folk Welt.
 
 *Olivier Valence – Gitarre, Gesang*
 

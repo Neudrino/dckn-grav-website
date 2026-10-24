@@ -71,6 +71,10 @@ Da sich die digitale Landschaft fortlaufend wandelt, können sich die eingesetzt
 
 Das Co-Kreative Netzwerk darf mit meinen Daten arbeiten und dafür auch digitale Dienste Dritter nutzen. Mit der Speicherung, Übermittlung und Verarbeitung meiner personenbezogenen Daten für Vereinszwecke gemäß den Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und der Datenschutzgrundverordnung (DSGVO) bin ich einverstanden. Meine Daten werden nur so lange gespeichert, wie die gesetzlichen Bestimmungen dies erlauben. Ich habe jederzeit die Möglichkeit, vom Verein Auskunft über meine Daten zu erhalten. Meine Daten werden nach meinem Austritt aus dem Verein gelöscht. Für die Inanspruchnahme weiterer Betroffenenrechte erreiche ich als Ansprechpartner:in des Vereins den Vorstand unter: [vorstand@dckn.de](mailto:vorstand@dckn.de).
 
+Der Vorstand hat das Recht, Anmeldungen zum Verein zu prüfen und abzulehnen. Sollte der Vorstand dem Mitgliedsantrag nicht widersprechen, ist er nach Abschluss dieses Formulars vollständig.
+
+**Das co-kreative Netzwerk heißt neue Mitglieder herzlich willkommen!**
+
 **Ich versichere vollständige und richtige Angaben zu meiner Person zu machen.**
 
 **Ich bin damit einverstanden, alle Informationen über Vereinsaktivitäten per E-Mail zu erhalten.**

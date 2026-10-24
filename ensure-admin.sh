@@ -13,7 +13,9 @@
 #
 # The account password is managed by the deployment: every run re-writes
 # hashed_password, so changing the GitHub secrets rotates the admin login.
-# Any other account fields are preserved on update.
+# The account is also kept API-super and in the `vorstand` group, so a freshly
+# provisioned admin can use the API/Admin2 and is exempt from the project page
+# restrictions that apply to everyone else. Other account fields are preserved.
 #
 # Environment variables:
 #   GRAV_ROOT — Grav document root on the server (required)
@@ -45,26 +47,32 @@ ACCOUNT="${GRAV_ROOT}/user/accounts/${ADMIN_USERNAME}.yaml"
 
 if [ -f "$ACCOUNT" ]; then
   "$PHP_BIN" -r '
-    [$account, $hash, $email, $now] = array_slice($argv, 1);
-    $yaml = file_get_contents($account) ?: exit(1);
-    $lines = explode("\n", $yaml);
-    $found = false;
-    foreach ($lines as $i => $line) {
-        if (str_starts_with($line, "hashed_password:")) {
-            $lines[$i] = "hashed_password: " . var_export($hash, true);
-            $found = true;
-        } elseif (str_starts_with($line, "email:")) {
-            $lines[$i] = "email: " . var_export($email, true);
-        } elseif (str_starts_with($line, "modified:")) {
-            $lines[$i] = "modified: " . (int) $now;
-        }
+    [$account, $hash, $email, $now, $autoload] = array_slice($argv, 1);
+    require $autoload;
+
+    $data = \Symfony\Component\Yaml\Yaml::parseFile($account);
+    if (!is_array($data)) {
+        fwrite(STDERR, "ensure-admin: account is not a YAML map\n");
+        exit(1);
     }
-    $out = implode("\n", $lines);
-    if (!$found) {
-        $out = rtrim($out) . "\nhashed_password: " . var_export($hash, true) . "\n";
+
+    $data["hashed_password"] = $hash;
+    $data["email"] = $email;
+    $data["modified"] = (int) $now;
+
+    $data["access"]["site"]["login"] = true;
+    $data["access"]["admin"]["login"] = true;
+    $data["access"]["admin"]["super"] = true;
+    $data["access"]["api"]["super"] = true;
+
+    $groups = is_array($data["groups"] ?? null) ? array_values($data["groups"]) : [];
+    if (!in_array("vorstand", $groups, true)) {
+        $groups[] = "vorstand";
     }
-    file_put_contents($account, $out);
-  ' "$ACCOUNT" "$HASH" "$ADMIN_EMAIL" "$NOW"
+    $data["groups"] = $groups;
+
+    file_put_contents($account, \Symfony\Component\Yaml\Yaml::dump($data, 10, 2));
+  ' "$ACCOUNT" "$HASH" "$ADMIN_EMAIL" "$NOW" "${GRAV_ROOT}/vendor/autoload.php"
   echo "Grav admin account '$ADMIN_USERNAME' updated (password rotated from deployment secrets)."
 else
   umask 177
@@ -73,11 +81,15 @@ else
     printf 'email: %s\n' "$("$PHP_BIN" -r 'echo var_export(getenv("ADMIN_EMAIL"), true);')"
     printf 'fullname: %s\n' "$("$PHP_BIN" -r 'echo var_export(mb_convert_case(strtr(getenv("ADMIN_USERNAME"), ["." => " ", "_" => " "]), MB_CASE_TITLE), true);')"
     printf 'title: Administrator\n'
+    printf 'groups:\n'
+    printf '  - vorstand\n'
     printf 'access:\n'
     printf '  site:\n'
     printf '    login: true\n'
     printf '  admin:\n'
     printf '    login: true\n'
+    printf '    super: true\n'
+    printf '  api:\n'
     printf '    super: true\n'
     printf "hashed_password: '%s'\n" "$HASH"
     printf 'created: %s\n' "$NOW"

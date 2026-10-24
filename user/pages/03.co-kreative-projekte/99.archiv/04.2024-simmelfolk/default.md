@@ -173,9 +173,9 @@ Elena Konstantinidis, Nyckelharpa, Geige
 … ein Quartett aus den Niederlanden, spielt bittersüße Balfolk-Musik. Hinreißende Mazurkas, schwingende Gavottes, fließende Bourrées, aber auch eine seltene Grabbelton und die erste neue Bravade seit 1657.
 Vor einem Jahr haben wir unser neues Album veröffentlicht und das in den Niederlanden, Frankreich, Belgiën, Deutschland und Polen präsentiert.
 
-Jan Willem Veenhuis – Gitarre
-Gyöngyi Kovács – Kontrabass
-Nico Beltman – Violine, Dudelsack
+Jan Willem Veenhuis – Gitarre  
+Gyöngyi Kovács – Kontrabass  
+Nico Beltman – Violine, Dudelsack  
 Rob Zantkuijl – Flöte, Dudelsack
 
 - [Youtube](https://youtu.be/KyWwkXwGO3M?si=IG636RWoi-lwDLJg)
@@ -198,8 +198,8 @@ ist eine nagelneue Band, die sich Anfang 2024 zusammengefunden hat, aber alles a
 
 Mit viel Groove und Leidenschaft spielen Vagalan ausschließlich Eigenkompositionen der drei Mitglieder. Ihr Repertoire umfasst neben Balfolk-Klassikern und einer erlesenen Auswahl von „ungeraden" Walzern auch eine gesalzene Prise an bretonischen Tänzen.
 
-Samuel Aubert: Geige, Gesang
-Annika Brunel: Klarinette, Fagott, Oboe, Flöten
-Anna Gaide: Diatonisches Akkordeon
+Samuel Aubert – Geige, Gesang
+Annika Brunel – Klarinette, Fagott, Oboe, Flöten
+Anna Gaide – Diatonisches Akkordeon
 [/col]
 [/split]

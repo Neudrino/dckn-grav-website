@@ -33,7 +33,7 @@ Freitag ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch 
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka.
 Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 
-*Clara Schein – violin/voc/piano*
+*Clara Schein – violin/voc/piano*  
 *Jacob Meussling – guit*
 
 [Facebook](https://www.facebook.com/clarabalmusic/)
@@ -60,7 +60,7 @@ Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diato
 [col]
 Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
 
-*Christiane Bisitz – Cello, Gesang*
+*Christiane Bisitz – Cello, Gesang*  
 *Victor Lekeu – Mandoline, Percussion*
 
 [Facebook](https://www.facebook.com/featherandfoxduo/)
@@ -73,7 +73,7 @@ Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane u
 [col]
 Hilde Van Belle schreibt kleine flämische Lieder für ein lauschendes und tanzendes Publikum. Begleitet wird sie von Yassine Amrouch an der Nyckelharpa, der den Liedern einen zusätzlichen Glanz verleiht. Erwartet zuckersüße Liebeslieder, verträumte Melodien und ein wärmendes Zusammenspiel.
 
-*Hilde – Piano und Gesang*
+*Hilde – Piano und Gesang*  
 *Yassine – Nyckelharpa*
 [/col]
 [col]
@@ -85,7 +85,7 @@ Hilde Van Belle schreibt kleine flämische Lieder für ein lauschendes und tanze
 
 Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
 
-*Karola Wolff – Geige*
+*Karola Wolff – Geige*  
 *Thomas Moschcau – diat. Akkordeon*
 
 ### TriOblique (IT/F) – Samstag 23:30 Uhr
@@ -97,8 +97,8 @@ Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahle
 [col]
 Diese drei Musiker bringen die Welt zum Tanzen. TriOblique kombiniert Gitarre, irische Bouzouki, irische Flöten und Uillean Pipe. Ihre Musik führt sie auf verschlungenen Pfaden von einem Stil zum nächsten, von Genua nach Irland, vom Funk zur traditionellen Musik aus der Hochbretagne. Sie kombinieren zartes Fingerpicking mit rockigen Akkorden und experimentieren mit verschiedenen Instrumenten und Gesangsstilen. Das Ziel der Band ist es, die Körper der Zuhörer zum Tanzen zu bringen, sei es zu einer schlichten Mazurka oder zu wilden Tänzen wie dem Kost Ar Choat.
 
-*Susanna Roncallo – Gitarre*
-*Aurélien Congrega – irische Bouzouki und Gesang*
+*Susanna Roncallo – Gitarre*  
+*Aurélien Congrega – irische Bouzouki und Gesang*  
 *Dario Gisotti – Uillean Pipe und Flöten*
 
 [Website](https://triobliquebalfolk.wixsite.com/trioblique)

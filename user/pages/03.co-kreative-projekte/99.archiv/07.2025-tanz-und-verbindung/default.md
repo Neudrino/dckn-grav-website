@@ -41,8 +41,8 @@ Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkend
 [col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
-*David – Klarinette*
-*Jonathan – Akkordeon*
+*David – Klarinette*  
+*Jonathan – Akkordeon*  
 *Antonin – Kontrabass*
 [/col]
 [/split]
@@ -54,9 +54,9 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 Die Balfolk – Band Lunesk ist in der Coronazeit aus der Leipziger Tanzszene herausgekeimt und hat seither viele farbenfrohe Blüten hervorgebracht. Ihre kunterbunt arrangierten Eigenkompositionen erzählen von rauschenden Festen, glücklichen Gespenstern, wilden Seeungeheuern und leuchtenden Sonnenuntergängen. Für Hörgenuss und groovige Tanzbarkeit ist dabei gleichermaßen gesorgt.
 Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgischen und englischen Folk/Néotrad über Rock bis zu Salsa.
 
-*Anna Gaide – Diatonisches Akkordeon, Klarinette*
-*Frido Lin – Cello*
-*Fili – Geige (Vertretung for Jojo)*
+*Anna Gaide – Diatonisches Akkordeon, Klarinette*  
+*Frido Lin – Cello*  
+*Fili – Geige (Vertretung for Jojo)*  
 *Mara Menzel – Diatonisches Akkordeon, Gesang*
 
 [Facebook](https://www.facebook.com/LuneskBalfolk)
@@ -77,10 +77,10 @@ Finest BalFolk Music aus Leipzig/Halle
 Im Frühjahr 2023 als reines Balfolk-Projekt gegründet, spielt BALAFENN vor allem europäische Tanzmusik – beliebte Klassiker erklingen oft im Wechsel mit spritzigen Eigenkompositionen. Bretonische Andros, schwedische Polskas, Jigs und Reels von den britischen Inseln werden dabei genauso aufgegriffen, wie schwungvolle Walzer, Mazurkas oder Schottische.
 Die außergewöhnliche Besetzung mit Irish Flute, Dudelsack, Drehleier, Nycklharpa und anderen spannenden Instrumenten machen BALAFENN zu einem echten Erlebnis – für Ohren, Herz und Bein!
 
-*Josefine Meyer – Blockflöten, Irish Flute, Gitarre, Gesang*
-*Robert Schuchardt – Drehleier, Quinterne, Gitarre*
-*Sebastian Gomon – Rahmentrommeln, Bodhran, Cajon*
-*Antonin Delpeuch – Kontrabass*
+*Josefine Meyer – Blockflöten, Irish Flute, Gitarre, Gesang*  
+*Robert Schuchardt – Drehleier, Quinterne, Gitarre*  
+*Sebastian Gomon – Rahmentrommeln, Bodhran, Cajon*  
+*Antonin Delpeuch – Kontrabass*  
 *Martin Burkhardson – Schäferpfeife, Nyckelharpa, Geige, Gitarre*
 
 [Website](https://www.balafenn.de/)
@@ -94,9 +94,9 @@ Die außergewöhnliche Besetzung mit Irish Flute, Dudelsack, Drehleier, Nycklhar
 Die zwei eineiigen Brüder Torge und Bandik spielen schon länger gemeinsam als Pabameto.
 Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich das neu gegründete Pabameto Quartett auf Balfolk; sehr tanzbar mit skandinavischen, keltischen und poppigen Einflüssen.
 
-*Marie Eberle – Violin*
-*Camila Czempin – Accordion*
-*Melf Torge Nonn – Clarinet / Whistles / Flute / Sopranosax Pay*
+*Marie Eberle – Violin*  
+*Camila Czempin – Accordion*  
+*Melf Torge Nonn – Clarinet / Whistles / Flute / Sopranosax Pay*  
 *Bandik Nonn – Guitar / Doublebass*
 
 [Youtube](https://www.youtube.com/watch?v=pn-ORS3DNew)
@@ -115,9 +115,9 @@ Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
 
-*Fili – Geige, Vocals, Obertongesang*
-*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*
-*Niklas – Kontrabass, Vocals*
+*Fili – Geige, Vocals, Obertongesang*  
+*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*  
+*Niklas – Kontrabass, Vocals*  
 *Helena – Flöte, Vocals*
 
 [Website](https://www.wingsandtales.de/)
@@ -130,7 +130,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 [col]
 Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit einigen Jahren Sessions und Bühnen der Balfolk-Szene. Aber neu ist, dass sie gemeinsam spielen und damit ihre große Liebe zur Balfolkmusik gemeinsam erlebbar machen. FA ist nicht nur ein Ton, sondern bei den beiden Musikerinnen ein Gefühl und eine ausgewogene Mischung aus feinen Melodien.
 
-*Anna Gaide – Akkordeon*
+*Anna Gaide – Akkordeon*  
 *Josefine Schlät – Geige*
 [/col]
 [col]
@@ -155,8 +155,8 @@ Rokkende Vrouwen is a folk duo consisting of pianist and singer Hilde Van Belle 
 [col]
 ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldnymphen unveröffentlichte Stücke mit italienischen Singer-Songwriter-Einflüssen verwebt. Balfolk steht im Mittelpunkt des Projekts und umfasst französische Tänze, romantische Mazurken, Mixer und bretonische Ketten. Bei SimmelFolk wird die Band als Quartett auftreten, das die Magie von Rhythmus und Musik mit der vokalen Poesie des italienischen Singer-Songwritings mischt. Es entsteht ein klanglicher Wald, in dem jede Note ein Zauber ist und die Zuhörer einlädt, sich in der Welt aus Musik, Tanz und Magie zu verlieren!
 
-*Alessandro – Stimme, Gitarre*
-*Alessandro – E-Bass*
+*Alessandro – Stimme, Gitarre*  
+*Alessandro – E-Bass*  
 *Mattia – Violine*
 [/col]
 [col]
@@ -173,8 +173,8 @@ ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldny
 [col]
 Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer und haben ein Repertoire aus energiegeladenen Chapelloises, verbindenden Hanter-Dros, romantischen Walzern und intimen Mazurken. Balsam komponiert und arrangiert europäische Tanzformen mit Respekt für die Tradition und einem mutig-kreativen Ansatz. Sie kombinieren Tanzmusik mit selbst geschriebener, polnisch gesungener Poesie. Das Ergebnis ist eine subtile, emotionale und herzerwärmende Reise für Tänzer und Zuhörer. Im Jahr 2019 veröffentlichte die Gruppe ihr Debütalbum "DO", die erste Balfolk-CD in Polen.
 
-*Ewa de Mezer – chromatisches Akkordeon, Gesang, Texte*
-*Michał Zajączkowski-de Mezer – akustische Gitarre, Gesang*
+*Ewa de Mezer – chromatisches Akkordeon, Gesang, Texte*  
+*Michał Zajączkowski-de Mezer – akustische Gitarre, Gesang*  
 *Jakub "Goldfinch" Szczygieł – Irische Flöte, Low Whistle, Tin Whistle*
 
 [Facebook](https://www.facebook.com/balsam.balfolk)

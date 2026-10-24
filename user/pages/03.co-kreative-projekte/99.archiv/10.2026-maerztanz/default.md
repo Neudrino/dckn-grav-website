@@ -33,7 +33,7 @@ Willkommen in der wunderbaren Welt von Fyndus, einem neuen Folk-Duo mit Emma Coo
 Gemeinsam bringen wir sehr tanzbare Musik zum Zuhören oder hörbare Tanzmusik.
 Genießen Sie unsere musikalischen Geschichten und lassen Sie sich von der magischen Harmonie unserer Instrumente verzaubern.
 
-*Emma Coopman – Gesang, keltische Harfe & diat. Akk.*
+*Emma Coopman – Gesang, keltische Harfe & diat. Akk.*  
 *Thomas Hoste – elektroakustische Altschleifleier & Soundeffekte*
 
 [Website](https://www.hidrae.be/)
@@ -47,9 +47,9 @@ Genießen Sie unsere musikalischen Geschichten und lassen Sie sich von der magis
 Mit Eigenkompositionen und Neuinterpretationen traditioneller Melodien lädt Bargainatt euch ein, eine moderne und zugleich authentische Welt zu entdecken.
 Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspirieren, die ihnen am Herzen liegen, und versuchen dabei, die Feinheiten und Traditionen dieser Tänze so gut wie möglich zu respektieren. Von der Auvergne über Poitou und Gascogne bis hin zur Bretagne bietet Bargainatt Ihnen eine Reise voller Farben und Einflüsse, voller Energie und Frische.
 
-*Camille STIMBRE – Violine und Gesang*
-*Youmi BAZOGE – Violine und Gesang*
-*Léon OLLIVIER – Diatonisches Akkordeon und Gesang*
+*Camille STIMBRE – Violine und Gesang*  
+*Youmi BAZOGE – Violine und Gesang*  
+*Léon OLLIVIER – Diatonisches Akkordeon und Gesang*  
 *Noé BAZOGE – Violoncello und Gesang*
 
 [Website](https://bargainatt.wixsite.com/bargainatt)
@@ -68,8 +68,8 @@ Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspi
 [col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
 
-*David – Klarinette*
-*Jonathan – Akkordeon*
+*David – Klarinette*  
+*Jonathan – Akkordeon*  
 *Antonin – Kontrabass*
 
 [Website](https://triaz-balfolk.de/)
@@ -99,7 +99,7 @@ Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diato
 Mal ruhig & innig, mal lebhaft & verspielt. Sie spielen bezaubernde Musik – traditionelles aus Frankreich und Schweden, gemischt mit modernen Liedern und Eigenkompositionen.
 Ihre Tänze reichen von den üblichen Balfolktänzen über ein paar eingestreute Polskor/Slängpolskor. Wichtig ist ihnen dabei die Resonanz mit den Tänzer:innern. Daraus erschaffen sie bezaubernde Musik.
 
-*Selma – Geige, Gesang, diatonisches Akkordeon, Oktavgeige, Sansula*
+*Selma – Geige, Gesang, diatonisches Akkordeon, Oktavgeige, Sansula*  
 *Anne – Gitarre, Geige, Gesang, Trommel*
 [/col]
 [/split]
@@ -141,9 +141,9 @@ Sofia Paola Meleleo – Akkordeon, Gesang
 Geboren in der heimischen Küche hat es unsere Familienband in die weite Welt hinausgezogen, wo wir Melodien finden und erfinden und sie am liebsten an tanzlustige Füße und offene Ohren weiterverschenken.
 Die Musik von Lottes Flausen lässt sich gern inspirieren von: Balfolk, Klezmer, Musik vom Balkan und aus Schweden. Traditionelle deutsche Musik und klassische Hintergründe geben sich die Klinke in die Hand, liebäugeln miteinander und verweben sich zu einem klangvoll beschwingten Tanzvergnügen. Zeit zum Träumen, Tollen, Schwelgen!
 
-*Gesa Bartuschka – Geige, Maultrommel, Gesang*
-*Fabia Bartuschka – Blockflöten, Gesang*
-*Mattea Bartuschka – Klarinette, Gesang*
+*Gesa Bartuschka – Geige, Maultrommel, Gesang*  
+*Fabia Bartuschka – Blockflöten, Gesang*  
+*Mattea Bartuschka – Klarinette, Gesang*  
 *Anett Bartuschka – Gitarre, Bassklarinette, Gesang*
 
 [Youtube](https://www.youtube.com/@lottesflausen4406)
@@ -175,8 +175,8 @@ Mit der Stimme und dem einzigartigen Klang der Kokle (lettische, traditionelle Z
 Silja ist die niederdeutsche Kurzform des Namens Cäcilia. Die Heilige Cäcilia gilt als Schutzpatronin der Musiker, Sänger und Dichter.
 Groovige Tanzstücke begegnen Balladen voller Sehnsucht, barocke Einflüsse auf bodenständige Melodien – eine einfühlsame und gleichzeitig zielsichere Gratwanderung zwischen Tradition und Moderne. Neukompositionen der einzelnen Musiker finden hier genauso ihren Platz wie Neuinterpretationen überlieferter Melodien. Dabei wird immer wieder auf die musikalische Verwandtschaft der unterschiedlichen Kulturen eingegangen. Die außergewöhnliche Besetzung mit verschiedenen Instrumenten und Gesangseinlagen lädt zu einem abwechslungsreichen stimmigen Klangerlebnis ein; voller Überraschungen, Virtuosität, Spielfreude und magischer Momente.
 
-*Kristina Künzel – Dudelsäcke / Nyckelharpa*
-*Ben Aschenbach – Gitarren / Cister*
+*Kristina Künzel – Dudelsäcke / Nyckelharpa*  
+*Ben Aschenbach – Gitarren / Cister*  
 *Mark Kovnatskiy – Violine*
 
 [Website](https://www.silja-music.de/)

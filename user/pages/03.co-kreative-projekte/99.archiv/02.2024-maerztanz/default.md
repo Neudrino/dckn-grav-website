@@ -61,7 +61,7 @@ Richard ist junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisc
 Ein brandneues Duo aus Leipzig bringt Spaß, Finesse und Groove auf die Tanzböden!
 Mit ihren Instrumenten Geige und Akkordeon erwecken sie eigene Kompositionen und ausgewählte Balfolk-Melodien zum Leben. Sowohl gefühlvolle Melodien als auch sprudelnde Lebensfreude laden zu einem dynamischen und mitreißenden Tanzabend ein.
 
-*Mara – diatonisches Akkordeon, Gesang*
+*Mara – diatonisches Akkordeon, Gesang*  
 *Fine – Violine*
 [/col]
 [/split]
@@ -74,7 +74,7 @@ Mit ihren Instrumenten Geige und Akkordeon erwecken sie eigene Kompositionen und
 [col]
 Das Duo Eins68 aus Kassel spielt liebevoll arrangierten Balfolk mit kleinen feinen Extras. Einfühlsam nutzen sie eine große Vielfalt an Instrumenten, um jedem Stück eine ganz besondere Note zu geben. Ob mehrstimmiger Gesang oder zärtliche Mazurka oder schwungvolle Bourrée: Es ist eine Freude, ihrer Musik zuzuhören und dazu zu tanzen.
 
-*Angelina Krastel – Mandoline, Mandola, Gesang, Kleinpercussion*
+*Angelina Krastel – Mandoline, Mandola, Gesang, Kleinpercussion*  
 *Rike Callies – Gesang, diatonisches Akkordeon, Toypiano, Blockflöten, Kleinpercussion*
 [/col]
 [col]
@@ -131,7 +131,7 @@ Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigene
 Angelina und Ulli spielen Balfolkmusik mit Mandoline, Akkordeon und Gesang.
 Sie haben ein paar seltene Tänze im Programm, u.a. einen Congo de Captieux…
 
-*Angelina Krastel – Mandoline, Gesang*
+*Angelina Krastel – Mandoline, Gesang*  
 *Ulrich Möhrke – Akkordeon, Gesang*
 [/col]
 [col]

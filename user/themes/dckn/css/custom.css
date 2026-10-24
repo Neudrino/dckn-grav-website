@@ -501,3 +501,12 @@ object[type="application/pdf"] {
     display: none;
   }
 }
+
+/* Center images that are alone in a paragraph of the page content */
+article.content-item > p:has(> img:only-child) {
+  text-align: center;
+}
+article.content-item > p:has(> img:only-child) > img {
+  max-width: 100%;
+  height: auto;
+}

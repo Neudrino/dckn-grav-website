@@ -1,11 +1,11 @@
 ---
-title: 'MärzTanz Festival 2027'
-body_classes: 'title-center'
+title: 'MärzTanz Festival'
+body_classes: title-center
 template: event
 event:
-  startdatum: '2027-03-04'
-  enddatum: '2027-03-07'
-  ort: 'Chemnitz'
+    startdatum: '2027-03-04'
+    enddatum: '2027-03-07'
+    ort: Chemnitz
 ---
 
 ![MärzTanz Festival](banner.png)
@@ -15,9 +15,120 @@ event:
 
 Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Workshops geben, abends spielen Bands zum Tanz.
 
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/maerztanz2027">Jetzt hier anmelden!</a></p>
+
 ### Bands
 
-to be announced
+#### [Feather and Fox](https://featherandfox.com/)
+
+[split]
+[col]
+![Feather and Fox](feather-and-fox.jpg)
+[/col]
+[col]
+Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
+
+*Christiane Bisitz – Cello, Gesang*  
+*Victor Lekeu – Mandoline, Percussion*
+[/col]
+[/split]
+
+#### [Folk My Life!](https://folkmylife.de/) – Modern-Trad Folkmusik
+
+[split]
+[col]
+Folk my Life! ist ihre Begeisterung für Musik mit jedem Klang anzumerken. Die Band präsentiert selbstkomponierte Musik, die vom schwedischen Folk beeinflusst ist. Gleichzeitig beschäftigte sie sich mit deutschem Folk und stieß dabei auf die bedeutende [Dahlhoff-Sammlung](https://folkmylife.de/), die im Jahr 2012 digitalisiert und damit einer breiten Öffentlichkeit zugänglich gemacht wurde. Die vier jungen Musiker*innen greifen die überlieferten Tanzstücke aus der Dahlhoff-Sammlung aus dem 18. Jahrhundert musikalisch auf und schaffen eigene Kompositionen, die verspielt und manchmal sogar rockig klingen.
+
+*Alexa Gödde – Saxophon, Geige*  
+*Johannes Rüttermann – Nyckelharpa*  
+*Blanche Oguey – Nyckelharpa*  
+*Alexander Peters – Gitarre*
+[/col]
+[col]
+![Folk My Life!](folk-my-life.jpg)
+[/col]
+[/split]
+
+#### [Wings & Tales](https://www.wingsandtales.de/)
+
+[split]
+[col]
+![Wings & Tales](wings-and-tales.jpg)
+[/col]
+[col]
+Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
+
+*Fili – Geige, Vocals, Obertongesang*  
+*Martin – Rhythmusgitarre, Vocals, Rahmentrommel*  
+*Niklas – Kontrabass, Vocals*  
+*Helena – Flöte, Vocals*
+[/col]
+[/split]
+
+#### [Drehwurm](https://drehwurm.band/)
+
+[split]
+[col]
+Wir sind Drehwurm aus Berlin, Lübeck und Erfurt. Uns verbindet nicht nur unsere Nähe zu Dresden, sondern besonders unsere Freude am gemeinsamen Musizieren.
+
+Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwiebeln. Sie sind geprägt von internationaler Folkmusik (ägyptischen Trolltänzen, Metal,…) sowie von Liedermachern und Holter-die-polter-Polka. Diese Stilrichtungen finden sich in schwindelerregenden Walzern, träumerischen Gavottes, angriffslustigen Bourrees und flott geflöteten Polkas wieder. Dazu gibt es eigene Texte, inhaltlich gestreut von philosophischen Themen über Landschaftsbeschreibungen bis hin zu Gutenachtliedern. Mit einer Prise Albernheit gestalten wir unsere Musik sowohl tanzbar als auch zum lauschen.
+
+*Hannah – Cello, Stimme*  
+*Max – Oboe*  
+*Nico – Gitarre, Bouzouki*  
+*Teresa – Gitarre, Stimme, Flöten*
+[/col]
+[col]
+![Drehwurm](drehwurm-crop.jpg)
+[/col]
+[/split]
+
+#### [Accords Perdus](https://accordsperdus.com/)
+
+[split]
+[col]
+![Accords Perdus](accords-perdus.jpg)
+[/col]
+[col]
+Accords Perdus ist seit jeher in der Folk-Szene aktiv, sowohl im Bereich des Tanzes als auch der Musik, und bietet ein Repertoire aus eigens für den Ball komponierten Stücken, gemischt mit einigen Perlen, die aus den unterschiedlichsten traditionellen Repertoires zusammengetragen wurden.
+
+Klavier, Gesang, Klarinette, Bassklarinette, Slam und Duduk verschmelzen fröhlich miteinander und bieten Ihnen einen Ball voller Witz, Energie und Emotionen.
+
+Juckt es Ihnen in den Beinen? Dann stürzen Sie sich in den Tanz…
+
+*Pauline Gonzalez – Klavier, Gesang, Akkordeon*  
+*Emile Postic – Klarinette, Bassklarinette, Duduk*
+[/col]
+[/split]
+
+#### [Duo Suchanek & Peters](https://ursulasuchanek.com/projekte/duo-suchanek-peters-7)
+
+[split]
+[col]
+Musik der Tanzböden des 18. und 19. Jahrhunderts für das Hier und Jetzt.
+
+Eine große Liebe zu traditioneller Tanzmusik aus Musikerhandschriften der letzten 300 Jahre ist es, die die beiden Musiker*innen Ursula Suchanek und Alexander Peters verbindet. Ob hymnisch barocke Polonaisen, süße einzeilige Schleifer, witzige Walzer oder Polkas mit Techno-Rave-Feeling. Einige klingen einzigartig, andere haben enge Verwandtschaften mit Melodien anderer europäischer Musiktraditionen.
+
+Die Neu-Interpretation des Duos kombiniert dabei eine durchaus traditionelle Tanzmusik-Perspektive mit gewagter Improvisation und harmonischen Klangwelten des 21. Jahrhunderts.
+
+*Ursula Suchanek – Quinton*  
+*Alexander Peters – Gitarre, Mandoline, Waldzither*
+[/col]
+[col]
+![Duo Suchanek & Peters](duo-suchanek-peters.jpg)
+[/col]
+[/split]
+
+#### [Richard](http://www.sturmfalken.de/richard/)
+
+[split]
+[col]
+![Richard](richard.jpg)
+[/col]
+[col]
+Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
+[/col]
+[/split]
 
 ### Workshops
 
@@ -35,11 +146,12 @@ Zwickauer Straße 485
 
 - nächster Bahnhof: Chemnitz Siegmar (16 min zu Fuß, Regionalbahn Strecke Zwickau-Dresden)
 - nächste Bushaltestelle: Kirche Reichenbrand (direkt gegenüber)
-- Autobahnabfahrt A72: Chemnitz Süd (oder Chemnitz Rottluff) (Fahrzeit 6 min)
-- Parken: in den umliegenden Straßen kostenlos möglich. Direkt am Haus des Gastes nur wenige Parkmöglichkeiten (der Hof ist für Mitarbeiter und Künstler reserviert)
+- Parken ist in den umliegenden Straßen kostenlos möglich. **Parkverbot im Hof!** (Der Hof für Mitarbeiter und Künstler reserviert.)
+
+[gis marker1="Haus des Gastes Reichenbrand, 50.8115423, 12.8285122, green" marker2="Bahnhof Chemnitz-Siegmar, 50.8155542, 12.8430079, red" marker3="Bushaltestelle Kirche Reichenbrand, 50.8122284, 12.8295201, orange"]
 [/col]
 [col]
-[gis marker1="Haus des Gastes Reichenbrand, 50.8115423, 12.8285122, green" marker2="Bahnhof Chemnitz-Siegmar, 50.8155542, 12.8430079, red" marker3="Bushaltestelle Kirche Reichenbrand, 50.8122284, 12.8295201, orange"]
+![Tanzsaal](tanzsaal.jpg)
 [/col]
 [/split]
 
@@ -101,14 +213,15 @@ In dem Teilnahmebeitrag ist alles inklusive: 3,5 Tage Festival, alle Bälle, Ver
 Jede:r wird ein Ämtli übernehmen um zum Gelingen des Festivals beizutragen.
 
 Wenn es dir möglich ist, etwas mehr zu geben, darfst du gern zum Ticket eine Spende ergänzen und dazu beitragen, dass das Festival ein voller Erfolg wird.
-Der **Standardpreis** für ein Wochenendticket beträgt 150 €.
-**Ermäßigte** Tickets 130 € (für Geringsverdiener, Menschen in Engpässen oder besonderen Belastungen, aus Ländern mit niedrigerem Lohnniveau oder wenn du dir das volle Ticket einfach nicht leisten kannst)
-**Kinder** bis 15 sind frei.
-**Schüler/Studenten/Auszubildende** zahlen 100 € für das Wochenende.
 
-**Anmeldung**
+- **Standardpreis** für ein Wochenendticket: **150 €**
+- **Ermäßigte** Tickets: **130 €** (für Geringsverdiener, Menschen in Engpässen oder besonderen Belastungen, aus Ländern mit niedrigerem Lohnniveau oder wenn du dir das volle Ticket einfach nicht leisten kannst)
+- **Schüler/Studenten/Auszubildende**: **100 €** für das Wochenende
+- **Kinder** bis 15: frei
 
-Abendkarten sind ab März erhältlich und berechtigen zur Teilnahme an den Bällen des Abends (ab 19:30/19:00/18:30). Die Abendsuppe ist im Preis enthalten, die warme Mahlzeit am Nachmittag nicht.
+**Abendkarten** sind ab März erhältlich, wenn das Festival nicht ausverkauft ist, und berechtigen zur Teilnahme an den Bällen des Abends (ab 19:30/19:00/18:30). Die Abendsuppe ist im Preis enthalten, die warme Mahlzeit am Nachmittag nicht.
+
+<p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/maerztanz2027">Jetzt hier anmelden!</a></p>
 
 #### Storno
 

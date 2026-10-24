@@ -1,6 +1,60 @@
 vorstand:
   readableName: Vorstand
-  description: ''
+  description: 'Vollzugriff auf Admin-Panel und API.'
   enabled: true
-  access: {  }
+  access:
+    admin:
+      login: true
+      super: true
+    api:
+      access: true
+      super: true
   groupname: vorstand
+
+projekt-simmelfolk:
+  readableName: Projekt SimmelFolk
+  description: 'Sieht alle Seiten, darf aber nur das SimmelFolk-Festival bearbeiten.'
+  enabled: true
+  access:
+    admin:
+      login: true
+    api:
+      access: true
+      pages:
+        read: true
+      media:
+        read: true
+        write: true
+  groupname: projekt-simmelfolk
+
+projekt-maerztanz:
+  readableName: Projekt MärzTanz
+  description: 'Sieht alle Seiten, darf aber nur das MärzTanz-Festival bearbeiten.'
+  enabled: true
+  access:
+    admin:
+      login: true
+    api:
+      access: true
+      pages:
+        read: true
+      media:
+        read: true
+        write: true
+  groupname: projekt-maerztanz
+
+projekt-lumibal:
+  readableName: Projekt Bal Luminescence
+  description: 'Sieht alle Seiten, darf aber nur das Bal Luminescence bearbeiten.'
+  enabled: true
+  access:
+    admin:
+      login: true
+    api:
+      access: true
+      pages:
+        read: true
+      media:
+        read: true
+        write: true
+  groupname: projekt-lumibal

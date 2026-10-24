@@ -94,3 +94,17 @@ jobs:
         run: |
           scp install-plugins.sh netcup:.grav-deploy/
           ssh netcup "export PATH=\$HOME/.grav-deploy/bin:\$PATH GRAV_ROOT='$REMOTE_PATH'; bash ~/.grav-deploy/install-plugins.sh"
+
+      - name: Ensure Grav admin account on Netcup
+        if: ${{ inputs.dry_run != true }}
+        env:
+          ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+        run: |
+          : "${ADMIN_USERNAME:?secret ADMIN_USERNAME is not configured}" \
+            "${ADMIN_PASSWORD:?secret ADMIN_PASSWORD is not configured}" \
+            "${ADMIN_EMAIL:?secret ADMIN_EMAIL is not configured}"
+          scp ensure-admin.sh netcup:.grav-deploy/
+          printf '%s\n%s\n%s\n' "$ADMIN_USERNAME" "$ADMIN_PASSWORD" "$ADMIN_EMAIL" \
+            | ssh netcup "GRAV_ROOT='$REMOTE_PATH' bash ~/.grav-deploy/ensure-admin.sh"

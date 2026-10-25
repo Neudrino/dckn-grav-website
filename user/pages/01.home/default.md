@@ -53,7 +53,7 @@ form:
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname
-    - message: 'Danke! Du bist jetzt für den Newsletter angemeldet.'
+    - message: 'Danke! Bitte bestätige deine Newsletter-Anmeldung über den Link in der E-Mail, die wir dir gerade geschickt haben.'
 ---
 
 # Das co-kreative Netzwerk e.V.

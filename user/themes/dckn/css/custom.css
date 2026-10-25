@@ -510,3 +510,11 @@ article.content-item > p:has(> img:only-child) > img {
   max-width: 100%;
   height: auto;
 }
+
+/* ===== MärzTanz: content card picks up the light banner tone =====
+ * Opt-in per page via the body class; only in light mode, where the dark
+ * text keeps enough contrast on #FDF3DD. Everything around the card (the
+ * page canvas, header and footer) is left untouched. */
+html[data-theme='light'] body.maerztanz-light #body-wrapper > .container > .content-item {
+  background: #FDF3DD;
+}

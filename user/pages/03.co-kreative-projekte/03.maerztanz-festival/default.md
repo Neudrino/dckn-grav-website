@@ -1,6 +1,6 @@
 ---
 title: 'MärzTanz Festival'
-body_classes: title-center
+body_classes: 'title-center maerztanz-light'
 template: event
 event:
     startdatum: '2027-03-04'
@@ -11,7 +11,7 @@ permissions:
         projekt-maerztanz: u
 ---
 
-![MärzTanz Festival](banner.png)
+![MärzTanz Festival](banner-light.png)
 
 ## 4. MärzTanz Festival
 ## 04.-07. März 2027

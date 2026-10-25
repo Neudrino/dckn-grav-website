@@ -13,7 +13,7 @@ event:
 
 **22. – 25.05.2026**
 
-![Tanz und Verbindung 2026](tuv26-header.jpg)
+![Tanz und Verbindung 2026](tuv-header-2026.jpg)
 
 Zu Pfingsten lassen wir im und um das Ballhaus Lindenhof ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Contactimpro, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.

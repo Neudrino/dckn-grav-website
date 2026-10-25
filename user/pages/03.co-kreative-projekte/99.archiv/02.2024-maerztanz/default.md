@@ -13,9 +13,9 @@ event:
 
 15.-17.03.2024 — das erste Balfolk-Festival in Chemnitz mit Workshops und Tanzabenden mit Live-Musik
 
-![MärzTanz 2024](mt24-header.png)
+![MärzTanz 2024](maerztanz-header-2024.png)
 
-![Zeitplan](mt24-zeitplan.png)
+![Zeitplan](maerztanz-zeitplan-2024.png)
 
 Donnerstag Nachmittag beginnt der Aufbau. Abends kann es ein gemütliches Vorabendbeisammensein unter den Helfern geben.
 Fr ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch mit anfassen beim Schönzaubern 🙂

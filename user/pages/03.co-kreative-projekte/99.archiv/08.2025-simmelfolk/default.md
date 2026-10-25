@@ -64,7 +64,7 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 ## Programm und Bands
 
-![Programm 2025](sf25-prog.jpg)
+![Programm 2025](simmelfolk-programm-2025.jpg)
 
 ### AKLEJA
 

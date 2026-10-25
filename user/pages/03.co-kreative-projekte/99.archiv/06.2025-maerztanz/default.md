@@ -13,9 +13,9 @@ event:
 
 ### 14. – 16.03.2025
 
-![Header](mt25-header.png)
+![Header](maerztanz-header-2025.png)
 
-![Zeitplan](mt25-zeitplan.png)
+![Zeitplan](maerztanz-zeitplan-2025.png)
 
 Vielen Dank allen Helfern, Musikern und Tänzern die das Märztanz Festival 2025 möglich gemacht haben.
 

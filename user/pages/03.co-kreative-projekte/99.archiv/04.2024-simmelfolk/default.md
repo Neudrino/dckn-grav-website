@@ -16,7 +16,7 @@ event:
 ![Logo](media://projekte/bezirk-mittelfranken-logo.png)
 [/col]
 [col]
-![Programm 2024](sf24-prog.jpg)
+![Programm 2024](simmelfolk-programm-2024.jpg)
 [/col]
 [/split]
 

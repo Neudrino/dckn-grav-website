@@ -35,6 +35,13 @@ form:
       validate:
         required: true
 
+    - name: captcha
+      type: captcha
+      provider: cap
+      mode: invisible
+    - name: honeypot
+      type: honeypot
+
   buttons:
     - type: submit
       value: Senden

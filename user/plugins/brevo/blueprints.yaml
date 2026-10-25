@@ -40,29 +40,29 @@ form:
       label: Default list ID
       help: 'Optional. Used when no lists are specified in the form frontmatter.'
 
-    doi:
-      type: fieldset
+    section_doi:
+      type: section
       title: Double opt-in
-      collapsed: true
-      fields:
-        enabled:
-          type: toggle
-          label: Double opt-in
-          help: 'Send a Brevo double opt-in confirmation email instead of adding the contact immediately.'
-          highlight: 0
-          default: 0
-          options:
-            1: Enabled
-            0: Disabled
-          validate:
-            type: bool
+      underline: true
 
-        template_id:
-          type: text
-          label: DOI template ID
-          help: 'Brevo DOI template ID; required when double opt-in is enabled.'
+    doi.enabled:
+      type: toggle
+      label: Double opt-in
+      help: 'Send a Brevo double opt-in confirmation email instead of adding the contact immediately.'
+      highlight: 0
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
 
-        redirection_url:
-          type: text
-          label: Redirection URL
-          help: "Required. URL the contact is redirected to after confirming the subscription — the Brevo API rejects the DOI call without it."
+    doi.template_id:
+      type: text
+      label: DOI template ID
+      help: 'Brevo DOI template ID; required when double opt-in is enabled.'
+
+    doi.redirection_url:
+      type: text
+      label: Redirection URL
+      help: "Required. URL the contact is redirected to after confirming the subscription — the Brevo API rejects the DOI call without it."

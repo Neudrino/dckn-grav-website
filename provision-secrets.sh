@@ -149,6 +149,8 @@ if ($changed) {
 if [ -f "${GRAV_ROOT}/bin/grav" ]; then
   # Non-fatal: Grav also invalidates caches by file mtime, so even a failed
   # clear leaves the provisioned config effective on the next request.
-  (cd "${GRAV_ROOT}" && bin/grav clearcache --no-interaction 2>&1 | tail -1) \
+  # Run via $PHP_BIN — the bin/grav shebang needs `php` on PATH, which a
+  # non-interactive SSH shell does not have (only $HOME/.grav-deploy/bin/php).
+  (cd "${GRAV_ROOT}" && "$PHP_BIN" bin/grav clearcache --no-interaction 2>&1 | tail -1) \
     || echo "::warning::provision-secrets: cache clear failed; config still picked up by cache mtime check"
 fi

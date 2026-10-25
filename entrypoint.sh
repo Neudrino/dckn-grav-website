@@ -19,9 +19,6 @@
 #
 #   BREVO_API_KEY      — Brevo API key for newsletter
 #
-#   HCAPTCHA_SITE_KEY   — hCaptcha site key
-#   HCAPTCHA_SECRET_KEY — hCaptcha secret key
-#
 #   GRAV_API_SECRET     — API JWT signing secret (for persistence across restarts)
 #   GRAV_SECURITY_SECRET — CSRF nonce signing secret (for persistence)
 #
@@ -66,22 +63,6 @@ api_key: "${BREVO_API_KEY}"
 default_list_id: "${BREVO_DEFAULT_LIST_ID:-}"
 EOF
   echo "    Brevo plugin configured"
-fi
-
-# ---------------------------------------------------------------------------
-# hCaptcha plugin
-# ---------------------------------------------------------------------------
-if [ -n "${HCAPTCHA_SITE_KEY:-}" ]; then
-  echo "==> Configuring hCaptcha plugin..."
-  cat > "$USER_CONFIG/plugins/form-captcha-hcaptcha.yaml" <<EOF
-enabled: true
-hcaptcha:
-  site_key: "${HCAPTCHA_SITE_KEY}"
-  secret_key: "${HCAPTCHA_SECRET_KEY:-}"
-  theme: "${HCAPTCHA_THEME:-light}"
-  size: "${HCAPTCHA_SIZE:-normal}"
-EOF
-  echo "    hCaptcha plugin configured"
 fi
 
 # ---------------------------------------------------------------------------

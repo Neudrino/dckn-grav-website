@@ -11,17 +11,20 @@
 # so adding a secret in GitHub and re-deploying provisions it, removing it
 # deprovisions nothing by accident.
 #
-#   BREVO_API_KEY           -> plugins/brevo.yaml  api_key
-#   BREVO_DEFAULT_LIST_ID   -> plugins/brevo.yaml  default_list_id
-#   SMTP_FROM_EMAIL         -> plugins/email.yaml  from
-#   SMTP_SERVER             -> plugins/email.yaml  mailer.smtp.server
-#   SMTP_PORT               -> plugins/email.yaml  mailer.smtp.port
-#   SMTP_ENCRYPTION         -> plugins/email.yaml  mailer.smtp.encryption
-#   SMTP_USERNAME           -> plugins/email.yaml  mailer.smtp.user
-#   SMTP_PASSWORD           -> plugins/email.yaml  mailer.smtp.password
-#   SMTP_FROM_NAME          -> plugins/email.yaml  from_name
-#   SMTP_TO                 -> plugins/email.yaml  to
-#   CUSTOM_BASE_URL         -> system.yaml         custom_base_url
+#   BREVO_API_KEY              -> plugins/brevo.yaml  api_key
+#   BREVO_DEFAULT_LIST_ID      -> plugins/brevo.yaml  default_list_id
+#   BREVO_DOI_ENABLED          -> plugins/brevo.yaml  doi.enabled
+#   BREVO_DOI_TEMPLATE_ID      -> plugins/brevo.yaml  doi.template_id
+#   BREVO_DOI_REDIRECTION_URL  -> plugins/brevo.yaml  doi.redirection_url
+#   SMTP_FROM_EMAIL            -> plugins/email.yaml  from
+#   SMTP_SERVER                -> plugins/email.yaml  mailer.smtp.server
+#   SMTP_PORT                  -> plugins/email.yaml  mailer.smtp.port
+#   SMTP_ENCRYPTION            -> plugins/email.yaml  mailer.smtp.encryption
+#   SMTP_USERNAME              -> plugins/email.yaml  mailer.smtp.user
+#   SMTP_PASSWORD              -> plugins/email.yaml  mailer.smtp.password
+#   SMTP_FROM_NAME             -> plugins/email.yaml  from_name
+#   SMTP_TO                    -> plugins/email.yaml  to
+#   CUSTOM_BASE_URL            -> system.yaml         custom_base_url
 #
 # Config paths are relative to `user/config/`. Non-secret keys already
 # present on the server (e.g. email.yaml `to:`, `debug:`, system.yaml
@@ -57,7 +60,7 @@ done
 # Log which keys actually arrived (names only — never values), so a deploy
 # log can show whether the workflow's secrets resolved at all.
 received=""
-for k in BREVO_API_KEY BREVO_DEFAULT_LIST_ID SMTP_SERVER SMTP_PORT SMTP_ENCRYPTION SMTP_USERNAME SMTP_PASSWORD SMTP_FROM_EMAIL SMTP_FROM_NAME SMTP_TO CUSTOM_BASE_URL; do
+for k in BREVO_API_KEY BREVO_DEFAULT_LIST_ID BREVO_DOI_ENABLED BREVO_DOI_TEMPLATE_ID BREVO_DOI_REDIRECTION_URL SMTP_SERVER SMTP_PORT SMTP_ENCRYPTION SMTP_USERNAME SMTP_PASSWORD SMTP_FROM_EMAIL SMTP_FROM_NAME SMTP_TO CUSTOM_BASE_URL; do
   [ -n "${!k:-}" ] && received="$received $k"
 done
 echo "provision-secrets: keys received:${received:- NONE — check that the secrets exist in the GitHub environment this workflow runs in}"
@@ -71,17 +74,20 @@ require $argv[1];
 use Symfony\Component\Yaml\Yaml;
 
 $map = [
-    "BREVO_API_KEY"         => ["plugins/brevo.yaml", ["api_key"]],
-    "BREVO_DEFAULT_LIST_ID" => ["plugins/brevo.yaml", ["default_list_id"]],
-    "SMTP_FROM_EMAIL"       => ["plugins/email.yaml", ["from"]],
-    "SMTP_FROM_NAME"        => ["plugins/email.yaml", ["from_name"]],
-    "SMTP_TO"               => ["plugins/email.yaml", ["to"]],
-    "SMTP_SERVER"           => ["plugins/email.yaml", ["mailer", "smtp", "server"]],
-    "SMTP_PORT"             => ["plugins/email.yaml", ["mailer", "smtp", "port"]],
-    "SMTP_ENCRYPTION"       => ["plugins/email.yaml", ["mailer", "smtp", "encryption"]],
-    "SMTP_USERNAME"         => ["plugins/email.yaml", ["mailer", "smtp", "user"]],
-    "SMTP_PASSWORD"         => ["plugins/email.yaml", ["mailer", "smtp", "password"]],
-    "CUSTOM_BASE_URL"       => ["system.yaml", ["custom_base_url"]],
+    "BREVO_API_KEY"             => ["plugins/brevo.yaml", ["api_key"]],
+    "BREVO_DEFAULT_LIST_ID"     => ["plugins/brevo.yaml", ["default_list_id"]],
+    "BREVO_DOI_ENABLED"         => ["plugins/brevo.yaml", ["doi", "enabled"]],
+    "BREVO_DOI_TEMPLATE_ID"     => ["plugins/brevo.yaml", ["doi", "template_id"]],
+    "BREVO_DOI_REDIRECTION_URL" => ["plugins/brevo.yaml", ["doi", "redirection_url"]],
+    "SMTP_FROM_EMAIL"           => ["plugins/email.yaml", ["from"]],
+    "SMTP_FROM_NAME"            => ["plugins/email.yaml", ["from_name"]],
+    "SMTP_TO"                   => ["plugins/email.yaml", ["to"]],
+    "SMTP_SERVER"               => ["plugins/email.yaml", ["mailer", "smtp", "server"]],
+    "SMTP_PORT"                 => ["plugins/email.yaml", ["mailer", "smtp", "port"]],
+    "SMTP_ENCRYPTION"           => ["plugins/email.yaml", ["mailer", "smtp", "encryption"]],
+    "SMTP_USERNAME"             => ["plugins/email.yaml", ["mailer", "smtp", "user"]],
+    "SMTP_PASSWORD"             => ["plugins/email.yaml", ["mailer", "smtp", "password"]],
+    "CUSTOM_BASE_URL"           => ["system.yaml", ["custom_base_url"]],
 ];
 
 $configDir = $argv[2] . "/user/config";
@@ -91,6 +97,9 @@ foreach ($map as $key => [$file, $path]) {
     $value = getenv($key);
     if ($value === false || $value === "") {
         continue;
+    }
+    if ($key === "BREVO_DOI_ENABLED") {
+        $value = filter_var($value, FILTER_VALIDATE_BOOLEAN);
     }
     $byFile[$file][] = [$path, $value];
 }

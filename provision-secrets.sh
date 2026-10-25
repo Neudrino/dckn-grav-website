@@ -52,6 +52,14 @@ done
 [ -n "${BREVO_API_KEY:-}" ] \
   || echo "::warning::provision-secrets: BREVO_API_KEY is not configured — the deploy continues, but the newsletter forms will not work until it is set"
 
+# Log which keys actually arrived (names only — never values), so a deploy
+# log can show whether the workflow's secrets resolved at all.
+received=""
+for k in BREVO_API_KEY BREVO_DEFAULT_LIST_ID SMTP_SERVER SMTP_PORT SMTP_ENCRYPTION SMTP_USERNAME SMTP_PASSWORD SMTP_FROM_EMAIL SMTP_FROM_NAME CUSTOM_BASE_URL; do
+  [ -n "${!k:-}" ] && received="$received $k"
+done
+echo "provision-secrets: keys received:${received:- NONE — check that the secrets exist in the GitHub environment this workflow runs in}"
+
 PHP_BIN="${HOME}/.grav-deploy/bin/php"
 [ -x "$PHP_BIN" ] || PHP_BIN=php
 

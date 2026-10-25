@@ -1,7 +1,7 @@
 ---
 cover: media://bands/accords-perdus-2.jpg
 title: 'MärzTanz Festival'
-body_classes: 'title-center maerztanz-light'
+body_classes: 'title-center'
 template: event
 event:
     startdatum: '2027-03-04'

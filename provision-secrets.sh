@@ -19,6 +19,8 @@
 #   SMTP_ENCRYPTION         -> plugins/email.yaml  mailer.smtp.encryption
 #   SMTP_USERNAME           -> plugins/email.yaml  mailer.smtp.user
 #   SMTP_PASSWORD           -> plugins/email.yaml  mailer.smtp.password
+#   SMTP_FROM_NAME          -> plugins/email.yaml  from_name
+#   SMTP_TO                 -> plugins/email.yaml  to
 #   CUSTOM_BASE_URL         -> system.yaml         custom_base_url
 #
 # Config paths are relative to `user/config/`. Non-secret keys already
@@ -55,7 +57,7 @@ done
 # Log which keys actually arrived (names only — never values), so a deploy
 # log can show whether the workflow's secrets resolved at all.
 received=""
-for k in BREVO_API_KEY BREVO_DEFAULT_LIST_ID SMTP_SERVER SMTP_PORT SMTP_ENCRYPTION SMTP_USERNAME SMTP_PASSWORD SMTP_FROM_EMAIL SMTP_FROM_NAME CUSTOM_BASE_URL; do
+for k in BREVO_API_KEY BREVO_DEFAULT_LIST_ID SMTP_SERVER SMTP_PORT SMTP_ENCRYPTION SMTP_USERNAME SMTP_PASSWORD SMTP_FROM_EMAIL SMTP_FROM_NAME SMTP_TO CUSTOM_BASE_URL; do
   [ -n "${!k:-}" ] && received="$received $k"
 done
 echo "provision-secrets: keys received:${received:- NONE — check that the secrets exist in the GitHub environment this workflow runs in}"
@@ -73,6 +75,7 @@ $map = [
     "BREVO_DEFAULT_LIST_ID" => ["plugins/brevo.yaml", ["default_list_id"]],
     "SMTP_FROM_EMAIL"       => ["plugins/email.yaml", ["from"]],
     "SMTP_FROM_NAME"        => ["plugins/email.yaml", ["from_name"]],
+    "SMTP_TO"               => ["plugins/email.yaml", ["to"]],
     "SMTP_SERVER"           => ["plugins/email.yaml", ["mailer", "smtp", "server"]],
     "SMTP_PORT"             => ["plugins/email.yaml", ["mailer", "smtp", "port"]],
     "SMTP_ENCRYPTION"       => ["plugins/email.yaml", ["mailer", "smtp", "encryption"]],
@@ -92,13 +95,15 @@ foreach ($map as $key => [$file, $path]) {
     $byFile[$file][] = [$path, $value];
 }
 
-// With SMTP transport secrets present, guarantee the engine is `smtp` —
-// a config left on `engine: none` would make `Email::enabled()` false and
-// every form mail silently skip sending.
+// With SMTP transport values present, force a sending engine: `smtp`
+// (STARTTLS, port 587) or — when encryption is `ssl`, i.e. implicit TLS on
+// port 465 — `smtps`. A config left on `engine: none` would make
+// `Email::enabled()` false and every form mail silently skip sending.
 foreach (["SMTP_SERVER", "SMTP_USERNAME", "SMTP_PASSWORD"] as $k) {
     $v = getenv($k);
     if ($v !== false && $v !== "") {
-        $byFile["plugins/email.yaml"][] = [["mailer", "engine"], "smtp"];
+        $engine = strtolower((string) getenv("SMTP_ENCRYPTION")) === "ssl" ? "smtps" : "smtp";
+        $byFile["plugins/email.yaml"][] = [["mailer", "engine"], $engine];
         break;
     }
 }

@@ -7,8 +7,8 @@ body_classes: 'title-center'
 
 ## Anschrift
 
-Das co-kreative Netzwerk e.V.
-Ringstraße 23
+Das co-kreative Netzwerk e.V.<br />
+Ringstraße 23<br />
 91207 Lauf an der Pegnitz
 
 Elektronische Nachrichten: [vorstand (at) dckn.de](mailto:vorstand@dckn.de?subject=%5BDckN%5D%20Anfrage%20zum%20co-kreativen%20Netzwerk)

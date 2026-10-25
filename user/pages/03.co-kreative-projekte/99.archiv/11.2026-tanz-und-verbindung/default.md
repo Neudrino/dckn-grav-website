@@ -1,4 +1,5 @@
 ---
+cover: media://projekte/ballhaus-lindenhof.jpg
 title: '2026 Tanz und Verbindung'
 template: event
 body_classes: title-center
@@ -26,7 +27,7 @@ Wir wünschen uns ein friedvolles, unterstützendes Miteinander, wo jede:r auf d
 
 [split]
 [col]
-![Duo Bothe](tuv26-bothe.jpg)
+![Duo Bothe](media://bands/duo-bothe.jpg)
 [/col]
 [col]
 #### Duo Bothe (D) – 19:00 Uhr
@@ -48,7 +49,7 @@ Eine Gitarre, eine Mandola, eine Mandoline, ein Satz Ersatzsaiten und die immens
 [Website](https://www.snaarmaarwaar.be/en/home/)
 [/col]
 [col]
-![Snaarmaarwaar](tuv26-snaarmaarwaar.webp)
+![Snaarmaarwaar](media://bands/snaarmaarwaar.webp)
 [/col]
 [/split]
 
@@ -56,7 +57,7 @@ Eine Gitarre, eine Mandola, eine Mandoline, ein Satz Ersatzsaiten und die immens
 
 [split]
 [col]
-![Duo Marfinara](tuv26-marfinara.webp)
+![Duo Marfinara](media://bands/mara-finara.png)
 [/col]
 [col]
 #### Duo Marfinara (L) – 18:00 Uhr
@@ -85,13 +86,13 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 [Website](https://www.wingsandtales.de/)
 [/col]
 [col]
-![Wings & Tales](tuv26-wings.jpg)
+![Wings & Tales](media://bands/wings-and-tales.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Flos](tuv26-flos.jpg)
+![Flos](media://bands/flos.jpg)
 [/col]
 [col]
 #### Flos (NL)
@@ -124,13 +125,13 @@ Einige Tunes wurden bearbeitet oder gar neu interpretiert und oft wird auch frö
 *Miroslav Mütze – Gesang, Bodhran*
 [/col]
 [col]
-![Juggling Strings](tuv26-juggling.jpg)
+![Juggling Strings](media://bands/juggling-strings.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Mehr als Wir](tuv26-mehralswir.jpg)
+![Mehr als Wir](media://bands/mehr-als-wir.jpg)
 [/col]
 [col]
 #### Mehr als Wir (D) – 20:00 Uhr
@@ -170,7 +171,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 [Website](https://www.wingsandtales.de/)
 [/col]
 [col]
-![Wings & Tales](tuv26-wings.jpg)
+![Wings & Tales](media://bands/wings-and-tales.jpg)
 [/col]
 [/split]
 
@@ -178,7 +179,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 [split]
 [col]
-![Mara Menzel](tuv26-mara.webp)
+![Mara Menzel](media://bands/mara-menzel-2.webp)
 [/col]
 [col]
 #### Mara Menzel und friends (L) – 12:00 Uhr
@@ -260,7 +261,7 @@ Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
 [col]
-![Ballhaus Lindenhof](tuv26-ballhaus.jpg)
+![Ballhaus Lindenhof](media://projekte/ballhaus-lindenhof.jpg)
 [/col]
 [/split]
 
@@ -268,7 +269,7 @@ Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind 
 
 [split]
 [col]
-![Essen](tuv26-essen.jpg)
+![Essen](media://projekte/essen-buffet.jpg)
 [/col]
 [col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
@@ -291,7 +292,7 @@ Für die Zelter und "Autoschläfer" werden Außenduschen installiert.
 Im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
 [/col]
 [col]
-![Schlafen](tuv26-schlafen.jpg)
+![Schlafen](media://projekte/schlafen-pension.jpg)
 [/col]
 [/split]
 

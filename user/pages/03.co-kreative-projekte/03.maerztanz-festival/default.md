@@ -1,4 +1,5 @@
 ---
+cover: media://bands/accords-perdus-2.jpg
 title: 'MärzTanz Festival'
 body_classes: 'title-center maerztanz-light'
 template: event
@@ -26,7 +27,7 @@ Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Wor
 
 [split]
 [col]
-![Feather and Fox](feather-and-fox.jpg)
+![Feather and Fox](media://bands/feather-and-fox.jpg)
 [/col]
 [col]
 Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
@@ -48,7 +49,7 @@ Folk my Life! ist ihre Begeisterung für Musik mit jedem Klang anzumerken. Die B
 *Alexander Peters – Gitarre*
 [/col]
 [col]
-![Folk My Life!](folk-my-life.jpg)
+![Folk My Life!](media://bands/folk-my-life.jpg)
 [/col]
 [/split]
 
@@ -56,7 +57,7 @@ Folk my Life! ist ihre Begeisterung für Musik mit jedem Klang anzumerken. Die B
 
 [split]
 [col]
-![Wings & Tales](wings-and-tales.jpg)
+![Wings & Tales](media://bands/wings-and-tales.jpg)
 [/col]
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
@@ -82,7 +83,7 @@ Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwi
 *Teresa – Gitarre, Stimme, Flöten*
 [/col]
 [col]
-![Drehwurm](drehwurm-crop.jpg)
+![Drehwurm](media://bands/drehwurm-2.jpg)
 [/col]
 [/split]
 
@@ -90,7 +91,7 @@ Unsere Stücke sind selbstgeschrieben und vielschichtig, wie unsere Liebe zu Zwi
 
 [split]
 [col]
-![Accords Perdus](accords-perdus.jpg)
+![Accords Perdus](media://bands/accords-perdus.jpg)
 [/col]
 [col]
 Accords Perdus ist seit jeher in der Folk-Szene aktiv, sowohl im Bereich des Tanzes als auch der Musik, und bietet ein Repertoire aus eigens für den Ball komponierten Stücken, gemischt mit einigen Perlen, die aus den unterschiedlichsten traditionellen Repertoires zusammengetragen wurden.
@@ -118,7 +119,7 @@ Die Neu-Interpretation des Duos kombiniert dabei eine durchaus traditionelle Tan
 *Alexander Peters – Gitarre, Mandoline, Waldzither*
 [/col]
 [col]
-![Duo Suchanek & Peters](duo-suchanek-peters.jpg)
+![Duo Suchanek & Peters](media://bands/duo-suchanek-peters.jpg)
 [/col]
 [/split]
 
@@ -126,7 +127,7 @@ Die Neu-Interpretation des Duos kombiniert dabei eine durchaus traditionelle Tan
 
 [split]
 [col]
-![Richard](richard.jpg)
+![Richard](media://bands/richard-2.jpg)
 [/col]
 [col]
 Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.

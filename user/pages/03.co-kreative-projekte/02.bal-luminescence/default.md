@@ -1,4 +1,5 @@
 ---
+cover: media://bands/gribouille.jpg
 title: 'Bal Luminescence'
 body_classes: title-center
 template: event
@@ -74,13 +75,13 @@ Mit dabei sind unter anderem:
 **ORAJ** – ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns mit in eine Trance und bringt uns leuchtend zurück auf die Erde.
 [/col]
 [col]
-![ORAJ](oraj.jpg)
+![ORAJ](media://bands/oraj.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Viadeyra](viadeyra.jpg)
+![Viadeyra](media://bands/viadeyra.jpg)
 [/col]
 [col]
 **Viadeyra** ist eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
@@ -99,13 +100,13 @@ Mit dabei sind unter anderem:
 **SolDo** – ein Schweizer Duo, das aus zwei Organetti wunderschöne Musik zaubert und zur Lust am Leben, zur Hingabe und zur Begegnung einlädt.
 [/col]
 [col]
-![SolDo](soldo.jpg)
+![SolDo](media://bands/soldo.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Gribouille](gribouille.jpg)
+![Gribouille](media://bands/gribouille.jpg)
 [/col]
 [col]
 **Gribouille** – Olivier entführt mit charmanten und energetischen Liedern, mit seiner Gitarre und Gesang in die französische Bal Folk Welt.

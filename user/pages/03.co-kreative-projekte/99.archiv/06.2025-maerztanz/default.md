@@ -1,4 +1,5 @@
 ---
+cover: media://bands/clarabal.jpg
 title: '2025 MärzTanz Festival'
 template: event
 body_classes: title-center
@@ -27,7 +28,7 @@ Freitag ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch 
 
 [split]
 [col]
-![CLARABAL](mt25-clarabal.jpg)
+![CLARABAL](media://bands/clarabal-2.jpg)
 [/col]
 [col]
 Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLARASCHEIN und Jacob Meussling kreieren mit der Mischung aus tanzbaren Eigenkompositionen und altbekannten Melodien eine musikalische Reise von melancholischen Mazurken bis hin zur fetzigen Polka.
@@ -47,7 +48,7 @@ Pop, Jazz und Klassik mischen bei diesem Bal beim Folk ordentlich mit.
 Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
 [/col]
 [col]
-![Richard](mt25-richard.jpg)
+![Richard](media://bands/richard.jpg)
 [/col]
 [/split]
 
@@ -55,7 +56,7 @@ Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diato
 
 [split]
 [col]
-![Feather and Fox](mt25-feather.jpg)
+![Feather and Fox](media://bands/feather-and-fox.jpg)
 [/col]
 [col]
 Feather and Fox ist ein belgisch-deutsches Cello und Mandolinenduo. Christiane und Victor lernten sich in einem Berliner Sommer am Spreeufer kennen und reisen seitdem mit ihrer einfühlsamen Musik durch die Balfolkszene Europas. Von Beginn an spielt das Duo für Tänzer:innen und lässt sich von deren Energie inspirieren. Verspielt und feinfühlig erkunden sie die Klangmöglichkeiten im Zusammenspiel der zwölf Saiten ihrer Instrumente und kreieren damit einen einzigartigen Klang, zugleich federleicht und energiegetrieben.
@@ -77,7 +78,7 @@ Hilde Van Belle schreibt kleine flämische Lieder für ein lauschendes und tanze
 *Yassine – Nyckelharpa*
 [/col]
 [col]
-![Hilde und Syn](mt25-hilde-syn.jpg)
+![Hilde und Syn](media://bands/hilde-und-syn.jpg)
 [/col]
 [/split]
 
@@ -92,7 +93,7 @@ Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahle
 
 [split]
 [col]
-![TriOblique](mt25-trioblique.png)
+![TriOblique](media://bands/trioblique.png)
 [/col]
 [col]
 Diese drei Musiker bringen die Welt zum Tanzen. TriOblique kombiniert Gitarre, irische Bouzouki, irische Flöten und Uillean Pipe. Ihre Musik führt sie auf verschlungenen Pfaden von einem Stil zum nächsten, von Genua nach Irland, vom Funk zur traditionellen Musik aus der Hochbretagne. Sie kombinieren zartes Fingerpicking mit rockigen Akkorden und experimentieren mit verschiedenen Instrumenten und Gesangsstilen. Das Ziel der Band ist es, die Körper der Zuhörer zum Tanzen zu bringen, sei es zu einer schlichten Mazurka oder zu wilden Tänzen wie dem Kost Ar Choat.
@@ -117,7 +118,7 @@ Wunderbar sanfte Melodien lassen uns durch den Sonntag Mittag schweben.
 [Website](https://www.marinalazar.com/)
 [/col]
 [col]
-![Marina Lazar](mt25-marina.jpg)
+![Marina Lazar](media://bands/marina-lazar.jpg)
 [/col]
 [/split]
 
@@ -125,7 +126,7 @@ Wunderbar sanfte Melodien lassen uns durch den Sonntag Mittag schweben.
 
 [split]
 [col]
-![Uwe & Uli](mt25-uwe-uli.jpg)
+![Uwe & Uli](media://bands/uwe-uli.jpg)
 [/col]
 [col]
 Uwe spielt seit vielen Jahren chromatisches Akkordeon. Recht früh hat er seine Liebe zur Musik vom Balkan entdeckt. Immer wieder zieht es ihn nach Bulgarien, um dort von Musikern und Tänzern in die Feinigkeiten dieser Tradition eingeweiht zu werden.
@@ -148,7 +149,7 @@ La Galavarde ist ein Trio aus Grenoble mit fröhlicher Energie, das seine Inspir
 [Linktree](https://linktr.ee/lagalavarde)
 [/col]
 [col]
-![La Galavarde](mt25-galavarde.jpg)
+![La Galavarde](media://bands/la-galavarde.jpg)
 [/col]
 [/split]
 
@@ -226,7 +227,7 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 [split]
 [col]
-![Essen](mt25-essen.jpg)
+![Essen](media://projekte/essen-buffet.jpg)
 [/col]
 [col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet 17:30 – 20:00 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)

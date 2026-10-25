@@ -1,4 +1,5 @@
 ---
+cover: media://bands/selma-und-anne.jpg
 title: '2026 MärzTanz Festival'
 template: event
 body_classes: title-center
@@ -12,7 +13,7 @@ event:
 
 ### 12.-15. März 2026
 
-![Banner](mt26-banner.png)
+![Banner](media://projekte/maerztanz-banner-2026.png)
 
 Das Festival beginnt am Donnerstag, 12.3., ab 16 Uhr und endet Sonntag, 15.03., gegen 16 Uhr
 
@@ -26,7 +27,7 @@ Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Wor
 
 [split]
 [col]
-![Fyndus](mt26-fyndus.jpg)
+![Fyndus](media://bands/fyndus-2.jpg)
 [/col]
 [col]
 Willkommen in der wunderbaren Welt von Fyndus, einem neuen Folk-Duo mit Emma Coopman und Thomas Hoste.
@@ -55,7 +56,7 @@ Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspi
 [Website](https://bargainatt.wixsite.com/bargainatt)
 [/col]
 [col]
-![Bargainatt](mt26-bargainatt.jpg)
+![Bargainatt](media://bands/bargainatt.jpg)
 [/col]
 [/split]
 
@@ -63,7 +64,7 @@ Die Musiker lassen sich von den Tänzen verschiedener Regionen Frankreichs inspi
 
 [split]
 [col]
-![Triaz](mt26-triaz.jpg)
+![Triaz](media://bands/triaz-3.jpg)
 [/col]
 [col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
@@ -85,7 +86,7 @@ Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diato
 [Website](http://www.sturmfalken.de/richard/)
 [/col]
 [col]
-![Richard](mt26-richard.jpg)
+![Richard](media://bands/richard.jpg)
 [/col]
 [/split]
 
@@ -93,7 +94,7 @@ Richard ist ein junger Musiker aus Chemnitz und spielt chromatisches sowie diato
 
 [split]
 [col]
-![Selma und Anne](mt26-anne-selma.jpg)
+![Selma und Anne](media://bands/selma-und-anne.jpg)
 [/col]
 [col]
 Mal ruhig & innig, mal lebhaft & verspielt. Sie spielen bezaubernde Musik – traditionelles aus Frankreich und Schweden, gemischt mit modernen Liedern und Eigenkompositionen.
@@ -115,7 +116,7 @@ Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigene
 [Website](https://gabrielchiapello.fr/duo-nello)
 [/col]
 [col]
-![Duo Nello](mt26-nello.jpg)
+![Duo Nello](media://bands/duo-nello.jpg)
 [/col]
 [/split]
 
@@ -123,7 +124,7 @@ Ihr Repertoire, vorrangig aus der traditionellen Musik, lässt mit vielen eigene
 
 [split]
 [col]
-![Duo Giusto](mt26-giusto.jpg)
+![Duo Giusto](media://bands/duo-giusto.jpg)
 [/col]
 [col]
 Ronja und Sofia haben sich im Februar 2025 durch eine Balfolk-Duo-Lotterie in Halle gefunden. Sie wurden durch einen sehr glücklichen Zufall einander zugewiesen und musizieren seitdem fröhlich zusammen in verschiedenen Projekten.
@@ -149,7 +150,7 @@ Die Musik von Lottes Flausen lässt sich gern inspirieren von: Balfolk, Klezmer,
 [Youtube](https://www.youtube.com/@lottesflausen4406)
 [/col]
 [col]
-![Lottes Flausen](mt26-flausen.jpg)
+![Lottes Flausen](media://bands/lottes-flausen.jpg)
 [/col]
 [/split]
 
@@ -157,7 +158,7 @@ Die Musik von Lottes Flausen lässt sich gern inspirieren von: Balfolk, Klezmer,
 
 [split]
 [col]
-![Xenia](mt26-xenia.jpg)
+![Xenia](media://bands/xenia-2.jpg)
 [/col]
 [col]
 In meinem Solo-Programm 'Baltics meet Balfolk' lade ich zu einem unikalen und träumerischen Balfolk-Erlebnis zum Tanzen und Zuhören ein.
@@ -182,7 +183,7 @@ Groovige Tanzstücke begegnen Balladen voller Sehnsucht, barocke Einflüsse auf 
 [Website](https://www.silja-music.de/)
 [/col]
 [col]
-![Silja](mt26-silja.jpg)
+![Silja](media://bands/silja.jpg)
 [/col]
 [/split]
 

@@ -1,4 +1,7 @@
 {% set image = page.media.images|first %}
+{% if page.header.cover %}
+    {% set image = media[page.header.cover] ?? image %}
+{% endif %}
 {% set event = page.header.event %}
 <a class="projekt-card" href="{{ page.url }}">
     {% if image %}

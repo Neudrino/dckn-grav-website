@@ -92,8 +92,8 @@ jobs:
       - name: Install plugins and dependencies on Netcup
         if: ${{ inputs.dry_run != true }}
         run: |
-          scp install-plugins.sh netcup:.grav-deploy/
-          ssh netcup "export PATH=\$HOME/.grav-deploy/bin:\$PATH GRAV_ROOT='$REMOTE_PATH'; bash ~/.grav-deploy/install-plugins.sh"
+          scp provision-plugins.sh netcup:.grav-deploy/
+          ssh netcup "export PATH=\$HOME/.grav-deploy/bin:\$PATH GRAV_ROOT='$REMOTE_PATH'; bash ~/.grav-deploy/provision-plugins.sh"
 
       - name: Ensure Grav admin account on Netcup
         if: ${{ inputs.dry_run != true }}
@@ -105,9 +105,9 @@ jobs:
           : "${ADMIN_USERNAME:?secret ADMIN_USERNAME is not configured}" \
             "${ADMIN_PASSWORD:?secret ADMIN_PASSWORD is not configured}" \
             "${ADMIN_EMAIL:?secret ADMIN_EMAIL is not configured}"
-          scp ensure-admin.sh netcup:.grav-deploy/
+          scp provision-admin.sh netcup:.grav-deploy/
           printf '%s\n%s\n%s\n' "$ADMIN_USERNAME" "$ADMIN_PASSWORD" "$ADMIN_EMAIL" \
-            | ssh netcup "GRAV_ROOT='$REMOTE_PATH' bash ~/.grav-deploy/ensure-admin.sh"
+            | ssh netcup "GRAV_ROOT='$REMOTE_PATH' bash ~/.grav-deploy/provision-admin.sh"
 
       - name: Provision plugin secrets on Netcup
         if: ${{ inputs.dry_run != true }}
@@ -133,4 +133,7 @@ jobs:
             printf 'SMTP_PASSWORD=%s\n' "$SMTP_PASSWORD"
             printf 'SMTP_FROM_EMAIL=%s\n' "$SMTP_FROM_EMAIL"
             if [ -n "$SMTP_FROM_NAME" ]; then printf 'SMTP_FROM_NAME=%s\n' "$SMTP_FROM_NAME"; fi
+            # Option 1 (Trusted Host for Email Links): pin absolute URLs to the
+            # canonical host — derived from the deploy target path's domain.
+            printf 'CUSTOM_BASE_URL=%s\n' "https://${REMOTE_PATH##*/}"
           } | ssh netcup "GRAV_ROOT='$REMOTE_PATH' bash ~/.grav-deploy/provision-secrets.sh"

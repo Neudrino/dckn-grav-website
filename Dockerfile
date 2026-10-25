@@ -6,9 +6,9 @@
 FROM lscr.io/linuxserver/grav:latest AS builder
 RUN rm -rf /app/www/public/user/pages/02.typography
 COPY user/ /app/www/public/user/
-COPY install-plugins.sh /tmp/install-plugins.sh
-RUN chmod +x /tmp/install-plugins.sh && \
-    GRAV_ROOT=/app/www/public /tmp/install-plugins.sh
+COPY provision-plugins.sh /tmp/provision-plugins.sh
+RUN chmod +x /tmp/provision-plugins.sh && \
+    GRAV_ROOT=/app/www/public /tmp/provision-plugins.sh
 
 # Stage 2: Final image — runtime init-grav-config/run moves user/ to /config/www/user/
 FROM lscr.io/linuxserver/grav:latest AS final

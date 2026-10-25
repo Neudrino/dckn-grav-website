@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# ensure-admin.sh — Create/update the Grav admin account on the server
+# provision-admin.sh — Create/update the Grav admin account on the server
 #
 # Runs ON the Netcup server (the deploy workflow scps this file to
 # ~/.grav-deploy/ first). Not for local execution.
@@ -29,12 +29,12 @@ read -r ADMIN_PASSWORD
 read -r ADMIN_EMAIL
 
 [ -n "$ADMIN_USERNAME" ] && [ -n "$ADMIN_PASSWORD" ] && [ -n "$ADMIN_EMAIL" ] \
-  || { echo "::error::ensure-admin: missing credentials on stdin"; exit 1; }
+  || { echo "::error::provision-admin: missing credentials on stdin"; exit 1; }
 
 export ADMIN_USERNAME ADMIN_PASSWORD ADMIN_EMAIL
 
 if ! [[ "$ADMIN_USERNAME" =~ ^[a-z0-9._-]{2,64}$ ]]; then
-  echo "::error::ensure-admin: ADMIN_USERNAME must match [a-z0-9._-]{2,64}"
+  echo "::error::provision-admin: ADMIN_USERNAME must match [a-z0-9._-]{2,64}"
   exit 1
 fi
 
@@ -52,7 +52,7 @@ if [ -f "$ACCOUNT" ]; then
 
     $data = \Symfony\Component\Yaml\Yaml::parseFile($account);
     if (!is_array($data)) {
-        fwrite(STDERR, "ensure-admin: account is not a YAML map\n");
+        fwrite(STDERR, "provision-admin: account is not a YAML map\n");
         exit(1);
     }
 

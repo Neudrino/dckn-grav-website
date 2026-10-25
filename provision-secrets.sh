@@ -129,5 +129,8 @@ if ($changed) {
 ' "${GRAV_ROOT}/vendor/autoload.php" "${GRAV_ROOT}"
 
 if [ -f "${GRAV_ROOT}/bin/grav" ]; then
-  (cd "${GRAV_ROOT}" && yes 2>/dev/null | bin/grav clearcache 2>&1 | tail -1)
+  # Non-fatal: Grav also invalidates caches by file mtime, so even a failed
+  # clear leaves the provisioned config effective on the next request.
+  (cd "${GRAV_ROOT}" && bin/grav clearcache --no-interaction 2>&1 | tail -1) \
+    || echo "::warning::provision-secrets: cache clear failed; config still picked up by cache mtime check"
 fi

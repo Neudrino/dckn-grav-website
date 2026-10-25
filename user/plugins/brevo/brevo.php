@@ -117,39 +117,42 @@ class BrevoPlugin extends Plugin
             $payload['attributes'] = $attributes;
         }
 
-        if ($doiEnabled && $doiTemplateId !== '') {
+        if ($doiEnabled) {
+            // DOI is an all-or-nothing mode: both values are required, and a
+            // misconfigured site must not silently fall back to single opt-in
+            // (that would subscribe contacts without a confirmed consent).
+            if ($doiTemplateId === '' || $doiRedirectionUrl === '') {
+                $missing = $doiTemplateId === '' ? 'doi.template_id' : 'doi.redirection_url';
+                $this->grav['log']->error("Brevo plugin: {$missing} is not configured — the Brevo API requires it when double opt-in is enabled. Subscription aborted.");
+                $form->status  = 'error';
+                $form->message = 'Subscription failed. Please try again.';
+                $event->stopPropagation();
+                return;
+            }
             $endpoint = 'contacts/doubleOptinConfirmation';
             $payload  = [
                 'email'          => $email,
                 'attributes'     => $attributes,
                 'includeListIds' => $listIds,
                 'templateId'     => (int) $doiTemplateId,
+                'redirectionUrl' => $doiRedirectionUrl,
             ];
-
-            if ($doiRedirectionUrl !== '') {
-                $payload['redirectionUrl'] = $doiRedirectionUrl;
-            }
-        } elseif ($doiEnabled) {
-            $this->grav['log']->error('Brevo plugin: doi.template_id is not configured, falling back to single opt-in.');
+        } else {
+            $endpoint = 'contacts';
         }
 
         $result = $this->callBrevoApi($apiKey, $payload, $endpoint);
 
-        if ($result !== false && $endpoint === 'contacts/doubleOptinConfirmation') {
-            $this->grav['log']->info('Brevo plugin: DOI confirmation requested (template ' . $doiTemplateId . ').');
-        }
-
-        // Note: $form->status and $form->message are set here for forward compatibility.
-        // As of Grav Form plugin v9, these values are not included in the JSON response
-        // for custom process actions — the response is always {}. They may be used in
-        // future Form plugin versions or by xhr_submit: true implementations.
         if ($result === false) {
             $this->grav['log']->error('Brevo plugin: API call failed.');
             $form->status  = 'error';
             $form->message = 'Subscription failed. Please try again.';
             $event->stopPropagation();
         } else {
-            $form->status  = 'success';
+            if ($endpoint === 'contacts/doubleOptinConfirmation') {
+                $this->grav['log']->info('Brevo plugin: DOI confirmation requested (template ' . $doiTemplateId . ').');
+            }
+            $form->status = 'success';
         }
     }
 

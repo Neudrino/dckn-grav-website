@@ -54,7 +54,7 @@ doi:
   redirection_url: 'https://example.com/newsletter/confirmed'
 ```
 
-`redirection_url` is optional. If `doi.enabled` is `true` but `template_id` is empty, the plugin logs an error and falls back to single opt-in so the form keeps working.
+Both `template_id` and `redirection_url` are **required** when `doi.enabled` is `true` — the Brevo API rejects the DOI call without a redirection URL, and a misconfigured site must not silently fall back to single opt-in (that would subscribe contacts without a confirmed consent). When either value is missing, the plugin logs an error and fails the form submission.
 
 ## Usage
 

@@ -116,6 +116,9 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_DEFAULT_LIST_ID: ${{ vars.BREVO_DEFAULT_LIST_ID }}
+          BREVO_DOI_ENABLED: ${{ vars.BREVO_DOI_ENABLED }}
+          BREVO_DOI_TEMPLATE_ID: ${{ vars.BREVO_DOI_TEMPLATE_ID }}
+          BREVO_DOI_REDIRECTION_URL: ${{ vars.BREVO_DOI_REDIRECTION_URL }}
           SMTP_SERVER: ${{ vars.SMTP_SERVER }}
           SMTP_PORT: ${{ vars.SMTP_PORT }}
           SMTP_ENCRYPTION: ${{ vars.SMTP_ENCRYPTION }}
@@ -129,6 +132,9 @@ jobs:
           {
             printf 'BREVO_API_KEY=%s\n' "$BREVO_API_KEY"
             printf 'BREVO_DEFAULT_LIST_ID=%s\n' "$BREVO_DEFAULT_LIST_ID"
+            printf 'BREVO_DOI_ENABLED=%s\n' "$BREVO_DOI_ENABLED"
+            printf 'BREVO_DOI_TEMPLATE_ID=%s\n' "$BREVO_DOI_TEMPLATE_ID"
+            if [ -n "$BREVO_DOI_REDIRECTION_URL" ]; then printf 'BREVO_DOI_REDIRECTION_URL=%s\n' "$BREVO_DOI_REDIRECTION_URL"; fi
             printf 'SMTP_SERVER=%s\n' "$SMTP_SERVER"
             printf 'SMTP_PORT=%s\n' "$SMTP_PORT"
             printf 'SMTP_ENCRYPTION=%s\n' "$SMTP_ENCRYPTION"

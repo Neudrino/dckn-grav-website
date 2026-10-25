@@ -91,6 +91,13 @@ form:
       type: signature
       xss_check: false
 
+    - name: captcha
+      type: captcha
+      provider: cap
+      mode: invisible
+    - name: honeypot
+      type: honeypot
+
   buttons:
     - type: submit
       value: Senden

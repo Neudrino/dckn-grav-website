@@ -1,5 +1,5 @@
 #
-# install-plugins.sh — Install plugins and composer dependencies
+# provision-plugins.sh — Install plugins and composer dependencies
 #
 # The linuxserver/grav image already bundles quark2 theme + plugins.
 # This script only installs the missing plugins (brevo) via GPM and

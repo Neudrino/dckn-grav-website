@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# provision-secrets.sh — Write plugin secrets into Grav config on the server
+# provision-secrets.sh — Write deployment-provided values into Grav config
 #
 # Runs ON the Netcup server (the deploy workflow scps this file to
 # ~/.grav-deploy/ first). Not for local execution.
@@ -11,19 +11,22 @@
 # so adding a secret in GitHub and re-deploying provisions it, removing it
 # deprovisions nothing by accident.
 #
-#   BREVO_API_KEY           -> user/config/plugins/brevo.yaml  api_key
-#   BREVO_DEFAULT_LIST_ID   -> user/config/plugins/brevo.yaml  default_list_id
-#   SMTP_FROM_EMAIL         -> user/config/plugins/email.yaml  from
-#   SMTP_SERVER             -> user/config/plugins/email.yaml  mailer.smtp.server
-#   SMTP_PORT               -> user/config/plugins/email.yaml  mailer.smtp.port
-#   SMTP_ENCRYPTION         -> user/config/plugins/email.yaml  mailer.smtp.encryption
-#   SMTP_USERNAME           -> user/config/plugins/email.yaml  mailer.smtp.user
-#   SMTP_PASSWORD           -> user/config/plugins/email.yaml  mailer.smtp.password
+#   BREVO_API_KEY           -> plugins/brevo.yaml  api_key
+#   BREVO_DEFAULT_LIST_ID   -> plugins/brevo.yaml  default_list_id
+#   SMTP_FROM_EMAIL         -> plugins/email.yaml  from
+#   SMTP_SERVER             -> plugins/email.yaml  mailer.smtp.server
+#   SMTP_PORT               -> plugins/email.yaml  mailer.smtp.port
+#   SMTP_ENCRYPTION         -> plugins/email.yaml  mailer.smtp.encryption
+#   SMTP_USERNAME           -> plugins/email.yaml  mailer.smtp.user
+#   SMTP_PASSWORD           -> plugins/email.yaml  mailer.smtp.password
+#   CUSTOM_BASE_URL         -> system.yaml         custom_base_url
 #
-#   Non-secret keys already present on the server (e.g. email.yaml `to:`,
-#   `debug:`) are preserved. Written files get mode 600; the Grav cache is
-#   cleared when something changed. A missing BREVO_API_KEY only warns —
-#   the deploy continues without the newsletter plugin working.
+# Config paths are relative to `user/config/`. Non-secret keys already
+# present on the server (e.g. email.yaml `to:`, `debug:`, system.yaml
+# home/theme) are preserved. Plugin config files with secrets get mode
+# 600; system.yaml keeps its existing permissions. The Grav cache is
+# cleared when something changed. A missing BREVO_API_KEY only warns —
+# the deploy continues without the newsletter plugin working.
 #
 # Environment variables:
 #   GRAV_ROOT — Grav document root on the server (required)
@@ -58,21 +61,19 @@ require $argv[1];
 use Symfony\Component\Yaml\Yaml;
 
 $map = [
-    "BREVO_API_KEY"         => ["brevo.yaml", ["api_key"]],
-    "BREVO_DEFAULT_LIST_ID" => ["brevo.yaml", ["default_list_id"]],
-    "SMTP_FROM_EMAIL"       => ["email.yaml", ["from"]],
-    "SMTP_FROM_NAME"        => ["email.yaml", ["from_name"]],
-    "SMTP_SERVER"           => ["email.yaml", ["mailer", "smtp", "server"]],
-    "SMTP_PORT"             => ["email.yaml", ["mailer", "smtp", "port"]],
-    "SMTP_ENCRYPTION"       => ["email.yaml", ["mailer", "smtp", "encryption"]],
-    "SMTP_USERNAME"         => ["email.yaml", ["mailer", "smtp", "user"]],
-    "SMTP_PASSWORD"         => ["email.yaml", ["mailer", "smtp", "password"]],
+    "BREVO_API_KEY"         => ["plugins/brevo.yaml", ["api_key"]],
+    "BREVO_DEFAULT_LIST_ID" => ["plugins/brevo.yaml", ["default_list_id"]],
+    "SMTP_FROM_EMAIL"       => ["plugins/email.yaml", ["from"]],
+    "SMTP_FROM_NAME"        => ["plugins/email.yaml", ["from_name"]],
+    "SMTP_SERVER"           => ["plugins/email.yaml", ["mailer", "smtp", "server"]],
+    "SMTP_PORT"             => ["plugins/email.yaml", ["mailer", "smtp", "port"]],
+    "SMTP_ENCRYPTION"       => ["plugins/email.yaml", ["mailer", "smtp", "encryption"]],
+    "SMTP_USERNAME"         => ["plugins/email.yaml", ["mailer", "smtp", "user"]],
+    "SMTP_PASSWORD"         => ["plugins/email.yaml", ["mailer", "smtp", "password"]],
+    "CUSTOM_BASE_URL"       => ["system.yaml", ["custom_base_url"]],
 ];
 
-$pluginsDir = $argv[2] . "/user/config/plugins";
-if (!is_dir($pluginsDir)) {
-    mkdir($pluginsDir, 0700, true);
-}
+$configDir = $argv[2] . "/user/config";
 
 $byFile = [];
 foreach ($map as $key => [$file, $path]) {
@@ -89,14 +90,17 @@ foreach ($map as $key => [$file, $path]) {
 foreach (["SMTP_SERVER", "SMTP_USERNAME", "SMTP_PASSWORD"] as $k) {
     $v = getenv($k);
     if ($v !== false && $v !== "") {
-        $byFile["email.yaml"][] = [["mailer", "engine"], "smtp"];
+        $byFile["plugins/email.yaml"][] = [["mailer", "engine"], "smtp"];
         break;
     }
 }
 
 $changed = [];
 foreach ($byFile as $file => $updates) {
-    $target = "$pluginsDir/$file";
+    $target = "$configDir/$file";
+    if (!is_dir(dirname($target))) {
+        mkdir(dirname($target), 0700, true);
+    }
     $data = [];
     if (is_file($target)) {
         try {
@@ -127,7 +131,11 @@ foreach ($byFile as $file => $updates) {
         exit(1);
     }
     echo "provision-secrets: wrote $target (" . $written . " bytes)\n";
-    @chmod($target, 0600);
+    // Mode 600 is for secret-bearing plugin configs only; shared files
+    // like system.yaml keep their existing permissions.
+    if (str_starts_with($file, "plugins/")) {
+        @chmod($target, 0600);
+    }
     $changed[] = $file;
 }
 

@@ -1,12 +1,14 @@
 name: Deploy to Netcup
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run"
         type: boolean
-        default: true
+        default: false
 
 concurrency:
   group: deploy-netcup

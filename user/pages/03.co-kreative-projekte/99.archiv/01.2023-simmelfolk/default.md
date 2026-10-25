@@ -1,4 +1,5 @@
 ---
+cover: media://bands/bal-de-laube.jpg
 title: '2023 SimmelFolk Programm und Bands'
 template: event
 body_classes: title-center
@@ -33,7 +34,7 @@ Die Turnhalle und der Campingplatz müssen bis Sonntag 12 Uhr geräumt sein. Die
 
 [split]
 [col]
-![Bal de L'Aube](bal-de-laube.jpg)
+![Bal de L'Aube](media://bands/bal-de-laube.jpg)
 [/col]
 [col]
 "… Duo tout terrain habitué des bals sauvages* vous emmène danser jusqu'au bout de la nuit!"
@@ -69,7 +70,7 @@ Bodo Meißner – Bodhran, Tanzmeister
 Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
 [/col]
 [col]
-![BassdScho!](bassdscho.jpg)
+![BassdScho!](media://bands/bassdscho.jpg)
 [/col]
 [/split]
 
@@ -77,7 +78,7 @@ Mirko Sutter – Dudelsack, Flöten, Clarinettino, Gesang, Percussion
 
 [split]
 [col]
-![Duo Bothe Molzahn](duo-bothe.jpg)
+![Duo Bothe Molzahn](media://bands/duo-bothe-molzahn.jpg)
 [/col]
 [col]
 … das sind zwei Folkbegeisterte, die an moderner Spielweise, rhythmischen Akzenten und Improvisation sichtlich ihre Freude haben. So erklingen ihre Stücke nie genau so, wie beim Bal zuvor, sie sind immer etwas einmalig… denn die Intuition des Augenblicks bestimmt ihr intensives Zusammenspiel!
@@ -105,7 +106,7 @@ Simon Laffineur (B) – Gitarre
 - [Firelight (Youtube)](https://youtu.be/i-FZtMTzyzs)
 [/col]
 [col]
-![Emily and the Simons](emily-simons.jpg)
+![Emily and the Simons](media://bands/emily-and-the-simons.jpg)
 [/col]
 [/split]
 
@@ -113,7 +114,7 @@ Simon Laffineur (B) – Gitarre
 
 [split]
 [col]
-![L'Air Inconnu](lair-inconnu.jpg)
+![L'Air Inconnu](media://bands/lair-inconnu.jpg)
 [/col]
 [col]
 … ist ein künstlerisches und kreatives Musik Trio, das sowohl den aktuellen Balfolk bedient, als auch neugierige Ohren und wilde Tiere wie Pflanzen gleichermaßen zum Tanzen bringt.
@@ -146,7 +147,7 @@ Benedikt Willberg – Perkussion
 - [5 Minutenwalzer (Youtube)](https://www.youtube.com/watch?v=1RV1GOJvPVY)
 [/col]
 [col]
-![Lunesk](luesk.jpg)
+![Lunesk](media://bands/lunesk-2.jpg)
 [/col]
 [/split]
 
@@ -154,7 +155,7 @@ Benedikt Willberg – Perkussion
 
 [split]
 [col]
-![Luca Fiorini](luca-fiorini.jpg)
+![Luca Fiorini](media://bands/luca-fiorini.jpg)
 [/col]
 [col]
 Luca und sein Akkordeon: sie tanzen miteinander, mal zart und leise, langsam und romantisch, mal im crescendo, laut und dynamisch, immer leidenschaftlich und ja- mit Herz. Durch ihre Melodien, traditionelle und eigene Kompositionen, öffnet sich das Tor in ihre Welt, die Welt der Musik, und wir können diese authentische Priese italienischer Emotion und Lebensfreude kosten.

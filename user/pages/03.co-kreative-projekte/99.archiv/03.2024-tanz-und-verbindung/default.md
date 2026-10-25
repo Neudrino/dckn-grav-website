@@ -1,4 +1,5 @@
 ---
+cover: media://projekte/ballhaus-lindenhof.jpg
 title: '2024 Tanz und Verbindung'
 template: event
 body_classes: title-center
@@ -46,7 +47,7 @@ Der genaue Workshopplan wird vor Ort festgelegt.
 
 [split]
 [col]
-![Mantra](tuv24-mantra.jpg)
+![Mantra](media://bands/mantra.jpg)
 [/col]
 [col]
 Gemeinsam mit euch wollen wir in die Welt der Mantren und Herzenslieder eintauchen.
@@ -68,7 +69,7 @@ Silvia, Thomas und Ulrike
 Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahlen, die voller Wärme und Lebendigkeit zum Bal Folk einladen. Mit Karola Wolff und Thomas Moschcau haben sich in diesem Duo zwei Musiker zusammengetan, die selbst gern tanzen.
 [/col]
 [col]
-![Duo Wolff/Moschcau](tuv24-wolff.jpg)
+![Duo Wolff/Moschcau](media://bands/wolff-moschau.jpg)
 [/col]
 [/split]
 
@@ -76,7 +77,7 @@ Hier treffen sich Geige und diatonisches Akkordeon und lassen Melodien erstrahle
 
 [split]
 [col]
-![Naragonia](tuv24-naragonia.jpg)
+![Naragonia](media://bands/naragonia.jpg)
 [/col]
 [col]
 Die 4 Musiker verzaubern mit ihrer Musik zum Tanzen, Zuhören und Träumen.
@@ -101,7 +102,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 *Flöte, Vocals – Helena*
 [/col]
 [col]
-![Wings & Tales](tuv24-wings.jpg)
+![Wings & Tales](media://bands/wings-and-tales.jpg)
 [/col]
 [/split]
 
@@ -109,7 +110,7 @@ Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfroh
 
 [split]
 [col]
-![Maracu](tuv24-maracu.jpg)
+![Maracu](media://bands/maracu.jpg)
 [/col]
 [col]
 Bal? Folk! aus Leipzig
@@ -139,7 +140,7 @@ Vom Bahnhof sind es 1,2 km zum Ballhaus.
 Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind nur entlang der Straße zu finden oder im Zentrum gibt es noch Stellflächen.
 [/col]
 [col]
-![Ballhaus Lindenhof](tuv24-ballhaus.jpg)
+![Ballhaus Lindenhof](media://projekte/ballhaus-lindenhof.jpg)
 [/col]
 [/split]
 
@@ -147,7 +148,7 @@ Die Parkplätze am Haus sind als Übernachtungsplätze reserviert, weitere sind 
 
 [split]
 [col]
-![Essen](tuv24-essen.jpg)
+![Essen](media://projekte/essen-buffet.jpg)
 [/col]
 [col]
 Freitag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.
@@ -170,7 +171,7 @@ Für die Zelter und "Autoschläfer" werden Außenduschen installiert.
 Im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
 [/col]
 [col]
-![Schlafen](tuv24-schlafen.jpg)
+![Schlafen](media://projekte/schlafen-pension.jpg)
 [/col]
 [/split]
 

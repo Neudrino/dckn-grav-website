@@ -40,6 +40,9 @@
                     {% set projekte = page.find('/co-kreative-projekte') %}
                     {% for child in projekte.children.visible %}
                         {% set image = child.media.images|first %}
+                        {% if child.header.cover %}
+                            {% set image = media[child.header.cover] ?? image %}
+                        {% endif %}
                         {% set event = child.header.event %}
                         <a class="projekt-mini-card" href="{{ child.url }}">
                             {% if image %}

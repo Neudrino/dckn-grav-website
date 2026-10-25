@@ -1,4 +1,5 @@
 ---
+cover: media://bands/angelina-ulli.jpg
 title: '2024 MärzTanz Festival'
 template: event
 body_classes: title-center
@@ -27,7 +28,7 @@ Fr ab 16 Uhr ist dann offiziell Einlass. Wer vorher da ist, darf gern noch mit a
 
 [split]
 [col]
-![Ginkgo](ginkgo.jpg)
+![Ginkgo](media://bands/ginkgo.jpg)
 [/col]
 [col]
 Folkmusik quer durch Europa zum Tanzen und Träumen – aus Dresden
@@ -47,7 +48,7 @@ Wir lieben es, Neues auszuprobieren und traditionelle Melodien mit kreativen Ide
 Richard ist junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisches Akkordeon. In der Folk-Szene groß geworden, entwickelt er ständig neue Leidenschaften für unterschiedliche Musikrichtungen. Inspirationen liefern von Naragonia bis Astor Piazolla verschiedenste Musiker und Bands aus Europa und der Welt.
 [/col]
 [col]
-![Richard](richard.jpg)
+![Richard](media://bands/richard.jpg)
 [/col]
 [/split]
 
@@ -55,7 +56,7 @@ Richard ist junger Musiker aus Chemnitz und spielt chromatisches sowie diatonisc
 
 [split]
 [col]
-![Mara & Fine](mara-fine.png)
+![Mara & Fine](media://bands/mara-finara.png)
 [/col]
 [col]
 Ein brandneues Duo aus Leipzig bringt Spaß, Finesse und Groove auf die Tanzböden!
@@ -78,7 +79,7 @@ Das Duo Eins68 aus Kassel spielt liebevoll arrangierten Balfolk mit kleinen fein
 *Rike Callies – Gesang, diatonisches Akkordeon, Toypiano, Blockflöten, Kleinpercussion*
 [/col]
 [col]
-![Eins68](eins68.jpg)
+![Eins68](media://bands/eins68.jpg)
 [/col]
 [/split]
 
@@ -86,7 +87,7 @@ Das Duo Eins68 aus Kassel spielt liebevoll arrangierten Balfolk mit kleinen fein
 
 [split]
 [col]
-![Emily and the Simons](emily-band.jpg)
+![Emily and the Simons](media://bands/emily-and-the-simons-2.jpg)
 [/col]
 [col]
 Emily & the Simons sind ein anglo-belgisches Balfolk-Trio. Im Mittelpunkt ihrer Musik stehen Emilys Kompositionen, die sich von den Begegnungen im Leben und der Energie auf der Tanzfläche inspirieren lassen. Ihr Stil ist sehr ausdrucksstark, voller Improvisation, Leidenschaft, Zärtlichkeit und Verspieltheit. Mit einem breiten Repertoire, das von exquisiten, sinnlichen Mazurken bis zu fröhlichen, treibenden Bourrées reicht, regt ihre Musik die Fantasie an, bewegt die Füße und hebt den Geist.
@@ -104,7 +105,7 @@ Das Duo Bothe & Molzahn (Erlangen, Jena) sorgt mit Spielfreude, Kreativität und
 Mit Andreas Bothe am diatonischen Akkordeon und Percussion sowie Uwe Molzahn an der Violine fanden und ergänzen sich zwei Folkbegeisterte, die beide an moderner Spielweise, rhythmischen Akzenten und Improvisation sichtlich ihre Freude haben. Ihre Stücke klingen daher nie genau so, wie beim Ball zuvor, sind immer ein Stück weit einmalig… denn die Intuition des Augenblicks bestimmt ihr intensives Zusammenspiel weit häufiger als man annehmen mag.
 [/col]
 [col]
-![Duo Bothe/Molzahn](duo-bothe.jpg)
+![Duo Bothe/Molzahn](media://bands/duo-bothe-molzahn.jpg)
 [/col]
 [/split]
 
@@ -114,7 +115,7 @@ Mit Andreas Bothe am diatonischen Akkordeon und Percussion sowie Uwe Molzahn an 
 
 [split]
 [col]
-![Duo Nello](duo-nello.jpg)
+![Duo Nello](media://bands/duo-nello.jpg)
 [/col]
 [col]
 Das Duo Nello, bestehend aus Claire und Gabriel, ist eine Band, die es liebt, zum Tanz zu spielen. Sie sind jung und verzaubern die Zuhörer mit einer breiten Auswahl aus: Gesang, Akkordeon, Dudelsack, irische Whistle, Klarinette, Gitarre…
@@ -135,7 +136,7 @@ Sie haben ein paar seltene Tänze im Programm, u.a. einen Congo de Captieux…
 *Ulrich Möhrke – Akkordeon, Gesang*
 [/col]
 [col]
-![Angelina und Ulli](angelina-ulli.jpg)
+![Angelina und Ulli](media://bands/angelina-ulli.jpg)
 [/col]
 [/split]
 
@@ -174,7 +175,7 @@ Sonntag 12:00-13:00 Uhr
 
 [split]
 [col]
-![Subbotnik](subbotnik.jpg)
+![Subbotnik](media://bands/subbotnik.jpg)
 [/col]
 [col]
 Wir tanzen auf Parkettboden im Saal des Soziokulturellen Zentrums **[Subbotnik e.V.](https://subbotnik-chemnitz.de/)**
@@ -209,7 +210,7 @@ Im Festivalpreis inklusive:
 Mitternachtssnack Fr und Sa
 [/col]
 [col]
-![Essen](essen.jpg)
+![Essen](media://projekte/essen-buffet.jpg)
 [/col]
 [/split]
 

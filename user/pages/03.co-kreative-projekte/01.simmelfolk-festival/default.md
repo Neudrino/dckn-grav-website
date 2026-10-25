@@ -1,4 +1,5 @@
 ---
+cover: media://bands/augustas.jpg
 title: 'Simmelfolk Festival'
 body_classes: title-center
 template: event
@@ -28,13 +29,13 @@ Gemeinsam schaffen wir einen Ort der Gemeinschaft, mit gegenseitigem Respekt und
 Kommt und bringt eure Freunde mit!
 [/col]
 [col]
-![Auf dem Bühl](buehl.jpg)
+![Auf dem Bühl](media://projekte/gelaende-buehl.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Tanzen](tanzen.jpg)
+![Tanzen](media://projekte/tanzen.jpg)
 [/col]
 [col]
 ### Mitmach-Festival
@@ -60,7 +61,7 @@ Egal, ob ihr rund um die Uhr tanzen wollt, oder einfach in Ruhe ausspannen, der 
 Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben zu feiern!
 [/col]
 [col]
-![Lagerfeuer](lagerfeuer.jpg)
+![Lagerfeuer](media://projekte/lagerfeuer.jpg)
 [/col]
 [/split]
 
@@ -74,7 +75,7 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 [split]
 [col]
-![Augustas](augustas.jpg)
+![Augustas](media://bands/augustas.jpg)
 [/col]
 [col]
 Hinter dem Projekt „Rhythmic Connections" steht ein Musiker aus Litauen, der traditionelle Tanzmelodien mit eigenen Balfolk-Kompositionen verbindet. Erste Bühnenerfahrungen sammelte er 2018, seitdem hat sich sein Stil stetig weiterentwickelt – nun ist er solo unterwegs.
@@ -107,7 +108,7 @@ hinter den Parkettdielen öffnet sich eine schimmernde blaue Welt: getragen von 
 - [Youtube](https://www.youtube.com/watch?v=fmHlp4Vv4XU&feature=youtu.be)
 [/col]
 [col]
-![Baluga](baluga.png)
+![Baluga](media://bands/baluga.png)
 [/col]
 [/split]
 
@@ -115,7 +116,7 @@ hinter den Parkettdielen öffnet sich eine schimmernde blaue Welt: getragen von 
 
 [split]
 [col]
-![Duo Neus](duo-neus.png)
+![Duo Neus](media://bands/duo-neus.png)
 [/col]
 [col]
 aka Mara und Torge haben im Frühling 2024 erstmals zusammen gespielt und es war sofort klar, dass es bei dieser Begegnung nicht bleiben konnte. In kürzester Zeit schrieben sie eine Menge Tunes und haben mittlerweile ein vielseitiges Konzertprogramm für einen vollen Balfolk Abend anzubieten.
@@ -148,7 +149,7 @@ Die Klänge atmen, flirren und überraschen – sie kribbeln im Nacken, tragen d
 - [Insta](https://www.instagram.com/duoplodocus/)
 [/col]
 [col]
-![Duo Plodocus](duo-plodocus.jpg)
+![Duo Plodocus](media://bands/duo-plodocus.jpg)
 [/col]
 [/split]
 
@@ -156,7 +157,7 @@ Die Klänge atmen, flirren und überraschen – sie kribbeln im Nacken, tragen d
 
 [split]
 [col]
-![Drehwurm](drehwurm.jpg)
+![Drehwurm](media://bands/drehwurm.jpg)
 [/col]
 [col]
 Wir sind Drehwurm aus Berlin, Lübeck und Erfurt. Uns verbindet nicht nur unsere Nähe zu Dresden, sondern besonders unsere Freude am gemeinsamen Musizieren.
@@ -189,7 +190,7 @@ Wir haben unsere Musik bereits auf vielen (inter)nationalen Bühnen präsentiert
 - [Album](https://fyndus.bandcamp.com/album/re-root-ed)
 [/col]
 [col]
-![Fyndus](fyndus.jpg)
+![Fyndus](media://bands/fyndus.jpg)
 [/col]
 [/split]
 
@@ -197,7 +198,7 @@ Wir haben unsere Musik bereits auf vielen (inter)nationalen Bühnen präsentiert
 
 [split]
 [col]
-![Julien Bohème](julien-boheme.gif)
+![Julien Bohème](media://bands/julien-boheme.gif)
 [/col]
 [col]
 Aus Lausanne in der Schweiz stammend, entdeckte der Künstler bereits im Alter von acht Jahren seine Leidenschaft für die Musik. Erste prägende Erfahrungen sammelte er auf Reisen durch Frankreich, bevor er seinen ursprünglichen Beruf hinter sich ließ und in die Welt des Zirkus eintauchte. Dort arbeitete er zunächst hinter den Kulissen, bis er 2017 selbst den Schritt auf die Bühne wagte. Kurz darauf folgte mit dem Trio Baladins die erste Europatournee im Bal-Folk-Bereich.
@@ -226,7 +227,7 @@ Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite
 - [Youtube](https://youtu.be/T33DDiHX390?si=gIOBoQOCQYRG7ehA)
 [/col]
 [col]
-![Mara Menzel](mara-menzel.png)
+![Mara Menzel](media://bands/mara-menzel.png)
 [/col]
 [/split]
 
@@ -234,7 +235,7 @@ Ich singe in meinem Set meine eigenen Geschichten und Kompositionen und begleite
 
 [split]
 [col]
-![Zéphyr Combo](zephyr-combo.png)
+![Zéphyr Combo](media://bands/zephyr-combo.png)
 [/col]
 [col]
 … kommen diesmal leider nur als Trio – dafür mit Helikon, Strombox, E-Gitarre – und jeder Menge Energie!
@@ -300,7 +301,7 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 
 [split]
 [col]
-![Tanzsaal](saal.jpg)
+![Tanzsaal](media://projekte/saal-buehl.jpg)
 [/col]
 [col]
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
@@ -321,13 +322,13 @@ Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die z
 Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, ca 5 Gehminuten vom Tanzsaal. Hier gibt es Toiletten, Gemeinschaftsduschen, eine Küche, Heizung. Bringt alles mit, um es euch gemütlich zu machen – Isomatten, Decken, Schlafsack etc. Wenn der Innenraum voll ist, kann man auf die Terrasse ausweichen, da kann es frisch sein!
 [/col]
 [col]
-![Schlafsaal](schlafen.jpg)
+![Schlafsaal](media://projekte/schlafen-turnhalle.jpg)
 [/col]
 [/split]
 
 [split]
 [col]
-![Camping](camping.jpg)
+![Camping](media://projekte/camping.jpg)
 [/col]
 [col]
 ### Camping
@@ -373,7 +374,7 @@ Rund um die Uhr gibt es bestes Simmelsdorfer Leitungswasser, Tee und Kaffee ist 
 Lokales fränkisches Bier, Wein, Limo, usw wird von der Brauerei Kanone, Schnaittach, zu günstigen Preisen zur Verfügung gestellt.
 [/col]
 [col]
-![Verpflegung](verpflegung.jpg)
+![Verpflegung](media://projekte/verpflegung.jpg)
 [/col]
 [/split]
 

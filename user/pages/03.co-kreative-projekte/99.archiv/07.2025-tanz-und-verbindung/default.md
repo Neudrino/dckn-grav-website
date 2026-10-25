@@ -1,4 +1,5 @@
 ---
+cover: media://bands/balafenn.jpg
 title: '2025 Tanz und Verbindung'
 template: event
 body_classes: title-center
@@ -36,7 +37,7 @@ Mit dabei sind Triaz, Lunesk, Balafenn, Pabameto, Wings & Tales, Duo FA, Rokkend
 
 [split]
 [col]
-![Triaz](tuv25-triaz.jpg)
+![Triaz](media://bands/triaz.jpg)
 [/col]
 [col]
 David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufälle in der Leipziger Bal Folk Szene begegnet und haben sofort gemerkt, dass sie in der Konstellation ihrer Instrumente die perfekte Grundlage für eine Band bilden. Auf der Suche nach ihrem Sound spielen sie eine Reihe eigener Kompositionen, ergänzt durch traditionelle Tunes und ausgewählte Cover anderer Bal Folk Musiker. Rhythmisch komplex und trotzdem klar, mit viel Power und doch einfühlsam, erschaffen sie ein Klang- und Tanzerlebnis, das auch für sie selbst noch neu ist!
@@ -62,7 +63,7 @@ Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgische
 [Facebook](https://www.facebook.com/LuneskBalfolk)
 [/col]
 [col]
-![Lunesk](tuv25-lunesk.jpg)
+![Lunesk](media://bands/lunesk.jpg)
 [/col]
 [/split]
 
@@ -70,7 +71,7 @@ Die musikalischen Einflüsse des Quintetts reichen vom französischen, belgische
 
 [split]
 [col]
-![BALAFENN](tuv25-balafenn.jpg)
+![BALAFENN](media://bands/balafenn.jpg)
 [/col]
 [col]
 Finest BalFolk Music aus Leipzig/Halle
@@ -102,7 +103,7 @@ Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich
 [Youtube](https://www.youtube.com/watch?v=pn-ORS3DNew)
 [/col]
 [col]
-![Pabameto Quartett](tuv25-pabameto.avif)
+![Pabameto Quartett](media://bands/pabameto-quartett.avif)
 [/col]
 [/split]
 
@@ -110,7 +111,7 @@ Mit Marie Eberle an der Geige und Camila Czempin am Akkordeon spezialisiert sich
 
 [split]
 [col]
-![Wings & Tales](tuv25-wings.jpg)
+![Wings & Tales](media://bands/wings-and-tales.jpg)
 [/col]
 [col]
 Natur, Mehrklang, Tanzparty und Liebe. Unser Balfolk ist eine Reise zu lebenfrohen Melodien, stampfenden Rhythmen, einfühlsamen Texten und dem Zauber der Natur.
@@ -134,7 +135,7 @@ Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit ein
 *Josefine Schlät – Geige*
 [/col]
 [col]
-![Duo FA](tuv25-duo-fa.png)
+![Duo FA](media://bands/duo-fa.png)
 [/col]
 [/split]
 
@@ -142,7 +143,7 @@ Anna und Fine sind an sich keine Newcomerinnen, denn beide rocken schon seit ein
 
 [split]
 [col]
-![Rokkende Vrouwen](tuv25-rokkende.jpg)
+![Rokkende Vrouwen](media://bands/rokkende-vrouwen.jpg)
 [/col]
 [col]
 Rokkende Vrouwen is a folk duo consisting of pianist and singer Hilde Van Belle and violinist and singer Lore Vancauwenberghe. Together they take old Flemish and Dutch songs out of the dust and put them in a contemporary jacket with here and there some Scandinavian influences. Expect danceable folk with unforgettable melodies and dreamy tones. Enjoy, dance, and travel through time and space with these ladies. From the 13th century poet Hadewijch to the 19th-century song 'De Weverkens'; the Rokkende Vrouwen get their inspiration from everywhere, and bring their songs in a hip folk version.
@@ -160,7 +161,7 @@ ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldny
 *Mattia – Violine*
 [/col]
 [col]
-![Le Driadi](tuv25-driadi.jpg)
+![Le Driadi](media://bands/le-driadi.jpg)
 [/col]
 [/split]
 
@@ -168,7 +169,7 @@ ist eine italienische Balfolk-Gruppe, die Ende 2023 geboren wurde und wie Waldny
 
 [split]
 [col]
-![Balsam](tuv25-balsam.jpg)
+![Balsam](media://bands/balsam.jpg)
 [/col]
 [col]
 Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer und haben ein Repertoire aus energiegeladenen Chapelloises, verbindenden Hanter-Dros, romantischen Walzern und intimen Mazurken. Balsam komponiert und arrangiert europäische Tanzformen mit Respekt für die Tradition und einem mutig-kreativen Ansatz. Sie kombinieren Tanzmusik mit selbst geschriebener, polnisch gesungener Poesie. Das Ergebnis ist eine subtile, emotionale und herzerwärmende Reise für Tänzer und Zuhörer. Im Jahr 2019 veröffentlichte die Gruppe ihr Debütalbum "DO", die erste Balfolk-CD in Polen.
@@ -188,7 +189,7 @@ Balsam ist ein polnisches Balfolk-Trio. Sie spielen allem voran für die Tänzer
 Hilde Van Belle writes little songs in Flemish for both a listening and dancing audience. Prepare yourself for a mix of soft romance and intense craziness, brought with only one voice and a piano.
 [/col]
 [col]
-![Hilde van Belle](tuv25-hilde.jpg)
+![Hilde van Belle](media://bands/hilde-van-belle.jpg)
 [/col]
 [/split]
 
@@ -291,7 +292,7 @@ Sonst sind die beiden im [Herzraum Dresden](https://herzraum-dresden.de/event/li
 
 [split]
 [col]
-![Ballhaus Lindenhof](tuv25-ballhaus.jpg)
+![Ballhaus Lindenhof](media://projekte/ballhaus-lindenhof.jpg)
 [/col]
 [col]
 Wir tanzen im imposanten [Grünen Ballsaal](https://gruenesballhaus.jimdofree.com/gr%C3%BCner-ballsaal/) des
@@ -321,7 +322,7 @@ Für die Zelter und "Autoschläfer" werden Außenduschen (allerdings kalt, maxim
 Wer mehr Komfort möchte: im Zentrum von Waldheim befindet sich in 15 Minuten fußläufiger Entfernung das Hotel Goldener Löwe.
 [/col]
 [col]
-![Unterkunft](tuv25-schlafen.jpg)
+![Unterkunft](media://projekte/schlafen-pension.jpg)
 [/col]
 [/split]
 
@@ -329,7 +330,7 @@ Wer mehr Komfort möchte: im Zentrum von Waldheim befindet sich in 15 Minuten fu
 
 [split]
 [col]
-![Essen](tuv25-essen.jpg)
+![Essen](media://projekte/essen-buffet.jpg)
 [/col]
 [col]
 Mittwoch Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30.

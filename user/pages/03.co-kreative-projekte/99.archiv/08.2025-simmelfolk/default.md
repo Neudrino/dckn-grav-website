@@ -1,4 +1,5 @@
 ---
+cover: media://projekte/bezirk-mittelfranken-logo.png
 title: '2025 SimmelFolk Festival'
 template: event
 body_classes: title-center
@@ -15,13 +16,13 @@ event:
 Das diesjährige Festival wird gefördert von der Kulturförderung des Bezirks Mittelfranken. Im Namen unserer Musiker:innen und aller Teilnehmenden – **Vielen Dank** dafür!
 [/col]
 [col class="split-logo"]
-![Logo Bezirk Mittelfranken](bezirk-mittelfranken-logo.png?width=200)
+![Logo Bezirk Mittelfranken](media://projekte/bezirk-mittelfranken-logo.png?width=200)
 [/col]
 [/split]
 
 [split]
 [col]
-![Auf dem Bühl](sf25-buehl.jpg)
+![Auf dem Bühl](media://projekte/gelaende-buehl.jpg)
 [/col]
 [col]
 ### Liebe Freund:innen, Tänzer:innen, Musiker:innen und deren Freund:innen,
@@ -46,9 +47,9 @@ Jede und jeder ist eingeladen sich mit ihren/seinen Fähigkeiten, Energie und Pr
 Alle Teilnehmenden tragen ein oder zwei kleine "Ämtli", so erschaffen wir ein Balfolk-Festival. Das ist Co-Kreation!
 [/col]
 [col]
-![Tanzen](sf25-tanzen.jpg)
+![Tanzen](media://projekte/tanzen.jpg)
 
-![Lagerfeuer](sf25-lagerfeuer.jpg)
+![Lagerfeuer](media://projekte/lagerfeuer.jpg)
 [/col]
 [/split]
 
@@ -69,9 +70,9 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 [split]
 [col]
-![AKLEJA](sf25-akleja.jpg)
+![AKLEJA](media://bands/akleja-schriftzug.jpg)
 
-![AKLEJA](sf25-akleja2.jpg)
+![AKLEJA](media://bands/akleja.jpg)
 [/col]
 [col]
 erforscht musikalisch, was ihnen am Herzen liegt – Natur, Begegnungen und berührende Augenblicke. Sie spielen instrumentale Folkmusik auf Nyckelharpa, Gitarre und Cittern. Besonders geprägt sind sie von Tanzmusik aus alten Notenbüchern, sowie der Musiktradition Schwedens, dem Heimatland der Nyckelharpa. Mit ihrer Musik gehen sie eigene Wege und erschaffen eine einzigartige Klangwelt voller Lebensfreude und Atmosphäre. Mit ihrem mitreißenden Spiel zeichnen sie klingende Bilder und entreißen ihr Publikum mühelos dem Alltag.
@@ -94,7 +95,7 @@ Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLA
 *Jakob Meussling – Gitarre*
 [/col]
 [col]
-![CLARABAL](sf25-clarabal.jpg)
+![CLARABAL](media://bands/clarabal.jpg)
 [/col]
 [/split]
 
@@ -102,7 +103,7 @@ Das Duo hat seine Wurzeln in Halle und seine Flügel in Berlin und anderswo. CLA
 
 [split]
 [col]
-![Gribouille](sf25-gribouille.jpg)
+![Gribouille](media://bands/gribouille.jpg)
 [/col]
 [col]
 … wer kennt diesen Typ nicht? und seine unglaubliche Gitarre?
@@ -128,7 +129,7 @@ Indigo ist nicht-binär, Indigos Pronomen sind they/them.
 - [youtube](https://youtu.be/4OPQBZ7zN7Q)
 [/col]
 [col]
-![Indigo](sf25-indigo.jpg)
+![Indigo](media://bands/indigo.jpg)
 [/col]
 [/split]
 
@@ -136,7 +137,7 @@ Indigo ist nicht-binär, Indigos Pronomen sind they/them.
 
 [split]
 [col]
-![Le Driadi Trio](sf25-driadi.jpg)
+![Le Driadi Trio](media://bands/le-driadi-trio.jpg)
 [/col]
 [col]
 … ist die Verschmelzung von Poesie und Musikalität der italienischen Singer-Songwriter-Tradition mit den Klängen der Indie-Pop-Szene, die durch lebendige französische Balfolkkultur bereichert wird. Im Mittelpunkt des Projekts steht der neo-traditionelle Balfolk mit einem Repertoire, das sich auf historische französische Tänze konzentriert und von romantischen Mazurkas bis zu dynamischen bretonischen Ketten reicht.
@@ -168,7 +169,7 @@ Unser Universum ist inspiriert von der französischen Neo-Folk-Bewegung, dem fra
 - [letztes Album](https://www.youtube.com/playlist?list=PLr70EvqG7vcwZ_I9ZjDy-63ETxBgGw41a)
 [/col]
 [col]
-![L'Hêtre Heureux](sf25-booking.jpg)
+![L'Hêtre Heureux](media://bands/l-hetre-heureux.jpg)
 [/col]
 [/split]
 
@@ -176,7 +177,7 @@ Unser Universum ist inspiriert von der französischen Neo-Folk-Bewegung, dem fra
 
 [split]
 [col]
-![No&Mi](sf25-nomi.jpg)
+![No&Mi](media://bands/nomi.jpg)
 [/col]
 [col]
 Seit mehr als 10 Jahren reist Noémie mit ihrem unzertrennlichen diatonischen Akkordeon durch die Welt der traditionellen Musik.
@@ -202,7 +203,7 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 - [Homepage](https://triaz-balfolk.de/)
 [/col]
 [col]
-![Triaz](sf25-triaz.jpg)
+![Triaz](media://bands/triaz-2.jpg)
 [/col]
 [/split]
 
@@ -210,7 +211,7 @@ David, Jonathan und Antonin sind sich im Frühjahr 2025 durch glückliche Zufäl
 
 [split]
 [col]
-![Viadeyra](sf25-viadeyra.jpg)
+![Viadeyra](media://bands/viadeyra.jpg)
 [/col]
 [col]
 … ist eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
@@ -240,7 +241,7 @@ Mit der Stimme und dem einzigartigen Klang der Kokle (lettische, traditionelle Z
 - [Insta](https://www.instagram.com/xenia.twarz/)
 [/col]
 [col]
-![Xenia](sf25-xenia.jpg)
+![Xenia](media://bands/xenia.jpg)
 [/col]
 [/split]
 
@@ -263,7 +264,7 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 
 [split]
 [col]
-![Tanzsaal](sf25-saal.jpg)
+![Tanzsaal](media://projekte/saal-buehl.jpg)
 [/col]
 [col]
 Wir tanzen im Gemeindesaal der Kirchgemeinde Mariä Heimsuchung. Es gibt Platz für 100 Tanzende mit gutem Tanzboden. Für die Musiker wird eine Bühne aufgebaut.
@@ -278,7 +279,7 @@ Neben dem Tanzsaal gibt es im Gemeindehaus auch eine ausgestattete Küche, die z
 
 [split]
 [col]
-![Schlafsaal](sf25-schlafen.jpg)
+![Schlafsaal](media://projekte/schlafen-turnhalle.jpg)
 [/col]
 [col]
 **Anreise: Donnerstag ab 15 Uhr**
@@ -293,7 +294,7 @@ Wir dürfen uns im Vereinsheim des SV Achteltal ein Matratzenlager einrichten, c
 **Zelten**
 [split]
 [col]
-![Camping](sf25-camping.jpg)
+![Camping](media://projekte/camping.jpg)
 [/col]
 [col]
 Auf dem Fußballplatz des SV Achteltal dürfen wir zelten. Toiletten und Duschen befinden sich im Gebäude. Bitte keine Autos auf den Rasen und kein offenes Feuer.
@@ -313,7 +314,7 @@ Euren Van / Wohnmobil / Auto könnt ihr oben, direkt neben dem Tanzsaal auf den 
 
 [split]
 [col]
-![Verpflegung](sf25-verpflegung.jpg)
+![Verpflegung](media://projekte/verpflegung.jpg)
 [/col]
 [col]
 Am Donnerstag abend gibt es ein Mitbringbuffet – **_Bitte bringt was fürs gemeinsame Abendessen mit!_**

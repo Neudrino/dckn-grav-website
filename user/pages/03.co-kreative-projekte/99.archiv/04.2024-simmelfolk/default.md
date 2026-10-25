@@ -1,4 +1,5 @@
 ---
+cover: media://bands/canopaix.jpg
 title: '2024 Simmelfolk Programm und Bands'
 template: event
 body_classes: title-center
@@ -12,7 +13,7 @@ event:
 
 [split]
 [col]
-![Logo](sf24-logo.png)
+![Logo](media://projekte/bezirk-mittelfranken-logo.png)
 [/col]
 [col]
 ![Programm 2024](sf24-prog.jpg)
@@ -29,7 +30,7 @@ Vielen Dank dafür!!
 
 [split]
 [col]
-![Canopaix](sf24-canopaix.jpg)
+![Canopaix](media://bands/canopaix.jpg)
 [/col]
 [col]
 Ein Atemzug, ein Schritt, ein Tanz, eine Bindung, die entsteht, ein Funke, der das Herz erleuchtet.
@@ -51,7 +52,7 @@ Tao Dumur (F), diatonisches Akkordeon
 - [Youtube](https://youtu.be/oBIPW4SPaUs?si=p8YZ94RPxsonAv-o)
 [/col]
 [col]
-![DiaTao](sf24-diatao.jpg)
+![DiaTao](media://bands/diatao.jpg)
 [/col]
 [/split]
 
@@ -59,7 +60,7 @@ Tao Dumur (F), diatonisches Akkordeon
 
 [split]
 [col]
-![Edentia](sf24-edentia.jpg)
+![Edentia](media://bands/edentia.jpg)
 [/col]
 [col]
 A duo of diatonic accordions mixing personal compositions and picked melodies. A bal of ice and fire between energy and delicacy.
@@ -87,7 +88,7 @@ Foto: Maciej Sowilski
 - [Facebook](https://www.facebook.com/featherandfoxduo)
 [/col]
 [col]
-![Feather and Fox](sf24-feather.jpg)
+![Feather and Fox](media://bands/feather-and-fox.jpg)
 [/col]
 [/split]
 
@@ -108,13 +109,13 @@ Foto: Linda Pollari [lindapollari.ch](https://lindapollari.ch/.)
 
 ### Swedenland Spelmanslag
 
-![Swedenland Spelmanslag](sf24-sweden.jpg)
+![Swedenland Spelmanslag](media://bands/swedenland-spelmanslag.jpg)
 
 ### GrandLoup
 
 [split]
 [col]
-![GrandLoup](sf24-grandloup.jpg)
+![GrandLoup](media://bands/grandloup.jpg)
 [/col]
 [col]
 Louise und Patrick haben sich unter einer Brücke kennengelernt .. am Ufer der Loire. Sie kombinieren Musik, Lieder und Tanz und formen daraus ihr Bal Folk Duo GrandLoup. Euch erwarten sowohl originelle Lesarten des Folk-Repertoirs als auch unveröffentlichte Kompositionen. Inspiriert von der Renaissance der Neo-Folk-Gruppen möchten Louise und Patrick dem Tanz dienen und Emotionen hervorrufen, indem sie aus der Vielfalt der Einflüsse schöpfen, die ihren musikalischen Werdegang geprägt haben.
@@ -143,7 +144,7 @@ Dino (I), Cajon
 - [Insta](https://www.instagram.com/ledriadi/)
 [/col]
 [col]
-![Le Driadi](sf24-driadi.jpg)
+![Le Driadi](media://bands/le-driadi.jpg)
 [/col]
 [/split]
 
@@ -151,7 +152,7 @@ Dino (I), Cajon
 
 [split]
 [col]
-![Nyntråm](sf24-nyntram.png)
+![Nyntråm](media://bands/nyntram.png)
 [/col]
 [col]
 Urbaner Scandi-Folk zum Mittanzen
@@ -183,7 +184,7 @@ Rob Zantkuijl – Flöte, Dudelsack
 - [Homepage](https://www.paracetamolfolk.nl)
 [/col]
 [col]
-![Paracetamol](sf24-paracetamol.jpg)
+![Paracetamol](media://bands/paracetamol.jpg)
 [/col]
 [/split]
 
@@ -191,7 +192,7 @@ Rob Zantkuijl – Flöte, Dudelsack
 
 [split]
 [col]
-![Vagalan](sf24-vagalan.jpg)
+![Vagalan](media://bands/vagalan.jpg)
 [/col]
 [col]
 ist eine nagelneue Band, die sich Anfang 2024 zusammengefunden hat, aber alles andere als unerfahren ist. Samuel Aubert gestaltet seit 15 Jahren die Tübinger Balfolk-Szene mit und groovt sich auch mal ganz alleine mit seiner Geige durch einen kompletten Ball. Anna Gaide (diatonisches Akkordeon) und Annika Brunel (Klarinette, Fagott, Oboe, Flöten aller Größen) machen seit 2018 gemeinsam Musik und basteln unermüdlich an Kompositionen in außergewöhnlichen Tonarten, Harmonien und Rhythmen. Außer ihrer Musik verbindet die drei ihre Liebe zu Frankreich, gutem Essen und kleinen Holzhäuschen.

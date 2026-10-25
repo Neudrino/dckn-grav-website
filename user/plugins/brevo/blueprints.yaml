@@ -1,0 +1,68 @@
+name: Brevo
+version: 1.1.0
+description: Adds Brevo contact list subscription as a Grav Form process action.
+icon: envelope
+author:
+  name: swmtr
+  url: https://github.com/swmtr
+homepage: https://github.com/swmtr/grav-plugin-brevo
+keywords: brevo, sendinblue, email, newsletter, subscribe, form
+bugs: https://github.com/swmtr/grav-plugin-brevo/issues
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.7.0' }
+  - { name: form, version: '>=7.0.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    api_key:
+      type: text
+      label: Brevo API key
+      help: 'Your Brevo v3 API key. Found in Brevo → Account → SMTP & API → API Keys.'
+      validate:
+        required: true
+
+    default_list_id:
+      type: text
+      label: Default list ID
+      help: 'Optional. Used when no lists are specified in the form frontmatter.'
+
+    doi:
+      type: fieldset
+      title: Double opt-in
+      collapsed: true
+      fields:
+        enabled:
+          type: toggle
+          label: Double opt-in
+          help: 'Send a Brevo double opt-in confirmation email instead of adding the contact immediately.'
+          highlight: 0
+          default: 0
+          options:
+            1: Enabled
+            0: Disabled
+          validate:
+            type: bool
+
+        template_id:
+          type: text
+          label: DOI template ID
+          help: 'Brevo DOI template ID; required when double opt-in is enabled.'
+
+        redirection_url:
+          type: text
+          label: Redirection URL
+          help: 'Optional URL the contact is redirected to after confirming the subscription.'

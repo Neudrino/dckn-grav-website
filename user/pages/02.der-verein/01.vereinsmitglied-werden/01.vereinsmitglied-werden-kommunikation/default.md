@@ -52,11 +52,6 @@ form:
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname
-    - email:
-        from: "{{ form.value.email }}"
-        to: vorstand@dckn.de
-        subject: "Mitgliedsantrag (Kommunikation) von {{ form.value.vorname }} {{ form.value.nachname }}"
-        body: "{% include 'forms/data.html.twig' %}"
     - message: 'Danke! Dein Mitgliedsantrag wurde gesendet.'
     - display: /der-verein/vereinsmitglied-werden
 ---

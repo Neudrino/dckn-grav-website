@@ -99,9 +99,14 @@ foreach ($byFile as $file => $updates) {
     $target = "$pluginsDir/$file";
     $data = [];
     if (is_file($target)) {
-        $data = Yaml::parseFile($target);
+        try {
+            $data = Yaml::parseFile($target);
+        } catch (\Throwable $e) {
+            fwrite(STDERR, "::error::provision-secrets: could not parse $target: " . $e->getMessage() . "\n");
+            exit(1);
+        }
         if (!is_array($data)) {
-            fwrite(STDERR, "provision-secrets: $file is not a YAML map\n");
+            fwrite(STDERR, "::error::provision-secrets: $file is not a YAML map\n");
             exit(1);
         }
     }
@@ -116,8 +121,13 @@ foreach ($byFile as $file => $updates) {
         $node[end($path)] = $value;
         unset($node);
     }
-    file_put_contents($target, Yaml::dump($data, 10, 2), LOCK_EX);
-    chmod($target, 0600);
+    $written = @file_put_contents($target, Yaml::dump($data, 10, 2), LOCK_EX);
+    if ($written === false) {
+        fwrite(STDERR, "::error::provision-secrets: could not write $target (check file ownership/permissions on the server)\n");
+        exit(1);
+    }
+    echo "provision-secrets: wrote $target (" . $written . " bytes)\n";
+    @chmod($target, 0600);
     $changed[] = $file;
 }
 

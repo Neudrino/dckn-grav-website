@@ -69,15 +69,6 @@ else
   echo "    signature-attachment — composer.json not found, skipping"
 fi
 
-echo "==> Removing deprecated plugins..."
-for plugin in form-captcha-hcaptcha; do
-  if [ -d "user/plugins/$plugin" ]; then
-    echo "    uninstalling $plugin..."
-    bin/gpm uninstall -y "$plugin" 2>&1 | tail -1 || rm -rf "user/plugins/$plugin"
-  fi
-  rm -f "user/config/plugins/$plugin.yaml"
-done
-
 echo "==> Clearing cache..."
 bin/grav cache 2>&1 | tail -1
 

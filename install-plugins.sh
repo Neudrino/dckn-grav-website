@@ -1,10 +1,9 @@
-#!/usr/bin/env bash
 #
 # install-plugins.sh — Install plugins and composer dependencies
 #
-# The linuxserver/grav image already bundles quark2 theme + 10 plugins.
-# This script only installs the 2 missing plugins (brevo, form-captcha-hcaptcha)
-# via GPM and runs composer install for signature-attachment.
+# The linuxserver/grav image already bundles quark2 theme + plugins.
+# This script only installs the missing plugins (brevo) via GPM and
+# runs composer install for signature-attachment.
 #
 # Use setup-plugins.sh from the host for local development.
 #
@@ -13,10 +12,9 @@
 
 set -euo pipefail
 
-# The linuxserver/grav image bundles 10 of 12 plugins listed below;
+# The linuxserver/grav image bundles most plugins listed below;
 # those already present (entry file in user/plugins/) are skipped.
-# Only the missing plugins (brevo, form-captcha-hcaptcha) are installed
-# via GPM during Docker build — making it fast.
+# Only the missing plugin (brevo) is installed via GPM.
 # quark2 theme is also bundled with the image, so no theme install needed.
 PLUGINS=(
   admin2
@@ -26,7 +24,6 @@ PLUGINS=(
   error
   flex-objects
   form
-  form-captcha-hcaptcha
   gis
   github-markdown-alerts
   login

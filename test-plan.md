@@ -7,11 +7,10 @@ The site has **3 active forms** plus off-site links. Here's what you need to tes
 | # | Service | Config File | What's Needed | Used By |
 |---|---|---|---|---|
 | 1 | **Brevo API** | `user/config/plugins/brevo.yaml` | Real v3 API key (replace `YOUR_BREVO_V3_API_KEY`) | Newsletter signup (list 1) + Membership form (list 2) |
-| 2 | **hCaptcha** | `user/config/plugins/form-captcha-hcaptcha.yaml` | Site Key + Secret Key (both empty) | Membership form + Auslagenerstattung form |
-| 3 | **SMTP / Email** | `user/config/plugins/email.yaml` | Working `sendmail` MTA in container OR SMTP credentials (server/user/password); also set `from` address | Membership form + Auslagenerstattung form (with PDF attachment) |
-| 4 | **Grav API** (for MCP only) | `opencode.json` | Generated via `bin/plugin api keys:generate` | Admin/automation — not user-facing |
+| 2 | **SMTP / Email** | `user/config/plugins/email.yaml` | Working `sendmail` MTA in container OR SMTP credentials (server/user/password); also set `from` address | Membership form + Auslagenerstattung form (with PDF attachment) |
+| 3 | **Grav API** (for MCP only) | `opencode.json` | Generated via `bin/plugin api keys:generate` | Admin/automation — not user-facing |
 
-No other external services need credentials. GoCardless, eveeno, NextCloud, Google Translate, and Font Awesome CDN are off-site links/embeds with no integration to configure.
+No other external services need credentials. Form spam protection is self-hosted (`cap` proof-of-work + honeypot) and needs no credentials. GoCardless, eveeno, NextCloud, Google Translate, and Font Awesome CDN are off-site links/embeds with no integration to configure.
 
 ## Test Keys (for quick testing without real accounts)
 
@@ -45,7 +44,7 @@ For **Email**, easiest is to point SMTP at a transactional provider (Brevo SMTP,
 
 1. The `signature-attachment` plugin fires on **every** email, not just Auslagenerstattung — so the membership email also gets a PDF. May be unintended.
    ↳ *Resolved 2026-09-26*: the plugin now skips forms without a `signature` field and picks a form-specific template (`pdf-template-<form-name>.html.twig`), so the membership email no longer gets a PDF and the Projektantrag gets its own `projektantrag.pdf`.
-2. Both forms with hCaptcha warn "first submit may fail, try again" — there's a known race condition in the captcha token polling (`hcaptcha.html.twig:39-56`). Worth reproducing.
+2. Forms with cap: first submission waits for the proof-of-work token; without JS the submission is rejected by design.
 
 ## Other External References (no credentials needed)
 

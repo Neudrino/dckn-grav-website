@@ -1,6 +1,6 @@
 # Dockerfile for Grav CMS on SnapDeploy
-# linuxserver/grav bundles quark2 + 10 plugins; only brevo + form-captcha-hcaptcha
-# are installed via GPM. For local dev use docker-compose.yml + setup-plugins.sh.
+# linuxserver/grav bundles quark2 + plugins; only brevo is installed via GPM.
+# For local dev use docker-compose.yml + setup-plugins.sh.
 
 # Stage 1: Merge tracked content into image's bundled user/ dir and install missing plugins
 FROM lscr.io/linuxserver/grav:latest AS builder

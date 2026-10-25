@@ -1,0 +1,7 @@
+enabled: true
+api_key: ''
+default_list_id: ''
+doi:
+    enabled: false
+    template_id: ''
+    redirection_url: ''

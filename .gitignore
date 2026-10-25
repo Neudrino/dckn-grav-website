@@ -45,6 +45,7 @@ user/plugins/*
 !user/plugins/signature-attachment/
 user/plugins/signature-attachment/vendor/
 !user/plugins/media-guard/
+!user/plugins/brevo/
 
 # === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*

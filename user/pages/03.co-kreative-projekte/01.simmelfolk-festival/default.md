@@ -69,7 +69,7 @@ Ihr seid herzlich willkommen mit uns die Musik, die Freundschaft und das Leben z
 
 ## Programm und Bands
 
-![Programm 2026](programm.jpg)
+![Programm 2026](simmelfolk-programm.jpg)
 
 ### Augustas (LT)
 
@@ -293,7 +293,7 @@ von der A9 Autobahnausfahrt Schnaittach Richtung Simmelsdorf. In Simmelsdorf an 
 **Adresse**
 [Bühl 6, 91245 Simmelsdorf, Deutschland](https://osm.org/go/0JRCUDqLF-?m=)
 
-![Karte](karte.jpg)
+![Karte](simmelfolk-karte.jpg)
 [/col]
 [/split]
 

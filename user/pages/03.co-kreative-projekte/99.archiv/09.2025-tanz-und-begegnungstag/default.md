@@ -12,10 +12,10 @@ event:
 
 [split]
 [col]
-![Flyer Vorderseite](begn-vorn.jpeg)
+![Flyer Vorderseite](begn-flyer-vorderseite.jpeg)
 [/col]
 [col]
-![Flyer Rückseite](begn-ruck.jpeg)
+![Flyer Rückseite](begn-flyer-rueckseite.jpeg)
 [/col]
 [/split]
 

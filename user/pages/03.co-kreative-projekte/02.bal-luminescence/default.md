@@ -19,7 +19,7 @@ permissions:
 
 [split]
 [col]
-![Plakat](plakat.jpeg)
+![Plakat](bal-luminescence-plakat.jpeg)
 [/col]
 [col]
 Liebe Balfolk-Menschen, liebe Freund:innen der Co-Kreation!

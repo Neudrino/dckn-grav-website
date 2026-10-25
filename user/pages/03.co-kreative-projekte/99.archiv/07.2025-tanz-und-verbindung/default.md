@@ -13,7 +13,7 @@ event:
 
 **28.05.-01.06.2025 (Himmelfahrts-Wochenende)**
 
-![Flyer TuV 2025](tuv25-flyer.jpg)
+![Flyer TuV 2025](tuv-flyer-2025.jpg)
 
 Am Himmelfahrts-Wochenende lassen wir im und um das Ballhaus Lindenhof Waldheim ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Kontaktimprovisation, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.
@@ -27,7 +27,7 @@ Wer nur für Workshops oder Kleidertausch da ist, braucht keinen Eintritt zu zah
 
 ### Vorläufiger Zeitplan
 
-![Zeitplan](tuv25-zeitplan.jpg)
+![Zeitplan](tuv-zeitplan-2025.jpg)
 
 ## Bands
 

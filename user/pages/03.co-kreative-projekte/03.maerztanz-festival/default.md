@@ -12,7 +12,7 @@ permissions:
         projekt-maerztanz: u
 ---
 
-![MärzTanz Festival](banner-light.png)
+![MärzTanz Festival](maerztanz-banner-2027-light.png)
 
 ## 4. MärzTanz Festival
 ## 04.-07. März 2027
@@ -155,7 +155,7 @@ Zwickauer Straße 485
 [gis marker1="Haus des Gastes Reichenbrand, 50.8115423, 12.8285122, green" marker2="Bahnhof Chemnitz-Siegmar, 50.8155542, 12.8430079, red" marker3="Bushaltestelle Kirche Reichenbrand, 50.8122284, 12.8295201, orange"]
 [/col]
 [col]
-![Tanzsaal](tanzsaal.jpg)
+![Tanzsaal](maerztanz-tanzsaal.jpg)
 [/col]
 [/split]
 
@@ -171,7 +171,7 @@ Wer Platz bei sich anbieten kann, gibt das in der Anmeldung bitte mit an, dann k
 
 [split]
 [col]
-![Essen](essen.jpg)
+![Essen](maerztanz-essen.jpg)
 [/col]
 [col]
 Donnerstag Abend gestalten wir ein gemeinsames Mitbringbuffet ab 17:30 Uhr. Bitte beschriftet eure Buffetbeiträge (vegan, vegetarisch, mit Fleisch, Gluten)

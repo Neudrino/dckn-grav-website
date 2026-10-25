@@ -13,9 +13,9 @@ event:
 
 **17.-20.05.2024 in Waldheim in Sachsen**
 
-![Flyer](tuv24-flyer.png)
+![Flyer](tuv-flyer-2024.png)
 
-![Zeitplan](tuv24-zeitplan.png)
+![Zeitplan](tuv-zeitplan-2024.png)
 
 Zu Pingsten lassen wir im und um das Ballhaus Lindenhof ein Wochenende voller Gemeinschaft, Kreativität und Lebendigkeit entstehen.
 Diverse Workshops im Bereich Musik, Tanzen, Contactimpro, Yoga, Kommunikation und Kreativangebote laden ein, sich zu Spüren und miteinander in Kontakt zu kommen. Das Angebot entsteht durch die Teilnehmenden des Wochenendes, die sich mit ihren verschiedenen Qualitäten einbringen.

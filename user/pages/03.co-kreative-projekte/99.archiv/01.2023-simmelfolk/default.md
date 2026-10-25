@@ -13,7 +13,7 @@ event:
 
 Die Turnhalle und der Campingplatz müssen bis Sonntag 12 Uhr geräumt sein. Die letzte Nutzung der Sanitäranlagen ist 14 Uhr.
 
-![Programm 2023](simmelfolk-prog-2023.jpg)
+![Programm 2023](simmelfolk-programm-2023.jpg)
 
 ## Workshops
 

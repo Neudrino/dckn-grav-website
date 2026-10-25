@@ -13,7 +13,7 @@ event:
 
 ### 12.-15. März 2026
 
-![Banner](media://projekte/maerztanz-banner-2026.png)
+![Banner](maerztanz-banner-2026.png)
 
 Das Festival beginnt am Donnerstag, 12.3., ab 16 Uhr und endet Sonntag, 15.03., gegen 16 Uhr
 
@@ -21,7 +21,7 @@ Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Wor
 
 ## Bands
 
-![Zeitplan](mt26-zeitplan.jpg)
+![Zeitplan](maerztanz-zeitplan-2026.jpg)
 
 ### Fyndus (BE)
 

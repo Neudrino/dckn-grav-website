@@ -52,7 +52,7 @@ form:
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname
-    - message: 'Danke! Dein Mitgliedsantrag wurde gesendet.'
+    - message: 'Danke! Dein Mitgliedsantrag wurde gesendet. Bitte bestätige deine Anmeldung zur Vereins-Kommunikation über den Link in der E-Mail, die wir dir gerade geschickt haben.'
     - display: /der-verein/vereinsmitglied-werden
 ---
 

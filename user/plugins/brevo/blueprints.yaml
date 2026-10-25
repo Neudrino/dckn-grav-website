@@ -65,4 +65,4 @@ form:
         redirection_url:
           type: text
           label: Redirection URL
-          help: 'Optional URL the contact is redirected to after confirming the subscription.'
+          help: "Required. URL the contact is redirected to after confirming the subscription — the Brevo API rejects the DOI call without it."

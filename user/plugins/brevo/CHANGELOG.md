@@ -4,7 +4,7 @@
 1. [](#new)
     * Optional double opt-in via Brevo's DOI flow (`contacts/doubleOptinConfirmation`)
     * New `doi.enabled`, `doi.template_id` and `doi.redirection_url` plugin settings
-    * Falls back to single opt-in (with a logged error) when DOI is enabled without a template ID
+    * Both `doi.template_id` and `doi.redirection_url` are required when DOI is enabled — a misconfigured site fails the form submission with a logged error instead of silently subscribing without confirmed consent
     * Single opt-in behaviour is unchanged when DOI is disabled
 
 # 1.0.0

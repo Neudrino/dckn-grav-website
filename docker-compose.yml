@@ -12,3 +12,9 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mailpit
+    ports:
+      - "127.0.0.1:8035:8025"

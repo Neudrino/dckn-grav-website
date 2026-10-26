@@ -53,4 +53,4 @@ Im Jahr 2023 gegründet, erkunden wir zusammen das Vereinsleben und lernen dabei
 
 Eine der wichtigeren Änderungen im Vereinsrecht war das [Gesetz zur Ermöglichung hybrider und virtueller Mitgliederversammlungen im Vereinsrecht](https://www.recht.bund.de/bgbl/1/2023/72/VO), welches [§32 BGB](https://www.gesetze-im-internet.de/bgb/__32.html) derart ändert, dass virtuelle Mitgliederversammlung auch ohne Satzungsänderungen möglich sind. Dies soll vielen bestehenden Vereinen einen einfacheren Zugang zu den Möglichkeiten der digitalen Kommunikation öffnen.
 
-Wir sind von Anfang an mit dem Ziel gestartet ein digitaler Verein zu sein, der überregional tätig ist und auf Papierprozesse verzichtet, wo es nur möglich ist. Dies ist unserer Wahrnehmung nach ein Novum, welches noch kaum ein Verein umsetzt. Mehr dazu erfahrt ihr in [unserem Blog](/blog).
+Wir sind von Anfang an mit dem Ziel gestartet ein digitaler Verein zu sein, der überregional tätig ist und auf Papierprozesse verzichtet, wo es nur möglich ist. Dies ist unserer Wahrnehmung nach ein Novum, welches noch kaum ein Verein umsetzt.

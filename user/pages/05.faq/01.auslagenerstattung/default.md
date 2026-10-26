@@ -43,17 +43,18 @@ form:
     - name: betrag
       label: 'Insgesamt beantrage ich die Erstattung eines Betrages in Höhe von (Euro, brutto)'
       type: number
-      step: 0.01
-      min: 0
       validate:
         required: true
+        min: 0
+        step: 0.01
 
     - name: anzahl_belege
       label: 'Anzahl der Belege'
       type: number
-      min: 1
       validate:
         required: true
+        min: 1
+        step: 1
 
     - name: belege
       label: 'Belege hochladen (Mindestens 1 Beleg ist erforderlich! Maximale Dateigröße 1 MB pro Datei! Akzeptierte Dateiformate: PDF, TIFF, PNG, JPG.)'

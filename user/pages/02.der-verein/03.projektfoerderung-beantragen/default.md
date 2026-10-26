@@ -37,7 +37,7 @@ form:
         required: true
 
     - name: projekttitel
-      label: 'Titel'
+      label: 'Name der Veranstaltung'
       type: text
       validate:
         required: true

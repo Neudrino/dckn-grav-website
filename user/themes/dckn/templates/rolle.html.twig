@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article class="content-item rolle-detail">
+        {{ page.content|raw }}
+
+        {% if page.header.projekt %}
+            {% set projekt = page.find(page.header.projekt) %}
+            {% if projekt %}
+        <p class="rolle-projekt">Mehr zum Projekt: <a href="{{ projekt.url }}">{{ projekt.title }}</a></p>
+            {% endif %}
+        {% endif %}
+
+        <div class="rolle-melden">
+            <p>Lust mitzumachen? Schreib uns an <a href="mailto:vorstand@dckn.de?subject=Unterst%C3%BCtze%20uns%3A%20{{ page.title|url_encode }}">vorstand@dckn.de</a> – ganz unverbindlich.</p>
+        </div>
+        <a class="btn" href="{{ page.parent.url }}">Alle Rollen ansehen</a>
+    </article>
+{% endblock %}

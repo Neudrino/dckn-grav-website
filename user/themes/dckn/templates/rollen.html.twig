@@ -1,0 +1,18 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article class="content-item rollen-listing">
+        {{ page.content|raw }}
+
+        {% set rollen = page.children.visible %}
+        {% if rollen|length > 0 %}
+        <div class="rollen-list">
+            {% for rolle in rollen %}
+                {% include 'partials/rolle-card.html.twig' with {page: rolle} %}
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>Aktuell suchen wir keine Unterstützung für konkrete Rollen. Wenn du trotzdem mitmachen möchtest, <a href="mailto:vorstand@dckn.de">melde dich einfach bei uns</a> – wir freuen uns!</p>
+        {% endif %}
+    </article>
+{% endblock %}

@@ -1,0 +1,15 @@
+<a class="rolle-card" href="{{ page.url }}">
+    <div class="rolle-card-body">
+        <span class="rolle-card-title">{{ page.title }}</span>
+        {% if page.header.teaser %}
+        <span class="rolle-card-teaser">{{ page.header.teaser }}</span>
+        {% endif %}
+        {% if page.header.tags %}
+        <span class="rolle-badges">
+            {% for tag in page.header.tags %}
+            <span class="rolle-badge">{{ tag }}</span>
+            {% endfor %}
+        </span>
+        {% endif %}
+    </div>
+</a>

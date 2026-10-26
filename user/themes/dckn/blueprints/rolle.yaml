@@ -1,0 +1,29 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        rolle:
+          type: tab
+          title: Rolle
+
+          fields:
+
+            header.teaser:
+              type: text
+              label: Teaser
+              help: Kurze Zeile unter dem Rollentitel auf den Karten (optional).
+
+            header.projekt:
+              type: pages
+              label: Projektbezug
+              help: Optional – verknüpfte Projektseite.
+
+            header.tags:
+              type: tags
+              label: Tags
+              help: Optional – für spätere Badges auf den Karten.

@@ -14,6 +14,19 @@
                 <p>{{ intro_text }}</p>
                 {% endif %}
                 <a class="btn" href="/der-verein/vereinsmitglied-werden">Mitglied werden</a>
+                {% set rollen_page = page.find(config.theme['rollen-page'] ?? '/der-verein/unterstuetze-uns') %}
+                {% if rollen_page %}
+                {% set rollen = rollen_page.children.visible %}
+                {% if rollen|length > 0 %}
+                <h3>Unterstütze uns</h3>
+                <div class="rollen-list">
+                    {% for rolle in rollen %}
+                        {% include 'partials/rolle-card.html.twig' with {page: rolle} %}
+                    {% endfor %}
+                </div>
+                <a class="btn" href="{{ rollen_page.url }}">Alle Rollen ansehen</a>
+                {% endif %}
+                {% endif %}
             </div>
             <div class="projekte-tile">
                 <h3>Co-Kreative Projekte</h3>

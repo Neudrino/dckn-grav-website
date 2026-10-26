@@ -1,0 +1,6 @@
+enabled: true
+file_field_guard: true
+limits:
+  min_interval: 60
+  hourly_max: 3
+  window: 3600

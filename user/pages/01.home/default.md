@@ -46,6 +46,8 @@ form:
       classes: 'btn'
 
   process:
+    - captcha: true
+    - rate-limit: true
     - brevo:
         lists: [3]
         field_mappings:

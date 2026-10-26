@@ -72,6 +72,26 @@ The Brevo plugin config (`user/config/plugins/brevo.yaml`) ships with a
 placeholder API key. Replace `YOUR_BREVO_V3_API_KEY` with the real key
 before the newsletter form will work.
 
+## External Libraries
+
+Runtime PHP libraries managed with Composer. They are declared in
+`user/plugins/signature-attachment/composer.json` and installed into
+that plugin's `vendor/` directory (the directory itself is not tracked;
+run `composer install --no-dev` there after a fresh checkout).
+
+Direct dependencies:
+
+- [dompdf/dompdf](https://github.com/dompdf/dompdf) — HTML-to-PDF renderer (LGPL-2.1)
+- [setasign/fpdi](https://github.com/Setasign/FPDI) — imports pages from existing PDFs (MIT)
+- [setasign/fpdf](https://github.com/Setasign/FPDF) — PDF writer used by FPDI (MIT)
+
+Transitive dependencies (pulled in by dompdf):
+
+- [dompdf/php-font-lib](https://github.com/dompdf/php-font-lib) — font loading and subsetting (LGPL-2.1-or-later)
+- [dompdf/php-svg-lib](https://github.com/dompdf/php-svg-lib) — SVG rendering (LGPL-3.0-or-later)
+- [masterminds/html5](https://github.com/Masterminds/html5-php) — HTML5 parsing (MIT)
+- [sabberworm/php-css-parser](https://github.com/MyIntervals/PHP-CSS-Parser) — CSS parsing (MIT)
+
 ## Grav MCP Server
 
 A local [grav-mcp](https://www.npmjs.com/package/grav-mcp) installation

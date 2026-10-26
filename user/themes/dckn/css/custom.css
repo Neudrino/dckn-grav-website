@@ -216,6 +216,7 @@ body.header-light:not(.scrolled) #header a.translate-btn {
 .projekt-mini-card {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   background: var(--q2-bg-elev);
   border: 1px solid var(--q2-border-ring);
   border-radius: var(--q2-radius-sm);
@@ -244,6 +245,25 @@ body.header-light:not(.scrolled) #header a.translate-btn {
   flex-direction: column;
   gap: 0.125rem;
 }
+/* Bild neben Text, sobald die Karte breit genug ist */
+@container (min-width: 360px) {
+  .projekt-mini-card {
+    flex-direction: row;
+  }
+  .projekt-mini-card--reverse {
+    flex-direction: row-reverse;
+  }
+  .projekt-mini-image {
+    flex: 0 1 7.5rem;
+  }
+  .projekt-mini-image img {
+    height: 100%;
+  }
+  .projekt-mini-body {
+    flex: 1 1 0;
+    justify-content: center;
+  }
+}
 .projekt-mini-body strong {
   font-size: 0.9375rem;
   color: var(--q2-text-strong);
@@ -260,6 +280,7 @@ body.header-light:not(.scrolled) #header a.translate-btn {
   flex-direction: column;
   gap: 0.625rem;
   width: 100%;
+  container-type: inline-size;
 }
 .projekte-tile {
   align-items: stretch !important;

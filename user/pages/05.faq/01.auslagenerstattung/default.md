@@ -104,10 +104,13 @@ form:
 
   process:
     - email:
-        from: "{{ form.value.email }}"
-        to: vorstand@dckn.de
-        subject: "Auslagenerstattungsantrag von {{ form.value.antragsteller }}"
-        body: "{% include 'forms/data.html.twig' %}"
+        reply_to: "{{ form.value.email }}, vorstand@dckn.de"
+        subject: "[DCKN] Auslagenerstattungsantrag von {{ form.value.antragsteller|raw }} für {{ form.value.projektname|raw }}"
+        body:
+          - body: "{% include 'forms/auslagenerstattung-email.html.twig' %}"
+            content_type: text/html
+          - body: "{% include 'forms/auslagenerstattung-email.txt.twig' %}"
+            content_type: text/plain
         attachments: belege
     - message: 'Danke! Dein Auslagenerstattungsantrag wurde gesendet.'
     - display: /faq/auslagenerstattung

@@ -158,10 +158,13 @@ form:
 
   process:
     - email:
-        from: "{{ form.value.email }}"
-        to: vorstand@dckn.de
-        subject: "Projektantrag „{{ form.value.projekttitel }}“ von {{ form.value.antragsteller }}"
-        body: "{% include 'forms/data.html.twig' %}"
+        reply_to: "{{ form.value.email }}, vorstand@dckn.de"
+        subject: "Projektantrag „{{ form.value.projekttitel|raw }}“ von {{ form.value.antragsteller|raw }}"
+        body:
+          - body: "{% include 'forms/projektantrag-email.html.twig' %}"
+            content_type: text/html
+          - body: "{% include 'forms/projektantrag-email.txt.twig' %}"
+            content_type: text/plain
         attachments: kalkulation
     - message: 'Danke! Dein Projektantrag wurde gesendet.'
     - display: /der-verein/projektfoerderung-beantragen

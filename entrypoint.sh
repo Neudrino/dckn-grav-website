@@ -7,7 +7,7 @@
 # (via /custom-cont-init.d/), after symlinks are set up but before
 # nginx/php-fpm start.
 #
-# Secrets are provided as environment variables (set in SnapDeploy dashboard):
+# Secrets are provided as environment variables:
 #
 #   SMTP_SERVER       — SMTP server hostname
 #   SMTP_PORT         — SMTP port (e.g. 587)
@@ -74,7 +74,7 @@ if [ -n "${GRAV_API_SECRET:-}" ]; then
 <?php
 
 // Injected from GRAV_API_SECRET environment variable.
-// Set this in SnapDeploy to persist API tokens across container restarts.
+// Set this environment variable to persist API tokens across container restarts.
 
 return '${GRAV_API_SECRET}';
 EOF
@@ -89,7 +89,7 @@ if [ -n "${GRAV_SECURITY_SECRET:-}" ]; then
 <?php
 
 // Injected from GRAV_SECURITY_SECRET environment variable.
-// Set this in SnapDeploy to persist CSRF tokens across container restarts.
+// Set this environment variable to persist CSRF tokens across container restarts.
 
 return '${GRAV_SECURITY_SECRET}';
 EOF

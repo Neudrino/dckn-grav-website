@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Auslagenerstattung</title>
+<style>
+  body {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 10.5pt;
+    color: #222222;
+    margin: 1.2cm;
+  }
+  .logo-block {
+    margin-bottom: 0.3em;
+  }
+  .logo {
+    max-width: 130px;
+  }
+  h1 {
+    font-size: 15pt;
+    text-align: center;
+    margin: 0 0 0.2em 0;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 10pt;
+    color: #555555;
+    margin: 0 0 0.6em 0;
+  }
+  h2 {
+    font-size: 12pt;
+    color: #333333;
+    margin: 0.5em 0 0.3em 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #aaaaaa;
+  }
+  p {
+    margin: 0.3em 0;
+  }
+  .emphasis {
+    font-weight: bold;
+  }
+  .amount {
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border: 1px solid #444444;
+    background-color: #f0f0f0;
+  }
+  ul {
+    margin: 0.2em 0 0.2em 0;
+    padding-left: 1.2em;
+  }
+  li {
+    margin-bottom: 0;
+  }
+  .note {
+    color: #666666;
+    font-style: italic;
+  }
+  table.kv {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table.kv td {
+    padding: 1px 0;
+    vertical-align: top;
+  }
+  table.kv td.label {
+    width: 35%;
+    color: #555555;
+    padding-right: 1em;
+  }
+  table.kv td.value {
+    font-weight: bold;
+  }
+  .consent {
+    margin-top: 0.5em;
+  }
+  .signature-img {
+    max-width: 200px;
+    border: 1px solid #cccccc;
+    padding: 4px;
+    margin-top: 0.4em;
+  }
+  .created {
+    margin-top: 0.2em;
+    font-size: 9pt;
+    color: #666666;
+  }
+  table.footer {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.3em;
+    padding-top: 4px;
+    border-top: 1px solid #999999;
+    font-size: 9pt;
+    color: #555555;
+  }
+  table.footer td {
+    vertical-align: top;
+    padding: 0;
+  }
+  table.footer td.right {
+    text-align: right;
+  }
+  .footer-url {
+    text-align: center;
+    font-size: 9pt;
+    color: #555555;
+  }
+</style>
+</head>
+<body>
+
+{% if logo_data_uri is defined and logo_data_uri %}
+<div class="logo-block"><img src="{{ logo_data_uri }}" class="logo"></div>
+{% endif %}
+
+<h1>Auslagenerstattung</h1>
+<p class="subtitle">Das co-kreative Netzwerk e.V.</p>
+
+{% set antragsteller = form.value('antragsteller')|default('') %}
+{% set email = form.value('email')|default('') %}
+{% set leistungsdatum = form.value('leistungsdatum')|default('') %}
+{% set projektname = form.value('projektname')|default('') %}
+{% set begruendung = form.value('begruendung')|default('') %}
+{% set betrag = form.value('betrag')|default(0) %}
+{% set anzahl_belege = form.value('anzahl_belege')|default('') %}
+{% set belege = form.value('belege')|default([]) %}
+{% set kontoinhaber = form.value('kontoinhaber')|default('') %}
+{% set iban = form.value('iban')|default('') %}
+{% set unterschrift = form.value('unterschrift')|default('') %}
+
+<h2>Antragsteller:in</h2>
+<table class="kv">
+  {% if antragsteller %}<tr><td class="label">Name</td><td class="value">{{ antragsteller|e }}</td></tr>{% endif %}
+  {% if email %}<tr><td class="label">E-Mail</td><td class="value">{{ email|e }}</td></tr>{% endif %}
+  {% if leistungsdatum %}<tr><td class="label">Leistungsdatum</td><td class="value">{{ leistungsdatum|e }}</td></tr>{% endif %}
+  {% if projektname %}<tr><td class="label">Projektname</td><td class="value">{{ projektname|e }}</td></tr>{% endif %}
+</table>
+
+{% if begruendung %}
+<h2>Begründung</h2>
+<p>Es wird die Erstattung folgender Auslagen beantragt. Begründung:</p>
+<p class="emphasis">{{ begruendung|nl2br }}</p>
+{% endif %}
+
+{% if betrag %}
+<div class="amount">{{ betrag|number_format(2, ',', ' ') }} Euro (brutto)</div>
+{% endif %}
+
+<h2>Belege</h2>
+{% if anzahl_belege %}<p>Anzahl der Belege: <strong>{{ anzahl_belege|e }}</strong></p>{% endif %}
+{% if belege is iterable %}
+  {% if belege|length %}
+  <ul>
+    {% for file in belege %}
+    <li>{{ file.name|default('Datei')|e }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% elseif belege %}
+<ul>
+  <li>{{ belege|e }}</li>
+</ul>
+{% endif %}
+<p class="note">Die Belege sind dieser E-Mail als Anhang beigefügt.</p>
+
+<h2>Bankverbindung</h2>
+<table class="kv">
+  {% if kontoinhaber %}<tr><td class="label">Kontoinhaber:in</td><td class="value">{{ kontoinhaber|e }}</td></tr>{% endif %}
+  {% if iban %}<tr><td class="label">IBAN</td><td class="value">{{ iban|e }}</td></tr>{% endif %}
+</table>
+
+<p class="consent">{% if antragsteller %}{{ antragsteller|e }} hat zugestimmt: {% endif %}„Ich versichere, dass alle Angaben vollständig und richtig sind.“</p>
+
+{% if unterschrift starts with 'data:image' %}
+<h2>Unterschrift</h2>
+<img src="{{ unterschrift }}" class="signature-img">
+{% endif %}
+
+<p class="created">Dieses Dokument wurde automatisch über das Auslagenerstattungs-Formular auf dckn.de erstellt und gesendet am {{ "now"|date("Y-m-d H:i") }}.</p>
+
+{% set d = site.dckn|default([]) %}
+{% if d %}
+<table class="footer">
+  <tr>
+    <td>
+      {% if d.name %}<strong>{{ d.name|e }}</strong>{% endif %}
+      {% if d.address is iterable %}
+        {% for line in d.address %}<br>{{ line|e }}{% endfor %}
+      {% elseif d.address %}<br>{{ d.address|e }}{% endif %}
+    </td>
+    <td class="right">
+      {% if d.register %}{{ d.register|e }}{% endif %}
+      {% if d.register and d.tax_id %}<br>{% endif %}
+      {% if d.tax_id %}{{ d.tax_id|e }}{% endif %}
+    </td>
+  </tr>
+</table>
+{% endif %}
+{% if d.url is defined and d.url %}
+<div class="footer-url">{{ d.url|e }}</div>
+{% endif %}
+
+</body>
+</html>

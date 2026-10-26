@@ -76,6 +76,7 @@
 {% block javascripts %}
     {% do assets.addJs('theme://js/theme-toggle.js', {group:'head', priority: 100}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom', priority: 100}) %}
+    {% do assets.addJs('theme://js/dropzone-required.js', {group:'bottom', priority: 10, loading: 'defer'}) %}
 {% endblock %}
 
 {% block assets deferred %}

@@ -65,16 +65,16 @@ form:
       type: number
       validate:
         required: true
-        max: 10000000
-        step: 100
+        min: 0
+        step: 0.01
 
     - name: groesste_einzelausgabe
       label: 'Größte Einzelausgabe in Euro'
       type: number
       validate:
         required: true
-        max: 100000
-        step: 100
+        min: 0
+        step: 0.01
 
     - name: mitorganisatoren
       label: 'Mitorganisator:inn:en'

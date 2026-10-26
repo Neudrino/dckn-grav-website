@@ -177,7 +177,7 @@
 <p>{{ kurzbeschreibung|nl2br }}</p>
 {% endif %}
 {% if cokreation %}
-<p>Förderung von Co-Kreation erfolgt auf folgende Weise:</p>
+<h2>Förderung von Co-Kreation erfolgt auf folgende Weise</h2>
 <p>{{ cokreation|nl2br }}</p>
 {% endif %}
 
@@ -192,10 +192,10 @@
 <p class="note">Keine Kalkulation angehängt.</p>
 {% endif %}
 
+<h2>Bestätigung</h2>
 <p class="consent">{% if antragsteller %}{{ antragsteller|e }} hat zugestimmt: {% endif %}„Ich beachte die Rahmenbedingungen und versichere, dass alle Angaben vollständig und richtig sind.“</p>
 
 {% if unterschrift starts with 'data:image' %}
-<h2>Unterschrift</h2>
 <img src="{{ unterschrift }}" class="signature-img">
 {% endif %}
 

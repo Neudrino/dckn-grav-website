@@ -90,17 +90,13 @@
                 </tr>
                 <tr>
                     <td style="padding:24px 32px 0;">
-                        <p style="margin:0;">{% if form.value('antragsteller') %}{{ form.value('antragsteller') }} hat zugestimmt: {% endif %}„Ich versichere, dass alle Angaben vollständig und richtig sind.“</p>
-                    </td>
-                </tr>
-                {% if form.value('unterschrift')|default('') starts with 'data:image' %}
-                <tr>
-                    <td style="padding:16px 32px 0;">
-                        <p style="margin:0 0 4px;font-size:12px;color:#6b7280;">Unterschrift</p>
+                        <h3 style="margin:0 0 8px;padding-bottom:4px;font-size:14px;color:#222222;border-bottom:1px solid #e5e7eb;">Bestätigung</h3>
+                        <p style="margin:0 0 12px;">{% if form.value('antragsteller') %}{{ form.value('antragsteller') }} hat zugestimmt: {% endif %}„Ich versichere, dass alle Angaben vollständig und richtig sind.“</p>
+                        {% if form.value('unterschrift')|default('') starts with 'data:image' %}
                         <img src="cid:auslagenerstattung-signature" alt="Unterschrift" width="250" style="display:block;width:250px;max-width:250px;height:auto;border:1px solid #e5e7eb;border-radius:4px;padding:4px;background-color:#ffffff;">
+                        {% endif %}
                     </td>
                 </tr>
-                {% endif %}
                 <tr>
                     <td style="padding:24px 32px 28px;border-top:1px solid #e5e7eb;font-size:11px;color:#9ca3af;">
                         Diese E-Mail wurde automatisch über das Auslagenerstattungsformular auf dckn.de erstellt und gesendet.

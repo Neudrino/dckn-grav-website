@@ -47,6 +47,8 @@ form:
       value: Senden
 
   process:
+    - captcha: true
+    - rate-limit: true
     - brevo:
         lists: [2]
         field_mappings:

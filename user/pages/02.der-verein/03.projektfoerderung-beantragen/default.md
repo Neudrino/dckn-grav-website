@@ -157,7 +157,10 @@ form:
       value: Senden
 
   process:
+    - captcha: true
+    - rate-limit: { target_field: email }
     - email:
+        cc: "{{ form.value.email }}"
         reply_to: "{{ form.value.email }}, vorstand@dckn.de"
         subject: "Projektantrag „{{ form.value.projekttitel|raw }}“ von {{ form.value.antragsteller|raw }}"
         body:

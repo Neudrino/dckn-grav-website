@@ -103,7 +103,10 @@ form:
       value: Senden
 
   process:
+    - captcha: true
+    - rate-limit: { target_field: email }
     - email:
+        cc: "{{ form.value.email }}"
         reply_to: "{{ form.value.email }}, vorstand@dckn.de"
         subject: "[DCKN] Auslagenerstattungsantrag von {{ form.value.antragsteller|raw }} für {{ form.value.projektname|raw }}"
         body:

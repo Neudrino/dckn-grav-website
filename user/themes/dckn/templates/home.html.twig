@@ -38,9 +38,9 @@
                             {% set image = media[child.header.cover] ?? image %}
                         {% endif %}
                         {% set event = child.header.event %}
-                        <a class="projekt-mini-card" href="{{ child.url }}">
+                        <a class="projekt-mini-card {{ loop.index is even ? 'projekt-mini-card--reverse' }}" href="{{ child.url }}">
                             {% if image %}
-                            <div class="projekt-mini-image">{{ image.cropZoom(300, 170).html|raw }}</div>
+                            <div class="projekt-mini-image">{{ image.cropZoom(480, 320).html|raw }}</div>
                             {% endif %}
                             <div class="projekt-mini-body">
                                 <strong>{{ child.title }}</strong>

@@ -54,7 +54,6 @@ form:
       validate:
         required: true
         min: 1
-        step: 1
 
     - name: belege
       label: 'Belege hochladen (Mindestens 1 Beleg ist erforderlich! Maximale Dateigröße 1 MB pro Datei! Akzeptierte Dateiformate: PDF, TIFF, PNG, JPG.)'

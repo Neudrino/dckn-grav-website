@@ -56,14 +56,13 @@ form:
         min: 1
 
     - name: belege
-      label: 'Belege hochladen (Mindestens 1 Beleg ist erforderlich! Maximale Dateigröße 1 MB pro Datei! Akzeptierte Dateiformate: PDF, TIFF, PNG, JPG.)'
+      label: 'Belege hochladen (Mindestens 1 Beleg ist erforderlich! Maximale Dateigröße 1 MB pro Datei! Akzeptierte Dateiformate: PDF, PNG, JPG.)'
       type: file
       multiple: true
       accept:
         - application/pdf
         - image/png
         - image/jpeg
-        - image/tiff
       filesize: 1
       destination: user/data/auslagenerstattung/belege
       avoid_overwriting: true
@@ -114,7 +113,6 @@ form:
             content_type: text/html
           - body: "{% include 'forms/auslagenerstattung-email.txt.twig' %}"
             content_type: text/plain
-        attachments: belege
     - message: 'Danke! Dein Auslagenerstattungsantrag wurde gesendet.'
     - display: /faq/auslagenerstattung
 ---

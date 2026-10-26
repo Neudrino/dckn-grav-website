@@ -1,0 +1,44 @@
+{% autoescape false %}
+{% set leistungsdatum = form.value('leistungsdatum') %}
+{% set projektname = form.value('projektname') %}
+{% set antragsteller = form.value('antragsteller') %}
+{% set email = form.value('email') %}
+{% set begruendung = form.value('begruendung') %}
+{% set betrag = form.value('betrag')|default(0) %}
+{% set anzahl_belege = form.value('anzahl_belege') %}
+{% set belege = form.value('belege') %}
+{% set kontoinhaber = form.value('kontoinhaber') %}
+{% set iban = form.value('iban') %}
+Auslagenerstattung
+Das co-kreative Netzwerk e.V.
+
+Leistungsdatum: {{ leistungsdatum|default('–') }}
+Projektname: {{ projektname|default('–') }}
+Antragsteller:in: {{ antragsteller|default('–') }}
+E-Mail: {{ email|default('–') }}
+
+{% if begruendung %}
+Es wird die Erstattung folgender Auslagen beantragt. Begründung:
+{{ begruendung }}
+
+{% endif %}
+{{ betrag|number_format(2, ',', ' ') }} Euro (brutto)
+
+Anzahl der Belege: {{ anzahl_belege|default('–') }}
+
+{% if belege is iterable and belege is not empty %}
+Belege:
+{% for file in belege %}
+- {{ (file is iterable ? (file.name ?? null) : file)|default('Datei') }}
+{% endfor %}
+
+{% endif %}
+Kontoinhaber:in: {{ kontoinhaber|default('–') }}
+IBAN: {{ iban|default('–') }}
+
+{% if antragsteller %}{{ antragsteller }} hat zugestimmt: {% endif %}„Ich versichere, dass alle Angaben vollständig und richtig sind.“
+
+Unterschrift: siehe HTML-Version bzw. PDF-Anhang.
+
+Diese E-Mail wurde automatisch über das Auslagenerstattungs-Formular auf dckn.de erstellt und gesendet.
+{% endautoescape %}

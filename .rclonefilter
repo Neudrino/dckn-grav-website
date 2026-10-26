@@ -17,11 +17,12 @@
 - /config/media.yaml
 # plugin configs: uploaded by a separate rclone copy, never deleted by sync
 - /config/plugins/**
-# plugins: only signature-attachment, media-guard and brevo are repo-managed, its vendor/ lives server-side
+# plugins: only signature-attachment, media-guard, brevo and form-rate-limit are repo-managed, its vendor/ lives server-side
 - /plugins/signature-attachment/vendor/**
 + /plugins/signature-attachment/**
 + /plugins/media-guard/**
 + /plugins/brevo/**
++ /plugins/form-rate-limit/**
 - /plugins/**
 # themes: only dckn is repo-managed, quark2 etc. stay untouched
 + /themes/dckn/**

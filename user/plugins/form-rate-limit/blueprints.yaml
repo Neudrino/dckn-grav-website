@@ -1,0 +1,36 @@
+slug: form-rate-limit
+type: plugin
+version: 1.0.0
+name: Form Rate Limit
+description: Drosselt Formular-Einreichungen pro Formular+IP und global pro Zieladresse (Mindestabstand + Sliding-Window-Limit)
+icon: clock
+author:
+  name: DckN
+  homepage: https://dckn.de
+keywords: form, rate limit, throttle, spam
+dependencies:
+  - form
+
+form:
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    file_field_guard:
+      type: toggle
+      label: Datei-Feld-Guard
+      help: Weist getarnte Werte in Datei-Upload-Feldern als Validierungsfehler ab, bevor das Email-Plugin sie verarbeitet (kein 500er mehr).
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

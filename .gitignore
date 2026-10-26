@@ -46,6 +46,7 @@ user/plugins/*
 user/plugins/signature-attachment/vendor/
 !user/plugins/media-guard/
 !user/plugins/brevo/
+!user/plugins/form-rate-limit/
 
 # === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*

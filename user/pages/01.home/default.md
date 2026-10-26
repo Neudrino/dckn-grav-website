@@ -53,6 +53,7 @@ form:
         field_mappings:
           FIRSTNAME: vorname
           LASTNAME: nachname
+          OPT_IN: datenschutz
     - message: 'Danke! Bitte bestätige deine Newsletter-Anmeldung über den Link in der E-Mail, die wir dir gerade geschickt haben.'
 ---
 

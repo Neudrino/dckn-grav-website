@@ -77,9 +77,14 @@ class BrevoPlugin extends Plugin
         if (!empty($params['field_mappings']) && is_array($params['field_mappings'])) {
             foreach ($params['field_mappings'] as $brevoAttribute => $formField) {
                 $value = $form->value($formField);
-                if (!empty($value)) {
-                    $attributes[$brevoAttribute] = $value;
+                if (empty($value)) {
+                    continue;
                 }
+                // OPT_IN is a boolean attribute, the consent checkbox submits '1'.
+                if ($brevoAttribute === 'OPT_IN') {
+                    $value = filter_var($value, FILTER_VALIDATE_BOOLEAN);
+                }
+                $attributes[$brevoAttribute] = $value;
             }
         }
 

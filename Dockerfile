@@ -1,4 +1,4 @@
-# Dockerfile for Grav CMS on SnapDeploy
+# Dockerfile for the Grav CMS container image.
 # linuxserver/grav bundles quark2 + plugins; only brevo is installed via GPM.
 # For local dev use docker-compose.yml + setup-plugins.sh.
 

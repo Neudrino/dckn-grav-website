@@ -6,7 +6,7 @@
 #   ./setup-plugins.sh
 #
 # This script copies provision-plugins.sh into the running container
-# and executes it there. For Docker builds (SnapDeploy), provision-plugins.sh
+# and executes it there. For Docker builds, provision-plugins.sh
 # is called directly by the Dockerfile.
 #
 # Plugin configuration (in user/config/plugins/) is already tracked in

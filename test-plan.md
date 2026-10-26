@@ -53,4 +53,3 @@ For **Email**, easiest is to point SMTP at a transactional provider (Brevo SMTP,
 - **NextCloud** — `https://nextcloud.dckn.de/` file shares (off-site links only)
 - **Google Translate** — translate button redirects through `translate.google.com/translate`
 - **Font Awesome CDN** — `cdnjs.cloudflare.com` for icons (local fallback available via `fontawesome.local` theme var)
-- **snapdeploy.dev** — staging deployment target (`https://dckn-grav-website-bdb6c.containers.snapdeploy.app/`)

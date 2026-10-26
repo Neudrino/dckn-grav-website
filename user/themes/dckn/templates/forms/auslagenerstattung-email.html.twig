@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auslagenerstattung</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f3f4f6;">
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;margin:0;padding:0;background-color:#f3f4f6;font-family:Arial,Helvetica,sans-serif;">
+    <tr>
+        <td align="center" style="padding:24px 12px;">
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="width:100%;max-width:600px;background-color:#ffffff;border:1px solid #e5e7eb;border-radius:8px;font-family:Arial,Helvetica,sans-serif;color:#222222;font-size:14px;line-height:1.6;">
+                <tr>
+                    <td style="padding:28px 32px 0;">
+                        <img src="cid:dckn-logo" alt="Das co-kreative Netzwerk e.V." width="150" style="display:block;width:150px;max-width:150px;height:auto;border:0;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:16px 32px 0;">
+                        <h2 style="margin:0;font-size:22px;line-height:1.3;color:#c6530a;">Auslagenerstattung</h2>
+                        <p style="margin:4px 0 0;font-size:12px;color:#6b7280;">Das co-kreative Netzwerk e.V.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:20px 32px 0;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;">
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;width:35%;color:#6b7280;">Leistungsdatum</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('leistungsdatum')|default('–') }}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;color:#6b7280;">Projektname</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('projektname')|default('–') }}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;color:#6b7280;">Antragsteller:in</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('antragsteller')|default('–') }}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;color:#6b7280;">E-Mail</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('email')|default('–') }}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                {% if form.value('begruendung') %}
+                <tr>
+                    <td style="padding:20px 32px 0;">
+                        <p style="margin:0 0 4px;">Es wird die Erstattung folgender Auslagen beantragt. Begründung:</p>
+                        <p style="margin:0;font-weight:bold;">{{ form.value('begruendung')|nl2br }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                <tr>
+                    <td align="center" style="padding:20px 32px 0;">
+                        <p style="margin:0;font-size:20px;font-weight:bold;color:#c6530a;">
+                            <span style="display:inline-block;padding:8px 20px;background-color:#fdf3dd;border-radius:6px;">{{ form.value('betrag')|default(0)|number_format(2, ',', ' ') }} Euro (brutto)</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:24px 32px 0;">
+                        <h3 style="margin:0 0 8px;padding-bottom:4px;font-size:14px;color:#222222;border-bottom:1px solid #e5e7eb;">Belege</h3>
+                        <p style="margin:0 0 8px;">Anzahl der Belege: <strong>{{ form.value('anzahl_belege')|default('–') }}</strong></p>
+                        {% set belege = form.value('belege') %}
+                        {% if belege is iterable and belege is not empty %}
+                        <ul style="margin:0 0 8px;padding:0 0 0 20px;">
+                            {% for file in belege %}
+                            <li style="margin:2px 0;">{{ (file is iterable ? (file.name ?? null) : file)|default('Datei') }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                        <p style="margin:0;font-size:12px;color:#6b7280;font-style:italic;">Die Belege sind dieser E-Mail als Anhang beigefügt.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:24px 32px 0;">
+                        <h3 style="margin:0 0 8px;padding-bottom:4px;font-size:14px;color:#222222;border-bottom:1px solid #e5e7eb;">Bankverbindung</h3>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;">
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;width:35%;color:#6b7280;">Kontoinhaber:in</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('kontoinhaber')|default('–') }}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:4px 16px 4px 0;color:#6b7280;">IBAN</td>
+                                <td style="padding:4px 0;font-weight:bold;">{{ form.value('iban')|default('–') }}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:24px 32px 0;">
+                        <p style="margin:0;">{% if form.value('antragsteller') %}{{ form.value('antragsteller') }} hat zugestimmt: {% endif %}„Ich versichere, dass alle Angaben vollständig und richtig sind.“</p>
+                    </td>
+                </tr>
+                {% if form.value('unterschrift')|default('') starts with 'data:image' %}
+                <tr>
+                    <td style="padding:16px 32px 0;">
+                        <p style="margin:0 0 4px;font-size:12px;color:#6b7280;">Unterschrift</p>
+                        <img src="cid:auslagenerstattung-signature" alt="Unterschrift" width="250" style="display:block;width:250px;max-width:250px;height:auto;border:1px solid #e5e7eb;border-radius:4px;padding:4px;background-color:#ffffff;">
+                    </td>
+                </tr>
+                {% endif %}
+                <tr>
+                    <td style="padding:24px 32px 28px;border-top:1px solid #e5e7eb;font-size:11px;color:#9ca3af;">
+                        Diese E-Mail wurde automatisch über das Auslagenerstattungs-Formular auf dckn.de erstellt und gesendet.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

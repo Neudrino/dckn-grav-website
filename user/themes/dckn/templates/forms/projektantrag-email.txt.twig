@@ -1,0 +1,78 @@
+{% autoescape false %}
+{% set antragsteller = form.value('antragsteller') %}
+{% set meldeadresse = form.value('meldeadresse') %}
+{% set email = form.value('email') %}
+{% set telefon = form.value('telefon') %}
+{% set projekttitel = form.value('projekttitel') %}
+{% set startdatum = form.value('startdatum') %}
+{% set veranstaltungsart = form.value('veranstaltungsart') %}
+{% set ort = form.value('ort') %}
+{% set gesamtumsatz = form.value('gesamtumsatz') %}
+{% set groesste_einzelausgabe = form.value('groesste_einzelausgabe') %}
+{% set mitorganisatoren = form.value('mitorganisatoren') %}
+{% set teilnehmer_min = form.value('teilnehmer_min') %}
+{% set teilnehmer_max = form.value('teilnehmer_max') %}
+{% set zwecke = form.value('zwecke') %}
+{% set kurzbeschreibung = form.value('kurzbeschreibung') %}
+{% set cokreation = form.value('cokreation') %}
+{% set kalkulation = form.value('kalkulation') %}
+{% set kalk_file = kalkulation is iterable ? (kalkulation is not empty ? kalkulation|first : null) : kalkulation %}
+{% set kalk_name = kalk_file is iterable ? (kalk_file.name ?? null) : kalk_file %}
+Projektantrag
+Das co-kreative Netzwerk e.V.
+
+Antragsteller:in
+
+Name: {{ antragsteller|default('–') }}
+Meldeadresse: {{ meldeadresse|default('–') }}
+E-Mail: {{ email|default('–') }}
+Telefon: {{ telefon|default('–') }}
+
+Projekt
+
+{{ projekttitel|default('–') }}
+Startdatum: {{ startdatum|default('–') }}
+Veranstaltungsart: {{ veranstaltungsart|default('–') }}
+Adresse / Ort: {{ ort|default('–') }}
+Mitorganisator:inn:en: {{ mitorganisatoren|default('–') }}
+Teilnehmerzahl: min. {{ teilnehmer_min|default('–') }} – max. {{ teilnehmer_max|default('–') }}
+
+{% if gesamtumsatz or groesste_einzelausgabe %}
+Zahlen
+{% if gesamtumsatz %}Gesamtumsatz: {{ gesamtumsatz|number_format(2, ',', ' ') }} Euro
+{% endif %}{% if groesste_einzelausgabe %}Größte Einzelausgabe: {{ groesste_einzelausgabe|number_format(2, ',', ' ') }} Euro
+{% endif %}
+
+{% endif %}
+Folgende Vereinszwecke werden gefördert:
+
+{% if zwecke is iterable and zwecke is not empty %}
+{% for zweck in zwecke %}
+- {{ zweck }}
+{% endfor %}
+
+{% elseif zwecke %}
+{{ zwecke }}
+
+{% else %}
+(keine Angabe)
+
+{% endif %}
+Beschreibung
+
+{% if kurzbeschreibung %}
+{{ kurzbeschreibung }}
+
+{% endif %}{% if cokreation %}
+Förderung von Co-Kreation erfolgt auf folgende Weise:
+{{ cokreation }}
+
+{% endif %}
+Kalkulation: {{ kalk_name ? kalk_name ~ ' (als Anhang beigefügt)' : '–' }}
+
+{% if antragsteller %}{{ antragsteller }} hat zugestimmt: {% endif %}„Ich beachte die Rahmenbedingungen und versichere, dass alle Angaben vollständig und richtig sind.“
+
+Unterschrift: siehe HTML-Version bzw. PDF-Anhang.
+
+Diese E-Mail wurde automatisch über das Projektantrag-Formular auf dckn.de erstellt und gesendet.
+{% endautoescape %}

@@ -162,7 +162,7 @@ form:
     - email:
         cc: "{{ form.value.email }}"
         reply_to: "{{ form.value.email }}, vorstand@dckn.de"
-        subject: "Projektantrag „{{ form.value.projekttitel|raw }}“ von {{ form.value.antragsteller|raw }}"
+        subject: "[DCKN] Projektantrag „{{ form.value.projekttitel|raw }}“ von {{ form.value.antragsteller|raw }}"
         body:
           - body: "{% include 'forms/projektantrag-email.html.twig' %}"
             content_type: text/html

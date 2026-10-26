@@ -4,6 +4,7 @@ namespace Grav\Plugin\SignatureAttachment;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 use setasign\Fpdi\Fpdi;
+use setasign\Fpdi\PdfReader\PageBoundaries;
 use Throwable;
 
 /**
@@ -91,7 +92,7 @@ final class BelegeMerger
     {
         $pageCount = $pdf->setSourceFile($pdfPath);
         for ($i = 1; $i <= $pageCount; $i++) {
-            $templateId = $pdf->importPage($i);
+            $templateId = $pdf->importPage($i, PageBoundaries::CROP_BOX, true, true);
             $size = $pdf->getTemplateSize($templateId);
             $pdf->AddPage($size['orientation'], [$size['width'], $size['height']]);
             $pdf->useTemplate($templateId);

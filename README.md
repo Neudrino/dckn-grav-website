@@ -1,7 +1,6 @@
 # dckn.de — Grav CMS Website
 
-Grav CMS instance for the dckn.de website, running in Docker via the
-`linuxserver/grav` image.
+Grav CMS instance for the dckn.de website, running in Docker via the `linuxserver/grav` image.
 
 ## Quick Start (Fresh Deployment)
 

@@ -1,93 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="utf-8">
+<title>Projektantrag</title>
 <style>
   body {
-    font-family: DejaVu Sans, sans-serif;
-    font-size: 11pt;
-    color: #222;
-    margin: 2cm;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 10.5pt;
+    color: #222222;
+    margin: 1.2cm;
+  }
+  .logo-block {
+    margin-bottom: 0.3em;
+  }
+  .logo {
+    max-width: 130px;
   }
   h1 {
-    font-size: 16pt;
+    font-size: 15pt;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin: 0 0 0.2em 0;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 10pt;
+    color: #555555;
+    margin: 0 0 0.6em 0;
   }
   h2 {
+    font-size: 12pt;
+    color: #333333;
+    margin: 0.5em 0 0.3em 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #aaaaaa;
+  }
+  p {
+    margin: 0.3em 0;
+  }
+  .project-title {
     font-size: 13pt;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .field {
-    margin-bottom: 0.75rem;
-  }
-  .field-label {
     font-weight: bold;
+    margin: 0.2em 0 0.5em 0;
   }
-  .signature-img {
-    max-width: 300px;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
+  ul {
+    margin: 0.2em 0 0.2em 0;
+    padding-left: 1.2em;
   }
-  .file-list {
+  li {
+    margin-bottom: 0;
+  }
+  .note {
+    color: #666666;
     font-style: italic;
-    color: #666;
   }
-  table {
+  table.kv {
     width: 100%;
     border-collapse: collapse;
   }
-  td {
-    padding: 0.3rem 0;
+  table.kv td {
+    padding: 1px 0;
     vertical-align: top;
   }
-  td.label {
+  table.kv td.label {
+    width: 35%;
+    color: #555555;
+    padding-right: 1em;
+  }
+  table.kv td.value {
     font-weight: bold;
-    width: 40%;
-    padding-right: 1rem;
+  }
+  .consent {
+    margin-top: 0.5em;
+  }
+  .signature-img {
+    max-width: 200px;
+    border: 1px solid #cccccc;
+    padding: 4px;
+    margin-top: 0.4em;
+  }
+  .created {
+    margin-top: 0.2em;
+    font-size: 9pt;
+    color: #666666;
+  }
+  table.footer {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.3em;
+    padding-top: 4px;
+    border-top: 1px solid #999999;
+    font-size: 9pt;
+    color: #555555;
+  }
+  table.footer td {
+    vertical-align: top;
+    padding: 0;
+  }
+  table.footer td.right {
+    text-align: right;
+  }
+  .footer-url {
+    text-align: center;
+    font-size: 9pt;
+    color: #555555;
   }
 </style>
 </head>
 <body>
 
-<h1>Projektantrag</h1>
-<h2>Das co-kreative Netzwerk e.V.</h2>
+{% if logo_data_uri is defined and logo_data_uri %}
+<div class="logo-block"><img src="{{ logo_data_uri }}" class="logo"></div>
+{% endif %}
 
-<table>
-  {% for field in form.fields %}
-    {% set show_field = attribute(field, 'input@') ?? field.store ?? true %}
-    {% if show_field and not field.fields %}
-      {% set value = form.value(field.name) %}
-      {% if value %}
-        <tr>
-          <td class="label">{{ field.label|e }}</td>
-          <td>
-            {% if field.type == 'signature' and value starts with 'data:image' %}
-              <img src="{{ value }}" class="signature-img" />
-            {% elseif field.type == 'file' %}
-              {% if value is iterable %}
-                <ul class="file-list">
-                  {% for file in value %}
-                    <li>{{ file.name|default('Datei')|e }}</li>
-                  {% endfor %}
-                </ul>
-              {% else %}
-                {{ value|e }}
-              {% endif %}
-            {% elseif field.type == 'checkbox' %}
-              {{ value == 1 ? 'Ja' : 'Nein' }}
-            {% elseif field.type == 'checkboxes' %}
-              {{ value is iterable ? value|join(', ')|e : value|e }}
-            {% else %}
-              {{ value|e|nl2br }}
-            {% endif %}
-          </td>
-        </tr>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+<h1>Projektantrag</h1>
+<p class="subtitle">Das co-kreative Netzwerk e.V.</p>
+
+{% set antragsteller = form.value('antragsteller')|default('') %}
+{% set meldeadresse = form.value('meldeadresse')|default('') %}
+{% set email = form.value('email')|default('') %}
+{% set telefon = form.value('telefon')|default('') %}
+{% set projekttitel = form.value('projekttitel')|default('') %}
+{% set startdatum = form.value('startdatum')|default('') %}
+{% set veranstaltungsart = form.value('veranstaltungsart')|default('') %}
+{% set ort = form.value('ort')|default('') %}
+{% set gesamtumsatz = form.value('gesamtumsatz')|default('') %}
+{% set groesste_einzelausgabe = form.value('groesste_einzelausgabe')|default('') %}
+{% set mitorganisatoren = form.value('mitorganisatoren')|default('') %}
+{% set teilnehmer_min = form.value('teilnehmer_min')|default('') %}
+{% set teilnehmer_max = form.value('teilnehmer_max')|default('') %}
+{% set zwecke = form.value('zwecke')|default([]) %}
+{% set kurzbeschreibung = form.value('kurzbeschreibung')|default('') %}
+{% set cokreation = form.value('cokreation')|default('') %}
+{% set kalkulation = form.value('kalkulation')|default([]) %}
+{% set unterschrift = form.value('unterschrift')|default('') %}
+
+<h2>Antragsteller:in</h2>
+<table class="kv">
+  {% if antragsteller %}<tr><td class="label">Name</td><td class="value">{{ antragsteller|e }}</td></tr>{% endif %}
+  {% if meldeadresse %}<tr><td class="label">Meldeadresse</td><td class="value">{{ meldeadresse|e }}</td></tr>{% endif %}
+  {% if email %}<tr><td class="label">E-Mail</td><td class="value">{{ email|e }}</td></tr>{% endif %}
+  {% if telefon %}<tr><td class="label">Telefon</td><td class="value">{{ telefon|e }}</td></tr>{% endif %}
 </table>
+
+<h2>Projekt</h2>
+{% if projekttitel %}<p class="project-title">{{ projekttitel|e }}</p>{% endif %}
+<table class="kv">
+  {% if startdatum %}<tr><td class="label">Startdatum</td><td class="value">{{ startdatum|e }}</td></tr>{% endif %}
+  {% if veranstaltungsart %}<tr><td class="label">Veranstaltungsart</td><td class="value">{{ veranstaltungsart|e }}</td></tr>{% endif %}
+  {% if ort %}<tr><td class="label">Adresse / Ort</td><td class="value">{{ ort|e }}</td></tr>{% endif %}
+  {% if mitorganisatoren %}<tr><td class="label">Mitorganisator:inn:en</td><td class="value">{{ mitorganisatoren|e }}</td></tr>{% endif %}
+  {% if teilnehmer_min or teilnehmer_max %}<tr><td class="label">Teilnehmerzahl</td><td class="value">min. {{ teilnehmer_min|e }} – max. {{ teilnehmer_max|e }}</td></tr>{% endif %}
+</table>
+
+<h2>Zahlen</h2>
+<table class="kv">
+  {% if gesamtumsatz %}<tr><td class="label">Gesamtumsatz</td><td class="value">{{ gesamtumsatz|number_format(2, ',', ' ') }} Euro</td></tr>{% endif %}
+  {% if groesste_einzelausgabe %}<tr><td class="label">Größte Einzelausgabe</td><td class="value">{{ groesste_einzelausgabe|number_format(2, ',', ' ') }} Euro</td></tr>{% endif %}
+</table>
+
+<h2>Folgende Vereinszwecke werden gefördert:</h2>
+{% if zwecke is iterable %}
+  {% if zwecke|length %}
+  <ul>
+    {% for z in zwecke %}
+    <li>{{ z|e }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="note">Keine Angaben.</p>
+  {% endif %}
+{% elseif zwecke %}
+<ul>
+  <li>{{ zwecke|e }}</li>
+</ul>
+{% else %}
+<p class="note">Keine Angaben.</p>
+{% endif %}
+
+<h2>Beschreibung</h2>
+{% if kurzbeschreibung %}
+<p>{{ kurzbeschreibung|nl2br }}</p>
+{% endif %}
+{% if cokreation %}
+<p>Förderung von Co-Kreation erfolgt auf folgende Weise:</p>
+<p>{{ cokreation|nl2br }}</p>
+{% endif %}
+
+<h2>Kalkulation</h2>
+{% if kalkulation is iterable %}
+  {% for file in kalkulation %}
+  <p>{{ file.name|default('Datei')|e }} <span class="note">(als Anhang beigefügt)</span></p>
+  {% endfor %}
+{% elseif kalkulation %}
+<p>{{ kalkulation|e }} <span class="note">(als Anhang beigefügt)</span></p>
+{% else %}
+<p class="note">Keine Kalkulation angehängt.</p>
+{% endif %}
+
+<p class="consent">{% if antragsteller %}{{ antragsteller|e }} hat zugestimmt: {% endif %}„Ich beachte die Rahmenbedingungen und versichere, dass alle Angaben vollständig und richtig sind.“</p>
+
+{% if unterschrift starts with 'data:image' %}
+<h2>Unterschrift</h2>
+<img src="{{ unterschrift }}" class="signature-img">
+{% endif %}
+
+<p class="created">Dieses Dokument wurde automatisch über das Projektantrag-Formular auf dckn.de erstellt und gesendet am {{ "now"|date("Y-m-d H:i") }}.</p>
+
+{% set d = site.dckn|default([]) %}
+{% if d %}
+<table class="footer">
+  <tr>
+    <td>
+      {% if d.name %}<strong>{{ d.name|e }}</strong>{% endif %}
+      {% if d.address is iterable %}
+        {% for line in d.address %}<br>{{ line|e }}{% endfor %}
+      {% elseif d.address %}<br>{{ d.address|e }}{% endif %}
+    </td>
+    <td class="right">
+      {% if d.register %}{{ d.register|e }}{% endif %}
+      {% if d.register and d.tax_id %}<br>{% endif %}
+      {% if d.tax_id %}{{ d.tax_id|e }}{% endif %}
+    </td>
+  </tr>
+</table>
+{% endif %}
+{% if d.url is defined and d.url %}
+<div class="footer-url">{{ d.url|e }}</div>
+{% endif %}
 
 </body>
 </html>

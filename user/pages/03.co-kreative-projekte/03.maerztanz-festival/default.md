@@ -2,6 +2,7 @@
 cover: media://bands/accords-perdus-2.jpg
 title: 'MärzTanz Festival'
 body_classes: 'title-center'
+card_background: '#F5F8DC'
 template: event
 event:
     startdatum: '2027-03-04'
@@ -12,7 +13,7 @@ permissions:
         projekt-maerztanz: u
 ---
 
-![MärzTanz Festival](maerztanz-banner-2027-light.png)
+![MärzTanz Festival](maerztanz-banner-2027-gruen-light.png)
 
 ## 4. MärzTanz Festival
 ## 04.-07. März 2027

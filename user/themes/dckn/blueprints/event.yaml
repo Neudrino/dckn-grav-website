@@ -17,15 +17,31 @@ form:
               type: date
               label: Startdatum
               validate:
-                pattern: "Y-m-d"
+                type: date
                 required: true
 
             header.event.enddatum:
               type: date
               label: Enddatum
               validate:
-                pattern: "Y-m-d"
+                type: date
 
             header.event.ort:
               type: text
               label: Ort
+
+        darstellung:
+          type: tab
+          title: Darstellung
+
+          fields:
+
+            header.card_background:
+              type: colorpicker
+              label: Kartenhintergrund
+              help: 'Hintergrundfarbe der Inhaltskarte im Light Mode. Leer = Standardfarbe des Themes.'
+
+            header.card_background_dark:
+              type: colorpicker
+              label: Kartenhintergrund (Dark Mode)
+              help: 'Optional. Nur für den Dark Mode, z. B. eine gedämpfte Variante der Light-Farbe.'

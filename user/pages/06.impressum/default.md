@@ -7,7 +7,7 @@ body_classes: 'title-center'
 
 ## Anschrift
 
-Das co-kreative Netzwerk e.V.<br />
+Das Co-Kreative Netzwerk e.V.<br />
 Ringstraße 23<br />
 91207 Lauf an der Pegnitz
 
@@ -24,7 +24,7 @@ Amtsgericht Nürnberg – VR 202963
 ## Bankverbindung
 
 **Kontoinhaber:**
-Das co-kreative Netzwerk e.V.
+Das Co-Kreative Netzwerk e.V.
 
 **IBAN:**
 DE84 8306 5408 0005 3380 93

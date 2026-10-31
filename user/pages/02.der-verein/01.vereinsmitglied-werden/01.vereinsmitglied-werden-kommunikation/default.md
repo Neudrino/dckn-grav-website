@@ -78,7 +78,7 @@ Das Co-Kreative Netzwerk darf mit meinen Daten arbeiten und dafür auch digitale
 
 Der Vorstand hat das Recht, Anmeldungen zum Verein zu prüfen und abzulehnen. Sollte der Vorstand dem Mitgliedsantrag nicht widersprechen, ist er nach Abschluss dieses Formulars vollständig.
 
-**Das co-kreative Netzwerk heißt neue Mitglieder herzlich willkommen!**
+**Das Co-Kreative Netzwerk heißt neue Mitglieder herzlich willkommen!**
 
 **Ich versichere vollständige und richtige Angaben zu meiner Person zu machen.**
 

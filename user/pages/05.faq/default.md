@@ -21,7 +21,7 @@ Wir freuen uns, dass du Interesse hast, bei, mit und für uns zu musizieren! Sch
 
 ### Kann ich einen Vertrag in meiner Sprache erhalten?
 
-Das co-kreative Netzwerk hat einen Standardvertrag der in deutscher oder englischer Sprache abgeschlossen wird. Da wir nur ein kleiner Verein sind, können wir eine rechtssichere Übersetzung in andere Sprachen nicht leisten. Bitte nutzt einen online Übersetzungsdienst um euch den Vertrag selbstständig in eure Sprache zu übersetzen, z.B. [https://translate.google.com](https://translate.google.com).
+Das Co-Kreative Netzwerk hat einen Standardvertrag der in deutscher oder englischer Sprache abgeschlossen wird. Da wir nur ein kleiner Verein sind, können wir eine rechtssichere Übersetzung in andere Sprachen nicht leisten. Bitte nutzt einen online Übersetzungsdienst um euch den Vertrag selbstständig in eure Sprache zu übersetzen, z.B. [https://translate.google.com](https://translate.google.com).
 
 ### Wie unterschreibe ich euren Vertrag digital?
 

@@ -1,14 +1,14 @@
-title: 'Das co-kreative Netzwerk'
+title: "Das Co-Kreative Netzwerk"
 author:
-  name: 'Das co-kreative Netzwerk'
-  email: 'info@dckn.de'
+  name: "Das Co-Kreative Netzwerk"
+  email: "info@dckn.de"
 metadata:
-    description: 'Das co-kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern.'
+  description: "Das Co-Kreative Netzwerk wurde 2023 gegründet mit dem Ziel co-kreative Projekte zu fördern."
 dckn:
-  name: 'Das co-kreative Netzwerk e.V.'
+  name: "Das Co-Kreative Netzwerk e.V."
   address:
-    - 'Ringstraße 23'
-    - '91207 Lauf an der Pegnitz'
-  register: 'Vereinsregister: Amtsgericht Nürnberg – VR 202963'
-  tax_id: 'Steuernummer: 241/107/60309'
-  url: 'https://dckn.de'
+    - "Ringstraße 23"
+    - "91207 Lauf an der Pegnitz"
+  register: "Vereinsregister: Amtsgericht Nürnberg – VR 202963"
+  tax_id: "Steuernummer: 241/107/60309"
+  url: "https://dckn.de"

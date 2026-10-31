@@ -48,6 +48,17 @@
     </style>
     {% endif %}
 
+    {# Per-page content-card background, set via `card_background` / `card_background_dark` in the page header #}
+    {% set hex_color = '/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/' %}
+    {% set card_background = page.header.card_background %}
+    {% set card_background_dark = page.header.card_background_dark %}
+    {% if (card_background and card_background matches hex_color) or (card_background_dark and card_background_dark matches hex_color) %}
+    <style>
+      {% if card_background and card_background matches hex_color %}html[data-theme='light'] { --q2-card-background: {{ card_background }}; }{% endif %}
+      {% if card_background_dark and card_background_dark matches hex_color %}html[data-theme='dark'] { --q2-card-background: {{ card_background_dark }}; }{% endif %}
+    </style>
+    {% endif %}
+
     {# Pre-paint theme bootstrap — blocks FOUC by setting data-theme synchronously #}
     <script>
     (function () {

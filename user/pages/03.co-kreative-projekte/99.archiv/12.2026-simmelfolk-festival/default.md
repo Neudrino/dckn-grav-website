@@ -1,6 +1,6 @@
 ---
 cover: media://bands/augustas.jpg
-title: 'Simmelfolk Festival'
+title: '2026 Simmelfolk Festival'
 body_classes: title-center
 template: event
 event:
@@ -22,7 +22,7 @@ permissions:
 [col]
 ### Ihr lieben Balfolk-Menschen!
 
-Wir laden euch herzlich zum SimmelFolk Festivals ein, ein Balfolk-Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.
+Wir laden euch herzlich zum SimmelFolk Festival ein, ein Balfolk-Wochenende voller Tanz und Musik in wundervoller Umgebung und entspannter Atmosphäre.
 
 Gemeinsam schaffen wir einen Ort der Gemeinschaft, mit gegenseitigem Respekt und ausgelassener Fröhlichkeit, mit freudigem Wiedersehen und neuen Begegnungen, geselligen Stunden am Lagerfeuer, beim jammen, chillen und gemeinsamem Essen, beim Reden, Lachen, Umarmen und vielem mehr.
 

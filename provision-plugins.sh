@@ -1,10 +1,6 @@
 #
 # provision-plugins.sh — Install plugins and composer dependencies
 #
-# The linuxserver/grav image already bundles quark2 theme + plugins.
-# This script only installs the missing plugins (brevo) via GPM and
-# runs composer install for signature-attachment.
-#
 # Use setup-plugins.sh from the host for local development.
 #
 # Environment variables:
@@ -12,10 +8,7 @@
 
 set -euo pipefail
 
-# The linuxserver/grav image bundles most plugins listed below;
-# those already present (entry file in user/plugins/) are skipped.
-# Only the missing plugin (brevo) is installed via GPM.
-# quark2 theme is also bundled with the image, so no theme install needed.
+# Plugins already present in user/plugins/ are skipped.
 PLUGINS=(
   admin2
   api
@@ -27,6 +20,7 @@ PLUGINS=(
   gis
   github-markdown-alerts
   login
+  page-insights
   problems
   shortcode-core
 )

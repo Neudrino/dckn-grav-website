@@ -1,0 +1,4 @@
+# Entspricht der Produktionskonfiguration (Abweichungen von den Plugin-Defaults)
+anonymize_ips: true
+anonymize_ips_after: '30d'
+default_hide_bots: true

@@ -1,5 +1,5 @@
 ---
-cover: media://bands/gribouille.jpg
+cover: bal-luminescence-plakat.jpeg
 title: 'Bal Luminescence'
 body_classes: title-center
 template: event

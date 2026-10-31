@@ -1,5 +1,5 @@
 ---
-cover: media://bands/accords-perdus-2.jpg
+cover: maerztanz-banner-2027-gruen-light.png
 title: 'MärzTanz Festival'
 body_classes: 'title-center'
 card_background: '#F5F8DC'

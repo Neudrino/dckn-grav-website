@@ -1,5 +1,5 @@
 ---
-cover: media://bands/bargainatt.jpg
+cover: banner-hase-und-igel.jpg
 title: 'Hase & Igel Festival'
 body_classes: 'title-center'
 card_background: '#FDF3DD'

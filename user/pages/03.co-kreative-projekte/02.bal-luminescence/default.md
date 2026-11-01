@@ -12,16 +12,13 @@ permissions:
         projekt-lumibal: u
 ---
 
+![Plakat](bal-luminescence-plakat.jpeg)
+
 # Bal Luminescence
 ## 04.-06. Dezember 2026 · Sonnenwald, Schwarzwald
 
 <p style="text-align:center;margin-top:2rem;margin-bottom:2rem"><a class="btn btn-lg" href="https://eveeno.com/lumibal">Anmeldung</a></p>
 
-[split]
-[col]
-![Plakat](bal-luminescence-plakat.jpeg)
-[/col]
-[col]
 Liebe Balfolk-Menschen, liebe Freund:innen der Co-Kreation!
 
 Im Südwesten Deutschlands, mitten im Schwarzwald, entsteht gerade ein neues Festival – und zwar genau in der dunkelsten Jahreszeit, wenn wir das Licht der Begegnung am allernötigsten brauchen. Zu diesem laden wir euch herzlich ein und freuen uns auf euer Kommen!

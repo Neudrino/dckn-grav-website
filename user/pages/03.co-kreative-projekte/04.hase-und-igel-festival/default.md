@@ -17,7 +17,7 @@ event:
 *Bild: Lena (2a)*
 
 # Hase & Igel Festival
-## Balfolk-Festival · 01.-03. April 2028 · Buxtehude
+## 01.-03. April 2028 · Buxtehude
 
 Drei Tage Balfolk mit Live-Musik und Tanz in Buxtehude.
 

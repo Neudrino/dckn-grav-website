@@ -15,8 +15,8 @@ permissions:
 
 ![MärzTanz Festival](maerztanz-banner-2027-gruen-light.png)
 
-## 4. MärzTanz Festival
-## 04.-07. März 2027
+# 4. MärzTanz Festival
+## 04.-07. März 2027 · Chemnitz
 
 Balfolk vom Feinsten mit Bands aus Deutschland und Europa. Tagsüber wird es Workshops geben, abends spielen Bands zum Tanz.
 

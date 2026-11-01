@@ -524,6 +524,12 @@ object[type="application/pdf"] {
   }
 }
 
+/* Center h1/h2 headings by default (overridable per page via inline style/class) */
+article.content-item h1,
+article.content-item h2 {
+  text-align: center;
+}
+
 /* Center images that are alone in a paragraph of the page content */
 article.content-item > p:has(> img:only-child) {
   text-align: center;

@@ -72,7 +72,7 @@ Mit dabei sind unter anderem:
 **ORAJ** – ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns mit in eine Trance und bringt uns leuchtend zurück auf die Erde.
 [/col]
 [col]
-![ORAJ](media://bands/oraj.jpg)
+![ORAJ](media://bands/oraj-1.jpg)
 [/col]
 [/split]
 

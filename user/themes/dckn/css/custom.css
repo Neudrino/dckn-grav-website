@@ -472,6 +472,12 @@ object[type="application/pdf"] {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
+
+  /* gleiche Bildschirmhöhen-Kappung wie für Bilder allein im Absatz;
+   * object-fit verhindert Verzerrungen bei Hochformat-Bildern */
+  max-height: calc(100vh - 10rem);
+  max-height: calc(100dvh - 10rem);
+  object-fit: contain;
 }
 
 /* ===== Projektantrag: Vereinszwecke checkboxes as simple vertical list ===== */
@@ -537,6 +543,12 @@ article.content-item > p:has(> img:only-child) {
 article.content-item > p:has(> img:only-child) > img {
   max-width: 100%;
   height: auto;
+
+  /* Bilder, die allein in einem Absatz stehen, immer in der Bildschirmhöhe
+   * halten (Viewport-Höhe minus Header und Paddings), so scrollt man nie von
+   * Banner/Plakat/Flyer wieder raus. Die Breite skaliert proportional mit. */
+  max-height: calc(100vh - 10rem);
+  max-height: calc(100dvh - 10rem);
 }
 
 /* ===== Per-page content card background =====

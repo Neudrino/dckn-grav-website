@@ -1,5 +1,6 @@
 ---
 cover: bal-luminescence-plakat.jpeg
+card_background_dark: '#171F34'
 title: 'Bal Luminescence'
 body_classes: title-center
 template: event

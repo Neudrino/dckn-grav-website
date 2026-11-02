@@ -26,17 +26,17 @@ Im Südwesten Deutschlands, mitten im Schwarzwald, entsteht gerade ein neues Fes
 
 Der Bal Luminescence, liebevoll „Lumi Bal" genannt, findet vom 4. bis 6. Dezember 2026 in der Lebensgemeinschaft Sonnenwald in Seewald statt. Drei Tage tanzen, Musik, gutes Essen, neue und alte Freundschaften – und ganz viel Licht mitten im Winter.
 
-## Mitmach-Festival
+### Mitmach-Festival
 
 Wie alle unsere DCKN-Festivals lebt auch der Lumi Bal von euch. Es gibt kein festes Workshop-Programm von oben – das entsteht gemeinsam, vor Ort, aus dem, was ihr mitbringt: ob Tanz, Musik, Handwerk, Bewegung oder einfach eure Energie. Bringt eure Ideen, euer Können und eure Lust am Ausprobieren mit – denn dieses Festival entsteht erst durch euch.
 
-## Der Ort
+### Der Ort
 
 Eine kleine Turnhalle wird gemeinsam mit dem Speisesaal zum Ballsaal, dazu eine große Küche mit jeder Menge guter, regionaler Zutaten, die wir gemeinsam zu Festmählern verarbeiten. Beheizte Matratzenlager, zwei Workshop-Spaces und eine kleine Sauna zum Ausklingen der kalten Winternächte runden das Ganze ab.
 
-## Anfahrt
+### Anfahrt
 
-### Anfahrt mit Bahn & Bus & Shuttle
+#### Anfahrt mit Bahn & Bus & Shuttle
 
 [split]
 [col]
@@ -55,34 +55,40 @@ Schreibt uns dafür rechtzeitig vorher an [lumi-bal@gmx.de](mailto:lumi-bal@gmx.
 [/col]
 [/split]
 
-### Anfahrt mit dem Auto
+#### Anfahrt mit dem Auto
 
 Sonnenwald liegt auf einer Hochebene mitten im Schwarzwald, im Dezember heißt das: zauberhafte Winterlandschaft, aber auch möglicherweise Schnee und Glätte. Hier ist alles Wichtige für eure Anreise.
 
 **Gästeparkplatz:** Buchenweg 8, 72297 Seewald
 **Parkverbot am Buchenweg 4!**
 
-## Die Musik
+### Die Musik
 
 Mit dabei sind unter anderem:
 
-**Sara Bandlow** – eine schweizer Pianistin, die wundervoll mit Klavier und Gesang zum Tanzen einlädt und auf den Advent einstimmt.
+#### Sara Bandlow
+
+Eine schweizer Pianistin, die wundervoll mit Klavier und Gesang zum Tanzen einlädt und auf den Advent einstimmt.
+
+#### ORAJ
 
 [split]
 [col]
-**ORAJ** – ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns mit in eine Trance und bringt uns leuchtend zurück auf die Erde.
+Ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns mit in eine Trance und bringt uns leuchtend zurück auf die Erde.
 [/col]
 [col]
 ![ORAJ](media://bands/oraj-1.jpg)
 [/col]
 [/split]
 
+#### Viadeyra
+
 [split]
 [col]
 ![Viadeyra](media://bands/viadeyra.jpg)
 [/col]
 [col]
-**Viadeyra** ist eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
+Eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
 
 *Alessandro Cornio – Gitarre und Gesang*  
 *Alessandro Scacchi – Bass*  
@@ -93,21 +99,25 @@ Mit dabei sind unter anderem:
 [/col]
 [/split]
 
+#### SolDo
+
 [split]
 [col]
-**SolDo** – ein Schweizer Duo, das aus zwei Organetti wunderschöne Musik zaubert und zur Lust am Leben, zur Hingabe und zur Begegnung einlädt.
+Ein Schweizer Duo, das aus zwei Organetti wunderschöne Musik zaubert und zur Lust am Leben, zur Hingabe und zur Begegnung einlädt.
 [/col]
 [col]
 ![SolDo](media://bands/soldo.jpg)
 [/col]
 [/split]
 
+#### Gribouille
+
 [split]
 [col]
 ![Gribouille](media://bands/gribouille.jpg)
 [/col]
 [col]
-**Gribouille** – Olivier entführt mit charmanten und energetischen Liedern, mit seiner Gitarre und Gesang in die französische Bal Folk Welt.
+Olivier entführt mit charmanten und energetischen Liedern, mit seiner Gitarre und Gesang in die französische Bal Folk Welt.
 
 *Olivier Valence – Gitarre, Gesang*
 
@@ -118,14 +128,14 @@ Mit dabei sind unter anderem:
 
 Kommt vorbei, bringt eure Freund:innen mit – wir freuen uns, mit euch gemeinsam zu tanzen und zu leuchten!
 
-## Verpflegung
+### Verpflegung
 
 Für eurer leibliches Wohl ist gesorgt: Zwei Mahlzeiten sind im Ticket inklusive (ein langes Frühstücks-/Brunch-Buffet und eine frische warme Mahlzeit am Abend (aus biologischen und größtenteils von unserer gastgebenden Gemeinschaft selbst erzeugten Produkten)).
 
 Für unser gemeinsames Mitternachtsbuffet freuen wir uns außerdem, wenn ihr noch eine Kleinigkeit zum Teilen mitbringt.
 Wir freuen uns über: Kuchen, Kekse, Salami, Käse, Schokolade und alles was ihr sonst noch gerne mögt 🙂
 
-## Übernachtung
+### Übernachtung
 
 Für alle, die bei uns übernachten möchten, gibt es drei Möglichkeiten:
 

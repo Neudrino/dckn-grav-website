@@ -1,0 +1,6 @@
+twig_sandbox:
+  trusted_partials:
+    - forms/auslagenerstattung-email.html.twig
+    - forms/auslagenerstattung-email.txt.twig
+    - forms/projektantrag-email.html.twig
+    - forms/projektantrag-email.txt.twig

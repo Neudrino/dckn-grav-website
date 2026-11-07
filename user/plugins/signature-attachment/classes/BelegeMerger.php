@@ -1,10 +1,10 @@
 <?php
 namespace Grav\Plugin\SignatureAttachment;
 
+use Dskripchenko\PhpPdf\Pdf\Merge\PdfMerger;
+use Dskripchenko\PhpPdf\Pdf\Merge\PdfSource;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use setasign\Fpdi\Fpdi;
-use setasign\Fpdi\PdfReader\PageBoundaries;
 use Throwable;
 
 /**
@@ -28,77 +28,62 @@ final class BelegeMerger
      * @param string $antragPdfData binary PDF data of the rendered form
      * @param array<int, array{name: string, path: string}> $belege absolute file paths in upload order
      * @return array{0: string, 1: array<int, array{name: string, path: string}>} merged PDF data and skipped belege
-     * @throws RuntimeException when the whole merge fails (caller falls back to the unmerged PDF)
      */
     public function merge(string $antragPdfData, array $belege): array
     {
-        $antragFile = tempnam(sys_get_temp_dir(), 'antrag-');
-        if ($antragFile === false || file_put_contents($antragFile, $antragPdfData) === false) {
-            throw new RuntimeException('could not write antrag PDF to temp file');
-        }
+        $merger = PdfMerger::create()->append(PdfSource::fromBytes($antragPdfData));
 
-        try {
-            $pdf = new Fpdi();
-            $this->importAllPages($pdf, $antragFile);
-
-            $skipped = [];
-            foreach ($belege as $beleg) {
-                if (!$this->addBeleg($pdf, $beleg['name'], $beleg['path'])) {
+        $skipped = [];
+        foreach ($belege as $beleg) {
+            try {
+                $source = $this->sourceFor($beleg['name'], $beleg['path']);
+                if ($source === null) {
                     $skipped[] = $beleg;
+                    continue;
                 }
-            }
 
-            $mergedPdf = $pdf->Output('S');
-        } finally {
-            @unlink($antragFile);
+                // PdfSource parses lazily, so force the parse now to skip a
+                // broken beleg instead of aborting the whole merge later.
+                if ($source->document()->pageCount() < 1) {
+                    throw new RuntimeException('document has no pages');
+                }
+                $merger->append($source);
+            } catch (Throwable $e) {
+                $this->skip($beleg['name'], $e->getMessage());
+                $skipped[] = $beleg;
+            }
         }
 
-        return [$mergedPdf, $skipped];
+        return [$merger->toBytes(), $skipped];
     }
 
-    private function addBeleg(Fpdi $pdf, string $name, string $path): bool
+    private function sourceFor(string $name, string $path): ?PdfSource
     {
         if (!is_file($path) || filesize($path) === 0) {
-            return $this->skip($name, 'missing or empty file');
+            $this->skip($name, 'missing or empty file');
+
+            return null;
         }
 
         $extension = strtolower(pathinfo($name, PATHINFO_EXTENSION) ?: pathinfo($path, PATHINFO_EXTENSION));
 
-        try {
-            if ($extension === 'pdf') {
-                $this->importAllPages($pdf, $path);
-
-                return true;
-            }
-
-            if ($extension === 'png' || $extension === 'jpg' || $extension === 'jpeg') {
-                $imagePdf = $this->imageToPdf($path, $name);
-                try {
-                    $this->importAllPages($pdf, $imagePdf);
-                } finally {
-                    @unlink($imagePdf);
-                }
-
-                return true;
-            }
-        } catch (Throwable $e) {
-            return $this->skip($name, $e->getMessage());
+        if ($extension === 'pdf') {
+            return PdfSource::fromFile($path);
         }
 
-        return $this->skip($name, 'unsupported file type .' . $extension);
-    }
+        if ($extension === 'png' || $extension === 'jpg' || $extension === 'jpeg') {
+            try {
+                return PdfSource::fromBytes($this->imageToPdf($path, $name));
+            } catch (Throwable $e) {
+                $this->skip($name, $e->getMessage());
 
-    private function importAllPages(Fpdi $pdf, string $pdfPath): int
-    {
-        $pageCount = $pdf->setSourceFile($pdfPath);
-        for ($i = 1; $i <= $pageCount; $i++) {
-            $templateId = $pdf->importPage($i, PageBoundaries::CROP_BOX, true, true);
-            $size = $pdf->getTemplateSize($templateId);
-            $pdf->AddPage($size['orientation'], [$size['width'], $size['height']]);
-            $pdf->useTemplate($templateId);
+                return null;
+            }
         }
 
-        return $pageCount;
+        $this->skip($name, 'unsupported file type .' . $extension);
+
+        return null;
     }
 
     private function imageToPdf(string $imagePath, string $name): string
@@ -148,21 +133,14 @@ final class BelegeMerger
             throw new RuntimeException('dompdf produced no output');
         }
 
-        $tempFile = tempnam(sys_get_temp_dir(), 'beleg-');
-        if ($tempFile === false || file_put_contents($tempFile, $pdfData) === false) {
-            throw new RuntimeException('could not write image beleg to temp file');
-        }
-
-        return $tempFile;
+        return $pdfData;
     }
 
-    private function skip(string $name, string $reason): bool
+    private function skip(string $name, string $reason): void
     {
         $this->log->warning(
             'signature-attachment: form "' . $this->formName . '" beleg "' . $name
             . '" not merged into PDF (stays as email attachment): ' . $reason
         );
-
-        return false;
     }
 }

@@ -59,7 +59,7 @@ Schreibt uns dafür rechtzeitig vorher an [lumi-bal@gmx.de](mailto:lumi-bal@gmx.
 
 Sonnenwald liegt auf einer Hochebene mitten im Schwarzwald, im Dezember heißt das: zauberhafte Winterlandschaft, aber auch möglicherweise Schnee und Glätte. Hier ist alles Wichtige für eure Anreise.
 
-**Gästeparkplatz:** Buchenweg 8, 72297 Seewald
+**Gästeparkplatz:** Buchenweg 8, 72297 Seewald <br />
 **Parkverbot am Buchenweg 4!**
 
 ### Die Musik
@@ -68,13 +68,29 @@ Mit dabei sind unter anderem:
 
 #### Sara Bandlow
 
+[split]
+[col]
+![Sara Bandlow](media://bands/sara-bandlow.png)
+[/col]
+[col]
+
 Eine schweizer Pianistin, die wundervoll mit Klavier und Gesang zum Tanzen einlädt und auf den Advent einstimmt.
+
+*Sara Bandlow - Piano* 
+[/col]
+[/split]
 
 #### ORAJ
 
 [split]
 [col]
 Ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns mit in eine Trance und bringt uns leuchtend zurück auf die Erde.
+
+*Quentin Pancher - Gesang, Mixtage*  
+*Léo Proulx - Klarinette*  
+
+[YouTube](https://youtu.be/_iu5I_LyaG0?is=3U-LNsKJrJ_4_Psb)
+
 [/col]
 [col]
 ![ORAJ](media://bands/oraj-1.jpg)
@@ -85,25 +101,32 @@ Ihre Mischung aus Folk und Elektro holt uns ab, wo wir gerade stehen, nimmt uns 
 
 [split]
 [col]
-![Viadeyra](media://bands/viadeyra.jpg)
+![Viadeyra](media://bands/viadeyra-2.jpg)
 [/col]
 [col]
+
 Eine musikalische (Wieder-) Entdeckungsreise, die sich den Wurzeln alter traditioneller Musik widmet und durch Tanz wieder zum Leben erweckt. Unsere Musik ist inspiriert von der Viadeyra, einer Form von Poesie und Gesang, die in früheren Jahrhunderten Reisen, Wanderungen und Entdeckungen begleitete.
 
 *Alessandro Cornio – Gitarre und Gesang*  
+*Léo Proulx – Klarinette*  
+*Leonardo Pio Di Biase - Violine*  
 *Alessandro Scacchi – Bass*  
-*Marco Gagliardi – Klarinette und Duduk*
+
 
 [Youtube](https://www.youtube.com/watch?v=yxygzzCpzmA),
 [Youtube](https://www.youtube.com/watch?v=GHjy0mn8RVI)
 [/col]
 [/split]
 
-#### SolDo
+#### Sol do
 
 [split]
 [col]
 Ein Schweizer Duo, das aus zwei Organetti wunderschöne Musik zaubert und zur Lust am Leben, zur Hingabe und zur Begegnung einlädt.
+
+*Petra Pastore - Organetto (diatonisches Akkordeon)*
+*Ludovico Pastore - Organetti (diationsiches Akkordeon)*
+
 [/col]
 [col]
 ![SolDo](media://bands/soldo.jpg)
@@ -130,7 +153,7 @@ Kommt vorbei, bringt eure Freund:innen mit – wir freuen uns, mit euch gemeinsa
 
 ### Verpflegung
 
-Für eurer leibliches Wohl ist gesorgt: Zwei Mahlzeiten sind im Ticket inklusive (ein langes Frühstücks-/Brunch-Buffet und eine frische warme Mahlzeit am Abend (aus biologischen und größtenteils von unserer gastgebenden Gemeinschaft selbst erzeugten Produkten)).
+Für eurer leibliches Wohl ist gesorgt: Zwei Mahlzeiten sind im Ticket inklusive (ein langes Frühstücks-/Brunch-Buffet und eine frische warme Mahlzeit am Abend (aus biologischen und größtenteils von unserer gastgebenden Gemeinschaft selbst erzeugten Produkten).
 
 Für unser gemeinsames Mitternachtsbuffet freuen wir uns außerdem, wenn ihr noch eine Kleinigkeit zum Teilen mitbringt.
 Wir freuen uns über: Kuchen, Kekse, Salami, Käse, Schokolade und alles was ihr sonst noch gerne mögt 🙂
@@ -142,8 +165,6 @@ Für alle, die bei uns übernachten möchten, gibt es drei Möglichkeiten:
 **Schlafsaal**
 - Bitte bringt eure eigene Isomatte und einen Schlafsack mit. So könnt ihr es euch nach einem langen Tanztag im beheizten **Schlafsaal** gemütlich machen.
 
-**Gästezimmer**
-- Neben der Übernachtung in unserem Festivalbereich besteht auch die Möglichkeit, ein **Zimmer** in der Gemeinschaft separat zu buchen. Die Zimmerbuchung erfolgt direkt über die Webseite der Unterkunft: [https://sonnenwald.org/lernen-tagen/gaestezimmer/](https://sonnenwald.org/lernen-tagen/gaestezimmer/)
 
 **Camping**
 - Wer lieber im eigenen Zuhause auf Rädern schläft, kann außerdem mit dem WINTERFESTEN **Wohnmobil** anreisen. Stellplätze sind vorhanden und ein Stromanschluss ist möglich (evtl. gibt es einen kleinen Aufpreis).

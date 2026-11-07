@@ -1,0 +1,39 @@
+{% macro toast(message, scope, sent_at = null, classes = '') %}
+    {% set type_mapping = {'info':'success', 'error': 'error', 'warning': 'warning', 'success': 'success'} %}
+    {% set icon_mapping = {'info':'circle-check', 'error': 'circle-xmark', 'warning': 'circle-info', 'success': 'circle-check'} %}
+    {% set type = type_mapping[scope] ?? 'success' %}
+    {% set icon = icon_mapping[scope] ?? 'circle-check' %}
+    <div class="toast toast-{{ type }} {{ scope|e }} {{ classes }}">
+        <i class="fa-solid fa-{{ icon }}" aria-hidden="true"></i>
+        <div class="toast-body">
+            <span>{{ message|raw }}</span>
+            {% if sent_at %}
+                <small class="toast-timestamp">Gesendet: {{ sent_at }}</small>
+            {% endif %}
+        </div>
+        <button type="button" class="toast-close" aria-label="Banner schließen">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+    </div>
+{% endmacro %}
+
+{% macro close_script() %}
+    <script>
+      if (!window.__toastCloseInit) {
+        window.__toastCloseInit = true;
+        document.addEventListener('click', function (e) {
+          var btn = e.target.closest ? e.target.closest('.toast-close') : null;
+          if (!btn) return;
+          var toast = btn.closest('.toast');
+          if (!toast || toast.classList.contains('toast--hidden')) return;
+          toast.classList.add('toast--hidden');
+          toast.addEventListener('transitionend', function () {
+            if (toast.parentNode) toast.parentNode.removeChild(toast);
+          }, { once: true });
+          setTimeout(function () {
+            if (toast.parentNode) toast.parentNode.removeChild(toast);
+          }, 300);
+        });
+      }
+    </script>
+{% endmacro %}

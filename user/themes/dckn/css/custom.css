@@ -558,3 +558,50 @@ article.content-item > p:has(> img:only-child) > img {
 #body-wrapper > .container > .content-item {
   background: var(--q2-card-background, var(--q2-bg-elev));
 }
+
+/* ===== Toast messages: close button & send timestamp ===== */
+.toast {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.toast-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-width: 0;
+}
+.toast-timestamp {
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: var(--q2-text-muted);
+}
+.toast-close {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--q2-radius-pill);
+  background: transparent;
+  color: var(--q2-text-muted);
+  cursor: pointer;
+  line-height: 0;
+  font-size: 0.875rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.toast-close:hover {
+  background: var(--q2-bg-muted);
+  color: var(--q2-text-strong);
+}
+.toast-close:focus-visible {
+  outline: 2px solid var(--q2-focus-ring);
+  outline-offset: 2px;
+}
+.toast--hidden {
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}

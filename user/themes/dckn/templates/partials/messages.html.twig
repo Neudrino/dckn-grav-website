@@ -1,0 +1,11 @@
+{% import 'partials/toast.html.twig' as toast %}
+{% if grav.messages.all %}
+    {% set sent_at = 'now'|date('d.m.Y, H:i:s') %}
+    <div id="messages">
+    {% for message in grav.messages.fetch %}
+        {% set scope = message.scope|e %}
+        {{ toast.toast(message.message, scope, sent_at) }}
+    {% endfor %}
+    </div>
+    {{ toast.close_script() }}
+{% endif %}

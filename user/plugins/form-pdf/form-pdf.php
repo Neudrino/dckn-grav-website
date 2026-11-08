@@ -4,6 +4,7 @@ namespace Grav\Plugin;
 use Grav\Common\Plugin;
 use Grav\Framework\Form\Interfaces\FormInterface;
 use Grav\Plugin\FormPdf\BelegeMerger;
+use Grav\Plugin\FormPdf\PdfRenderer;
 use Symfony\Component\Mime\Email;
 use Throwable;
 

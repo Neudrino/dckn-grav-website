@@ -16,7 +16,6 @@
 - /config/versions.yaml
 - /config/media.yaml
 - /config/plugins/**
-- /plugins/signature-attachment/vendor/**
 + /plugins/form-pdf/**
 + /plugins/media-guard/**
 + /plugins/brevo/**

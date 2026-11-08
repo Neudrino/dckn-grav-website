@@ -1,8 +1,8 @@
-slug: signature-attachment
+slug: form-pdf
 type: plugin
 version: 1.0.0
-name: Signature Attachment
-description: Converts a signature_pad base64 field to a PNG email attachment
+name: Form PDF
+description: Renders form submissions as PDF email attachments (page header/footer, belege merge) and attaches the signature image
 icon: signature
 author:
   name: DckN

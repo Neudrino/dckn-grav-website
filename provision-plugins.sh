@@ -54,13 +54,13 @@ for theme in "${THEMES[@]}"; do
   fi
 done
 
-echo "==> Installing composer dependencies for signature-attachment plugin..."
-if [ -f "user/plugins/signature-attachment/composer.json" ]; then
-  cd "$GRAV_ROOT/user/plugins/signature-attachment"
+echo "==> Installing composer dependencies for form-pdf plugin..."
+if [ -f "user/plugins/form-pdf/composer.json" ]; then
+  cd "$GRAV_ROOT/user/plugins/form-pdf"
   composer install --no-dev 2>&1 | tail -3
   cd "$GRAV_ROOT"
 else
-  echo "    signature-attachment — composer.json not found, skipping"
+  echo "    form-pdf — composer.json not found, skipping"
 fi
 
 echo "==> Clearing cache..."

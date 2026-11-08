@@ -3,109 +3,17 @@
 <head>
 <meta charset="utf-8">
 <title>Projektantrag</title>
-<style>
-  body {
-    font-family: "DejaVu Sans", sans-serif;
-    font-size: 10.5pt;
-    color: #222222;
-    margin: 1.2cm;
-  }
-  .logo-block {
-    margin-bottom: 0.3em;
-  }
-  .logo {
-    max-width: 130px;
-  }
-  h1 {
-    font-size: 15pt;
-    text-align: center;
-    margin: 0 0 0.2em 0;
-  }
-  .subtitle {
-    text-align: center;
-    font-size: 10pt;
-    color: #555555;
-    margin: 0 0 0.6em 0;
-  }
-  h2 {
-    font-size: 12pt;
-    color: #333333;
-    margin: 0.5em 0 0.3em 0;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #aaaaaa;
-  }
-  p {
-    margin: 0.3em 0;
-  }
-  .project-title {
-    font-size: 13pt;
-    font-weight: bold;
-    margin: 0.2em 0 0.5em 0;
-  }
-  ul {
-    margin: 0.2em 0 0.2em 0;
-    padding-left: 1.2em;
-  }
-  li {
-    margin-bottom: 0;
-  }
-  .note {
-    color: #666666;
-    font-style: italic;
-  }
-  table.kv {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  table.kv td {
-    padding: 1px 0;
-    vertical-align: top;
-  }
-  table.kv td.label {
-    width: 35%;
-    color: #555555;
-    padding-right: 1em;
-  }
-  table.kv td.value {
-    font-weight: bold;
-  }
-  .consent {
-    margin-top: 0.5em;
-  }
-  .signature-img {
-    max-width: 200px;
-    border: 1px solid #cccccc;
-    padding: 4px;
-    margin-top: 0.4em;
-  }
-  .created {
-    margin-top: 0.2em;
-    font-size: 9pt;
-    color: #666666;
-  }
-  table.footer {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 0.3em;
-    padding-top: 4px;
-    border-top: 1px solid #999999;
-    font-size: 9pt;
-    color: #555555;
-  }
-  table.footer td {
-    vertical-align: top;
-    padding: 0;
-  }
-  table.footer td.right {
-    text-align: right;
-  }
-</style>
+<link rel="stylesheet" href="{{ pdf_css_path }}">
 </head>
 <body>
 
+<header>
 {% if logo_data_uri is defined and logo_data_uri %}
-<div class="logo-block"><img src="{{ logo_data_uri }}" class="logo"></div>
+<table class="page-header">
+  <tr><td><img src="{{ logo_data_uri }}" class="logo"></td></tr>
+</table>
 {% endif %}
+</header>
 
 <h1>Projektantrag</h1>
 <p class="subtitle">Das Co-Kreative Netzwerk e.V.</p>
@@ -138,8 +46,8 @@
 </table>
 
 <h2>Projekt</h2>
-{% if projekttitel %}<p class="project-title">{{ projekttitel|e }}</p>{% endif %}
 <table class="kv">
+  {% if projekttitel %}<tr><td class="label">Projekttitel</td><td class="value project-title">{{ projekttitel|e }}</td></tr>{% endif %}
   {% if startdatum %}<tr><td class="label">Startdatum</td><td class="value">{{ startdatum|e }}</td></tr>{% endif %}
   {% if veranstaltungsart %}<tr><td class="label">Veranstaltungsart</td><td class="value">{{ veranstaltungsart|e }}</td></tr>{% endif %}
   {% if ort %}<tr><td class="label">Adresse / Ort</td><td class="value">{{ ort|e }}</td></tr>{% endif %}
@@ -199,8 +107,9 @@
 <img src="{{ unterschrift }}" class="signature-img">
 {% endif %}
 
-<p class="created">Dieses Dokument wurde automatisch über das Projektantragsformular auf dckn.de erstellt und gesendet am {{ "now"|date("Y-m-d H:i") }}.</p>
+<p class="created">Dieses Dokument wurde automatisch über das Projektantragsformular auf dckn.de erstellt und gesendet am {{ created_at|e }}.</p>
 
+<footer>
 {% set d = site.dckn|default([]) %}
 {% if d %}
 <table class="footer">
@@ -222,6 +131,7 @@
   </tr>
 </table>
 {% endif %}
+</footer>
 
 </body>
 </html>

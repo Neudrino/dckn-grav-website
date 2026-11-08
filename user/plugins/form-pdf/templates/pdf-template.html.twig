@@ -2,59 +2,22 @@
 <html>
 <head>
 <meta charset="utf-8">
-<style>
-  body {
-    font-family: DejaVu Sans, sans-serif;
-    font-size: 11pt;
-    color: #222;
-    margin: 2cm;
-  }
-  h1 {
-    font-size: 16pt;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-  h2 {
-    font-size: 13pt;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .field {
-    margin-bottom: 0.75rem;
-  }
-  .field-label {
-    font-weight: bold;
-  }
-  .signature-img {
-    max-width: 300px;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-  }
-  .file-list {
-    font-style: italic;
-    color: #666;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  td {
-    padding: 0.3rem 0;
-    vertical-align: top;
-  }
-  td.label {
-    font-weight: bold;
-    width: 40%;
-    padding-right: 1rem;
-  }
-</style>
+<title>Formular</title>
+<link rel="stylesheet" href="{{ pdf_css_path }}">
 </head>
 <body>
 
-<h1>Auslagenerstattungsantrag</h1>
-<h2>Das Co-Kreative Netzwerk e.V.</h2>
+<header>
+{% if logo_data_uri is defined and logo_data_uri %}
+<table class="page-header">
+  <tr><td><img src="{{ logo_data_uri }}" class="logo"></td></tr>
+</table>
+{% endif %}
+</header>
 
-<table>
+<h1>Formular</h1>
+
+<table class="kv">
   {% for field in form.fields %}
     {% set show_field = attribute(field, 'input@') ?? field.store ?? true %}
     {% if show_field and not field.fields %}
@@ -62,12 +25,12 @@
       {% if value %}
         <tr>
           <td class="label">{{ field.label|e }}</td>
-          <td>
+          <td class="value">
             {% if field.type == 'signature' and value starts with 'data:image' %}
               <img src="{{ value }}" class="signature-img" />
             {% elseif field.type == 'file' %}
               {% if value is iterable %}
-                <ul class="file-list">
+                <ul>
                   {% for file in value %}
                     <li>{{ file.name|default('Datei')|e }}</li>
                   {% endfor %}
@@ -86,6 +49,30 @@
     {% endif %}
   {% endfor %}
 </table>
+
+<footer>
+{% set d = site.dckn|default([]) %}
+{% if d %}
+<table class="footer">
+  <tr>
+    <td>
+      {% if d.name %}<strong>{{ d.name|e }}</strong>{% endif %}
+      {% if d.address is iterable %}
+        {% for line in d.address %}<br>{{ line|e }}{% endfor %}
+      {% elseif d.address %}<br>{{ d.address|e }}{% endif %}
+    </td>
+    <td class="right">
+      {% if d.register %}{{ d.register|e }}{% endif %}
+      {% if d.register and d.tax_id %}<br>{% endif %}
+      {% if d.tax_id %}{{ d.tax_id|e }}{% endif %}
+      {% if d.url %}
+        {% if d.register or d.tax_id %}<br>{% endif %}<a href="{{ d.url|e }}">{{ d.url|e }}</a>
+      {% endif %}
+    </td>
+  </tr>
+</table>
+{% endif %}
+</footer>
 
 </body>
 </html>

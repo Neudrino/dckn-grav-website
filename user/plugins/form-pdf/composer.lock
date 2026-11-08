@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a30c1d00e2f2b3ad51d2e2720153df78",
+    "packages": [
+        {
+            "name": "dskripchenko/php-pdf",
+            "version": "v1.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dskripchenko/php-pdf.git",
+                "reference": "faf52adc111272c93fcc26eb58fda2bb00eaa7cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dskripchenko/php-pdf/zipball/faf52adc111272c93fcc26eb58fda2bb00eaa7cf",
+                "reference": "faf52adc111272c93fcc26eb58fda2bb00eaa7cf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "ext-zlib": "*",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "2.1.54",
+                "phpunit/phpunit": "^11.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dskripchenko\\PhpPdf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Skripchenko",
+                    "email": "denskrp90@gmail.com"
+                }
+            ],
+            "description": "MIT alternative to mpdf (GPL) and FPDI: pure-PHP PDF toolkit — generate (HTML/CSS input, fluent builders, low-level emission, 16 barcode formats, 9 chart types, TTF embedding, AcroForm, PDF/A and PDF/X), digital signatures (PAdES and GOST, visible stamps, timestamps, long-term validation, signing existing PDFs and outside the server, validation), plus read and merge existing PDFs (append/reorder pages, stamp overlays, FPDI-style import, encrypted input).",
+            "homepage": "https://github.com/dskripchenko/php-pdf",
+            "keywords": [
+                "AcroForm",
+                "LTV",
+                "barcode",
+                "digital-signature",
+                "eSignature",
+                "fpdi",
+                "fpdi-alternative",
+                "gost",
+                "gpl-free",
+                "html-to-pdf",
+                "mpdf-alternative",
+                "pades",
+                "pdf",
+                "pdf-a",
+                "pdf-merge",
+                "pdf-reader",
+                "pdf-writer",
+                "pdf-x",
+                "pkcs7",
+                "qr-code",
+                "tagged-pdf",
+                "ttf-embed"
+            ],
+            "support": {
+                "issues": "https://github.com/dskripchenko/php-pdf/issues",
+                "source": "https://github.com/dskripchenko/php-pdf/tree/v1.26.0"
+            },
+            "time": "2026-10-27T13:35:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

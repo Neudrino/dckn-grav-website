@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin\SignatureAttachment;
+namespace Grav\Plugin\FormPdf;
 
 use Dskripchenko\PhpPdf\Pdf\Merge\PdfMerger;
 use Dskripchenko\PhpPdf\Pdf\Merge\PdfSource;
@@ -10,8 +10,8 @@ use Throwable;
 /**
  * Merges the rendered antrag PDF with uploaded belege into a single PDF:
  * PDF belege keep all their pages, PNG/JPG belege become one page each.
- * Belege that cannot be merged (TIFF, broken/unparseable files) are returned
- * as "skipped" so the caller can attach the original files to the email.
+ * Belege that cannot be merged (broken/unparseable files) are returned as
+ * "skipped" so the caller can attach the original files to the email.
  */
 final class BelegeMerger
 {
@@ -111,26 +111,18 @@ final class BelegeMerger
         $scale = min(self::IMAGE_MAX_WIDTH / $width, self::IMAGE_MAX_HEIGHT / $height);
         $dataUri = 'data:' . $mime . ';base64,' . base64_encode($data);
         $html = '<!DOCTYPE html><html><head><meta charset="utf-8"><style>'
-            . 'body{font-family:sans-serif;font-size:10pt;margin:1cm;}'
+            . '@page{margin:1cm;}'
+            . 'body{font-family:"Ubuntu",sans-serif;font-size:10pt;margin:0;}'
             . '.head{margin-bottom:6mm;font-weight:bold;}'
             . '</style></head><body>'
             . '<div class="head">Beleg: ' . htmlspecialchars($name, ENT_QUOTES) . '</div>'
             . '<img src="' . $dataUri . '" style="width:' . ($width * $scale) . 'mm;height:' . ($height * $scale) . 'mm">'
             . '</body></html>';
 
-        $options = new \Dompdf\Options();
-        $options->set('isRemoteEnabled', true);
-        $options->set('defaultFont', 'DejaVu Sans');
-        $options->set('tempDir', sys_get_temp_dir());
-
-        $dompdf = new \Dompdf\Dompdf($options);
-        $dompdf->loadHtml($html);
-        $dompdf->setPaper('A4', 'portrait');
-        $dompdf->render();
-
-        $pdfData = $dompdf->output();
+        require_once __DIR__ . '/PdfRenderer.php';
+        $pdfData = PdfRenderer::phpPdf($html);
         if (!$pdfData) {
-            throw new RuntimeException('dompdf produced no output');
+            throw new RuntimeException('php-pdf produced no output');
         }
 
         return $pdfData;
@@ -139,7 +131,7 @@ final class BelegeMerger
     private function skip(string $name, string $reason): void
     {
         $this->log->warning(
-            'signature-attachment: form "' . $this->formName . '" beleg "' . $name
+            'form-pdf: form "' . $this->formName . '" beleg "' . $name
             . '" not merged into PDF (stays as email attachment): ' . $reason
         );
     }

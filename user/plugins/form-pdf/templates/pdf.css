@@ -1,0 +1,133 @@
+:root {
+  --color-ink: black;
+  --color-muted: #606060;
+  --color-accent: #c6530a;
+  --color-background: #ffeee3;
+  --rule: 1px solid var(--color-muted);
+}
+
+@page {
+  margin: 2cm 2cm 2.4cm 2cm;
+  --pdf-header-distance: 1cm;
+  --pdf-footer-distance: 1cm;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 11pt;
+  color: var(--color-ink);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+h1 {
+  font-size: 15pt;
+  text-align: center;
+  color: var(--color-ink);
+  margin: -0.22em 0 0.2em 0;
+}
+.subtitle {
+  text-align: center;
+  font-size: 10pt;
+  font-weight: bold;
+  color: var(--color-accent);
+  margin: 0 0 0.6em 0;
+}
+h2 {
+  font-size: 12pt;
+  color: var(--color-ink);
+  margin: 0.5em 0 0.3em;
+  padding-bottom: 2px;
+  border-bottom: var(--rule);
+}
+
+p {
+  margin: 0.3em 0;
+}
+.emphasis {
+  font-weight: bold;
+}
+.amount {
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+  color: var(--color-ink);
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border: 1px solid var(--color-accent);
+  background-color: var(--color-background);
+}
+ul {
+  margin: 0.2em 0;
+  padding-left: 1.2em;
+}
+.note {
+  color: var(--color-muted);
+  font-style: italic;
+}
+.consent {
+  margin-top: 0.5em;
+}
+
+table.kv {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.kv td {
+  padding: 1px 0;
+  vertical-align: top;
+}
+table.kv td.label {
+  width: 35%;
+  color: var(--color-muted);
+}
+table.kv td.value {
+  font-weight: bold;
+}
+table.kv td.value.project-title {
+  color: var(--color-accent);
+  font-size: 13pt;
+}
+
+table.page-header {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.page-header td {
+  padding: 0 0 0.5em 0;
+  border-bottom: var(--rule);
+}
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+table.footer {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  color: var(--color-muted);
+}
+table.footer td {
+  vertical-align: top;
+  padding: 0;
+  border-top: var(--rule);
+  padding-top: 4px;
+}
+table.footer td.right {
+  text-align: right;
+}
+
+.signature-img {
+  width: 200px;
+  height: auto;
+  border: var(--rule);
+  margin-top: 0.4em;
+}
+.created {
+  margin-top: 0.2em;
+  font-size: 9pt;
+  color: var(--color-muted);
+}

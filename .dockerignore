@@ -28,8 +28,8 @@ user/config/plugins/form-captcha-hcaptcha.yaml
 
 # === Plugins (bundled with image or installed via GPM) ===
 user/plugins/*
-!user/plugins/signature-attachment/
-user/plugins/signature-attachment/vendor/
+!user/plugins/form-pdf/
+user/plugins/form-pdf/vendor/
 
 # === Themes (bundled with image; only our child theme is tracked) ===
 user/themes/*

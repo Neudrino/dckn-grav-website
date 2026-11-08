@@ -1,6 +1,5 @@
 {
     "require": {
-        "dompdf/dompdf": "^3.0",
         "dskripchenko/php-pdf": "1.26.0"
     }
 }

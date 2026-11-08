@@ -3,11 +3,11 @@ namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
 use Grav\Framework\Form\Interfaces\FormInterface;
-use Grav\Plugin\SignatureAttachment\BelegeMerger;
+use Grav\Plugin\FormPdf\BelegeMerger;
 use Symfony\Component\Mime\Email;
 use Throwable;
 
-class SignatureAttachmentPlugin extends Plugin
+class FormPdfPlugin extends Plugin
 {
     private const TITLE_FIELDS = [
         'auslagenerstattung' => 'projektname',
@@ -53,7 +53,11 @@ class SignatureAttachmentPlugin extends Plugin
         $formName = $form->getName();
 
         $logoBinary = $this->readLogo();
-        $vars = ['form' => $form];
+        $vars = [
+            'form' => $form,
+            'created_at' => date('Y-m-d H:i'),
+            'pdf_css_path' => __DIR__ . '/templates/pdf.css',
+        ];
         if ($logoBinary !== null) {
             $vars['logo_data_uri'] = 'data:image/png;base64,' . base64_encode($logoBinary);
         }
@@ -62,18 +66,8 @@ class SignatureAttachmentPlugin extends Plugin
         $templateName = is_file(__DIR__ . '/templates/' . $specificTemplate) ? $specificTemplate : 'pdf-template.html.twig';
         $html = $twig->processTemplate($templateName, $vars);
 
-        $options = new \Dompdf\Options();
-        $options->set('isRemoteEnabled', true);
-        $options->set('isHtml5ParserEnabled', true);
-        $options->set('defaultFont', 'DejaVu Sans');
-        $options->set('tempDir', sys_get_temp_dir());
-
-        $dompdf = new \Dompdf\Dompdf($options);
-        $dompdf->loadHtml($html);
-        $dompdf->setPaper('A4', 'portrait');
-        $dompdf->render();
-
-        $pdfData = $dompdf->output();
+        require_once __DIR__ . '/classes/PdfRenderer.php';
+        $pdfData = PdfRenderer::phpPdf($html);
         $symfonyEmail = $message->getEmail();
 
         $uploadField = self::MERGE_UPLOAD_FIELDS[$formName] ?? null;
@@ -103,7 +97,7 @@ class SignatureAttachmentPlugin extends Plugin
         $log = $this->grav['log'];
 
         if (!is_array($uploads)) {
-            $log->warning('signature-attachment: form "' . $formName . '" upload field has forged value of type ' . gettype($uploads) . ', merging skipped');
+            $log->warning('form-pdf: form "' . $formName . '" upload field has forged value of type ' . gettype($uploads) . ', merging skipped');
             return $antragPdf;
         }
 
@@ -117,7 +111,7 @@ class SignatureAttachmentPlugin extends Plugin
                     continue;
                 }
             }
-            $log->warning('signature-attachment: form "' . $formName . '" beleg without usable path, merging skipped');
+            $log->warning('form-pdf: form "' . $formName . '" beleg without usable path, merging skipped');
         }
 
         if ($belege === []) {
@@ -129,7 +123,7 @@ class SignatureAttachmentPlugin extends Plugin
         try {
             [$pdfData, $skippedBelege] = (new BelegeMerger($log, $formName))->merge($antragPdf, $belege);
         } catch (Throwable $e) {
-            $log->warning('signature-attachment: form "' . $formName . '" merge failed completely, falling back to unmerged PDF + all original belege: ' . $e->getMessage());
+            $log->warning('form-pdf: form "' . $formName . '" merge failed completely, falling back to unmerged PDF + all original belege: ' . $e->getMessage());
             $this->attachBelege($symfonyEmail, $belege);
 
             return $antragPdf;
@@ -145,14 +139,14 @@ class SignatureAttachmentPlugin extends Plugin
         $log = $this->grav['log'];
         foreach ($belege as $beleg) {
             if (!is_file($beleg['path'])) {
-                $log->warning('signature-attachment: beleg "' . $beleg['name'] . '" no longer exists, not attached');
+                $log->warning('form-pdf: beleg "' . $beleg['name'] . '" no longer exists, not attached');
                 continue;
             }
 
             try {
                 $symfonyEmail->attachFromPath($beleg['path'], $beleg['name']);
             } catch (Throwable $e) {
-                $log->warning('signature-attachment: could not attach beleg "' . $beleg['name'] . '": ' . $e->getMessage());
+                $log->warning('form-pdf: could not attach beleg "' . $beleg['name'] . '": ' . $e->getMessage());
             }
         }
     }

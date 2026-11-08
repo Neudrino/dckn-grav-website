@@ -17,7 +17,7 @@
 - /config/media.yaml
 - /config/plugins/**
 - /plugins/signature-attachment/vendor/**
-+ /plugins/signature-attachment/**
++ /plugins/form-pdf/**
 + /plugins/media-guard/**
 + /plugins/brevo/**
 + /plugins/form-rate-limit/**

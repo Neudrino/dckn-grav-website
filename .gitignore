@@ -42,8 +42,8 @@ user/config/media.yaml
 
 # === Plugins (installed via setup-plugins.sh, not content we author) ===
 user/plugins/*
-!user/plugins/signature-attachment/
-user/plugins/signature-attachment/vendor/
+!user/plugins/form-pdf/
+user/plugins/form-pdf/vendor/
 !user/plugins/media-guard/
 !user/plugins/brevo/
 !user/plugins/form-rate-limit/

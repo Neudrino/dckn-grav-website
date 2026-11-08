@@ -74,7 +74,7 @@ before the newsletter form will work.
 ## External Libraries
 
 Runtime PHP libraries managed with Composer. They are declared in
-`user/plugins/signature-attachment/composer.json` and installed into
+`user/plugins/form-pdf/composer.json` and installed into
 that plugin's `vendor/` directory (the directory itself is not tracked;
 run `composer install --no-dev` there after a fresh checkout).
 

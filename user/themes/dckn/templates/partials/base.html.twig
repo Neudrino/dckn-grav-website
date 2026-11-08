@@ -93,6 +93,7 @@
     {% do assets.addJs('theme://js/theme-toggle.js', {group:'head', priority: 100}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom', priority: 100}) %}
     {% do assets.addJs('theme://js/dropzone-required.js', {group:'bottom', priority: 10, loading: 'defer'}) %}
+    {% do assets.addJs('theme://js/dropzone-photo-resize.js', {group:'bottom', priority: 9, loading: 'defer'}) %}
 {% endblock %}
 
 {% block assets deferred %}

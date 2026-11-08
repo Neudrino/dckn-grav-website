@@ -56,14 +56,17 @@ form:
         min: 1
 
     - name: belege
-      label: 'Belege hochladen (Mindestens 1 Beleg ist erforderlich! Maximale Dateigröße 1 MB pro Datei! Akzeptierte Dateiformate: PDF, PNG, JPG.)'
+      label: 'Belege hochladen. Akzeptierte Dateiformate: PDF, PNG, JPG.'
       type: file
       multiple: true
       accept:
         - application/pdf
         - image/png
         - image/jpeg
-      filesize: 1
+      filesize: 0
+      resizeWidth: 1920
+      resizeHeight: 1920
+      resizeQuality: 0.8
       destination: user/data/auslagenerstattung/belege
       avoid_overwriting: true
 
